@@ -1,0 +1,5 @@
+pandas
+snscrape
+vaderSentiment
+python-dateutil
+pytest
