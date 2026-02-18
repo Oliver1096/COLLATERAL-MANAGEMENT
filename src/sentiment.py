@@ -9,7 +9,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 from .models import TweetRecord
 
-CASHTAG_PATTERN = re.compile(r"\$([A-Z]{1,6})\b")
+CASHTAG_PATTERN = re.compile(r"\$([A-Za-z]{1,6})\b")
 
 
 def sentiment_label(compound_score: float) -> str:

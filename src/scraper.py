@@ -1,15 +1,53 @@
 from __future__ import annotations
 
+import importlib.machinery
+import importlib.util
+import sys
 from datetime import date, timezone
 from typing import Iterable
-
-import snscrape.modules.twitter as sntwitter
 
 from .models import TweetRecord
 
 
 def normalize_account(account: str) -> str:
     return account.strip().lstrip("@")
+
+
+def _patch_file_finder_for_snscrape() -> None:
+    """
+    Compatibilidad Python 3.12:
+    snscrape usa `find_module`, removido en importlib moderno.
+    """
+
+    if hasattr(importlib.machinery.FileFinder, "find_module"):
+        return
+
+    def _find_module(self: importlib.machinery.FileFinder, fullname: str):
+        spec = self.find_spec(fullname)
+        if spec is None or spec.loader is None:
+            return None
+        loader = spec.loader
+        if hasattr(loader, "load_module"):
+            return loader
+
+        class _CompatLoader:
+            def __init__(self, wrapped_loader, wrapped_spec):
+                self._wrapped_loader = wrapped_loader
+                self._wrapped_spec = wrapped_spec
+
+            def load_module(self, module_name: str):
+                module = importlib.util.module_from_spec(self._wrapped_spec)
+                self._wrapped_loader.exec_module(module)
+                sys.modules[module_name] = module
+                return module
+
+        return _CompatLoader(loader, spec)
+
+    importlib.machinery.FileFinder.find_module = _find_module  # type: ignore[attr-defined]
+
+
+_patch_file_finder_for_snscrape()
+import snscrape.modules.twitter as sntwitter
 
 
 def _build_query(account: str, since: date | None = None, until: date | None = None) -> str:
