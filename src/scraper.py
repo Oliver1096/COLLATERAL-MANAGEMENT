@@ -3,6 +3,7 @@ from __future__ import annotations
 import asyncio
 import importlib.machinery
 import importlib.util
+import logging
 import os
 import sys
 from dataclasses import dataclass
@@ -54,6 +55,10 @@ def _patch_file_finder_for_snscrape() -> None:
 
 _patch_file_finder_for_snscrape()
 import snscrape.modules.twitter as sntwitter
+
+logging.getLogger("snscrape").setLevel(logging.CRITICAL)
+logging.getLogger("snscrape.base").setLevel(logging.CRITICAL)
+logging.getLogger("snscrape.modules.twitter").setLevel(logging.CRITICAL)
 
 
 @dataclass(slots=True)
