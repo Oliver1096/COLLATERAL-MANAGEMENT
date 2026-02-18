@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import asyncio
+import contextlib
 import importlib.machinery
 import importlib.util
+import io
 import logging
 import os
 import sys
@@ -165,10 +167,13 @@ def scrape_account_with_snscrape(
     scraper = sntwitter.TwitterSearchScraper(query)
     records: list[TweetRecord] = []
 
-    for index, tweet in enumerate(scraper.get_items()):
-        if index >= limit:
-            break
-        records.append(_to_record_snscrape(account=account, tweet=tweet))
+    # snscrape imprime errores a stderr internamente; los capturamos
+    # para devolver mensajes de error controlados en el pipeline.
+    with contextlib.redirect_stderr(io.StringIO()):
+        for index, tweet in enumerate(scraper.get_items()):
+            if index >= limit:
+                break
+            records.append(_to_record_snscrape(account=account, tweet=tweet))
     return records
 
 
