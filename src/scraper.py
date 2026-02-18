@@ -143,6 +143,13 @@ def _is_in_window(created_at: datetime, since: date | None, until: date | None) 
     return True
 
 
+def _compact_error(exc: Exception, max_length: int = 240) -> str:
+    message = " ".join(str(exc).split())
+    if len(message) > max_length:
+        return message[: max_length - 3] + "..."
+    return message
+
+
 def scrape_account_with_snscrape(
     account: str,
     limit: int = 100,
@@ -269,6 +276,7 @@ def scrape_account(
     try:
         return scrape_account_with_snscrape(account=account, limit=limit, since=since, until=until)
     except Exception as snscrape_exc:  # pragma: no cover - red externa/no determinística
+        snscrape_message = _compact_error(snscrape_exc)
         if auth.is_configured():
             try:
                 return scrape_account_with_twikit(
@@ -279,13 +287,14 @@ def scrape_account(
                     twikit_auth_config=auth,
                 )
             except Exception as twikit_exc:
+                twikit_message = _compact_error(twikit_exc)
                 raise RuntimeError(
                     f"Fallo scrapeando @{normalize_account(account)} con snscrape "
-                    f"({snscrape_exc}) y fallback twikit ({twikit_exc})."
+                    f"({snscrape_message}) y fallback twikit ({twikit_message})."
                 ) from twikit_exc
 
         raise RuntimeError(
-            f"Fallo scrapeando @{normalize_account(account)} con snscrape ({snscrape_exc}). "
+            f"Fallo scrapeando @{normalize_account(account)} con snscrape ({snscrape_message}). "
             "Para fallback con login usa Twikit y define X_COOKIES_FILE o "
             "X_AUTH_INFO_1 + X_PASSWORD."
         ) from snscrape_exc
