@@ -1,0 +1,58 @@
+apify:
+  # Tambien puedes usar la variable de entorno APIFY_TOKEN.
+  token_env: APIFY_TOKEN
+  # Actor indicado por el usuario: Tweet Scraper V2 - X / Twitter Scraper.
+  actor_id: apidojo/tweet-scraper-v2
+  max_items_per_event: 250
+
+finbert:
+  model_name: ProsusAI/finbert
+  batch_size: 8
+  max_chars_per_chunk: 1800
+
+analysis:
+  # Ventana: 24 horas antes y 72 horas despues del reporte.
+  pre_report_hours: 24
+  post_report_hours: 72
+  top_tweets: 50
+  call_weight: 0.7
+  tweet_weight: 0.3
+
+tweet_weighting:
+  # Mantiene solo usuarios verificados por defecto.
+  only_verified: true
+  # Aproximacion para quedarnos con politicos/economistas/analistas relevantes.
+  min_followers: 10000
+  min_interactions: 25
+  # Si quieres restringir a cuentas concretas, agrega handles aqui.
+  priority_accounts: []
+  preferred_author_keywords:
+    - economist
+    - economista
+    - analyst
+    - analista
+    - finance
+    - finanzas
+    - politician
+    - politico
+    - ministro
+    - investor
+    - trader
+
+market:
+  # Rendimiento acumulado desde el cierre cercano al evento hasta 3 dias despues.
+  return_days_after: 3
+
+output:
+  directory: outputs
+
+events:
+  - ticker: AAPL
+    company_name: Apple Inc.
+    earnings_pdf: data/earnings_calls/AAPL_2024_Q4.pdf
+    # Usar ISO 8601 con zona horaria. Si se omite zona, se interpreta como UTC.
+    earnings_datetime: "2024-10-31T21:30:00Z"
+    search_terms:
+      - "$AAPL"
+      - "Apple earnings"
+      - "Apple quarterly results"
