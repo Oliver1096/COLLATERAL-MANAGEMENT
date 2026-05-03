@@ -1,0 +1,12 @@
+pandas
+numpy
+PyYAML
+pypdf
+apify-client
+transformers
+torch
+yfinance
+matplotlib
+python-dateutil
+tqdm
+pytest
