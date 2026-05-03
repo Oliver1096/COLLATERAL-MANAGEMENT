@@ -1,0 +1,10 @@
+<svg width="572" height="160" viewBox="0 0 572 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NSC logo</title>
+  <desc id="desc">Logotipo NSC con separadores verdes verticales.</desc>
+  <rect width="572" height="160" rx="18" fill="#F7F5EF"/>
+  <path d="M57 119V41H93.5L143.5 102.5V41H179.5V119H143L93 57.5V119H57Z" fill="#050505"/>
+  <rect x="201" y="39" width="6" height="82" rx="3" fill="#2D9B45"/>
+  <path d="M234 119V99.5H349.5C355.5 99.5 360 95 360 89.5C360 84 355.5 79.5 349.5 79.5H276.5C250.5 79.5 233.5 64.5 233.5 40.5C233.5 16.5 251 1 277.5 1H394V20.5H279.5C273 20.5 268.5 25 268.5 30.5C268.5 36 273 40.5 279.5 40.5H352.5C378.5 40.5 395.5 55.5 395.5 79.5C395.5 103.5 378 119 351.5 119H234Z" fill="#050505" transform="translate(0 20)"/>
+  <rect x="423" y="39" width="6" height="82" rx="3" fill="#2D9B45"/>
+  <path d="M468 119C433.5 119 411 96.5 411 80C411 43.5 433.5 21 468 21H535V42H471C452.5 42 441.5 57 441.5 80C441.5 103 452.5 118 471 118H535V139H468Z" fill="#050505"/>
+</svg>
