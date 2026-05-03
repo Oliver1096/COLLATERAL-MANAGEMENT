@@ -11,7 +11,7 @@ Pipeline en Python para combinar:
 ## Instalacion
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
@@ -37,13 +37,13 @@ La ventana de tweets se calcula automaticamente desde 24 horas antes hasta 72 ho
 ## Ejecucion
 
 ```bash
-python -m finbert_emisoras --config config/local.yaml
+python3 -m finbert_emisoras --config config/local.yaml
 ```
 
 Si ejecutas desde el repositorio sin instalar el paquete:
 
 ```bash
-PYTHONPATH=src python -m finbert_emisoras --config config/local.yaml
+PYTHONPATH=src python3 -m finbert_emisoras --config config/local.yaml
 ```
 
 ## Salidas
