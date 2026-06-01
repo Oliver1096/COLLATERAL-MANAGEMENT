@@ -1,4 +1,4 @@
-import { ChevronRight } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 import { navigationItems } from "../data/navigation";
 import type { SourceHealth } from "../types/market";
 import { StatusBadge } from "./StatusBadge";
@@ -9,14 +9,12 @@ interface SidebarProps {
 
 export function Sidebar({ sources }: SidebarProps) {
   return (
-    <aside className="glass-panel fixed inset-y-0 left-0 z-40 hidden w-72 overflow-y-auto border-r border-white/10 px-4 py-5 lg:block">
-      <div className="mb-8 flex items-center gap-3 px-2">
-        <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-emerald-400/30 bg-emerald-400/10 text-lg font-black text-emerald-200 green-glow">
-          NSC
-        </div>
-        <div>
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-emerald-200">Insights</p>
-          <p className="text-xs text-slate-400">Internal Intelligence</p>
+    <aside className="fixed inset-y-0 left-0 z-40 hidden w-56 overflow-y-auto border-r border-white/10 bg-[#020706]/95 px-3 py-4 lg:block">
+      <div className="mb-6 flex items-center gap-2 px-1">
+        <div className="text-2xl font-black tracking-[-0.08em] text-white">NSC</div>
+        <div className="leading-none">
+          <p className="text-[9px] font-bold uppercase tracking-[0.16em] text-slate-300">Intelligence</p>
+          <p className="text-[9px] font-bold uppercase tracking-[0.16em] text-slate-300">Hub</p>
         </div>
       </div>
 
@@ -29,41 +27,45 @@ export function Sidebar({ sources }: SidebarProps) {
             <a
               key={item.label}
               href={item.href}
-              className={`group flex items-center justify-between rounded-2xl px-3 py-2.5 text-sm transition ${
-                active
-                  ? "border border-emerald-400/20 bg-emerald-400/10 text-white"
-                  : "text-slate-400 hover:bg-white/[0.04] hover:text-white"
+              className={`group flex items-center gap-2 rounded-lg px-2.5 py-2 text-[12px] transition ${
+                active ? "bg-white/[0.075] text-white" : "text-slate-400 hover:bg-white/[0.04] hover:text-white"
               }`}
             >
-              <span className="flex items-center gap-3">
-                <Icon className={`h-4 w-4 ${active ? "text-emerald-300" : "text-slate-500"}`} />
-                {item.label}
-              </span>
-              {active && <ChevronRight className="h-4 w-4 text-emerald-300" />}
+              <Icon className={`h-3.5 w-3.5 ${active ? "text-emerald-300" : "text-slate-500"}`} />
+              <span className="truncate">{item.label}</span>
             </a>
           );
         })}
       </nav>
 
-      <div className="mt-8 rounded-3xl border border-white/10 bg-black/25 p-4">
-        <div className="mb-4">
-          <p className="text-xs font-semibold uppercase tracking-[0.24em] text-slate-500">Fuentes Conectadas</p>
-          <p className="mt-1 text-sm text-slate-300">Estado en vivo de APIs</p>
-        </div>
-        <div className="space-y-3">
+      <div className="mt-5 border-t border-white/10 pt-4">
+        <p className="px-1 text-[11px] font-semibold text-slate-300">Fuentes Conectadas</p>
+        <p className="mt-1 px-1 text-[10px] text-emerald-300">Todos los sistemas operativos</p>
+        <div className="mt-3 space-y-2">
           {sources.length === 0
-            ? Array.from({ length: 8 }).map((_, index) => (
-                <div key={index} className="h-11 animate-pulse rounded-2xl bg-white/[0.04]" />
-              ))
+            ? Array.from({ length: 8 }).map((_, index) => <div key={index} className="h-5 animate-pulse rounded bg-white/[0.04]" />)
             : sources.map((source) => (
-                <div key={source.id} className="rounded-2xl border border-white/8 bg-white/[0.03] p-3">
-                  <div className="flex items-center justify-between gap-3">
-                    <p className="text-sm font-medium text-white">{source.name}</p>
-                    <StatusBadge status={source.status} />
-                  </div>
-                  <p className="mt-1 line-clamp-2 text-xs text-slate-500">{source.error ?? source.lastUpdated}</p>
+                <div key={source.id} className="flex items-center justify-between gap-2 px-1 text-[11px]">
+                  <span className="flex min-w-0 items-center gap-2 text-slate-300">
+                    <span className={`h-1.5 w-1.5 rounded-full ${source.status === "online" ? "bg-emerald-400" : source.status === "missing-key" ? "bg-amber-300" : "bg-red-400"}`} />
+                    <span className="truncate">{source.name}</span>
+                  </span>
+                  <span className={source.status === "online" ? "text-emerald-300" : "text-amber-200"}>
+                    {source.status === "online" ? "En línea" : source.status === "missing-key" ? "Missing key" : "Error"}
+                  </span>
                 </div>
               ))}
+        </div>
+      </div>
+
+      <div className="absolute bottom-0 left-0 right-0 border-t border-white/10 bg-[#020706] p-3">
+        <div className="flex items-center gap-2">
+          <div className="flex h-9 w-9 items-center justify-center rounded-full bg-white/[0.08] text-xs font-semibold text-slate-300">NS</div>
+          <div className="min-w-0 flex-1">
+            <p className="truncate text-[11px] text-white">Usuario NSC</p>
+            <p className="truncate text-[10px] text-slate-500">Administrador</p>
+          </div>
+          <ChevronDown className="h-3.5 w-3.5 text-slate-500" />
         </div>
       </div>
     </aside>

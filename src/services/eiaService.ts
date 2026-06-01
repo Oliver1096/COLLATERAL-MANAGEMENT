@@ -15,8 +15,13 @@ interface EiaResponse {
   error?: string;
 }
 
-const WTI_URL =
-  "https://api.eia.gov/v2/petroleum/pri/spt/data/?frequency=daily&data[0]=value&facets[series][]=RWTC&sort[0][column]=period&sort[0][direction]=desc&offset=0&length=10";
+const WTI_PATH =
+  "/v2/petroleum/pri/spt/data/?frequency=daily&data[0]=value&facets[series][]=RWTC&sort[0][column]=period&sort[0][direction]=desc&offset=0&length=10";
+const WTI_URL = `https://api.eia.gov${WTI_PATH}`;
+
+const useApiProxy = () => import.meta.env.DEV || import.meta.env.VITE_USE_API_PROXY === "true";
+
+const eiaUrl = () => (useApiProxy() ? `/api/eia${WTI_PATH}` : `${WTI_URL}&api_key=${apiConfig.eiaApiKey}`);
 
 export const getWtiCrude = async (): Promise<MetricData> => {
   if (!hasApiKey(apiConfig.eiaApiKey)) {
@@ -32,7 +37,7 @@ export const getWtiCrude = async (): Promise<MetricData> => {
   }
 
   try {
-    const data = await cachedJson<EiaResponse>("eia:wti", `${WTI_URL}&api_key=${apiConfig.eiaApiKey}`);
+    const data = await cachedJson<EiaResponse>("eia:wti", eiaUrl());
     if (data.error) throw new Error(data.error);
 
     const row = data.response?.data?.find((item) => item.value !== null && item.value !== undefined);

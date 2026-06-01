@@ -12,7 +12,13 @@ interface FredSeriesResponse {
   error_message?: string;
 }
 
-const FRED_BASE_URL = "https://api.stlouisfed.org/fred/series/observations";
+const FRED_SERIES_PATH = "/series/observations";
+const FRED_BASE_URL = `https://api.stlouisfed.org/fred${FRED_SERIES_PATH}`;
+
+const useApiProxy = () => import.meta.env.DEV || import.meta.env.VITE_USE_API_PROXY === "true";
+
+const fredUrl = (query: string) =>
+  useApiProxy() ? `/api/fred${FRED_SERIES_PATH}?${query}` : `${FRED_BASE_URL}?${query}`;
 
 const formatNumber = (value: number, decimals = 2) =>
   new Intl.NumberFormat("en-US", {
@@ -40,12 +46,12 @@ export const getFredSeriesLatest = async (
   try {
     const query = buildQuery({
       series_id: seriesId,
-      api_key: apiConfig.fredApiKey,
+      api_key: useApiProxy() ? undefined : apiConfig.fredApiKey,
       file_type: "json",
       sort_order: "desc",
       limit: 8,
     });
-    const data = await cachedJson<FredSeriesResponse>(`fred:${seriesId}`, `${FRED_BASE_URL}?${query}`);
+    const data = await cachedJson<FredSeriesResponse>(`fred:${seriesId}`, fredUrl(query));
 
     if (data.error_message) throw new Error(data.error_message);
 

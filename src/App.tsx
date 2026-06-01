@@ -20,10 +20,10 @@ export default function App() {
       <Sidebar sources={data.sources} />
       <TopSearch />
 
-      <main className="px-4 py-6 sm:px-6 lg:ml-72 lg:px-8">
-        <div className="mx-auto max-w-[1600px] space-y-8">
+      <main className="px-3 py-3 sm:px-5 lg:ml-56">
+        <div className="mx-auto max-w-[1500px] space-y-3">
           {error && (
-            <div className="flex items-start gap-3 rounded-3xl border border-red-400/25 bg-red-500/10 p-4 text-red-100">
+            <div className="flex items-start gap-3 rounded-2xl border border-red-400/25 bg-red-500/10 p-4 text-red-100">
               <AlertCircle className="mt-0.5 h-5 w-5 shrink-0" />
               <div>
                 <p className="font-semibold">Dashboard service error</p>
@@ -34,23 +34,22 @@ export default function App() {
 
           <Hero metrics={data.metrics} />
           <SnapshotGrid metrics={data.metrics} />
-          <AssetClassGrid />
 
-          <div className="grid gap-6 xl:grid-cols-[0.86fr_1.14fr]">
+          <div className="grid gap-3 xl:grid-cols-[0.88fr_1fr_1.72fr]">
+            <AssetClassGrid />
             <Watchlist />
             <MarketOverview />
           </div>
 
-          <FeaturedInsights />
-
-          <div className="grid gap-6 xl:grid-cols-[0.9fr_1.1fr]">
+          <div className="grid gap-3 xl:grid-cols-[1.25fr_1fr]">
+            <FeaturedInsights />
             <LatestUpdates updates={data.updates} />
-            <SourceStatusList sources={data.sources} />
           </div>
 
+          <SourceStatusList sources={data.sources} />
           <MissingDataPanel />
 
-          <footer className="pb-10 text-center text-xs text-slate-600">
+          <footer className="pb-8 pt-2 text-center text-[11px] text-slate-600">
             NSC Insights is an internal financial intelligence platform. Not for public distribution.
           </footer>
         </div>

@@ -1,37 +1,31 @@
-import { ArrowUpRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { assetClassItems } from "../data/navigation";
 
 export function AssetClassGrid() {
   return (
-    <section>
-      <div className="mb-4">
-        <p className="text-xs font-semibold uppercase tracking-[0.24em] text-emerald-200">Explore by Asset Class</p>
-        <h2 className="mt-2 text-2xl font-semibold tracking-tight text-white">Arquitectura lista para nuevas paginas</h2>
+    <section className="rounded-[1.4rem] border border-white/10 bg-[#07100e]/95 p-4 shadow-panel">
+      <div className="mb-3 flex items-center justify-between">
+        <p className="text-xs font-semibold uppercase tracking-[0.16em] text-slate-300">Explorar por clase de activo</p>
       </div>
-      <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+      <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 xl:grid-cols-2 2xl:grid-cols-3">
         {assetClassItems.map((item) => {
           const Icon = item.icon;
           return (
             <a
               key={item.title}
               href={item.href}
-              className="glass-panel group rounded-3xl p-5 transition hover:-translate-y-0.5 hover:border-emerald-300/30"
+              className="group rounded-xl border border-white/10 bg-white/[0.035] p-3 transition hover:border-emerald-300/30 hover:bg-emerald-400/10"
             >
-              <div className="flex items-start justify-between gap-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-emerald-400/20 bg-emerald-400/10 text-emerald-200">
-                  <Icon className="h-5 w-5" />
-                </div>
-                <ArrowUpRight className="h-5 w-5 text-slate-600 transition group-hover:text-emerald-300" />
-              </div>
-              <h3 className="mt-5 text-lg font-semibold text-white">{item.title}</h3>
-              <p className="mt-2 min-h-12 text-sm leading-6 text-slate-400">{item.description}</p>
-              <p className="mt-4 inline-flex rounded-full border border-white/10 bg-black/25 px-3 py-1 text-xs text-slate-300">
-                {item.status}
-              </p>
+              <Icon className="h-5 w-5 text-slate-300 transition group-hover:text-emerald-300" />
+              <h3 className="mt-2 text-xs font-semibold text-white">{item.title}</h3>
+              <p className="mt-1 line-clamp-1 text-[10px] text-slate-500">{item.description}</p>
             </a>
           );
         })}
       </div>
+      <a href="/data-explorer" className="mt-4 flex items-center justify-center gap-2 text-[11px] font-semibold text-emerald-300">
+        Ver todas las capacidades <ArrowRight className="h-3.5 w-3.5" />
+      </a>
     </section>
   );
 }
