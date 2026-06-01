@@ -1,4 +1,5 @@
 import { ArrowRight, Search } from "lucide-react";
+import nscGlobe from "../assets/nsc-globe.svg";
 import type { MetricData } from "../types/market";
 
 interface HeroProps {
@@ -23,14 +24,8 @@ export function Hero({ metrics }: HeroProps) {
   return (
     <section className="premium-panel relative min-h-[194px] overflow-hidden rounded-[1.35rem] px-5 py-5 sm:px-6 lg:px-7">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_66%_46%,rgba(37,211,102,0.2),transparent_29%),linear-gradient(90deg,rgba(2,7,6,0.98)_0%,rgba(2,7,6,0.9)_34%,rgba(2,7,6,0.24)_74%,rgba(2,7,6,0.72)_100%)]" />
-      <div className="hero-globe hidden md:block">
-        <span className="earth-continent continent-na" />
-        <span className="earth-continent continent-sa" />
-        <span className="earth-continent continent-eu" />
-        <span className="earth-continent continent-af" />
-        <span className="earth-continent continent-asia" />
-        <span className="earth-continent continent-au" />
-        <span className="earth-lights" />
+      <div className="hero-planet hidden md:block" aria-hidden="true">
+        <img src={nscGlobe} alt="" className="hero-planet-image" />
       </div>
       <div className="absolute bottom-0 left-0 h-px w-full bg-gradient-to-r from-transparent via-emerald-300/35 to-transparent" />
 
