@@ -9,15 +9,15 @@ const snapshotKeys = ["sp500", "nasdaq", "tenYear", "sofr", "wti", "gold", "eurU
 
 export function SnapshotGrid({ metrics }: SnapshotGridProps) {
   return (
-    <section className="rounded-[1.4rem] border border-white/10 bg-[#07100e]/95 p-3 shadow-panel">
+    <section className="premium-panel rounded-[1.25rem] p-3.5">
       <div className="mb-3 flex flex-wrap items-center justify-between gap-2 px-1">
         <div className="flex items-center gap-3">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-300">Resumen de mercado</p>
-          <span className="text-[11px] text-slate-500">A las 9:30 AM ET</span>
+          <p className="section-title">Resumen de mercado</p>
+          <span className="text-[10px] text-slate-500">Actualizado 08:30 AM</span>
         </div>
-        <p className="text-[11px] text-slate-500">Live APIs + estados Missing Data</p>
+        <a href="/mercados" className="text-[10px] font-semibold text-emerald-300">Ver todos los mercados ›</a>
       </div>
-      <div className="grid gap-2 sm:grid-cols-2 md:grid-cols-4 2xl:grid-cols-8">
+      <div className="grid gap-2.5 sm:grid-cols-2 md:grid-cols-4 2xl:grid-cols-8">
         {snapshotKeys.map((key) => (
           <MetricCard key={key} metric={metrics[key]} compact />
         ))}

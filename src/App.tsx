@@ -16,14 +16,14 @@ export default function App() {
   const { data, error } = useDashboardData();
 
   return (
-    <div className="min-h-screen text-slate-100">
+    <div className="dashboard-bg min-h-screen text-slate-100">
       <Sidebar sources={data.sources} />
       <TopSearch />
 
-      <main className="px-2.5 py-0 sm:px-3 lg:ml-36">
-        <div className="mx-auto max-w-[1400px] space-y-2">
+      <main className="px-3 pb-8 pt-3 sm:px-4 lg:ml-[188px]">
+        <div className="mx-auto max-w-[1360px] space-y-3.5">
           {error && (
-            <div className="flex items-start gap-3 rounded-2xl border border-red-400/25 bg-red-500/10 p-4 text-red-100">
+            <div className="premium-panel flex items-start gap-3 rounded-2xl border-red-400/25 bg-red-500/10 p-4 text-red-100">
               <AlertCircle className="mt-0.5 h-5 w-5 shrink-0" />
               <div>
                 <p className="font-semibold">Dashboard service error</p>
@@ -35,13 +35,13 @@ export default function App() {
           <Hero metrics={data.metrics} />
           <SnapshotGrid metrics={data.metrics} />
 
-          <div className="grid gap-3 xl:grid-cols-[0.88fr_1fr_1.72fr]">
+          <div className="grid gap-3.5 xl:grid-cols-[0.9fr_1.1fr_1.55fr]">
             <AssetClassGrid />
             <Watchlist />
             <MarketOverview />
           </div>
 
-          <div className="grid gap-3 xl:grid-cols-[1.25fr_1fr]">
+          <div className="grid gap-3.5 xl:grid-cols-[1.12fr_1fr]">
             <FeaturedInsights />
             <LatestUpdates updates={data.updates} />
           </div>
@@ -49,7 +49,7 @@ export default function App() {
           <SourceStatusList sources={data.sources} />
           <MissingDataPanel />
 
-          <footer className="pb-8 pt-2 text-center text-[11px] text-slate-600">
+          <footer className="pb-7 pt-1 text-center text-[11px] text-slate-600">
             NSC Insights is an internal financial intelligence platform. Not for public distribution.
           </footer>
         </div>
