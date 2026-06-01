@@ -20,8 +20,8 @@ export default function App() {
       <Sidebar sources={data.sources} />
       <TopSearch />
 
-      <main className="px-3 py-3 sm:px-5 lg:ml-56">
-        <div className="mx-auto max-w-[1500px] space-y-3">
+      <main className="px-2.5 py-0 sm:px-3 lg:ml-36">
+        <div className="mx-auto max-w-[1400px] space-y-2">
           {error && (
             <div className="flex items-start gap-3 rounded-2xl border border-red-400/25 bg-red-500/10 p-4 text-red-100">
               <AlertCircle className="mt-0.5 h-5 w-5 shrink-0" />

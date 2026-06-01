@@ -9,9 +9,9 @@ interface SidebarProps {
 
 export function Sidebar({ sources }: SidebarProps) {
   return (
-    <aside className="fixed inset-y-0 left-0 z-40 hidden w-56 overflow-y-auto border-r border-white/10 bg-[#020706]/95 px-3 py-4 lg:block">
-      <div className="mb-6 flex items-center gap-2 px-1">
-        <div className="text-2xl font-black tracking-[-0.08em] text-white">NSC</div>
+    <aside className="fixed inset-y-0 left-0 z-40 hidden w-36 overflow-y-auto border-r border-white/10 bg-[#020706]/95 px-2 py-3 lg:block">
+      <div className="mb-5 flex items-center gap-1.5 px-1">
+        <div className="text-[22px] font-black tracking-[-0.08em] text-white">NSC</div>
         <div className="leading-none">
           <p className="text-[9px] font-bold uppercase tracking-[0.16em] text-slate-300">Intelligence</p>
           <p className="text-[9px] font-bold uppercase tracking-[0.16em] text-slate-300">Hub</p>
@@ -27,7 +27,7 @@ export function Sidebar({ sources }: SidebarProps) {
             <a
               key={item.label}
               href={item.href}
-              className={`group flex items-center gap-2 rounded-lg px-2.5 py-2 text-[12px] transition ${
+              className={`group flex items-center gap-2 rounded-lg px-2 py-2 text-[10px] transition ${
                 active ? "bg-white/[0.075] text-white" : "text-slate-400 hover:bg-white/[0.04] hover:text-white"
               }`}
             >
@@ -38,14 +38,14 @@ export function Sidebar({ sources }: SidebarProps) {
         })}
       </nav>
 
-      <div className="mt-5 border-t border-white/10 pt-4">
-        <p className="px-1 text-[11px] font-semibold text-slate-300">Fuentes Conectadas</p>
-        <p className="mt-1 px-1 text-[10px] text-emerald-300">Todos los sistemas operativos</p>
+      <div className="mt-4 border-t border-white/10 pt-4">
+        <p className="px-1 text-[10px] font-semibold text-slate-300">Fuentes Conectadas</p>
+        <p className="mt-1 px-1 text-[9px] text-emerald-300">Todos los sistemas operativos</p>
         <div className="mt-3 space-y-2">
           {sources.length === 0
             ? Array.from({ length: 8 }).map((_, index) => <div key={index} className="h-5 animate-pulse rounded bg-white/[0.04]" />)
             : sources.map((source) => (
-                <div key={source.id} className="flex items-center justify-between gap-2 px-1 text-[11px]">
+                <div key={source.id} className="flex items-center justify-between gap-1.5 px-1 text-[9.5px]">
                   <span className="flex min-w-0 items-center gap-2 text-slate-300">
                     <span className={`h-1.5 w-1.5 rounded-full ${source.status === "online" ? "bg-emerald-400" : source.status === "missing-key" ? "bg-amber-300" : "bg-red-400"}`} />
                     <span className="truncate">{source.name}</span>

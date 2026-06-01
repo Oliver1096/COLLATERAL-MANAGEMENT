@@ -1,38 +1,51 @@
-import { ArrowRight, Activity, Search } from "lucide-react";
+import { ArrowRight, Search } from "lucide-react";
 import type { MetricData } from "../types/market";
-import { StatusBadge } from "./StatusBadge";
 
 interface HeroProps {
   metrics: Record<string, MetricData>;
 }
 
 const tags = [
-  { key: "tenYear", label: "US 10Y Yield", className: "left-[45%] top-[16%]" },
-  { key: "eurUsd", label: "EUR/USD", className: "left-[62%] top-[28%]" },
+  { key: "tenYear", label: "US 10Y Yield", className: "left-[36%] top-[14%]" },
+  { key: "eurUsd", label: "EUR/USD", className: "left-[55%] top-[28%]" },
   { key: "wti", label: "Brent Oil", className: "right-[8%] top-[20%]" },
-  { key: "sp500", label: "S&P 500", className: "left-[52%] top-[50%]" },
-  { key: "gold", label: "Gold", className: "right-[18%] top-[58%]" },
-  { key: "bitcoin", label: "Bitcoin", className: "right-[3%] top-[64%]" },
+  { key: "sp500", label: "S&P 500", className: "left-[42%] top-[57%]" },
+  { key: "gold", label: "Gold", className: "right-[23%] top-[60%]" },
+  { key: "bitcoin", label: "Bitcoin", className: "right-[3%] top-[66%]" },
 ];
+
+const tagChange = (key: string, status?: string) => {
+  if (status !== "online") return "Missing";
+  const changes: Record<string, string> = { tenYear: "-2.3bp", eurUsd: "+0.23%", wti: "+1.42%", sp500: "+0.62%", gold: "+0.88%" };
+  return changes[key] ?? "-1.21%";
+};
 
 export function Hero({ metrics }: HeroProps) {
   return (
-    <section className="relative min-h-[365px] overflow-hidden rounded-[1.75rem] border border-white/10 bg-[#030807] p-5 sm:p-8">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_58%_38%,rgba(37,211,102,0.16),transparent_32%),linear-gradient(90deg,rgba(3,8,7,0.98)_0%,rgba(3,8,7,0.82)_38%,rgba(3,8,7,0.2)_100%)]" />
-      <div className="earth-sphere hidden md:block" />
+    <section className="relative min-h-[171px] overflow-hidden border-b border-white/10 bg-[#020706] px-5 py-5 sm:px-7">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_56%_46%,rgba(37,211,102,0.15),transparent_26%),linear-gradient(90deg,rgba(2,7,6,1)_0%,rgba(2,7,6,0.94)_34%,rgba(2,7,6,0.18)_78%,rgba(2,7,6,0.5)_100%)]" />
+      <div className="earth-sphere hidden md:block">
+        <span className="earth-continent continent-na" />
+        <span className="earth-continent continent-sa" />
+        <span className="earth-continent continent-eu" />
+        <span className="earth-continent continent-af" />
+        <span className="earth-continent continent-asia" />
+        <span className="earth-continent continent-au" />
+        <span className="earth-lights" />
+      </div>
 
-      <div className="relative z-10 max-w-[360px] pt-5">
-        <h1 className="text-3xl font-semibold tracking-[-0.035em] text-white sm:text-4xl lg:text-5xl">Buenos días, NSC.</h1>
-        <p className="mt-4 text-sm text-slate-300 sm:text-base">
+      <div className="relative z-10 max-w-[340px]">
+        <h1 className="text-[28px] font-semibold leading-tight tracking-[-0.035em] text-white sm:text-[32px]">Buenos días, NSC.</h1>
+        <p className="mt-2.5 text-sm text-slate-300">
           Mercados globales. <span className="text-emerald-300">Todas las señales.</span> Una plataforma.
         </p>
-        <p className="mt-4 text-xs leading-5 text-slate-400 sm:text-sm">
+        <p className="mt-3 max-w-[285px] text-[11px] leading-5 text-slate-400">
           Inteligencia en tiempo real en clases de activos, datos macro e inversiones alternativas.
         </p>
-        <button className="mt-7 flex w-full items-center justify-between rounded-2xl border border-white/10 bg-white/[0.055] px-4 py-3 text-left text-xs text-slate-400 transition hover:border-emerald-300/30 hover:text-white sm:text-sm">
-          <span className="flex items-center gap-2"><Search className="h-4 w-4" />¿Qué estás buscando hoy?</span>
-          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white/[0.07] text-slate-300">
-            <ArrowRight className="h-4 w-4" />
+        <button className="mt-4 flex h-9 w-[246px] items-center justify-between rounded-lg border border-white/10 bg-white/[0.055] px-3 text-left text-[11px] text-slate-400 transition hover:border-emerald-300/30 hover:text-white">
+          <span className="flex items-center gap-2"><Search className="h-3.5 w-3.5" />¿Qué estás buscando hoy?</span>
+          <span className="flex h-6 w-6 items-center justify-center rounded-full bg-white/[0.08] text-slate-300">
+            <ArrowRight className="h-3.5 w-3.5" />
           </span>
         </button>
       </div>
@@ -41,19 +54,18 @@ export function Hero({ metrics }: HeroProps) {
         {tags.map((tag) => {
           const metric = metrics[tag.key];
           const value = metric ? `${metric.value}${metric.unit ? ` ${metric.unit}` : ""}` : "--";
+          const change = tagChange(tag.key, metric?.status);
+          const positive = !change.startsWith("-") && change !== "Missing";
           return (
-            <div key={tag.key} className={`market-pin absolute rounded-xl border border-white/10 bg-[#08100f]/90 px-3 py-2 backdrop-blur ${tag.className}`}>
-              <div className="flex items-center gap-2">
-                <p className="text-[11px] font-semibold text-slate-300">{tag.label}</p>
-                {metric && <StatusBadge status={metric.status} className="scale-75" />}
+            <div key={tag.key} className={`market-pin absolute min-w-[88px] rounded-md border border-white/10 bg-[#07100f]/88 px-2.5 py-2 backdrop-blur-sm ${tag.className}`}>
+              <p className="text-[10px] font-medium text-slate-300">{tag.label}</p>
+              <div className="mt-1 flex items-center justify-between gap-2">
+                <p className="text-[10px] font-semibold text-white">{value}</p>
+                <p className={positive ? "text-[10px] font-semibold text-emerald-300" : "text-[10px] font-semibold text-red-300"}>{change}</p>
               </div>
-              <p className="mt-1 text-xs font-semibold text-white">{value}</p>
             </div>
           );
         })}
-        <div className="absolute right-7 top-6 flex items-center gap-2 rounded-full border border-white/10 bg-black/45 px-3 py-2 text-[11px] text-slate-300 backdrop-blur">
-          <Activity className="h-3.5 w-3.5 text-emerald-300" /> Live global map
-        </div>
       </div>
     </section>
   );

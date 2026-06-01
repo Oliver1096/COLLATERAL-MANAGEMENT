@@ -56,25 +56,26 @@ input {
   background-size: 34px 34px;
 }
 
+
 .earth-sphere {
   position: absolute;
-  width: min(760px, 76vw);
+  width: min(640px, 68vw);
   aspect-ratio: 1;
-  right: -8%;
-  top: -22%;
+  right: 1.5%;
+  top: -92px;
   border-radius: 9999px;
+  overflow: hidden;
+  border: 1px solid rgba(148, 163, 184, 0.18);
   background:
-    radial-gradient(circle at 36% 34%, rgba(255, 255, 255, 0.22), transparent 1.5%),
-    radial-gradient(circle at 58% 48%, rgba(37, 211, 102, 0.72), transparent 0.9%),
-    radial-gradient(circle at 72% 56%, rgba(255, 255, 255, 0.7), transparent 0.8%),
-    radial-gradient(circle at 46% 62%, rgba(255, 215, 128, 0.42), transparent 0.6%),
-    radial-gradient(circle at 70% 30%, rgba(255, 215, 128, 0.42), transparent 0.7%),
-    radial-gradient(circle at 50% 50%, rgba(19, 36, 33, 0.72), rgba(5, 10, 9, 0.94) 56%, rgba(0, 0, 0, 0.98) 72%);
+    radial-gradient(circle at 31% 28%, rgba(255, 255, 255, 0.28), transparent 2.5%),
+    radial-gradient(circle at 47% 41%, rgba(255, 230, 155, 0.24), transparent 1.2%),
+    radial-gradient(circle at 62% 34%, rgba(255, 230, 155, 0.2), transparent 1%),
+    radial-gradient(circle at 51% 50%, rgba(17, 45, 38, 0.98), rgba(5, 14, 13, 0.96) 46%, rgba(1, 5, 5, 0.99) 67%, rgba(0, 0, 0, 1) 78%);
   box-shadow:
-    inset 28px -42px 120px rgba(0, 0, 0, 0.92),
-    inset -18px 28px 80px rgba(148, 163, 184, 0.2),
-    0 0 80px rgba(37, 211, 102, 0.14);
-  opacity: 0.96;
+    inset 34px -56px 120px rgba(0, 0, 0, 0.96),
+    inset -18px 24px 70px rgba(180, 210, 205, 0.17),
+    0 0 0 1px rgba(37, 211, 102, 0.06),
+    0 0 72px rgba(37, 211, 102, 0.14);
 }
 
 .earth-sphere::before {
@@ -83,29 +84,121 @@ input {
   inset: 0;
   border-radius: inherit;
   background-image:
-    linear-gradient(rgba(37, 211, 102, 0.12) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(37, 211, 102, 0.1) 1px, transparent 1px),
-    radial-gradient(circle at 34% 44%, rgba(37, 211, 102, 0.26), transparent 8%),
-    radial-gradient(circle at 63% 38%, rgba(255, 80, 64, 0.22), transparent 10%),
-    radial-gradient(circle at 72% 59%, rgba(255, 80, 64, 0.22), transparent 9%);
-  background-size: 42px 42px, 42px 42px, auto, auto, auto;
-  mask-image: radial-gradient(circle, black 0 69%, transparent 73%);
-  opacity: 0.78;
+    linear-gradient(rgba(100, 255, 178, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(100, 255, 178, 0.07) 1px, transparent 1px),
+    radial-gradient(ellipse at 52% 72%, rgba(37, 211, 102, 0.26), transparent 16%),
+    radial-gradient(ellipse at 70% 47%, rgba(255, 67, 57, 0.28), transparent 17%),
+    radial-gradient(ellipse at 35% 39%, rgba(37, 211, 102, 0.24), transparent 18%);
+  background-size: 38px 38px, 38px 38px, auto, auto, auto;
+  mask-image: radial-gradient(circle at 50% 50%, black 0 69%, transparent 72%);
+  opacity: 0.8;
+  mix-blend-mode: screen;
 }
 
 .earth-sphere::after {
   content: "";
   position: absolute;
-  inset: 8%;
+  inset: 0;
   border-radius: inherit;
-  border: 1px solid rgba(148, 163, 184, 0.14);
-  box-shadow: inset 0 0 0 1px rgba(37, 211, 102, 0.07);
+  background:
+    radial-gradient(circle at 29% 26%, transparent 0 10%, rgba(255, 255, 255, 0.07) 10.4%, transparent 11%),
+    radial-gradient(circle at 52% 49%, transparent 0 67%, rgba(148, 163, 184, 0.16) 68%, rgba(0, 0, 0, 0.78) 75%, rgba(0, 0, 0, 0.98) 100%),
+    linear-gradient(115deg, rgba(255, 255, 255, 0.14), transparent 31%, rgba(0, 0, 0, 0.48) 68%);
+  pointer-events: none;
+}
+
+.earth-continent {
+  position: absolute;
+  z-index: 1;
+  opacity: 0.92;
+  filter: blur(0.2px) drop-shadow(0 0 12px rgba(37, 211, 102, 0.18));
+  mix-blend-mode: screen;
+}
+
+.continent-na {
+  left: 18%;
+  top: 28%;
+  width: 24%;
+  height: 18%;
+  background: linear-gradient(135deg, rgba(38, 176, 76, 0.72), rgba(15, 77, 47, 0.52));
+  clip-path: polygon(0 34%, 20% 8%, 49% 0, 79% 18%, 100% 45%, 80% 72%, 47% 66%, 26% 100%, 4% 78%);
+}
+
+.continent-sa {
+  left: 33%;
+  top: 51%;
+  width: 12%;
+  height: 25%;
+  background: linear-gradient(145deg, rgba(44, 178, 82, 0.66), rgba(153, 42, 36, 0.44));
+  clip-path: polygon(24% 0, 88% 20%, 66% 52%, 80% 74%, 35% 100%, 0 55%);
+}
+
+.continent-eu {
+  left: 48%;
+  top: 30%;
+  width: 14%;
+  height: 10%;
+  background: linear-gradient(135deg, rgba(53, 202, 97, 0.64), rgba(20, 92, 55, 0.48));
+  clip-path: polygon(0 45%, 20% 10%, 52% 0, 100% 32%, 84% 86%, 38% 100%);
+}
+
+.continent-af {
+  left: 50%;
+  top: 41%;
+  width: 14%;
+  height: 24%;
+  background: linear-gradient(145deg, rgba(36, 145, 76, 0.56), rgba(143, 43, 36, 0.35));
+  clip-path: polygon(36% 0, 76% 16%, 100% 48%, 64% 100%, 18% 78%, 0 32%);
+}
+
+.continent-asia {
+  left: 60%;
+  top: 33%;
+  width: 30%;
+  height: 24%;
+  background: linear-gradient(135deg, rgba(189, 52, 43, 0.62), rgba(37, 156, 80, 0.22));
+  clip-path: polygon(0 26%, 17% 3%, 48% 6%, 73% 0, 100% 28%, 88% 63%, 55% 54%, 36% 100%, 14% 70%);
+}
+
+.continent-au {
+  left: 75%;
+  top: 61%;
+  width: 12%;
+  height: 9%;
+  background: rgba(177, 48, 40, 0.52);
+  clip-path: polygon(12% 42%, 42% 8%, 100% 28%, 83% 82%, 28% 100%, 0 70%);
+}
+
+.earth-lights {
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  top: 50%;
+  width: 3px;
+  height: 3px;
+  border-radius: 999px;
+  background: rgba(255, 245, 188, 0.92);
+  box-shadow:
+    -168px -96px 5px 1px rgba(255,245,188,0.8),
+    -132px -74px 4px rgba(255,245,188,0.85),
+    -102px -56px 6px rgba(255,245,188,0.55),
+    -36px -96px 5px rgba(255,245,188,0.7),
+    -6px -79px 8px 1px rgba(255,245,188,0.8),
+    34px -66px 6px rgba(255,245,188,0.65),
+    78px -53px 7px rgba(255,245,188,0.62),
+    111px -24px 8px rgba(255,245,188,0.48),
+    146px -6px 6px rgba(255,245,188,0.56),
+    114px 36px 7px rgba(255,245,188,0.45),
+    60px 72px 5px rgba(255,245,188,0.42),
+    -22px 38px 7px rgba(255,245,188,0.5),
+    -95px 18px 6px rgba(255,245,188,0.42);
 }
 
 .market-pin {
   box-shadow: 0 0 18px rgba(37, 211, 102, 0.28);
 }
 
-.sparkline path {
+.sparkline path,
+.sparkline polyline {
   filter: drop-shadow(0 0 5px rgba(37, 211, 102, 0.38));
 }
