@@ -14,19 +14,42 @@ const settle = async (promise, fallback) => {
 
 const delay = (ms) => new Promise((resolve) => globalThis.setTimeout(resolve, ms));
 
+const withFallbacks = async (primaryConfig, fallbackConfigs = []) => {
+  const primaryRate = await getFredRate(primaryConfig);
+  if (primaryRate.status === "online") {
+    return { ...primaryRate, statusLabel: "Official" };
+  }
+
+  for (const fallbackConfig of fallbackConfigs) {
+    await delay(175);
+    const fallbackRate = await getFredRate(fallbackConfig);
+    if (fallbackRate.status === "online") {
+      return {
+        ...fallbackRate,
+        id: primaryConfig.id,
+        name: primaryConfig.name,
+        statusLabel: "Fallback",
+        methodLabel: `${fallbackRate.methodLabel} · fallback series ${fallbackConfig.id}`,
+        methodology: `${fallbackRate.methodology} Primary FRED series ${primaryConfig.id} was unavailable, so ${fallbackConfig.id} is displayed as fallback.`,
+      };
+    }
+  }
+
+  return { ...primaryRate, statusLabel: primaryRate.status === "online" ? "Official" : primaryRate.statusLabel };
+};
+
 const loadFredTreasuries = async () => {
   const configs = [
-    { id: "DGS1MO", name: "1M Treasury", region: "United States", methodLabel: "Annualized Treasury yield" },
-    { id: "DGS3MO", name: "3M Treasury", region: "United States", methodLabel: "Annualized Treasury yield" },
-    { id: "DGS6MO", name: "6M Treasury", region: "United States", methodLabel: "Annualized Treasury yield" },
-    { id: "DGS1", name: "1Y Treasury", region: "United States", methodLabel: "Annualized Treasury yield" },
+    { primary: { id: "DGS1MO", name: "1M Treasury", region: "United States", methodLabel: "Annualized Treasury yield" }, fallbacks: [{ id: "DTB4WK", name: "1M Treasury", region: "United States", methodLabel: "Annualized discount-bill rate" }] },
+    { primary: { id: "DGS3MO", name: "3M Treasury", region: "United States", methodLabel: "Annualized Treasury yield" }, fallbacks: [{ id: "DTB3", name: "3M Treasury", region: "United States", methodLabel: "Annualized 3M T-bill secondary market rate" }, { id: "TB3MS", name: "3M Treasury", region: "United States", methodLabel: "Monthly 3M Treasury bill rate" }] },
+    { primary: { id: "DGS6MO", name: "6M Treasury", region: "United States", methodLabel: "Annualized Treasury yield" }, fallbacks: [{ id: "DTB6", name: "6M Treasury", region: "United States", methodLabel: "Annualized 6M T-bill secondary market rate" }, { id: "TB6MS", name: "6M Treasury", region: "United States", methodLabel: "Monthly 6M Treasury bill rate" }] },
+    { primary: { id: "DGS1", name: "1Y Treasury", region: "United States", methodLabel: "Annualized Treasury yield" }, fallbacks: [] },
   ];
   const rates = [];
 
   for (const [index, config] of configs.entries()) {
     if (index > 0) await delay(175);
-    const rate = await getFredRate(config);
-    rates.push({ ...rate, statusLabel: rate.status === "online" ? "Official" : rate.statusLabel });
+    rates.push(await withFallbacks(config.primary, config.fallbacks));
   }
 
   return rates;
