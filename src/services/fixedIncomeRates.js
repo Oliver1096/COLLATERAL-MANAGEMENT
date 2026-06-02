@@ -1,5 +1,4 @@
 import { getTiieFondeoRate } from "./banxico";
-import { getBcbCompoundedRate } from "./bcb";
 import { getFredRate } from "./fred";
 import { getJapanTonaRate } from "./boj";
 import { getSofrRate } from "./nyfed";
@@ -12,6 +11,7 @@ const settle = async (promise, fallback) => {
   }
 };
 
+const FRED_REQUEST_DELAY_MS = 750;
 const delay = (ms) => new Promise((resolve) => globalThis.setTimeout(resolve, ms));
 
 const withFallbacks = async (primaryConfig, fallbackConfigs = []) => {
@@ -21,7 +21,7 @@ const withFallbacks = async (primaryConfig, fallbackConfigs = []) => {
   }
 
   for (const fallbackConfig of fallbackConfigs) {
-    await delay(175);
+    await delay(FRED_REQUEST_DELAY_MS);
     const fallbackRate = await getFredRate(fallbackConfig);
     if (fallbackRate.status === "online") {
       return {
@@ -41,31 +41,47 @@ const withFallbacks = async (primaryConfig, fallbackConfigs = []) => {
 const loadFredTreasuries = async () => {
   const configs = [
     { primary: { id: "DGS1MO", name: "1M Treasury", region: "United States", methodLabel: "Annualized Treasury yield" }, fallbacks: [{ id: "DTB4WK", name: "1M Treasury", region: "United States", methodLabel: "Annualized discount-bill rate" }] },
-    { primary: { id: "DGS3MO", name: "3M Treasury", region: "United States", methodLabel: "Annualized Treasury yield" }, fallbacks: [{ id: "DTB3", name: "3M Treasury", region: "United States", methodLabel: "Annualized 3M T-bill secondary market rate" }, { id: "TB3MS", name: "3M Treasury", region: "United States", methodLabel: "Monthly 3M Treasury bill rate" }] },
-    { primary: { id: "DGS6MO", name: "6M Treasury", region: "United States", methodLabel: "Annualized Treasury yield" }, fallbacks: [{ id: "DTB6", name: "6M Treasury", region: "United States", methodLabel: "Annualized 6M T-bill secondary market rate" }, { id: "TB6MS", name: "6M Treasury", region: "United States", methodLabel: "Monthly 6M Treasury bill rate" }] },
-    { primary: { id: "DGS1", name: "1Y Treasury", region: "United States", methodLabel: "Annualized Treasury yield" }, fallbacks: [{ id: "DTB1YR", name: "1Y Treasury", region: "United States", methodLabel: "Annualized 1Y T-bill secondary market rate" }, { id: "TB1YR", name: "1Y Treasury", region: "United States", methodLabel: "Monthly 1Y Treasury bill rate" }, { id: "GS1", name: "1Y Treasury", region: "United States", methodLabel: "Monthly 1Y Treasury constant maturity rate" }] },
+    { primary: { id: "DGS3", name: "3Y Treasury", region: "United States", methodLabel: "Annualized Treasury yield" }, fallbacks: [{ id: "GS3", name: "3Y Treasury", region: "United States", methodLabel: "Monthly 3Y Treasury constant maturity rate" }] },
+    { primary: { id: "DGS5", name: "5Y Treasury", region: "United States", methodLabel: "Annualized Treasury yield" }, fallbacks: [{ id: "GS5", name: "5Y Treasury", region: "United States", methodLabel: "Monthly 5Y Treasury constant maturity rate" }] },
+    { primary: { id: "DGS7", name: "7Y Treasury", region: "United States", methodLabel: "Annualized Treasury yield" }, fallbacks: [{ id: "GS7", name: "7Y Treasury", region: "United States", methodLabel: "Monthly 7Y Treasury constant maturity rate" }] },
+    { primary: { id: "DGS10", name: "10Y Treasury", region: "United States", methodLabel: "Annualized Treasury yield" }, fallbacks: [{ id: "GS10", name: "10Y Treasury", region: "United States", methodLabel: "Monthly 10Y Treasury constant maturity rate" }] },
   ];
   const rates = [];
 
   for (const [index, config] of configs.entries()) {
-    if (index > 0) await delay(175);
+    if (index > 0) await delay(FRED_REQUEST_DELAY_MS);
     rates.push(await withFallbacks(config.primary, config.fallbacks));
   }
 
   return rates;
 };
 
+const loadFredInterbankRates = async () => {
+  const configs = [
+    { id: "ECBESTRVOLWGTTRMDMNRT", name: "€STR", region: "Euro Area", source: "ECB via FRED", methodLabel: "Annualized official rate" },
+    { id: "IUDSOIA", name: "SONIA", region: "United Kingdom", source: "Bank of England via FRED", methodLabel: "Annualized official overnight rate" },
+  ];
+  const rates = [];
+
+  for (const [index, config] of configs.entries()) {
+    if (index > 0) await delay(FRED_REQUEST_DELAY_MS);
+    rates.push(await getFredRate(config));
+  }
+
+  return rates;
+};
+
 export const loadFixedIncomeRates = async () => {
-  const [sofr, tiie, estr, cdi, selic, tona] = await Promise.all([
+  const nonFredRatesPromise = Promise.all([
     settle(getSofrRate(), { id: "SOFR", name: "SOFR", region: "United States", source: "New York Fed", displayValue: "X" }),
     settle(getTiieFondeoRate(), { id: "TIIE_FONDEO_1D", name: "TIIE Fondeo 1D", region: "México", source: "Banxico", displayValue: "X" }),
-    settle(getFredRate({ id: "ECBESTRVOLWGTTRMDMNRT", name: "€STR", region: "Euro Area", source: "ECB via FRED", methodLabel: "Annualized official rate" }), { id: "ESTR", name: "€STR", region: "Euro Area", source: "ECB via FRED", displayValue: "X" }),
-    settle(getBcbCompoundedRate("cdi"), { id: "BRAZIL_CDI", name: "CDI", region: "Brazil", source: "Banco Central do Brasil", displayValue: "X" }),
-    settle(getBcbCompoundedRate("selic"), { id: "BRAZIL_SELIC", name: "SELIC", region: "Brazil", source: "Banco Central do Brasil", displayValue: "X" }),
     settle(getJapanTonaRate(), { id: "JAPAN_TONA", name: "Japan TONA", region: "Japan", source: "Bank of Japan", displayValue: "X" }),
   ]);
 
+  const [estr, sonia] = await loadFredInterbankRates();
+  await delay(FRED_REQUEST_DELAY_MS);
   const treasuries = await loadFredTreasuries();
+  const [sofr, tiie, tona] = await nonFredRatesPromise;
 
-  return { interbank: [sofr, tiie, estr, cdi, selic, tona], treasuries, fetchedAt: new Date().toISOString() };
+  return { interbank: [sofr, tiie, estr, sonia, tona], treasuries, fetchedAt: new Date().toISOString() };
 };

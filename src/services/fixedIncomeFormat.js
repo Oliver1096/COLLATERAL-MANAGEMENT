@@ -55,3 +55,18 @@ export const unavailableRate = ({ id, name, region, source, error, status = "mis
   sparkline: [],
   error,
 });
+
+export const formatBpsChange = (bps) => {
+  if (!Number.isFinite(bps)) return "1W: N/A";
+  const sign = bps > 0 ? "+" : "";
+  return `1W: ${sign}${bps.toFixed(1)} bps`;
+};
+
+export const oneWeekChangeFromValues = (values) => {
+  const valid = (values ?? []).map((value) => Number(value)).filter((value) => Number.isFinite(value));
+  if (valid.length < 6) return { oneWeekChangeBps: null, oneWeekChangeLabel: "1W: N/A" };
+  const latest = valid[valid.length - 1];
+  const previous = valid[valid.length - 6];
+  const oneWeekChangeBps = (latest - previous) * 100;
+  return { oneWeekChangeBps, oneWeekChangeLabel: formatBpsChange(oneWeekChangeBps) };
+};

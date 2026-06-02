@@ -1,6 +1,6 @@
 import { apiConfig, hasApiKey } from "./config";
 import { buildQuery, cachedJson } from "./http";
-import { formatDate, formatRate, sparklineFromValues, unavailableRate } from "./fixedIncomeFormat";
+import { formatDate, formatRate, oneWeekChangeFromValues, sparklineFromValues, unavailableRate } from "./fixedIncomeFormat";
 
 const FRED_SERIES_PATH = "/series/observations";
 const useProxy = () => import.meta.env.DEV || import.meta.env.VITE_USE_API_PROXY === "true";
@@ -25,12 +25,15 @@ export const getFredRate = async ({ id, name, region = "United States", source =
     if (data.error_message) throw new Error(data.error_message);
 
     const observations = data.observations ?? [];
-    const latest = observations.find((item) => item.value !== "." && Number.isFinite(Number(item.value)));
+    const validDescending = observations.filter((item) => item.value !== "." && Number.isFinite(Number(item.value)));
+    const latest = validDescending[0];
     if (!latest) {
       return unavailableRate({ id, name, region, source, error: `FRED did not return a valid latest observation for ${id}.` });
     }
 
     const value = Number(latest.value);
+    const chronologicalValues = validDescending.map((item) => Number(item.value)).reverse();
+    const weeklyChange = oneWeekChangeFromValues(chronologicalValues);
     return {
       id,
       name,
@@ -43,10 +46,12 @@ export const getFredRate = async ({ id, name, region = "United States", source =
       date: formatDate(latest.date),
       rawValue: value,
       normalizedValue: value,
+      oneWeekChangeBps: weeklyChange.oneWeekChangeBps,
+      oneWeekChangeLabel: weeklyChange.oneWeekChangeLabel,
       methodLabel,
       updateFrequency: "Daily / latest official observation",
       methodology: "Displayed directly as an annual percentage value from FRED. Missing '.' observations are ignored.",
-      sparkline: sparklineFromValues(observations, (item) => item.value).reverse(),
+      sparkline: chronologicalValues.slice(-10),
     };
   } catch (error) {
     return unavailableRate({

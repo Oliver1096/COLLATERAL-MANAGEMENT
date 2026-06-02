@@ -27,6 +27,8 @@ export function FixedIncomePulseCard({ rate }) {
   const inactive = !live;
   const valueLabel = live ? `${rate.displayValue}%` : "Data unavailable";
   const stroke = live ? "#25d366" : "rgba(148,163,184,0.45)";
+  const changePositive = Number(rate.oneWeekChangeBps) > 0;
+  const changeNegative = Number(rate.oneWeekChangeBps) < 0;
 
   return (
     <article className={`group relative min-h-[216px] overflow-hidden rounded-2xl border p-4 transition duration-300 hover:-translate-y-1 hover:shadow-[0_24px_70px_rgba(0,0,0,0.38)] ${live ? "border-white/10 bg-[#07110f]/95 hover:border-emerald-300/35" : "border-white/10 bg-slate-950/55 hover:border-amber-300/25"}`}>
@@ -45,8 +47,8 @@ export function FixedIncomePulseCard({ rate }) {
           <p className="mt-1 text-[11px] text-slate-500">{rate.methodLabel}</p>
         </div>
         <div className="rounded-xl border border-white/10 bg-white/[0.035] px-3 py-2 text-right">
-          <p className="text-[9px] uppercase tracking-[0.16em] text-slate-600">Fecha</p>
-          <p className="mt-1 text-[11px] font-semibold text-slate-300">{rate.date}</p>
+          <p className="text-[9px] uppercase tracking-[0.16em] text-slate-600">1W</p>
+          <p className={`mt-1 text-[11px] font-semibold ${changePositive ? "text-emerald-300" : changeNegative ? "text-red-300" : "text-slate-300"}`}>{rate.oneWeekChangeLabel ?? "1W: N/A"}</p>
         </div>
       </div>
 
@@ -55,13 +57,17 @@ export function FixedIncomePulseCard({ rate }) {
         <polyline points={pointsFor(rate.sparkline, inactive)} fill="none" stroke={stroke} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
 
-      <div className="mt-4 grid grid-cols-2 gap-2 text-[10px]">
+      <div className="mt-4 grid grid-cols-3 gap-2 text-[10px]">
         <div className="rounded-xl border border-white/10 bg-black/20 p-2">
           <p className="flex items-center gap-1.5 uppercase tracking-[0.14em] text-slate-600"><Database className="h-3 w-3" /> Fuente</p>
           <p className="mt-1 truncate font-semibold text-slate-300">{rate.source}</p>
         </div>
         <div className="rounded-xl border border-white/10 bg-black/20 p-2">
-          <p className="flex items-center gap-1.5 uppercase tracking-[0.14em] text-slate-600"><Clock3 className="h-3 w-3" /> Frecuencia</p>
+          <p className="flex items-center gap-1.5 uppercase tracking-[0.14em] text-slate-600"><Clock3 className="h-3 w-3" /> Fecha</p>
+          <p className="mt-1 truncate font-semibold text-slate-300">{rate.date}</p>
+        </div>
+        <div className="rounded-xl border border-white/10 bg-black/20 p-2">
+          <p className="uppercase tracking-[0.14em] text-slate-600">Estado</p>
           <p className="mt-1 truncate font-semibold text-slate-300">{rate.updateFrequency}</p>
         </div>
       </div>
@@ -71,7 +77,7 @@ export function FixedIncomePulseCard({ rate }) {
         <p className="mt-2 text-[11px] leading-5 text-slate-300">{rate.methodology}</p>
         <div className="mt-3 grid grid-cols-2 gap-2 text-[10px]">
           <div className="rounded-lg border border-white/10 bg-white/[0.04] p-2"><span className="text-slate-500">Raw:</span> <span className="text-white">{rate.rawValue ?? "n/a"}</span></div>
-          <div className="rounded-lg border border-white/10 bg-white/[0.04] p-2"><span className="text-slate-500">Normalized:</span> <span className="text-white">{rate.normalizedValue ? `${rate.normalizedValue.toFixed(4)}%` : "n/a"}</span></div>
+          <div className="rounded-lg border border-white/10 bg-white/[0.04] p-2"><span className="text-slate-500">1W:</span> <span className="text-white">{rate.oneWeekChangeLabel ?? "1W: N/A"}</span></div>
         </div>
         {rate.error && <p className="mt-2 flex items-center gap-1.5 text-[10px] text-amber-200"><Minus className="h-3 w-3" /> {rate.error}</p>}
       </div>

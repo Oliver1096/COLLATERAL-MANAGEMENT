@@ -29,15 +29,15 @@ const loadingState = {
     loadingRate("SOFR", "SOFR", "United States", "New York Fed"),
     loadingRate("TIIE_FONDEO_1D", "TIIE Fondeo 1D", "México", "Banxico"),
     loadingRate("ECBESTRVOLWGTTRMDMNRT", "€STR", "Euro Area", "ECB via FRED"),
-    loadingRate("BRAZIL_CDI", "CDI", "Brazil", "Banco Central do Brasil"),
-    loadingRate("BRAZIL_SELIC", "SELIC", "Brazil", "Banco Central do Brasil"),
+    loadingRate("SONIA", "SONIA", "United Kingdom", "Bank of England via FRED"),
     loadingRate("JAPAN_TONA", "Japan TONA", "Japan", "Bank of Japan"),
   ],
   treasuries: [
     loadingRate("DGS1MO", "1M Treasury", "United States", "FRED"),
-    loadingRate("DGS3MO", "3M Treasury", "United States", "FRED"),
-    loadingRate("DGS6MO", "6M Treasury", "United States", "FRED"),
-    loadingRate("DGS1", "1Y Treasury", "United States", "FRED"),
+    loadingRate("DGS3", "3Y Treasury", "United States", "FRED"),
+    loadingRate("DGS5", "5Y Treasury", "United States", "FRED"),
+    loadingRate("DGS7", "7Y Treasury", "United States", "FRED"),
+    loadingRate("DGS10", "10Y Treasury", "United States", "FRED"),
   ],
   fetchedAt: null,
 };
@@ -91,11 +91,11 @@ function TreasuryCurveStrip({ rates }) {
       <div className="mb-3 flex items-center justify-between gap-3">
         <div>
           <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-slate-500">Mini term structure</p>
-          <p className="mt-1 text-[11px] text-slate-400">Comparación visual de 1M, 3M, 6M y 1Y.</p>
+          <p className="mt-1 text-[11px] text-slate-400">Comparación visual de 1M, 3Y, 5Y, 7Y y 10Y.</p>
         </div>
         <TrendingUp className="h-4 w-4 text-emerald-300" />
       </div>
-      <div className="grid gap-3 sm:grid-cols-4">
+      <div className="grid gap-3 sm:grid-cols-5">
         {rates.map((rate) => {
           const height = rate.status === "online" ? 28 + ((rate.value - min) / range) * 42 : 18;
           return (
@@ -162,7 +162,7 @@ export function FixedIncomePage() {
             <h1 className="text-4xl font-semibold tracking-[-0.05em] text-white sm:text-5xl">Renta Fija</h1>
             <p className="mt-3 text-base font-medium text-slate-200">Interbancarios y U.S. Treasuries</p>
             <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-400">
-              Tasas oficiales, money markets y tramo corto de Treasuries en una vista comparativa para trading, análisis y wealth management.
+              Tasas overnight oficiales y curva Treasury líquida en una vista comparativa para trading, análisis y wealth management.
             </p>
           </div>
 
@@ -175,7 +175,7 @@ export function FixedIncomePage() {
         </div>
         <div className="relative z-10 mt-5 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-white/10 bg-black/22 px-4 py-3">
           <p className="text-[11px] text-slate-400">
-            APIs: <span className="text-emerald-300">New York Fed · Banxico · ECB via FRED · Banco Central do Brasil · Bank of Japan · FRED</span>
+            APIs: <span className="text-emerald-300">New York Fed · Banxico · ECB via FRED · Bank of England via FRED · Bank of Japan · FRED</span>
           </p>
           <button
             onClick={refresh}
@@ -190,8 +190,8 @@ export function FixedIncomePage() {
 
       <SectionShell
         title="Interbancarios"
-        subtitle="Overnight and interbank policy/funding rates across the U.S., México, Euro Area, Brazil and Japan. Brazil CDI/SELIC are normalized from daily values into annualized compounded rates."
-        aside={<span className="rounded-full border border-emerald-300/20 bg-emerald-400/10 px-3 py-1 text-[10px] font-semibold text-emerald-200">{sectionCounts.interbank}/6 live</span>}
+        subtitle="Overnight and interbank policy/funding rates across the U.S., México, Euro Area, United Kingdom and Japan. Values are already annualized and displayed directly."
+        aside={<span className="rounded-full border border-emerald-300/20 bg-emerald-400/10 px-3 py-1 text-[10px] font-semibold text-emerald-200">{sectionCounts.interbank}/5 live</span>}
       >
         <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
           {data.interbank.map((rate) => <FixedIncomePulseCard key={rate.id} rate={rate} />)}
@@ -200,8 +200,8 @@ export function FixedIncomePage() {
 
       <SectionShell
         title="U.S. Treasuries"
-        subtitle="Latest available FRED constant maturity Treasury yields for the short end of the curve. Values are already annualized and displayed directly."
-        aside={<span className="rounded-full border border-emerald-300/20 bg-emerald-400/10 px-3 py-1 text-[10px] font-semibold text-emerald-200">{sectionCounts.treasuries}/4 live</span>}
+        subtitle="Latest available FRED constant maturity Treasury yields for 1M, 3Y, 5Y, 7Y and 10Y. Values are already annualized and displayed directly."
+        aside={<span className="rounded-full border border-emerald-300/20 bg-emerald-400/10 px-3 py-1 text-[10px] font-semibold text-emerald-200">{sectionCounts.treasuries}/5 live</span>}
       >
         <TreasuryCurveStrip rates={data.treasuries} />
         <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">

@@ -19,7 +19,7 @@ const fixedIncomeSidebarSources: SourceHealth[] = [
   { id: "fred", name: "FRED", status: "online", description: "U.S. Treasury and market rates." },
   { id: "ny-fed", name: "NY Fed", status: "online", description: "SOFR and money-market rates." },
   { id: "banxico", name: "Banxico", status: "missing-key", description: "TIIE Fondeo 1D requires VITE_BANXICO_TOKEN." },
-  { id: "bcb", name: "BCB", status: "online", description: "Brazil CDI and SELIC daily series." },
+  { id: "boe", name: "BoE via FRED", status: "online", description: "SONIA overnight rate." },
   { id: "boj", name: "BOJ", status: "online", description: "Japan TONA official rate." },
 ];
 

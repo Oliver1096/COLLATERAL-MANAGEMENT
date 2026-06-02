@@ -43,6 +43,8 @@ export const getTiieFondeoRate = async () => {
       date: formatDate(row.fecha),
       rawValue: value,
       normalizedValue: value,
+      oneWeekChangeBps: null,
+      oneWeekChangeLabel: "1W: N/A",
       methodLabel: "Annualized official rate",
       updateFrequency: "Official opportuno observation",
       methodology: "Uses Banxico series SF331451. Displayed directly as annual percentage value.",

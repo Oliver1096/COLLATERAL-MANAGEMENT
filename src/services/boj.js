@@ -1,5 +1,5 @@
 import { cachedJson } from "./http";
-import { formatDate, formatRate, unavailableRate } from "./fixedIncomeFormat";
+import { formatDate, formatRate, oneWeekChangeFromValues, unavailableRate } from "./fixedIncomeFormat";
 
 const BOJ_PATH = "/api/v1/getDataCode?format=json&lang=en&db=FM01&code=STRDCLUCON&startDate=202501";
 const useProxy = () => import.meta.env.DEV || import.meta.env.VITE_USE_API_PROXY === "true";
@@ -25,11 +25,11 @@ export const getJapanTonaRate = async () => {
       return unavailableRate({ id: "JAPAN_TONA", name: "Japan TONA", region: "Japan", source: "Bank of Japan", error: "BOJ did not return a valid latest observation." });
     }
 
-    const sparkline = observations
+    const chronologicalValues = observations
       .map((value, index) => ({ value: Number(value), date: dates[index] }))
       .filter((item) => Number.isFinite(item.value))
-      .slice(-10)
       .map((item) => item.value);
+    const weeklyChange = oneWeekChangeFromValues(chronologicalValues);
 
     return {
       id: "JAPAN_TONA",
@@ -43,10 +43,12 @@ export const getJapanTonaRate = async () => {
       date: formatDate(latest.date),
       rawValue: latest.value,
       normalizedValue: latest.value,
+      oneWeekChangeBps: weeklyChange.oneWeekChangeBps,
+      oneWeekChangeLabel: weeklyChange.oneWeekChangeLabel,
       methodLabel: "Percent per annum",
       updateFrequency: "Daily official observation",
       methodology: "Bank of Japan FM01 STRDCLUCON. Value is already percent per annum and displayed directly.",
-      sparkline,
+      sparkline: chronologicalValues.slice(-10),
     };
   } catch (error) {
     return unavailableRate({ id: "JAPAN_TONA", name: "Japan TONA", region: "Japan", source: "Bank of Japan", status: "error", error: error instanceof Error ? error.message : "Unknown BOJ error." });
