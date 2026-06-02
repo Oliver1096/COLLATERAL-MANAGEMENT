@@ -1,5 +1,5 @@
 import { cachedJson } from "./http";
-import { formatDate, formatRate, oneWeekChangeFromValues, unavailableRate } from "./fixedIncomeFormat";
+import { formatDate, formatRate, oneWeekChangeFromValues, parseValidRate, unavailableRate } from "./fixedIncomeFormat";
 
 const BOJ_PATH = "/api/v1/getDataCode?format=json&lang=en&db=FM01&code=STRDCLUCON&startDate=202501";
 const useProxy = () => import.meta.env.DEV || import.meta.env.VITE_USE_API_PROXY === "true";
@@ -14,8 +14,8 @@ export const getJapanTonaRate = async () => {
     let latest = null;
 
     for (let index = observations.length - 1; index >= 0; index -= 1) {
-      const value = Number(observations[index]);
-      if (Number.isFinite(value)) {
+      const value = parseValidRate(observations[index]);
+      if (value !== null) {
         latest = { date: dates[index], value };
         break;
       }
@@ -26,9 +26,8 @@ export const getJapanTonaRate = async () => {
     }
 
     const chronologicalValues = observations
-      .map((value, index) => ({ value: Number(value), date: dates[index] }))
-      .filter((item) => Number.isFinite(item.value))
-      .map((item) => item.value);
+      .map((value) => parseValidRate(value))
+      .filter((value) => value !== null);
     const weeklyChange = oneWeekChangeFromValues(chronologicalValues);
 
     return {

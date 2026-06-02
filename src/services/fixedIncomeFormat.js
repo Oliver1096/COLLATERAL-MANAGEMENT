@@ -24,16 +24,28 @@ export const formatDate = (dateLike) => {
   }).format(date);
 };
 
-export const latestValid = (items, valueGetter) => [...(items ?? [])].reverse().find((item) => {
-  const value = Number(valueGetter(item));
-  return Number.isFinite(value);
-});
+export const parseValidRate = (value) => {
+  if (value === null || value === undefined) return null;
+  if (typeof value === "string") {
+    const normalized = value.trim();
+    if (!normalized || normalized === "." || normalized.toUpperCase() === "NA") return null;
+    const numeric = Number(normalized.replace(/,/g, ""));
+    return Number.isFinite(numeric) ? numeric : null;
+  }
 
-export const sparklineFromValues = (values, transform = (value) => value) =>
+  const numeric = Number(value);
+  return Number.isFinite(numeric) ? numeric : null;
+};
+
+export const latestValid = (items, valueGetter) =>
+  [...(items ?? [])].reverse().find((item) => parseValidRate(valueGetter(item)) !== null);
+
+export const validNumericValues = (values, transform = (value) => value) =>
   (values ?? [])
-    .map((item) => Number(transform(item)))
-    .filter((value) => Number.isFinite(value))
-    .slice(-10);
+    .map((item) => parseValidRate(transform(item)))
+    .filter((value) => value !== null);
+
+export const sparklineFromValues = (values, transform = (value) => value) => validNumericValues(values, transform).slice(-10);
 
 export const annualizeDailyRate = (dailyRate) => ((1 + dailyRate / 100) ** 252 - 1) * 100;
 
@@ -63,10 +75,12 @@ export const formatBpsChange = (bps) => {
 };
 
 export const oneWeekChangeFromValues = (values) => {
-  const valid = (values ?? []).map((value) => Number(value)).filter((value) => Number.isFinite(value));
+  const valid = validNumericValues(values);
   if (valid.length < 6) return { oneWeekChangeBps: null, oneWeekChangeLabel: "1W: N/A" };
-  const latest = valid[valid.length - 1];
-  const previous = valid[valid.length - 6];
-  const oneWeekChangeBps = (latest - previous) * 100;
+
+  const latestValidRate = valid[valid.length - 1];
+  const rateFiveValidObservationsAgo = valid[valid.length - 6];
+  const oneWeekChangeBps = (latestValidRate - rateFiveValidObservationsAgo) * 100;
+
   return { oneWeekChangeBps, oneWeekChangeLabel: formatBpsChange(oneWeekChangeBps) };
 };

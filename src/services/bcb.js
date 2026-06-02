@@ -1,5 +1,5 @@
 import { cachedJson } from "./http";
-import { annualizeDailyRate, formatDate, formatRate, latestValid, sparklineFromValues, unavailableRate } from "./fixedIncomeFormat";
+import { annualizeDailyRate, formatDate, formatRate, latestValid, parseValidRate, sparklineFromValues, unavailableRate } from "./fixedIncomeFormat";
 
 const configs = {
   cdi: {
@@ -23,7 +23,7 @@ export const getBcbCompoundedRate = async (kind) => {
       return unavailableRate({ id: config.id, name: config.name, region: "Brazil", source: "Banco Central do Brasil", error: "BCB did not return a valid daily observation." });
     }
 
-    const dailyRate = Number(latest.valor);
+    const dailyRate = parseValidRate(latest.valor);
     const annualized = annualizeDailyRate(dailyRate);
     return {
       id: config.id,
@@ -40,7 +40,10 @@ export const getBcbCompoundedRate = async (kind) => {
       methodLabel: "Annualized compounded rate",
       updateFrequency: "Daily official observation",
       methodology: "BCB returns a daily percentage value. Display annualized compounded rate using ((1 + dailyRate / 100) ** 252 - 1) * 100.",
-      sparkline: sparklineFromValues(data, (item) => annualizeDailyRate(Number(item.valor))),
+      sparkline: sparklineFromValues(data, (item) => {
+        const daily = parseValidRate(item.valor);
+        return daily === null ? null : annualizeDailyRate(daily);
+      }),
     };
   } catch (error) {
     return unavailableRate({ id: config.id, name: config.name, region: "Brazil", source: "Banco Central do Brasil", status: "error", error: error instanceof Error ? error.message : "Unknown BCB error." });
