@@ -31,7 +31,9 @@ export function MetricCard({ metric, compact = false }: MetricCardProps) {
   const seed = metric.id.split("").reduce((acc, char) => acc + char.charCodeAt(0), 0);
   const points = sparklinePoints(seed, missing || negative);
   const isGoldApi = metric.source === "Gold-API";
-  const sourceLabel = isGoldApi ? "Source: Gold-API" : metric.source;
+  const sourceLabel = isGoldApi ? "Gold-API" : metric.source;
+  const liveLabel = isGoldApi ? "Live / near real-time" : "Live";
+  const performanceLabel = isGoldApi && metric.period ? metric.period : isLive ? (negative ? "-0.23%" : "+0.62%") : "Missing Data";
 
   return (
     <article className="group relative flex min-h-[112px] flex-col overflow-hidden rounded-xl border border-white/10 bg-[#07110f]/90 p-3 transition hover:border-emerald-300/30 hover:bg-[#0a1714]">
@@ -46,10 +48,10 @@ export function MetricCard({ metric, compact = false }: MetricCardProps) {
         </div>
         {compact ? (
           isGoldApi ? (
-            <StatusBadge status={metric.status} label={metric.status === "online" ? "Live" : undefined} className="scale-75" />
+            <StatusBadge status={metric.status} label={metric.status === "online" ? liveLabel : undefined} className="scale-75 origin-top-right" />
           ) : null
         ) : (
-          <StatusBadge status={metric.status} label={isGoldApi && metric.status === "online" ? "Live" : undefined} className="scale-90" />
+          <StatusBadge status={metric.status} label={isGoldApi && metric.status === "online" ? liveLabel : undefined} className="scale-90" />
         )}
       </div>
 
@@ -60,8 +62,8 @@ export function MetricCard({ metric, compact = false }: MetricCardProps) {
           ) : (
             <Minus className="h-3 w-3 text-slate-500" />
           )}
-          <span className={isLive ? (negative ? "text-red-300" : "text-emerald-300") : "text-slate-500"}>
-            {isLive ? (negative ? "-0.23%" : "+0.62%") : "Missing Data"}
+          <span className={`${isGoldApi ? "truncate" : ""} ${isLive ? (negative ? "text-red-300" : "text-emerald-300") : "text-slate-500"}`}>
+            {performanceLabel}
           </span>
         </div>
         <p className="truncate text-[9px] uppercase tracking-[0.12em] text-slate-600">{sourceLabel}</p>
