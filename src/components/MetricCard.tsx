@@ -45,7 +45,9 @@ export function MetricCard({ metric, compact = false }: MetricCardProps) {
           </div>
         </div>
         {compact ? (
-          isGoldApi && metric.status === "online" ? <StatusBadge status={metric.status} label="Live" className="scale-75" /> : null
+          isGoldApi ? (
+            <StatusBadge status={metric.status} label={metric.status === "online" ? "Live" : undefined} className="scale-75" />
+          ) : null
         ) : (
           <StatusBadge status={metric.status} label={isGoldApi && metric.status === "online" ? "Live" : undefined} className="scale-90" />
         )}
