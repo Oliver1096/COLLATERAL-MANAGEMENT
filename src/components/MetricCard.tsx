@@ -30,6 +30,8 @@ export function MetricCard({ metric, compact = false }: MetricCardProps) {
   const negative = isLive && isNegativeMetric(metric);
   const seed = metric.id.split("").reduce((acc, char) => acc + char.charCodeAt(0), 0);
   const points = sparklinePoints(seed, missing || negative);
+  const isGoldApi = metric.source === "Gold-API";
+  const sourceLabel = isGoldApi ? "Source: Gold-API" : metric.source;
 
   return (
     <article className="group relative flex min-h-[112px] flex-col overflow-hidden rounded-xl border border-white/10 bg-[#07110f]/90 p-3 transition hover:border-emerald-300/30 hover:bg-[#0a1714]">
@@ -42,7 +44,11 @@ export function MetricCard({ metric, compact = false }: MetricCardProps) {
             {metric.unit && <span className="text-[9px] font-medium text-slate-500">{metric.unit}</span>}
           </div>
         </div>
-        {compact ? null : <StatusBadge status={metric.status} className="scale-90" />}
+        {compact ? (
+          isGoldApi && metric.status === "online" ? <StatusBadge status={metric.status} label="Live" className="scale-75" /> : null
+        ) : (
+          <StatusBadge status={metric.status} label={isGoldApi && metric.status === "online" ? "Live" : undefined} className="scale-90" />
+        )}
       </div>
 
       <div className="mt-1.5 flex items-center justify-between gap-2">
@@ -56,7 +62,7 @@ export function MetricCard({ metric, compact = false }: MetricCardProps) {
             {isLive ? (negative ? "-0.23%" : "+0.62%") : "Missing Data"}
           </span>
         </div>
-        <p className="truncate text-[9px] uppercase tracking-[0.12em] text-slate-600">{metric.source}</p>
+        <p className="truncate text-[9px] uppercase tracking-[0.12em] text-slate-600">{sourceLabel}</p>
       </div>
 
       <svg className="sparkline mt-auto h-9 w-full" viewBox="0 0 96 48" preserveAspectRatio="none" aria-hidden="true">

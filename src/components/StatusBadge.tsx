@@ -23,15 +23,16 @@ const statusClasses: Record<DataStatus, string> = {
 interface StatusBadgeProps {
   status: DataStatus;
   className?: string;
+  label?: string;
 }
 
-export function StatusBadge({ status, className = "" }: StatusBadgeProps) {
+export function StatusBadge({ status, className = "", label }: StatusBadgeProps) {
   return (
     <span
       className={`inline-flex items-center gap-1 rounded-full border px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] ${statusClasses[status]} ${className}`}
     >
       <span className="h-1.5 w-1.5 rounded-full bg-current" />
-      {statusLabels[status]}
+      {label ?? statusLabels[status]}
     </span>
   );
 }

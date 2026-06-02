@@ -2,6 +2,7 @@ import { getEcbHealth, getEurUsd } from "./ecbService";
 import { getEiaHealth, getWtiCrude } from "./eiaService";
 import { getEurostatHealth } from "./eurostatService";
 import { getFredHealth, getFredSeriesLatest } from "./fredService";
+import { getGoldPrice } from "./goldApi";
 import { getImfHealth } from "./imfService";
 import { getNyFedHealth, getSofr } from "./nyFedService";
 import { getPublicDebt, getTreasuryHealth } from "./treasuryService";
@@ -25,7 +26,7 @@ const missingMetric = (
 });
 
 export const loadDashboardData = async (): Promise<DashboardData> => {
-  const [tenYear, cpi, sp500, sofr, wti, eurUsd, publicDebt, sources] = await Promise.all([
+  const [tenYear, cpi, sp500, sofr, wti, eurUsd, publicDebt, gold, sources] = await Promise.all([
     getFredSeriesLatest("DGS10", "US 10Y Yield", "%"),
     getFredSeriesLatest("CPIAUCSL", "US CPI Index"),
     getFredSeriesLatest("SP500", "S&P 500"),
@@ -33,6 +34,7 @@ export const loadDashboardData = async (): Promise<DashboardData> => {
     getWtiCrude(),
     getEurUsd(),
     getPublicDebt(),
+    getGoldPrice(),
     Promise.all([
       getFredHealth(),
       getNyFedHealth(),
@@ -50,13 +52,6 @@ export const loadDashboardData = async (): Promise<DashboardData> => {
     "NASDAQ 100",
     "Missing equity index provider",
     "NASDAQ 100 is not available through the configured sources. Add an equity market data API.",
-  );
-  const gold = missingMetric(
-    "GOLD",
-    "Gold",
-    "Missing commodities provider",
-    "No precious metals spot API is connected yet.",
-    "USD/oz",
   );
   const bitcoin = missingMetric(
     "BTC",
