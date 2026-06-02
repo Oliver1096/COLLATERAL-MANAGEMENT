@@ -4,6 +4,7 @@ import type { DashboardData } from "../types/market";
 
 const initialData: DashboardData = {
   metrics: {},
+  fredMetrics: [],
   sources: [],
   updates: [],
   loading: true,

@@ -51,6 +51,7 @@ export interface LatestUpdate {
 
 export interface DashboardData {
   metrics: Record<string, MetricData>;
+  fredMetrics: MetricData[];
   sources: SourceHealth[];
   updates: LatestUpdate[];
   loading: boolean;

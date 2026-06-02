@@ -32,19 +32,27 @@ export const cachedJson = async <T>(
   cacheKey: string,
   url: string,
   ttlMs = DEFAULT_TTL_MS,
+  shouldCache: (data: T) => boolean = () => true,
 ): Promise<T> => {
   const now = Date.now();
   const localKey = `nsc-insights:${cacheKey}`;
   const memoryHit = memoryCache.get(localKey) as CacheRecord<T> | undefined;
 
   if (memoryHit && now - memoryHit.timestamp < ttlMs) {
-    return memoryHit.data;
+    if (shouldCache(memoryHit.data)) return memoryHit.data;
+    memoryCache.delete(localKey);
   }
 
   const localHit = readLocalCache<T>(localKey);
   if (localHit && now - localHit.timestamp < ttlMs) {
-    memoryCache.set(localKey, localHit);
-    return localHit.data;
+    if (shouldCache(localHit.data)) {
+      memoryCache.set(localKey, localHit);
+      return localHit.data;
+    }
+
+    if (typeof window !== "undefined") {
+      window.localStorage.removeItem(localKey);
+    }
   }
 
   const response = await fetch(url);
@@ -53,9 +61,12 @@ export const cachedJson = async <T>(
   }
 
   const data = (await response.json()) as T;
-  const record = { timestamp: now, data };
-  memoryCache.set(localKey, record);
-  writeLocalCache(localKey, record);
+
+  if (shouldCache(data)) {
+    const record = { timestamp: now, data };
+    memoryCache.set(localKey, record);
+    writeLocalCache(localKey, record);
+  }
 
   return data;
 };

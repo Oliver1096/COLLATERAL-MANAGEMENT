@@ -2,6 +2,7 @@ import { AlertCircle } from "lucide-react";
 import { AssetClassGrid } from "./components/AssetClassGrid";
 import { FeaturedInsights } from "./components/FeaturedInsights";
 import { Hero } from "./components/Hero";
+import { FredDataPanel } from "./components/FredDataPanel";
 import { LatestUpdates } from "./components/LatestUpdates";
 import { MarketOverview } from "./components/MarketOverview";
 import { MissingDataPanel } from "./components/MissingDataPanel";
@@ -34,6 +35,7 @@ export default function App() {
 
           <Hero metrics={data.metrics} />
           <SnapshotGrid metrics={data.metrics} />
+          <FredDataPanel metrics={data.fredMetrics} />
 
           <div className="grid gap-3.5 xl:grid-cols-[0.9fr_1.1fr_1.55fr]">
             <AssetClassGrid />

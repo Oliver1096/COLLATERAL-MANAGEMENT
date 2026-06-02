@@ -51,7 +51,12 @@ export const getFredSeriesLatest = async (
       sort_order: "desc",
       limit: 8,
     });
-    const data = await cachedJson<FredSeriesResponse>(`fred:${seriesId}`, fredUrl(query));
+    const data = await cachedJson<FredSeriesResponse>(
+      `fred:${seriesId}`,
+      fredUrl(query),
+      1000 * 60 * 10,
+      (response) => !response.error_message,
+    );
 
     if (data.error_message) throw new Error(data.error_message);
 
