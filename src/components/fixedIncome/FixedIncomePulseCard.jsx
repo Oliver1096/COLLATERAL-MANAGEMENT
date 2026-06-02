@@ -1,61 +1,80 @@
-import { ArrowUpRight, Minus, TrendingDown } from "lucide-react";
+import { ArrowUpRight, Clock3, Database, Info, Minus } from "lucide-react";
 import { StatusBadge } from "../StatusBadge";
 
-const pointsFor = (seed = 1, inactive = false) =>
-  Array.from({ length: 18 }, (_, index) => {
-    const wave = Math.sin((index + seed) * 0.68) * 5.8;
-    const drift = inactive ? 0 : index * 0.9;
-    const value = 32 - drift + wave + Math.cos((index + seed) * 1.7) * 2.1;
-    return `${(index / 17) * 96},${Math.max(7, Math.min(44, value))}`;
-  }).join(" ");
-
-const statusLabel = (status) => {
-  if (status === "online") return "Live";
-  if (status === "partial") return "Partial";
-  if (status === "missing-data") return "Missing";
-  return undefined;
+const statusForBadge = (status) => {
+  if (status === "online") return "online";
+  if (status === "missing-key") return "missing-key";
+  if (status === "error") return "error";
+  return "missing-data";
 };
 
-export function FixedIncomePulseCard({ metric, change, detail }) {
-  const isLive = metric?.status === "online";
-  const isNegative = typeof change === "string" && change.trim().startsWith("-");
-  const seed = (metric?.id ?? metric?.label ?? "fi").split("").reduce((acc, char) => acc + char.charCodeAt(0), 0);
-  const inactive = !isLive;
+const pointsFor = (values = [], inactive = false) => {
+  const source = values.length > 1 ? values : [28, 30, 27, 31, 29, 32, 30, 34];
+  const min = Math.min(...source);
+  const max = Math.max(...source);
+  const range = max - min || 1;
+  return source
+    .map((value, index) => {
+      const x = (index / Math.max(source.length - 1, 1)) * 96;
+      const y = 42 - ((value - min) / range) * 28;
+      return `${x},${inactive ? 34 + Math.sin(index) * 2 : y}`;
+    })
+    .join(" ");
+};
+
+export function FixedIncomePulseCard({ rate }) {
+  const live = rate.status === "online";
+  const inactive = !live;
+  const valueLabel = live ? `${rate.displayValue}%` : "Data unavailable";
+  const stroke = live ? "#25d366" : "rgba(148,163,184,0.45)";
 
   return (
-    <article className="group relative flex min-h-[132px] flex-col overflow-hidden rounded-xl border border-white/10 bg-[#07110f]/92 p-3.5 transition hover:-translate-y-0.5 hover:border-emerald-300/30 hover:bg-[#0b1714]">
-      <div className="absolute inset-x-4 top-0 h-px bg-gradient-to-r from-transparent via-emerald-300/45 to-transparent opacity-0 transition group-hover:opacity-100" />
+    <article className={`group relative min-h-[216px] overflow-hidden rounded-2xl border p-4 transition duration-300 hover:-translate-y-1 hover:shadow-[0_24px_70px_rgba(0,0,0,0.38)] ${live ? "border-white/10 bg-[#07110f]/95 hover:border-emerald-300/35" : "border-white/10 bg-slate-950/55 hover:border-amber-300/25"}`}>
+      <div className="absolute inset-x-5 top-0 h-px bg-gradient-to-r from-transparent via-emerald-300/45 to-transparent opacity-0 transition group-hover:opacity-100" />
       <div className="flex items-start justify-between gap-3">
         <div className="min-w-0">
-          <p className="truncate text-[10px] font-semibold uppercase tracking-[0.12em] text-slate-500">{metric?.label}</p>
-          <div className="mt-2 flex items-baseline gap-1.5">
-            <p className="text-xl font-semibold tracking-[-0.03em] text-white">{metric?.value ?? "X"}</p>
-            {metric?.unit && <span className="text-[10px] text-slate-500">{metric.unit}</span>}
-          </div>
+          <p className="truncate text-[10px] font-semibold uppercase tracking-[0.18em] text-slate-500">{rate.region}</p>
+          <h3 className="mt-1 text-lg font-semibold tracking-[-0.025em] text-white">{rate.name}</h3>
         </div>
-        <StatusBadge status={metric?.status ?? "loading"} label={statusLabel(metric?.status)} className="scale-75 origin-top-right" />
+        <StatusBadge status={statusForBadge(rate.status)} label={rate.statusLabel ?? (live ? "Live" : "Fallback")} className="scale-75 origin-top-right" />
       </div>
 
-      <div className="mt-2 flex items-center justify-between gap-2 text-[10px]">
-        <span className={`flex min-w-0 items-center gap-1.5 ${isLive ? (isNegative ? "text-red-300" : "text-emerald-300") : "text-slate-500"}`}>
-          {isLive ? (isNegative ? <TrendingDown className="h-3 w-3" /> : <ArrowUpRight className="h-3 w-3" />) : <Minus className="h-3 w-3" />}
-          <span className="truncate">{isLive ? change ?? metric?.period ?? "Latest" : metric?.error ?? "Missing Data"}</span>
-        </span>
-        <span className="shrink-0 uppercase tracking-[0.12em] text-slate-600">{metric?.source}</span>
+      <div className="mt-5 flex items-end justify-between gap-3">
+        <div>
+          <p className={live ? "text-3xl font-semibold tracking-[-0.04em] text-white" : "text-xl font-semibold text-slate-400"}>{valueLabel}</p>
+          <p className="mt-1 text-[11px] text-slate-500">{rate.methodLabel}</p>
+        </div>
+        <div className="rounded-xl border border-white/10 bg-white/[0.035] px-3 py-2 text-right">
+          <p className="text-[9px] uppercase tracking-[0.16em] text-slate-600">Fecha</p>
+          <p className="mt-1 text-[11px] font-semibold text-slate-300">{rate.date}</p>
+        </div>
       </div>
 
-      <svg className="sparkline mt-auto h-9 w-full" viewBox="0 0 96 48" preserveAspectRatio="none" aria-hidden="true">
-        <path d="M0 44 L96 44" stroke="rgba(148,163,184,0.1)" strokeWidth="1" />
-        <polyline
-          points={pointsFor(seed, inactive)}
-          fill="none"
-          stroke={inactive ? "rgba(148,163,184,0.45)" : isNegative ? "#ef4444" : "#25d366"}
-          strokeWidth="1.7"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
+      <svg className="sparkline mt-4 h-10 w-full" viewBox="0 0 96 48" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 42 L96 42" stroke="rgba(148,163,184,0.1)" />
+        <polyline points={pointsFor(rate.sparkline, inactive)} fill="none" stroke={stroke} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
-      {detail && <p className="mt-2 line-clamp-1 text-[10px] text-slate-500">{detail}</p>}
+
+      <div className="mt-4 grid grid-cols-2 gap-2 text-[10px]">
+        <div className="rounded-xl border border-white/10 bg-black/20 p-2">
+          <p className="flex items-center gap-1.5 uppercase tracking-[0.14em] text-slate-600"><Database className="h-3 w-3" /> Fuente</p>
+          <p className="mt-1 truncate font-semibold text-slate-300">{rate.source}</p>
+        </div>
+        <div className="rounded-xl border border-white/10 bg-black/20 p-2">
+          <p className="flex items-center gap-1.5 uppercase tracking-[0.14em] text-slate-600"><Clock3 className="h-3 w-3" /> Frecuencia</p>
+          <p className="mt-1 truncate font-semibold text-slate-300">{rate.updateFrequency}</p>
+        </div>
+      </div>
+
+      <div className="pointer-events-none absolute inset-0 flex translate-y-4 flex-col justify-end bg-gradient-to-t from-[#03100c] via-[#03100c]/95 to-transparent p-4 opacity-0 transition duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+        <p className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-emerald-300"><Info className="h-3.5 w-3.5" /> Methodology</p>
+        <p className="mt-2 text-[11px] leading-5 text-slate-300">{rate.methodology}</p>
+        <div className="mt-3 grid grid-cols-2 gap-2 text-[10px]">
+          <div className="rounded-lg border border-white/10 bg-white/[0.04] p-2"><span className="text-slate-500">Raw:</span> <span className="text-white">{rate.rawValue ?? "n/a"}</span></div>
+          <div className="rounded-lg border border-white/10 bg-white/[0.04] p-2"><span className="text-slate-500">Normalized:</span> <span className="text-white">{rate.normalizedValue ? `${rate.normalizedValue.toFixed(4)}%` : "n/a"}</span></div>
+        </div>
+        {rate.error && <p className="mt-2 flex items-center gap-1.5 text-[10px] text-amber-200"><Minus className="h-3 w-3" /> {rate.error}</p>}
+      </div>
     </article>
   );
 }

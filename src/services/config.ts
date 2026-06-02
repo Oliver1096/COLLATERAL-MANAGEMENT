@@ -4,6 +4,7 @@ const missingKeyValues = new Set([
   "PASTE_YOUR_EIA_API_KEY_HERE",
   "your_fred_api_key_here",
   "your_eia_api_key_here",
+  "your_banxico_token_here",
 ]);
 
 export const apiConfig = {

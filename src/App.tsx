@@ -13,15 +13,25 @@ import { SourceStatusList } from "./components/SourceStatusList";
 import { TopSearch } from "./components/TopSearch";
 import { Watchlist } from "./components/Watchlist";
 import { useDashboardData } from "./hooks/useDashboardData";
+import type { SourceHealth } from "./types/market";
+
+const fixedIncomeSidebarSources: SourceHealth[] = [
+  { id: "fred", name: "FRED", status: "online", description: "U.S. Treasury and market rates." },
+  { id: "ny-fed", name: "NY Fed", status: "online", description: "SOFR and money-market rates." },
+  { id: "banxico", name: "Banxico", status: "missing-key", description: "TIIE Fondeo 1D requires VITE_BANXICO_TOKEN." },
+  { id: "bcb", name: "BCB", status: "online", description: "Brazil CDI and SELIC daily series." },
+  { id: "boj", name: "BOJ", status: "online", description: "Japan TONA official rate." },
+];
 
 export default function App() {
-  const { data, error } = useDashboardData();
   const currentPath = window.location.pathname;
   const isFixedIncomePage = currentPath === "/renta-fija";
+  const { data, error } = useDashboardData({ enabled: !isFixedIncomePage });
+  const sidebarSources = isFixedIncomePage ? fixedIncomeSidebarSources : data.sources;
 
   return (
     <div className="dashboard-bg min-h-screen text-slate-100">
-      <Sidebar sources={data.sources} />
+      <Sidebar sources={sidebarSources} />
       <TopSearch />
 
       <main className="px-3 pb-8 pt-3 sm:px-4 lg:ml-[188px]">
@@ -37,7 +47,7 @@ export default function App() {
           )}
 
           {isFixedIncomePage ? (
-            <FixedIncomePage dashboardData={data} />
+            <FixedIncomePage />
           ) : (
             <>
               <Hero metrics={data.metrics} />

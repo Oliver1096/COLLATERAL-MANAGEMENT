@@ -2,9 +2,13 @@ import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
 import { defineConfig, loadEnv, type Plugin } from "vite";
 
+const requiresApiKey = (pathname: string) =>
+  pathname.startsWith("/api/fred") || pathname.startsWith("/api/eia") || pathname.startsWith("/api/banxico");
+
 const requiredKeyFor = (pathname: string, env: Record<string, string>) => {
   if (pathname.startsWith("/api/fred")) return env.VITE_FRED_API_KEY ?? "";
   if (pathname.startsWith("/api/eia")) return env.VITE_EIA_API_KEY ?? "";
+  if (pathname.startsWith("/api/banxico")) return env.VITE_BANXICO_TOKEN ?? "";
   return "";
 };
 
@@ -15,6 +19,14 @@ const upstreamFor = (pathname: string) => {
 
   if (pathname.startsWith("/api/eia")) {
     return { baseUrl: "https://api.eia.gov", strippedPath: pathname.replace(/^\/api\/eia/, "") };
+  }
+
+  if (pathname.startsWith("/api/banxico")) {
+    return { baseUrl: "https://www.banxico.org.mx", strippedPath: pathname.replace(/^\/api\/banxico/, "") };
+  }
+
+  if (pathname.startsWith("/api/boj")) {
+    return { baseUrl: "https://www.stat-search.boj.or.jp", strippedPath: pathname.replace(/^\/api\/boj/, "") };
   }
 
   return null;
@@ -39,7 +51,7 @@ const createApiProxyMiddleware = (env: Record<string, string>) => async (
   }
 
   const apiKey = requiredKeyFor(parsedUrl.pathname, env);
-  if (!apiKey) {
+  if (requiresApiKey(parsedUrl.pathname) && !apiKey) {
     res.statusCode = 401;
     res.setHeader("content-type", "application/json");
     res.end(JSON.stringify({ error: "Missing API key for proxied request." }));
@@ -48,7 +60,11 @@ const createApiProxyMiddleware = (env: Record<string, string>) => async (
 
   const targetUrl = new URL(`${upstream.baseUrl}${upstream.strippedPath}`);
   parsedUrl.searchParams.forEach((value, key) => targetUrl.searchParams.append(key, value));
-  targetUrl.searchParams.set("api_key", apiKey);
+  if (parsedUrl.pathname.startsWith("/api/banxico")) {
+    targetUrl.searchParams.set("token", apiKey);
+  } else if (apiKey) {
+    targetUrl.searchParams.set("api_key", apiKey);
+  }
 
   try {
     const upstreamResponse = await fetch(targetUrl);

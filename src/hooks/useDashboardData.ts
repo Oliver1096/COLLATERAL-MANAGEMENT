@@ -10,12 +10,20 @@ const initialData: DashboardData = {
   loading: true,
 };
 
-export const useDashboardData = () => {
+export const useDashboardData = ({ enabled = true } = {}) => {
   const [data, setData] = useState<DashboardData>(initialData);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     let isMounted = true;
+
+    if (!enabled) {
+      setData({ ...initialData, loading: false });
+      setError(null);
+      return () => {
+        isMounted = false;
+      };
+    }
 
     const load = async () => {
       try {
@@ -37,7 +45,7 @@ export const useDashboardData = () => {
     return () => {
       isMounted = false;
     };
-  }, []);
+  }, [enabled]);
 
   return { data, error };
 };
