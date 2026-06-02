@@ -7,6 +7,8 @@ interface SidebarProps {
 }
 
 export function Sidebar({ sources }: SidebarProps) {
+  const currentPath = window.location.pathname;
+
   return (
     <aside className="fixed inset-y-0 left-0 z-40 hidden w-[188px] overflow-hidden border-r border-white/10 bg-[#020706]/96 shadow-[18px_0_70px_rgba(0,0,0,0.34)] backdrop-blur-xl lg:block">
       <div className="flex h-full flex-col px-3 py-4">
@@ -21,7 +23,7 @@ export function Sidebar({ sources }: SidebarProps) {
         <nav className="space-y-1">
           {navigationItems.map((item, index) => {
             const Icon = item.icon;
-            const active = index === 0;
+            const active = item.href === "/" ? currentPath === "/" : currentPath.startsWith(item.href);
 
             return (
               <a

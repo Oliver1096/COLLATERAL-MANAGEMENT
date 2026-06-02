@@ -3,6 +3,7 @@ import { AssetClassGrid } from "./components/AssetClassGrid";
 import { FeaturedInsights } from "./components/FeaturedInsights";
 import { Hero } from "./components/Hero";
 import { FredDataPanel } from "./components/FredDataPanel";
+import { FixedIncomePage } from "./components/fixedIncome/FixedIncomePage";
 import { LatestUpdates } from "./components/LatestUpdates";
 import { MarketOverview } from "./components/MarketOverview";
 import { MissingDataPanel } from "./components/MissingDataPanel";
@@ -15,6 +16,8 @@ import { useDashboardData } from "./hooks/useDashboardData";
 
 export default function App() {
   const { data, error } = useDashboardData();
+  const currentPath = window.location.pathname;
+  const isFixedIncomePage = currentPath === "/renta-fija";
 
   return (
     <div className="dashboard-bg min-h-screen text-slate-100">
@@ -33,23 +36,29 @@ export default function App() {
             </div>
           )}
 
-          <Hero metrics={data.metrics} />
-          <SnapshotGrid metrics={data.metrics} />
-          <FredDataPanel metrics={data.fredMetrics} />
+          {isFixedIncomePage ? (
+            <FixedIncomePage dashboardData={data} />
+          ) : (
+            <>
+              <Hero metrics={data.metrics} />
+              <SnapshotGrid metrics={data.metrics} />
+              <FredDataPanel metrics={data.fredMetrics} />
 
-          <div className="grid gap-3.5 xl:grid-cols-[0.9fr_1.1fr_1.55fr]">
-            <AssetClassGrid />
-            <Watchlist />
-            <MarketOverview />
-          </div>
+              <div className="grid gap-3.5 xl:grid-cols-[0.9fr_1.1fr_1.55fr]">
+                <AssetClassGrid />
+                <Watchlist />
+                <MarketOverview />
+              </div>
 
-          <div className="grid gap-3.5 xl:grid-cols-[1.12fr_1fr]">
-            <FeaturedInsights />
-            <LatestUpdates updates={data.updates} />
-          </div>
+              <div className="grid gap-3.5 xl:grid-cols-[1.12fr_1fr]">
+                <FeaturedInsights />
+                <LatestUpdates updates={data.updates} />
+              </div>
 
-          <SourceStatusList sources={data.sources} />
-          <MissingDataPanel />
+              <SourceStatusList sources={data.sources} />
+              <MissingDataPanel />
+            </>
+          )}
 
           <footer className="pb-7 pt-1 text-center text-[11px] text-slate-600">
             NSC Insights is an internal financial intelligence platform. Not for public distribution.
