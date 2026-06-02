@@ -37,13 +37,14 @@ export const cachedJson = async <T>(
   const now = Date.now();
   const localKey = `nsc-insights:${cacheKey}`;
   const memoryHit = memoryCache.get(localKey) as CacheRecord<T> | undefined;
+  const localHit = readLocalCache<T>(localKey);
+  const staleHit = memoryHit && shouldCache(memoryHit.data) ? memoryHit : localHit && shouldCache(localHit.data) ? localHit : null;
 
   if (memoryHit && now - memoryHit.timestamp < ttlMs) {
     if (shouldCache(memoryHit.data)) return memoryHit.data;
     memoryCache.delete(localKey);
   }
 
-  const localHit = readLocalCache<T>(localKey);
   if (localHit && now - localHit.timestamp < ttlMs) {
     if (shouldCache(localHit.data)) {
       memoryCache.set(localKey, localHit);
@@ -55,20 +56,35 @@ export const cachedJson = async <T>(
     }
   }
 
-  const response = await fetch(url);
-  if (!response.ok) {
-    throw new Error(`HTTP ${response.status} ${response.statusText}`);
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status} ${response.statusText}`);
+    }
+
+    const data = (await response.json()) as T;
+
+    if (shouldCache(data)) {
+      const record = { timestamp: now, data };
+      memoryCache.set(localKey, record);
+      writeLocalCache(localKey, record);
+      return data;
+    }
+
+    if (staleHit) {
+      memoryCache.set(localKey, staleHit);
+      return staleHit.data;
+    }
+
+    return data;
+  } catch (error) {
+    if (staleHit) {
+      memoryCache.set(localKey, staleHit);
+      return staleHit.data;
+    }
+
+    throw error;
   }
-
-  const data = (await response.json()) as T;
-
-  if (shouldCache(data)) {
-    const record = { timestamp: now, data };
-    memoryCache.set(localKey, record);
-    writeLocalCache(localKey, record);
-  }
-
-  return data;
 };
 
 export const buildQuery = (params: Record<string, string | number | undefined>) =>

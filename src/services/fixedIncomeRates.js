@@ -43,7 +43,7 @@ const loadFredTreasuries = async () => {
     { primary: { id: "DGS1MO", name: "1M Treasury", region: "United States", methodLabel: "Annualized Treasury yield" }, fallbacks: [{ id: "DTB4WK", name: "1M Treasury", region: "United States", methodLabel: "Annualized discount-bill rate" }] },
     { primary: { id: "DGS3MO", name: "3M Treasury", region: "United States", methodLabel: "Annualized Treasury yield" }, fallbacks: [{ id: "DTB3", name: "3M Treasury", region: "United States", methodLabel: "Annualized 3M T-bill secondary market rate" }, { id: "TB3MS", name: "3M Treasury", region: "United States", methodLabel: "Monthly 3M Treasury bill rate" }] },
     { primary: { id: "DGS6MO", name: "6M Treasury", region: "United States", methodLabel: "Annualized Treasury yield" }, fallbacks: [{ id: "DTB6", name: "6M Treasury", region: "United States", methodLabel: "Annualized 6M T-bill secondary market rate" }, { id: "TB6MS", name: "6M Treasury", region: "United States", methodLabel: "Monthly 6M Treasury bill rate" }] },
-    { primary: { id: "DGS1", name: "1Y Treasury", region: "United States", methodLabel: "Annualized Treasury yield" }, fallbacks: [] },
+    { primary: { id: "DGS1", name: "1Y Treasury", region: "United States", methodLabel: "Annualized Treasury yield" }, fallbacks: [{ id: "DTB1YR", name: "1Y Treasury", region: "United States", methodLabel: "Annualized 1Y T-bill secondary market rate" }, { id: "TB1YR", name: "1Y Treasury", region: "United States", methodLabel: "Monthly 1Y Treasury bill rate" }, { id: "GS1", name: "1Y Treasury", region: "United States", methodLabel: "Monthly 1Y Treasury constant maturity rate" }] },
   ];
   const rates = [];
 
