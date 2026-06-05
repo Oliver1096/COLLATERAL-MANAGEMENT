@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Landing page minimalista para una plataforma de gestion de colaterales y llamadas de margen."
+    >
+    <title>Margin Studio | Gestion de colaterales</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Navegacion principal">
+        <a class="brand" href="#inicio" aria-label="Margin Studio inicio">
+          <span class="brand-mark" aria-hidden="true"></span>
+          Margin Studio
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span class="sr-only">Abrir menu</span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#servicios">Servicios</a>
+          <a href="#proceso">Proceso</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="inicio">
+      <section class="hero section">
+        <div class="hero-content">
+          <p class="eyebrow">Gestion de riesgo simple y clara</p>
+          <h1>Una landing minimalista para decisiones financieras con calma.</h1>
+          <p class="hero-copy">
+            Centraliza llamadas de margen, colaterales y exposicion de mercado en una experiencia
+            sobria, enfocada y facil de entender.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contacto">Solicitar demo</a>
+            <a class="button button-secondary" href="#servicios">Ver servicios</a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Resumen operativo">
+          <div class="metric">
+            <span>MTM monitoreado</span>
+            <strong>24/7</strong>
+          </div>
+          <div class="divider"></div>
+          <div class="metric-grid">
+            <div>
+              <span>Exposicion</span>
+              <strong>+18%</strong>
+            </div>
+            <div>
+              <span>Colateral</span>
+              <strong>98%</strong>
+            </div>
+          </div>
+          <p>
+            Visualiza brechas, prioriza acciones y comunica requerimientos con precision.
+          </p>
+        </aside>
+      </section>
+
+      <section class="section trust">
+        <p>Disenado para equipos financieros que valoran claridad, control y velocidad.</p>
+      </section>
+
+      <section class="section services" id="servicios">
+        <div class="section-heading">
+          <p class="eyebrow">Servicios</p>
+          <h2>Menos ruido. Mas visibilidad operativa.</h2>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <span class="card-number">01</span>
+            <h3>Llamadas de margen</h3>
+            <p>
+              Detecta diferencias entre el colateral disponible y el MTM para activar solicitudes
+              oportunas.
+            </p>
+          </article>
+          <article class="card">
+            <span class="card-number">02</span>
+            <h3>Control de colateral</h3>
+            <p>
+              Organiza garantias entregadas y recibidas con una lectura consistente de la exposicion.
+            </p>
+          </article>
+          <article class="card">
+            <span class="card-number">03</span>
+            <h3>Reportes ejecutivos</h3>
+            <p>
+              Comparte indicadores claros para tomar decisiones sin perder detalle operativo.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section process" id="proceso">
+        <div class="process-panel">
+          <div>
+            <p class="eyebrow">Proceso</p>
+            <h2>De la exposicion a la accion en tres pasos.</h2>
+          </div>
+          <ol class="steps">
+            <li>
+              <span>01</span>
+              <p>Importa posiciones, garantias y valores de mercado.</p>
+            </li>
+            <li>
+              <span>02</span>
+              <p>Calcula diferencias y prioriza requerimientos de margen.</p>
+            </li>
+            <li>
+              <span>03</span>
+              <p>Comunica solicitudes y conserva trazabilidad del flujo.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section cta" id="contacto">
+        <div>
+          <p class="eyebrow">Contacto</p>
+          <h2>Construye una operacion mas ordenada.</h2>
+          <p>
+            Agenda una conversacion para adaptar esta experiencia a tu equipo, tus terminos y tus
+            flujos de riesgo.
+          </p>
+        </div>
+        <a class="button button-primary" href="mailto:hola@marginstudio.example">hola@marginstudio.example</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Margin Studio. Todos los derechos reservados.</p>
+      <a href="#inicio">Volver arriba</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
