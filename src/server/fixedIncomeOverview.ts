@@ -61,6 +61,15 @@ async function fredSeries(id: string, limit = 20) {
   };
 }
 
+const pctChangeFiveValid = (observations: any[]) => {
+  const valid = (observations ?? []).filter((obs: any) => validNumber(obs.value) !== null);
+  if (valid.length < 6) return "X";
+  const latest = validNumber(valid[0].value);
+  const previous = validNumber(valid[5].value);
+  if (latest === null || previous === null || previous === 0) return "X";
+  return `${(((latest - previous) / previous) * 100).toFixed(2)}%`;
+};
+
 async function fredCard(name: string, id: string, decimals = 2, suffix = "%") {
   try {
     const data = await fredSeries(id);
@@ -96,6 +105,77 @@ async function banxicoSeries(ids: string[]) {
     return new Map<string, any>();
   }
 }
+
+async function banxicoHistory(ids: string[], monthsBack = 18) {
+  const token = process.env.VITE_BANXICO_TOKEN;
+  if (!token) return new Map<string, any[]>();
+  const end = new Date();
+  const start = new Date();
+  start.setMonth(end.getMonth() - monthsBack);
+  const fmtDate = (date: Date) => date.toISOString().slice(0, 10);
+  try {
+    const data = await fetchJson(`${BANXICO_BASE}/${ids.join(",")}/datos/${fmtDate(start)}/${fmtDate(end)}?mediaType=json&token=${token}`);
+    const map = new Map<string, any[]>();
+    for (const serie of data.bmx?.series ?? []) {
+      map.set(serie.idSerie, serie.datos ?? []);
+    }
+    return map;
+  } catch {
+    return new Map<string, any[]>();
+  }
+}
+
+const latestFromBanxicoHistory = (history: Map<string, any[]>, id: string) => {
+  const rows = history.get(id) ?? [];
+  const valid = [...rows].reverse().filter((row) => validNumber(row.dato) !== null);
+  const latest = valid[0];
+  const previous = valid[1];
+  const value = validNumber(latest?.dato);
+  const prev = validNumber(previous?.dato);
+  return { value, prev, date: latest?.fecha ?? null };
+};
+
+const banxicoYieldRow = (history: Map<string, any[]>, id: string, instrument: string, tenor: string, labelSuffix = "") => {
+  const latest = latestFromBanxicoHistory(history, id);
+  if (latest.value === null) return rowX({ instrument, tenor });
+  return {
+    instrument,
+    tenor,
+    yield: fmt(latest.value),
+    change: latest.prev === null ? "X" : `${(latest.value - latest.prev) * 100 >= 0 ? "+" : ""}${((latest.value - latest.prev) * 100).toFixed(1)} bps`,
+    source: `Banxico${labelSuffix}`,
+    date: latest.date,
+  };
+};
+
+const banxicoCetesRow = (history: Map<string, any[]>, id: string, days: string) => {
+  const latest = latestFromBanxicoHistory(history, id);
+  if (latest.value === null) return { title: "CETES", days, rate: "X", variation: "X", source: "Pending", date: null };
+  return {
+    title: "CETES",
+    days,
+    rate: fmt(latest.value),
+    variation: latest.prev === null ? "X" : `${(latest.value - latest.prev) >= 0 ? "+" : ""}${(latest.value - latest.prev).toFixed(2)}`,
+    source: "Banxico",
+    date: latest.date,
+  };
+};
+
+const inflationCard = (history: Map<string, any[]>, id: string, name: string) => {
+  const rows = history.get(id) ?? [];
+  const valid = [...rows].reverse().filter((row) => validNumber(row.dato) !== null);
+  const latest = valid[0];
+  const yearAgo = valid.find((row) => {
+    if (!latest?.fecha || !row.fecha) return false;
+    const [d1, m1, y1] = latest.fecha.split("/").map(Number);
+    const [d2, m2, y2] = row.fecha.split("/").map(Number);
+    return m1 === m2 && y1 - y2 === 1;
+  }) ?? valid[12];
+  const latestValue = validNumber(latest?.dato);
+  const yearAgoValue = validNumber(yearAgo?.dato);
+  if (latestValue === null || yearAgoValue === null || yearAgoValue === 0) return { name, ...unavailable() };
+  return { name, value: fmt(((latestValue / yearAgoValue) - 1) * 100), source: "Banxico", date: latest.fecha };
+};
 
 const banxicoValue = (map: Map<string, any>, id: string, name: string, decimals = 2, suffix = "%") => {
   const row = map.get(id);
@@ -168,6 +248,7 @@ async function pceInflation() {
 async function buildOverview() {
   const banxicoIds = ["SF61745", "SF331451", "SF43783", "SP68257", "SF43718", "SF60633", "SF60634", "SF60635", "SF60636"];
   const banxico = await banxicoSeries(banxicoIds);
+  const banxicoHist = await banxicoHistory(["SP1", "SP74625", "SF60633", "SF60634", "SF60635", "SF60636", "SF17990", "SF18608", "SF30057"], 30);
 
   const [sofr, gdp, unrate, pce, fedFunds] = await Promise.all([
     nyFedSofr(),
@@ -180,12 +261,16 @@ async function buildOverview() {
   const [ust2, ust3, ust5, ust10, ust30] = await Promise.all([
     fredRow("UST 2Y", "2Y", "DGS2"), fredRow("UST 3Y", "3Y", "DGS3"), fredRow("UST 5Y", "5Y", "DGS5"), fredRow("UST 10Y", "10Y", "DGS10"), fredRow("UST 30Y", "30Y", "DGS30"),
   ]);
-  const [tips5, tips10] = await Promise.all([fredRow("TIPS 5Y", "5Y", "DFII5"), fredRow("TIPS 10Y", "10Y", "DFII10")]);
+  const [tips5, tips7, tips10, tips20, tips30] = await Promise.all([fredRow("TIPS 5Y", "5Y", "DFII5"), fredRow("TIPS 7Y", "7Y", "DFII7"), fredRow("TIPS 10Y", "10Y", "DFII10"), fredRow("TIPS 20Y", "20Y", "DFII20"), fredRow("TIPS 30Y", "30Y", "DFII30")]);
   const [bei5, bei10] = await Promise.all([fredRow("B/E 5Y", "5Y", "T5YIE"), fredRow("B/E 10Y", "10Y", "T10YIE")]);
-  const [hy, ig] = await Promise.all([fredCard("HY", "BAMLH0A0HYM2", 0, " bps"), fredCard("IG", "BAMLC0A0CM", 0, " bps")]);
-  const [brent, gbp, eur, chf] = await Promise.all([
-    fredCard("Brent", "DCOILBRENTEU", 2, ""), fredCard("GBP / USD", "DEXUSUK", 4, ""), fredCard("EUR / USD", "DEXUSEU", 4, ""), fredCard("CHF / USD", "DEXSZUS", 4, ""),
+  const [hyRaw, igRaw] = await Promise.all([fredSeries("BAMLH0A0HYM2"), fredSeries("BAMLC0A0CM")]);
+  const hy = hyRaw ? { name: "HY", value: fmt(hyRaw.value === null ? null : hyRaw.value * 100, " bps", 0), source: "FRED", date: hyRaw.date } : { name: "HY", ...unavailable() };
+  const ig = igRaw ? { name: "IG", value: fmt(igRaw.value === null ? null : igRaw.value * 100, " bps", 0), source: "FRED", date: igRaw.date } : { name: "IG", ...unavailable() };
+  const [brentRaw, gbp, eur, chfRaw] = await Promise.all([
+    fredSeries("DCOILBRENTEU"), fredCard("GBP / USD", "DEXUSUK", 4, ""), fredCard("EUR / USD", "DEXUSEU", 4, ""), fredSeries("DEXSZUS"),
   ]);
+  const brent = brentRaw ? { name: "Brent", value: fmtPlain(brentRaw.value), change: pctChangeFiveValid(brentRaw.observations), source: "FRED", date: brentRaw.date } : { name: "Brent", ...unavailable() };
+  const chf = chfRaw && chfRaw.value ? { name: "CHF / USD", value: fmtPlain(1 / chfRaw.value, 4), source: "FRED inverted DEXSZUS", date: chfRaw.date } : { name: "CHF / USD", ...unavailable() };
   const [wti, gold] = await Promise.all([eiaWti(), goldPrice()]);
 
   const now = new Date().toISOString();
@@ -198,17 +283,17 @@ async function buildOverview() {
     banxicoValue(banxico, "SF43783", "Bancario"),
     banxicoValue(banxico, "SP68257", "UDIS", 6, ""),
     banxicoValue(banxico, "SF43718", "Tipo de Cambio FIX", 4, ""),
-    { name: "Inflación", ...unavailable() },
-    { name: "Inflación Subyacente", ...unavailable() },
+    inflationCard(banxicoHist, "SP1", "Inflación"),
+    inflationCard(banxicoHist, "SP74625", "Inflación Subyacente"),
   ];
   banxicoCards.forEach(touchSource);
 
   const cetes = [
-    { title: "CETES", days: "28", ...(() => { const v = banxicoValue(banxico, "SF60633", "CETES 28"); return { rate: v.value, variation: "X", source: v.source, date: v.date }; })() },
-    { title: "CETES", days: "91", ...(() => { const v = banxicoValue(banxico, "SF60634", "CETES 91"); return { rate: v.value, variation: "X", source: v.source, date: v.date }; })() },
-    { title: "CETES", days: "182", ...(() => { const v = banxicoValue(banxico, "SF60635", "CETES 182"); return { rate: v.value, variation: "X", source: v.source, date: v.date }; })() },
-    { title: "CETES", days: "364", ...(() => { const v = banxicoValue(banxico, "SF60636", "CETES 364"); return { rate: v.value, variation: "X", source: v.source, date: v.date }; })() },
-    { title: "CETES", days: "692", rate: "X", variation: "X", source: "Pending", date: null },
+    banxicoCetesRow(banxicoHist, "SF60633", "28"),
+    banxicoCetesRow(banxicoHist, "SF60634", "91"),
+    banxicoCetesRow(banxicoHist, "SF60635", "182"),
+    banxicoCetesRow(banxicoHist, "SF60636", "364"),
+    { title: "CETES", days: "X", rate: "X", variation: "X", source: "Pending", date: null },
   ];
 
   const fedCards = [fedFunds, sofr, gdp, unrate, pce]; fedCards.forEach(touchSource);
@@ -221,7 +306,7 @@ async function buildOverview() {
     sources_connected: [...sources],
     mexico: {
       banxico_cards: banxicoCards,
-      mbonos: [rowX({ instrument: "M28", tenor: "2Y" }), rowX({ instrument: "M29", tenor: "3Y" }), rowX({ instrument: "M32", tenor: "5Y" }), rowX({ instrument: "M36", tenor: "10Y" })],
+      mbonos: [rowX({ instrument: "M28", tenor: "2Y" }), banxicoYieldRow(banxicoHist, "SF17990", "M29", "3Y", " closest M3"), banxicoYieldRow(banxicoHist, "SF18608", "M32", "5Y", " closest M5"), banxicoYieldRow(banxicoHist, "SF30057", "M36", "10Y", " closest M10")],
       udibonos: [rowX({ instrument: "UDI 28", tenor: "2Y" }), rowX({ instrument: "UDI 29", tenor: "3Y" }), rowX({ instrument: "UDI 31", tenor: "5Y" }), rowX({ instrument: "UDI 36", tenor: "10Y" })],
       bei: [rowX({ instrument: "M28", tenor: "2Y" }), rowX({ instrument: "M29", tenor: "5Y" }), rowX({ instrument: "M32", tenor: "10Y" })],
       cetes,
@@ -229,10 +314,10 @@ async function buildOverview() {
     usa: {
       fed_cards: fedCards,
       ust: [ust2, ust3, ust5, ust10, ust30],
-      tips: [rowX({ instrument: "TIPS 2Y", tenor: "2Y" }), rowX({ instrument: "TIPS 3Y", tenor: "3Y" }), tips5, tips10],
+      tips: [tips5, tips7, tips10, tips20, tips30],
       bei: [rowX({ instrument: "B/E 2Y", tenor: "2Y" }), rowX({ instrument: "B/E 3Y", tenor: "3Y" }), bei5, bei10],
       spreads: [{ spread: "HY", bps: hy.value, source: hy.source, date: hy.date }, { spread: "IG", bps: ig.value, source: ig.source, date: ig.date }, { spread: "SRLN", bps: "X", source: "Pending", date: null }],
-      commodities: [{ commodity: "WTI", price: wti.value, one_week_change: wti.change, source: wti.source, date: wti.date }, { commodity: "Brent", price: brent.value, one_week_change: "X", source: brent.source, date: brent.date }, { commodity: "Spot Gold", price: gold.value, one_week_change: "X", source: gold.source, date: gold.date }, { commodity: "Spot Silver", price: "X", one_week_change: "X", source: "Pending", date: null }],
+      commodities: [{ commodity: "WTI", price: wti.value, one_week_change: wti.change, source: wti.source, date: wti.date }, { commodity: "Brent", price: brent.value, one_week_change: brent.change ?? "X", source: brent.source, date: brent.date }, { commodity: "Spot Gold", price: gold.value, one_week_change: "X", source: gold.source, date: gold.date }, { commodity: "Spot Silver", price: "X", one_week_change: "X", source: "Pending", date: null }],
       fx: [{ fx: "USD / MXN", value: banxicoValue(banxico, "SF43718", "USD / MXN", 4, "").value, source: "Banxico", date: banxico.get("SF43718")?.date ?? null }, { fx: "GBP / USD", value: gbp.value, source: gbp.source, date: gbp.date }, { fx: "EUR / USD", value: eur.value, source: eur.source, date: eur.date }, { fx: "CHF / USD", value: chf.value, source: chf.source, date: chf.date }],
     },
   };
