@@ -8,6 +8,7 @@ import { LatestUpdates } from "./components/LatestUpdates";
 import { MarketOverview } from "./components/MarketOverview";
 import { MissingDataPanel } from "./components/MissingDataPanel";
 import { Sidebar } from "./components/Sidebar";
+import { ScannerPage } from "./components/ScannerPage";
 import { SnapshotGrid } from "./components/SnapshotGrid";
 import { SourceStatusList } from "./components/SourceStatusList";
 import { TopSearch } from "./components/TopSearch";
@@ -23,11 +24,20 @@ const fixedIncomeSidebarSources: SourceHealth[] = [
   { id: "boj", name: "BOJ", status: "online", description: "Japan TONA official rate." },
 ];
 
+const scannerSidebarSources: SourceHealth[] = [
+  { id: "sec", name: "SEC EDGAR", status: "online", description: "NPORT-P holdings parser." },
+];
+
 export default function App() {
   const currentPath = window.location.pathname;
   const isFixedIncomePage = currentPath === "/renta-fija";
-  const { data, error } = useDashboardData({ enabled: !isFixedIncomePage });
-  const sidebarSources = isFixedIncomePage ? fixedIncomeSidebarSources : data.sources;
+  const isScannerPage = currentPath === "/scanner";
+  const { data, error } = useDashboardData({ enabled: !isFixedIncomePage && !isScannerPage });
+  const sidebarSources = isFixedIncomePage
+    ? fixedIncomeSidebarSources
+    : isScannerPage
+      ? scannerSidebarSources
+      : data.sources;
 
   return (
     <div className="dashboard-bg min-h-screen text-slate-100">
@@ -46,7 +56,9 @@ export default function App() {
             </div>
           )}
 
-          {isFixedIncomePage ? (
+          {isScannerPage ? (
+            <ScannerPage />
+          ) : isFixedIncomePage ? (
             <FixedIncomePage />
           ) : (
             <>

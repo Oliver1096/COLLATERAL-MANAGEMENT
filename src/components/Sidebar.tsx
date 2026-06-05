@@ -15,8 +15,7 @@ export function Sidebar({ sources }: SidebarProps) {
         <div className="mb-5 flex items-center gap-2 px-1">
           <div className="text-[24px] font-black leading-none tracking-[-0.09em] text-white">NSC</div>
           <div className="leading-[0.85]">
-            <p className="text-[8px] font-black uppercase tracking-[0.19em] text-slate-200">Intelligence</p>
-            <p className="text-[8px] font-black uppercase tracking-[0.19em] text-slate-200">Hub</p>
+            <p className="text-[8px] font-black uppercase tracking-[0.19em] text-slate-200">Insights</p>
           </div>
         </div>
 

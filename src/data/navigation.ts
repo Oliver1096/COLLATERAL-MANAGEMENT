@@ -15,6 +15,7 @@ import {
   LineChart,
   ListChecks,
   Settings,
+  ScanSearch,
   Shield,
   Waves,
 } from "lucide-react";
@@ -23,6 +24,7 @@ export const navigationItems = [
   { label: "Inicio", href: "/", icon: Home },
   { label: "Mi Tablero", href: "/mi-tablero", icon: LayoutDashboard },
   { label: "Securities Universe", href: "/securities-universe", icon: Compass },
+  { label: "Scanner", href: "/scanner", icon: ScanSearch },
   { label: "Mercados", href: "/mercados", icon: Globe2 },
   { label: "Renta Variable", href: "/renta-variable", icon: LineChart },
   { label: "Renta Fija", href: "/renta-fija", icon: BarChart3 },

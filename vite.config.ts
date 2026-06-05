@@ -1,6 +1,7 @@
 import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
 import { defineConfig, loadEnv, type Plugin } from "vite";
+import { scanSecHoldings } from "./src/server/secScanner";
 
 const requiresApiKey = (pathname: string) =>
   pathname.startsWith("/api/fred") || pathname.startsWith("/api/eia") || pathname.startsWith("/api/banxico");
@@ -43,6 +44,25 @@ const createApiProxyMiddleware = (env: Record<string, string>) => async (
 ) => {
   const incomingUrl = req.url ?? "";
   const parsedUrl = new URL(incomingUrl, "http://nsc.local");
+
+  if (parsedUrl.pathname === "/api/scanner/sec-holdings") {
+    const ticker = parsedUrl.searchParams.get("ticker") ?? "";
+    try {
+      const result = await scanSecHoldings(ticker);
+      res.statusCode = 200;
+      res.setHeader("content-type", "application/json");
+      res.setHeader("cache-control", "no-store");
+      res.end(JSON.stringify(result));
+    } catch (error) {
+      const message = error instanceof Error ? error.message : "Unknown SEC scanner error.";
+      res.statusCode = message.includes("No SEC fund mapping") ? 404 : 500;
+      res.setHeader("content-type", "application/json");
+      res.setHeader("cache-control", "no-store");
+      res.end(JSON.stringify({ success: false, error: message, debug: { skipped_filings: (error as { skipped?: unknown[] })?.skipped ?? [] } }));
+    }
+    return;
+  }
+
   const upstream = upstreamFor(parsedUrl.pathname);
 
   if (!upstream) {
