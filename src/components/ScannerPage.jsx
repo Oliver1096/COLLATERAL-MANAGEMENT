@@ -23,6 +23,64 @@ function InfoRow({ label, value, href }) {
   );
 }
 
+
+function ResolvedInstrumentCard({ instrument }) {
+  if (!instrument) return null;
+  const rows = [
+    ["Original input", instrument.input],
+    ["Resolved ticker", instrument.resolved_ticker || instrument.ticker],
+    ["Instrument name", instrument.name],
+    ["FIGI", instrument.figi],
+    ["Composite FIGI", instrument.composite_figi],
+    ["Share Class FIGI", instrument.share_class_figi],
+    ["Exchange", instrument.exchange],
+    ["Security type", instrument.security_type2 || instrument.security_type],
+    ["Resolution", instrument.resolution_source],
+  ];
+  return (
+    <section className="premium-panel rounded-[1.25rem] p-4">
+      <div className="mb-4 flex items-start justify-between gap-3">
+        <div>
+          <p className="section-title">Resolved Instrument</p>
+          <h2 className="mt-1 text-xl font-semibold tracking-[-0.03em] text-white">{instrument.name || instrument.resolved_ticker}</h2>
+        </div>
+        <span className="rounded-full border border-emerald-300/25 bg-emerald-400/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.16em] text-emerald-200">OpenFIGI</span>
+      </div>
+      <div className="grid gap-2.5 sm:grid-cols-2 lg:grid-cols-3">
+        {rows.map(([label, value]) => <InfoRow key={label} label={label} value={value} />)}
+      </div>
+    </section>
+  );
+}
+
+function CandidateSelection({ candidates, onSelect }) {
+  if (!candidates?.length) return null;
+  return (
+    <section className="premium-panel rounded-[1.25rem] p-4">
+      <p className="section-title">Candidate selection</p>
+      <h2 className="mt-1 text-lg font-semibold text-white">Selecciona el instrumento correcto</h2>
+      <p className="mt-1 text-[12px] text-slate-500">OpenFIGI devolvió múltiples coincidencias posibles.</p>
+      <div className="mt-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+        {candidates.map((candidate) => (
+          <button key={`${candidate.ticker}-${candidate.figi}-${candidate.exchange}`} onClick={() => onSelect(candidate)} className="group rounded-2xl border border-white/10 bg-white/[0.035] p-4 text-left transition hover:-translate-y-0.5 hover:border-emerald-300/35 hover:bg-emerald-400/10">
+            <div className="flex items-start justify-between gap-3">
+              <div>
+                <p className="text-lg font-semibold text-white">{candidate.ticker}</p>
+                <p className="mt-1 line-clamp-2 text-[12px] text-slate-400">{candidate.name}</p>
+              </div>
+              <span className="rounded-full border border-white/10 bg-black/24 px-2 py-1 text-[9px] font-semibold text-slate-300">{candidate.exchange || "—"}</span>
+            </div>
+            <div className="mt-3 grid grid-cols-2 gap-2 text-[10px] text-slate-500">
+              <span>{candidate.security_type2 || candidate.security_type || "—"}</span>
+              <span className="truncate text-right">{candidate.figi || "—"}</span>
+            </div>
+          </button>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 function SummaryCard({ data }) {
   const fund = data.fund;
   return (
@@ -134,6 +192,7 @@ export function ScannerPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [result, setResult] = useState(null);
+  const [candidates, setCandidates] = useState([]);
 
   const submit = async (event) => {
     event.preventDefault();
@@ -142,11 +201,33 @@ export function ScannerPage() {
     setLoading(true);
     setError(null);
     setResult(null);
+    setCandidates([]);
     try {
-      const response = await fetch(`/api/scanner/sec-holdings?ticker=${encodeURIComponent(normalized)}`);
+      const response = await fetch(`/api/scanner/sec-holdings?query=${encodeURIComponent(normalized)}`);
       const data = await response.json();
+      if (data.needs_selection) {
+        setCandidates(data.candidates ?? []);
+        return;
+      }
       if (!response.ok || !data.success) throw new Error(data.error || "SEC scanner failed.");
       setResult(data);
+    } catch (caughtError) {
+      setError(caughtError instanceof Error ? caughtError.message : "Unknown scanner error.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const selectCandidate = async (candidate) => {
+    setLoading(true);
+    setError(null);
+    setResult(null);
+    try {
+      const response = await fetch(`/api/scanner/sec-holdings?ticker=${encodeURIComponent(candidate.ticker)}`);
+      const data = await response.json();
+      if (!response.ok || !data.success) throw new Error(data.error || "SEC scanner failed.");
+      setCandidates([]);
+      setResult({ ...data, resolved_instrument: { ...candidate, input: ticker, resolved_ticker: candidate.ticker, resolution_source: "OpenFIGI candidate selection" } });
     } catch (caughtError) {
       setError(caughtError instanceof Error ? caughtError.message : "Unknown scanner error.");
     } finally {
@@ -159,11 +240,11 @@ export function ScannerPage() {
       <section className="premium-panel rounded-[1.35rem] p-6 sm:p-8">
         <p className="section-title">Snapshot</p>
         <h1 className="mt-3 text-4xl font-semibold uppercase tracking-[-0.05em] text-white sm:text-5xl">Instrument Scanner</h1>
-        <p className="mt-3 max-w-2xl text-sm text-slate-400">Busca por ticker de fondo/ETF de Estados Unidos.</p>
+        <p className="mt-3 max-w-2xl text-sm text-slate-400">Busca por ticker, ISIN, CUSIP o nombre de fondo/ETF de Estados Unidos.</p>
         <form onSubmit={submit} className="mt-8 rounded-2xl border border-white/10 bg-black/20 p-4">
-          <label className="text-sm font-semibold text-white">Busca por ticker</label>
+          <label className="text-sm font-semibold text-white">Busca por ticker, ISIN, CUSIP o nombre</label>
           <div className="mt-4 flex flex-col gap-3 sm:flex-row">
-            <input value={ticker} onChange={(event) => setTicker(event.target.value.toUpperCase())} placeholder="Ej. IVV · SPY · IWM · AGG" className="h-12 flex-1 rounded-xl border border-white/10 bg-black/30 px-4 font-mono text-sm text-white outline-none placeholder:text-slate-600 focus:border-emerald-300/45" />
+            <input value={ticker} onChange={(event) => setTicker(event.target.value.toUpperCase())} placeholder="Ej. IVV · US4642872000 · 464287200 · iShares Core S&P 500 ETF" className="h-12 flex-1 rounded-xl border border-white/10 bg-black/30 px-4 font-mono text-sm text-white outline-none placeholder:text-slate-600 focus:border-emerald-300/45" />
             <button disabled={loading} className="inline-flex h-12 items-center justify-center gap-2 rounded-xl bg-white px-5 text-xs font-black uppercase tracking-[0.14em] text-black transition hover:bg-emerald-200 disabled:opacity-60">
               {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : <Search className="h-4 w-4" />} Buscar
             </button>
@@ -172,9 +253,11 @@ export function ScannerPage() {
         {error && <div className="mt-4 flex items-start gap-3 rounded-2xl border border-red-400/25 bg-red-500/10 p-4 text-sm text-red-100"><AlertTriangle className="mt-0.5 h-4 w-4" />{error}</div>}
       </section>
 
-      {loading && <section className="premium-panel rounded-[1.25rem] p-6 text-sm text-slate-300"><Loader2 className="mr-2 inline h-4 w-4 animate-spin text-emerald-300" />Consultando SEC NPORT-P filings...</section>}
+      {loading && <section className="premium-panel rounded-[1.25rem] p-6 text-sm text-slate-300"><Loader2 className="mr-2 inline h-4 w-4 animate-spin text-emerald-300" />Resolviendo instrumento y consultando SEC NPORT-P filings...</section>}
+      <CandidateSelection candidates={candidates} onSelect={selectCandidate} />
       {result && (
         <>
+          <ResolvedInstrumentCard instrument={result.resolved_instrument} />
           <SummaryCard data={result} />
           <QualityCard data={result} />
           <HoldingsTable holdings={result.holdings} />

@@ -296,7 +296,7 @@ export async function scanSecHoldings(tickerInput: string) {
   const candidates = recentFilings(submissions);
   candidates.push(...await historicalFilings(submissions));
 
-  for (const filing of candidates.slice(0, 30)) {
+  for (const filing of candidates.slice(0, 120)) {
     for (const xmlUrl of xmlUrls(cik, filing)) {
       try {
         const xml = await secText(xmlUrl);

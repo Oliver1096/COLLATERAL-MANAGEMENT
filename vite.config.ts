@@ -2,6 +2,7 @@ import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
 import { defineConfig, loadEnv, type Plugin } from "vite";
 import { scanSecHoldings } from "./src/server/secScanner";
+import { directTickerInstrument, resolveInstrumentWithOpenFigi } from "./src/server/openFigiResolver";
 
 const requiresApiKey = (pathname: string) =>
   pathname.startsWith("/api/fred") || pathname.startsWith("/api/eia") || pathname.startsWith("/api/banxico");
@@ -46,16 +47,52 @@ const createApiProxyMiddleware = (env: Record<string, string>) => async (
   const parsedUrl = new URL(incomingUrl, "http://nsc.local");
 
   if (parsedUrl.pathname === "/api/scanner/sec-holdings") {
-    const ticker = parsedUrl.searchParams.get("ticker") ?? "";
+    const query = parsedUrl.searchParams.get("query") ?? parsedUrl.searchParams.get("ticker") ?? "";
+    const directTicker = parsedUrl.searchParams.get("ticker");
     try {
-      const result = await scanSecHoldings(ticker);
+      let resolvedInstrument = directTicker ? directTickerInstrument(directTicker, "Selected ticker") : null;
+      let openFigiCandidates: unknown[] = [];
+
+      if (!resolvedInstrument) {
+        try {
+          const resolution = await resolveInstrumentWithOpenFigi(query);
+          openFigiCandidates = resolution.candidates ?? [];
+          if (resolution.needsSelection) {
+            res.statusCode = 200;
+            res.setHeader("content-type", "application/json");
+            res.setHeader("cache-control", "no-store");
+            res.end(JSON.stringify({ success: false, needs_selection: true, candidates: resolution.candidates }));
+            return;
+          }
+          resolvedInstrument = resolution.resolved ?? null;
+        } catch (openFigiError) {
+          if (/^[A-Za-z0-9.\-]{1,12}$/.test(query.trim())) {
+            resolvedInstrument = directTickerInstrument(query, "Direct ticker fallback after OpenFIGI failure");
+          } else {
+            throw openFigiError;
+          }
+        }
+      }
+
+      const result = await scanSecHoldings(resolvedInstrument?.resolved_ticker ?? query);
       res.statusCode = 200;
       res.setHeader("content-type", "application/json");
       res.setHeader("cache-control", "no-store");
-      res.end(JSON.stringify(result));
+      res.end(JSON.stringify({
+        ...result,
+        query,
+        resolved_instrument: resolvedInstrument,
+        debug: {
+          ...(result.debug ?? {}),
+          openfigi_candidates: openFigiCandidates,
+        },
+      }));
     } catch (error) {
-      const message = error instanceof Error ? error.message : "Unknown SEC scanner error.";
-      res.statusCode = message.includes("No SEC fund mapping") ? 404 : 500;
+      let message = error instanceof Error ? error.message : "Unknown SEC scanner error.";
+      if (message.includes("No SEC fund mapping")) {
+        message = "Instrument identified by OpenFIGI, but it does not appear to be a supported US SEC-reporting fund/ETF. This scanner currently supports US funds with SEC NPORT-P filings.";
+      }
+      res.statusCode = message.includes("No instrument found") ? 404 : message.includes("supported US SEC-reporting") ? 422 : 500;
       res.setHeader("content-type", "application/json");
       res.setHeader("cache-control", "no-store");
       res.end(JSON.stringify({ success: false, error: message, debug: { skipped_filings: (error as { skipped?: unknown[] })?.skipped ?? [] } }));
@@ -117,6 +154,7 @@ const nscApiProxy = (env: Record<string, string>): Plugin => ({
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
+  Object.assign(process.env, env);
 
   return {
     plugins: [react(), tailwindcss(), nscApiProxy(env)],
