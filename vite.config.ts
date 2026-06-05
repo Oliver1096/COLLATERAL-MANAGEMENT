@@ -2,6 +2,7 @@ import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
 import { defineConfig, loadEnv, type Plugin } from "vite";
 import { scanSecHoldings } from "./src/server/secScanner";
+import { buildFixedIncomeOverview } from "./src/server/fixedIncomeOverview";
 import { directTickerInstrument, resolveInstrumentWithOpenFigi } from "./src/server/openFigiResolver";
 
 const requiresApiKey = (pathname: string) =>
@@ -45,6 +46,22 @@ const createApiProxyMiddleware = (env: Record<string, string>) => async (
 ) => {
   const incomingUrl = req.url ?? "";
   const parsedUrl = new URL(incomingUrl, "http://nsc.local");
+
+  if (parsedUrl.pathname === "/api/fixed-income/overview") {
+    try {
+      const result = await buildFixedIncomeOverview();
+      res.statusCode = 200;
+      res.setHeader("content-type", "application/json");
+      res.setHeader("cache-control", "no-store");
+      res.end(JSON.stringify(result));
+    } catch (error) {
+      res.statusCode = 500;
+      res.setHeader("content-type", "application/json");
+      res.setHeader("cache-control", "no-store");
+      res.end(JSON.stringify({ success: false, error: error instanceof Error ? error.message : "Unknown fixed-income overview error." }));
+    }
+    return;
+  }
 
   if (parsedUrl.pathname === "/api/scanner/sec-holdings") {
     const query = parsedUrl.searchParams.get("query") ?? parsedUrl.searchParams.get("ticker") ?? "";
