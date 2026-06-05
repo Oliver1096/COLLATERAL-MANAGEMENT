@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { AlertTriangle, Copy, Database, ExternalLink, Loader2, Search } from "lucide-react";
+import { AlertTriangle, Database, Download, ExternalLink, Loader2, Search } from "lucide-react";
 
 const money = (value) =>
   typeof value === "number"
@@ -133,7 +133,7 @@ function QualityCard({ data }) {
   );
 }
 
-function HoldingsTable({ holdings }) {
+function HoldingsTable({ holdings, ticker = "holdings" }) {
   const [filter, setFilter] = useState("");
   const filtered = useMemo(() => {
     const q = filter.trim().toLowerCase();
@@ -141,12 +141,20 @@ function HoldingsTable({ holdings }) {
     return holdings.filter((h) => [h.name, h.isin, h.cusip, h.asset_category, h.issuer_category, h.country].some((v) => String(v ?? "").toLowerCase().includes(q)));
   }, [holdings, filter]);
 
-  const csv = () => {
+  const downloadCsv = () => {
     const cols = ["name","isin","cusip","market_value_usd","weight_pct","asset_category","issuer_category","country","currency","balance","units"];
     const body = [cols.join(","), ...holdings.map((h) => cols.map((c) => `"${String(h[c] ?? "").replaceAll('"','""')}"`).join(","))].join("\n");
-    navigator.clipboard?.writeText(body);
+    const blob = new Blob([body], { type: "text/csv;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    const safeTicker = String(ticker || "holdings").replace(/[^a-z0-9_-]/gi, "_").toLowerCase();
+    link.href = url;
+    link.download = `nsc-insights-${safeTicker}-holdings.csv`;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
   };
-
   return (
     <section className="premium-panel overflow-hidden rounded-[1.25rem]">
       <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 p-4">
@@ -156,7 +164,7 @@ function HoldingsTable({ holdings }) {
         </div>
         <div className="flex items-center gap-2">
           <input value={filter} onChange={(event) => setFilter(event.target.value)} placeholder="Filtrar holdings..." className="h-9 rounded-xl border border-white/10 bg-black/28 px-3 text-[12px] text-white outline-none placeholder:text-slate-600 focus:border-emerald-300/40" />
-          <button onClick={csv} className="inline-flex h-9 items-center gap-2 rounded-xl border border-white/10 bg-white/[0.04] px-3 text-[11px] font-semibold text-slate-300 hover:border-emerald-300/30 hover:text-emerald-200"><Copy className="h-3.5 w-3.5" /> Copy CSV</button>
+          <button onClick={downloadCsv} className="inline-flex h-9 items-center gap-2 rounded-xl border border-white/10 bg-white/[0.04] px-3 text-[11px] font-semibold text-slate-300 hover:border-emerald-300/30 hover:text-emerald-200"><Download className="h-3.5 w-3.5" /> Download CSV</button>
         </div>
       </div>
       <div className="max-h-[620px] overflow-auto">
@@ -260,7 +268,7 @@ export function ScannerPage() {
           <ResolvedInstrumentCard instrument={result.resolved_instrument} />
           <SummaryCard data={result} />
           <QualityCard data={result} />
-          <HoldingsTable holdings={result.holdings} />
+          <HoldingsTable holdings={result.holdings} ticker={result.ticker} />
         </>
       )}
     </div>
