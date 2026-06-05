@@ -109,7 +109,11 @@ const createApiProxyMiddleware = (env: Record<string, string>) => async (
       if (message.includes("No SEC fund mapping")) {
         message = "Instrument identified by OpenFIGI, but it does not appear to be a supported US SEC-reporting fund/ETF. This scanner currently supports US funds with SEC NPORT-P filings.";
       }
-      res.statusCode = message.includes("No instrument found") ? 404 : message.includes("supported US SEC-reporting") ? 422 : 500;
+      res.statusCode = message.includes("No instrument found")
+        ? 404
+        : message.includes("supported US SEC-reporting") || message.includes("no NPORT-P filings")
+          ? 422
+          : 500;
       res.setHeader("content-type", "application/json");
       res.setHeader("cache-control", "no-store");
       res.end(JSON.stringify({ success: false, error: message, debug: { skipped_filings: (error as { skipped?: unknown[] })?.skipped ?? [] } }));

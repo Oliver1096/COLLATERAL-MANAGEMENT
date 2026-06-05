@@ -313,6 +313,12 @@ export async function scanSecHoldings(tickerInput: string) {
   const candidates = recentFilings(submissions);
   candidates.push(...await historicalFilings(submissions));
 
+  if (!candidates.length) {
+    throw new Error(
+      `Instrument ${ticker} was identified with SEC CIK ${cik}, but no NPORT-P filings were found. This scanner currently supports US funds with SEC NPORT-P filings; commodity grantor trusts such as iShares Gold Trust may file 10-K/10-Q instead.`,
+    );
+  }
+
   for (const filing of candidates.slice(0, 120)) {
     for (const xmlUrl of xmlUrls(cik, filing)) {
       try {
