@@ -261,7 +261,7 @@ async function buildOverview() {
   const [ust2, ust3, ust5, ust10, ust30] = await Promise.all([
     fredRow("UST 2Y", "2Y", "DGS2"), fredRow("UST 3Y", "3Y", "DGS3"), fredRow("UST 5Y", "5Y", "DGS5"), fredRow("UST 10Y", "10Y", "DGS10"), fredRow("UST 30Y", "30Y", "DGS30"),
   ]);
-  const [tips5, tips7, tips10, tips20, tips30] = await Promise.all([fredRow("TIPS 5Y", "5Y", "DFII5"), fredRow("TIPS 7Y", "7Y", "DFII7"), fredRow("TIPS 10Y", "10Y", "DFII10"), fredRow("TIPS 20Y", "20Y", "DFII20"), fredRow("TIPS 30Y", "30Y", "DFII30")]);
+  const [tips5, tips10] = await Promise.all([fredRow("TIPS 5Y", "5Y", "DFII5"), fredRow("TIPS 10Y", "10Y", "DFII10")]);
   const [bei5, bei10] = await Promise.all([fredRow("B/E 5Y", "5Y", "T5YIE"), fredRow("B/E 10Y", "10Y", "T10YIE")]);
   const [hyRaw, igRaw] = await Promise.all([fredSeries("BAMLH0A0HYM2"), fredSeries("BAMLC0A0CM")]);
   const hy = hyRaw ? { name: "HY", value: fmt(hyRaw.value === null ? null : hyRaw.value * 100, " bps", 0), source: "FRED", date: hyRaw.date } : { name: "HY", ...unavailable() };
@@ -314,7 +314,7 @@ async function buildOverview() {
     usa: {
       fed_cards: fedCards,
       ust: [ust2, ust3, ust5, ust10, ust30],
-      tips: [tips5, tips7, tips10, tips20, tips30],
+      tips: [rowX({ instrument: "TIPS 2Y", tenor: "2Y" }), rowX({ instrument: "TIPS 3Y", tenor: "3Y" }), tips5, tips10],
       bei: [rowX({ instrument: "B/E 2Y", tenor: "2Y" }), rowX({ instrument: "B/E 3Y", tenor: "3Y" }), bei5, bei10],
       spreads: [{ spread: "HY", bps: hy.value, source: hy.source, date: hy.date }, { spread: "IG", bps: ig.value, source: ig.source, date: ig.date }, { spread: "SRLN", bps: "X", source: "Pending", date: null }],
       commodities: [{ commodity: "WTI", price: wti.value, one_week_change: wti.change, source: wti.source, date: wti.date }, { commodity: "Brent", price: brent.value, one_week_change: brent.change ?? "X", source: brent.source, date: brent.date }, { commodity: "Spot Gold", price: gold.value, one_week_change: "X", source: gold.source, date: gold.date }, { commodity: "Spot Silver", price: "X", one_week_change: "X", source: "Pending", date: null }],
