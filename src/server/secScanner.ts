@@ -42,10 +42,27 @@ interface XmlMetadata {
 }
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
-const clean = (value: unknown) => {
+const clean = (value: unknown): string | null => {
   if (value === null || value === undefined) return null;
+  if (Array.isArray(value)) {
+    for (const item of value) {
+      const cleaned = clean(item);
+      if (cleaned) return cleaned;
+    }
+    return null;
+  }
+  if (typeof value === "object") {
+    const record = value as Record<string, unknown>;
+    const direct = clean(record["#text"] ?? record["@_value"] ?? record.value ?? record._text);
+    if (direct) return direct;
+    const primitiveChild = Object.entries(record)
+      .filter(([key]) => !key.startsWith("@_"))
+      .map(([, child]) => clean(child))
+      .find(Boolean);
+    return primitiveChild ?? null;
+  }
   const text = String(value).trim();
-  return text ? text : null;
+  return text && text !== "[object Object]" ? text : null;
 };
 const normalizeTicker = (ticker: string) => ticker.trim().toUpperCase();
 const normalizeCik = (cik: string | number) => String(cik).replace(/\D/g, "").padStart(10, "0");
