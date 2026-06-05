@@ -29,6 +29,8 @@ function ResolvedInstrumentCard({ instrument }) {
   const rows = [
     ["Original input", instrument.input],
     ["Resolved ticker", instrument.resolved_ticker || instrument.ticker],
+    ["ISIN", instrument.isin || "X"],
+    ["CUSIP", instrument.cusip || "X"],
     ["Instrument name", instrument.name],
     ["FIGI", instrument.figi],
     ["Composite FIGI", instrument.composite_figi],
