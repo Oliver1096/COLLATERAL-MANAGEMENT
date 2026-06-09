@@ -1,0 +1,285 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  background: #020504;
+  color: #f8fafc;
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #020504;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background:
+    radial-gradient(circle at 72% 2%, rgba(37, 211, 102, 0.12), transparent 26rem),
+    radial-gradient(circle at 14% 22%, rgba(37, 211, 102, 0.08), transparent 23rem),
+    linear-gradient(135deg, #020504 0%, #03100c 46%, #020504 100%);
+}
+
+button,
+input {
+  font: inherit;
+}
+
+@theme {
+  --color-nsc-green: #25d366;
+  --color-nsc-green-soft: #10271b;
+  --color-nsc-panel: #07100e;
+  --color-nsc-panel-light: #0b1714;
+  --color-nsc-border: rgba(148, 163, 184, 0.14);
+  --shadow-panel: 0 22px 70px rgba(0, 0, 0, 0.34);
+}
+
+.dashboard-bg {
+  position: relative;
+  isolation: isolate;
+}
+
+.dashboard-bg::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background-image:
+    linear-gradient(rgba(37, 211, 102, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37, 211, 102, 0.028) 1px, transparent 1px),
+    radial-gradient(circle at 52% 0%, rgba(37, 211, 102, 0.13), transparent 34rem);
+  background-size: 48px 48px, 48px 48px, auto;
+  opacity: 0.48;
+  pointer-events: none;
+}
+
+.dashboard-bg::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(90deg, rgba(2, 5, 4, 0.94), transparent 18%, transparent 82%, rgba(2, 5, 4, 0.9)),
+    radial-gradient(circle at 50% 24%, transparent 0, rgba(0, 0, 0, 0.32) 52%, rgba(0, 0, 0, 0.72) 100%);
+  pointer-events: none;
+}
+
+.premium-panel {
+  background:
+    linear-gradient(145deg, rgba(9, 20, 17, 0.96), rgba(4, 10, 8, 0.94)),
+    radial-gradient(circle at 100% 0%, rgba(37, 211, 102, 0.1), transparent 38%);
+  border: 1px solid rgba(148, 163, 184, 0.13);
+  box-shadow: 0 22px 70px rgba(0, 0, 0, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.035);
+  backdrop-filter: blur(18px);
+}
+
+.premium-card {
+  background:
+    linear-gradient(180deg, rgba(12, 25, 22, 0.9), rgba(5, 12, 10, 0.92)),
+    radial-gradient(circle at 50% 0%, rgba(37, 211, 102, 0.08), transparent 48%);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.035);
+}
+
+.section-title {
+  color: #d9e4df;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}
+
+.green-glow {
+  box-shadow: 0 0 0 1px rgba(37, 211, 102, 0.24), 0 0 30px rgba(37, 211, 102, 0.14);
+}
+
+.map-grid {
+  background-image:
+    linear-gradient(rgba(37, 211, 102, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37, 211, 102, 0.07) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.hero-planet {
+  position: absolute;
+  width: min(730px, 66vw);
+  height: min(444px, 42vw);
+  right: -1.5%;
+  top: -44px;
+  pointer-events: none;
+  filter: drop-shadow(0 0 46px rgba(37, 211, 102, 0.22));
+}
+
+.hero-planet-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  opacity: 0.98;
+}
+
+.hero-planet::after {
+  content: "";
+  position: absolute;
+  inset: 10% 4% 8% 11%;
+  border-radius: 9999px;
+  background: radial-gradient(circle at 48% 48%, transparent 0 56%, rgba(37, 211, 102, 0.14) 64%, transparent 74%);
+  mix-blend-mode: screen;
+}
+
+.hero-globe {
+  position: absolute;
+  width: min(680px, 64vw);
+  aspect-ratio: 1;
+  right: 1.5%;
+  top: -116px;
+  border-radius: 9999px;
+  overflow: hidden;
+  border: 1px solid rgba(165, 243, 198, 0.16);
+  background:
+    radial-gradient(circle at 31% 28%, rgba(255,255,255,0.28), transparent 2.2%),
+    radial-gradient(circle at 45% 37%, rgba(255,230,160,0.18), transparent 1.1%),
+    radial-gradient(circle at 64% 34%, rgba(255,230,160,0.18), transparent 1.1%),
+    radial-gradient(circle at 49% 47%, rgba(27, 89, 61, 0.98), rgba(7, 25, 21, 0.98) 43%, rgba(1, 7, 7, 1) 67%, rgba(0, 0, 0, 1) 79%);
+  box-shadow:
+    inset 42px -66px 130px rgba(0, 0, 0, 0.96),
+    inset -22px 30px 86px rgba(167, 243, 208, 0.18),
+    0 0 0 1px rgba(37, 211, 102, 0.08),
+    0 0 84px rgba(37, 211, 102, 0.2);
+}
+
+.hero-globe::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background-image:
+    linear-gradient(rgba(110, 255, 187, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(110, 255, 187, 0.07) 1px, transparent 1px),
+    radial-gradient(ellipse at 52% 71%, rgba(37, 211, 102, 0.26), transparent 16%),
+    radial-gradient(ellipse at 70% 47%, rgba(239, 68, 68, 0.3), transparent 18%),
+    radial-gradient(ellipse at 35% 38%, rgba(37, 211, 102, 0.28), transparent 19%);
+  background-size: 36px 36px, 36px 36px, auto, auto, auto;
+  mask-image: radial-gradient(circle at 50% 50%, black 0 69%, transparent 72%);
+  opacity: 0.9;
+  mix-blend-mode: screen;
+}
+
+.hero-globe::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background:
+    radial-gradient(circle at 34% 26%, transparent 0 9%, rgba(255, 255, 255, 0.08) 9.4%, transparent 10.2%),
+    radial-gradient(circle at 50% 50%, transparent 0 66%, rgba(148, 163, 184, 0.18) 68%, rgba(0,0,0,0.78) 75%, rgba(0,0,0,0.98) 100%),
+    linear-gradient(115deg, rgba(255,255,255,0.16), transparent 31%, rgba(0,0,0,0.54) 70%);
+  pointer-events: none;
+}
+
+.earth-continent {
+  position: absolute;
+  z-index: 1;
+  opacity: 0.96;
+  filter: blur(0.15px) drop-shadow(0 0 13px rgba(37, 211, 102, 0.23));
+  mix-blend-mode: screen;
+}
+
+.continent-na { left: 18%; top: 28%; width: 24%; height: 18%; background: linear-gradient(135deg, rgba(54, 211, 104, 0.72), rgba(17, 92, 54, 0.56)); clip-path: polygon(0 34%, 20% 8%, 49% 0, 79% 18%, 100% 45%, 80% 72%, 47% 66%, 26% 100%, 4% 78%); }
+.continent-sa { left: 33%; top: 51%; width: 12%; height: 25%; background: linear-gradient(145deg, rgba(45, 195, 91, 0.66), rgba(153, 42, 36, 0.44)); clip-path: polygon(24% 0, 88% 20%, 66% 52%, 80% 74%, 35% 100%, 0 55%); }
+.continent-eu { left: 48%; top: 30%; width: 14%; height: 10%; background: linear-gradient(135deg, rgba(71, 231, 121, 0.66), rgba(20, 92, 55, 0.5)); clip-path: polygon(0 45%, 20% 10%, 52% 0, 100% 32%, 84% 86%, 38% 100%); }
+.continent-af { left: 50%; top: 41%; width: 14%; height: 24%; background: linear-gradient(145deg, rgba(43, 165, 86, 0.58), rgba(143, 43, 36, 0.35)); clip-path: polygon(36% 0, 76% 16%, 100% 48%, 64% 100%, 18% 78%, 0 32%); }
+.continent-asia { left: 60%; top: 33%; width: 30%; height: 24%; background: linear-gradient(135deg, rgba(190, 54, 44, 0.64), rgba(42, 168, 86, 0.24)); clip-path: polygon(0 26%, 17% 3%, 48% 6%, 73% 0, 100% 28%, 88% 63%, 55% 54%, 36% 100%, 14% 70%); }
+.continent-au { left: 75%; top: 61%; width: 12%; height: 9%; background: rgba(190, 54, 44, 0.55); clip-path: polygon(12% 42%, 42% 8%, 100% 28%, 83% 82%, 28% 100%, 0 70%); }
+
+.earth-lights {
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  top: 50%;
+  width: 3px;
+  height: 3px;
+  border-radius: 999px;
+  background: rgba(255, 245, 188, 0.95);
+  box-shadow:
+    -170px -96px 6px 1px rgba(255,245,188,0.82), -132px -74px 5px rgba(255,245,188,0.9),
+    -103px -56px 7px rgba(255,245,188,0.58), -36px -96px 6px rgba(255,245,188,0.72),
+    -6px -79px 9px 1px rgba(255,245,188,0.82), 34px -66px 7px rgba(255,245,188,0.68),
+    78px -53px 8px rgba(255,245,188,0.64), 111px -24px 9px rgba(255,245,188,0.5),
+    146px -6px 7px rgba(255,245,188,0.58), 114px 36px 8px rgba(255,245,188,0.46),
+    60px 72px 6px rgba(255,245,188,0.44), -22px 38px 8px rgba(255,245,188,0.52),
+    -95px 18px 7px rgba(255,245,188,0.44);
+}
+
+.market-pin { box-shadow: 0 0 20px rgba(37, 211, 102, 0.22), inset 0 1px 0 rgba(255,255,255,0.05); }
+.sparkline path, .sparkline polyline { filter: drop-shadow(0 0 5px rgba(37, 211, 102, 0.35)); }
+
+
+/* Minimal NSC theme override */
+:root {
+  background: #080a09;
+  color: #f4f5f4;
+}
+
+body {
+  background: #080a09;
+}
+
+.dashboard-bg::before,
+.dashboard-bg::after {
+  display: none;
+}
+
+.premium-panel,
+.glass-panel {
+  background: #0d1110;
+  border: 1px solid rgba(228, 232, 229, 0.1);
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+.premium-card {
+  background: #101514;
+  border: 1px solid rgba(228, 232, 229, 0.1);
+  box-shadow: none;
+}
+
+.section-title {
+  color: #9aa39e;
+  letter-spacing: 0.18em;
+}
+
+.green-glow,
+.market-pin {
+  box-shadow: none;
+}
+
+.hero-globe,
+.hero-planet,
+.earth-sphere,
+.map-grid {
+  opacity: 0.08;
+  filter: grayscale(1);
+}
+
+.sparkline path,
+.sparkline polyline {
+  filter: none;
+}
+
+.minimal-control-button {
+  border: 1px solid rgba(228, 232, 229, 0.12);
+  background: #111615;
+  color: #c8cfca;
+}
+
+.minimal-control-button:hover {
+  border-color: rgba(93, 136, 113, 0.65);
+  color: #ffffff;
+}
