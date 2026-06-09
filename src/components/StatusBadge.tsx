@@ -11,12 +11,12 @@ const statusLabels: Record<DataStatus, string> = {
 };
 
 const statusClasses: Record<DataStatus, string> = {
-  online: "border-emerald-400/30 bg-emerald-400/10 text-emerald-200",
+  online: "border-[#5d8871]/40 bg-[#17211c] text-[#b8c7be]",
   error: "border-red-400/30 bg-red-500/10 text-red-200",
   "missing-key": "border-amber-300/30 bg-amber-400/10 text-amber-100",
   "missing-data": "border-slate-400/25 bg-slate-500/10 text-slate-200",
   mock: "border-cyan-300/30 bg-cyan-400/10 text-cyan-100",
-  partial: "border-lime-300/30 bg-lime-400/10 text-lime-100",
+  partial: "border-[#8a7d55]/40 bg-[#1e1a11] text-[#d1c493]",
   loading: "border-slate-400/20 bg-slate-500/10 text-slate-300",
 };
 

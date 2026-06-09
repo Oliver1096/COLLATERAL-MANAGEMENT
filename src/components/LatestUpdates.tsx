@@ -25,7 +25,7 @@ export function LatestUpdates({ updates }: LatestUpdatesProps) {
                 </span>
                 <div className="min-w-0">
                   <div className="flex items-center gap-2">
-                    <span className="rounded-full border border-emerald-300/20 bg-emerald-400/10 px-2 py-0.5 text-[8px] font-semibold uppercase tracking-[0.08em] text-emerald-300">{tags[index % tags.length]}</span>
+                    <span className="rounded-full border border-[#5d8871]/35 bg-[#17211c] px-2 py-0.5 text-[8px] font-semibold uppercase tracking-[0.08em] text-[#b8c7be]">{tags[index % tags.length]}</span>
                     <p className="truncate text-slate-300">{update.title}</p>
                   </div>
                   <p className="mt-1 truncate text-[10px] text-slate-500">{update.source} · {update.value}</p>

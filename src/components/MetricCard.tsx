@@ -37,7 +37,7 @@ export function MetricCard({ metric, compact = false }: MetricCardProps) {
 
   return (
     <article className="group relative flex min-h-[112px] flex-col overflow-hidden rounded-xl border border-white/10 bg-[#07110f]/90 p-3 transition hover:border-emerald-300/30 hover:bg-[#0a1714]">
-      <div className="absolute inset-x-3 top-0 h-px bg-gradient-to-r from-transparent via-emerald-300/45 to-transparent opacity-0 transition group-hover:opacity-100" />
+      <div className="absolute inset-x-3 top-0 h-px bg-white/10 opacity-0 transition group-hover:opacity-100" />
       <div className="flex items-start justify-between gap-2">
         <div className="min-w-0">
           <p className="truncate text-[10px] font-semibold uppercase tracking-[0.04em] text-slate-400">{metric.label}</p>

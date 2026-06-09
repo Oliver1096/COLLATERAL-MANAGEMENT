@@ -126,7 +126,7 @@ export function FixedIncomePage() {
             <h1 className="text-4xl font-semibold tracking-[-0.05em] text-white sm:text-5xl">Renta Fija</h1>
             <p className="mt-3 max-w-3xl text-sm leading-6 text-slate-400">Indicadores actualizados de renta fija, tasas, curvas, spreads, commodities y FX.</p>
           </div>
-          <button onClick={refresh} disabled={loading} className="inline-flex h-11 items-center justify-center gap-2 rounded-xl border border-emerald-300/25 bg-emerald-400/10 px-4 text-[11px] font-semibold uppercase tracking-[0.16em] text-emerald-200 transition hover:bg-emerald-400/15 disabled:opacity-60">
+          <button onClick={refresh} disabled={loading} className="inline-flex h-11 items-center justify-center gap-2 rounded-xl border border-[#5d8871]/35 bg-[#17211c] px-4 text-[11px] font-semibold uppercase tracking-[0.16em] text-[#b8c7be] transition hover:bg-emerald-400/15 disabled:opacity-60">
             <RefreshCw className={`h-4 w-4 ${loading ? "animate-spin" : ""}`} /> Refresh
           </button>
         </div>

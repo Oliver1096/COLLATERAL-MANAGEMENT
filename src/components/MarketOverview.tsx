@@ -29,12 +29,12 @@ export function MarketOverview() {
 
       <div className="absolute inset-x-4 bottom-4 top-[74px] overflow-hidden rounded-2xl border border-white/10 bg-black/32">
         <div className="map-grid absolute inset-0 opacity-55" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_28%_42%,rgba(37,211,102,0.2),transparent_20%),radial-gradient(circle_at_67%_42%,rgba(239,68,68,0.22),transparent_28%)]" />
+        <div className="absolute inset-0 bg-black/10" />
         <div className="absolute left-[8%] top-[24%] h-14 w-32 rounded-[45%] bg-emerald-400/28 blur-sm" />
         <div className="absolute left-[41%] top-[20%] h-12 w-24 rounded-[45%] bg-emerald-400/22 blur-sm" />
         <div className="absolute right-[7%] top-[25%] h-18 w-44 rounded-[45%] bg-red-500/30 blur-sm" />
         <div className="absolute left-[23%] bottom-[13%] h-18 w-24 rounded-[45%] bg-red-500/25 blur-sm" />
-        <div className="absolute inset-x-8 top-1/2 h-px bg-gradient-to-r from-transparent via-emerald-300/20 to-transparent" />
+        <div className="absolute inset-x-8 top-1/2 h-px bg-white/10" />
         {regions.map((region) => (
           <div
             key={region.label}
@@ -46,7 +46,7 @@ export function MarketOverview() {
           </div>
         ))}
         <div className="absolute bottom-3 right-5 flex items-center gap-2 text-[9px] text-slate-400">
-          <span>-2.0%</span><span className="h-1.5 w-16 rounded-full bg-gradient-to-r from-red-500 via-amber-400 to-emerald-400" /><span>+2.0%</span>
+          <span>-2.0%</span><span className="h-1.5 w-16 rounded-full bg-slate-700" /><span>+2.0%</span>
         </div>
       </div>
     </section>

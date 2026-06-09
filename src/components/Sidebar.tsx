@@ -30,7 +30,7 @@ export function Sidebar({ sources }: SidebarProps) {
                 href={item.href}
                 className={`group flex items-center gap-2.5 rounded-lg px-2.5 py-2 text-[11px] font-medium transition ${
                   active
-                    ? "border border-emerald-400/20 bg-emerald-400/10 text-white shadow-[0_0_22px_rgba(37,211,102,0.08)]"
+                    ? "border border-[#5d8871]/40 bg-[#17211c] text-white"
                     : "text-slate-400 hover:bg-white/[0.045] hover:text-slate-100"
                 }`}
               >
@@ -52,7 +52,7 @@ export function Sidebar({ sources }: SidebarProps) {
               : sources.map((source) => (
                   <div key={source.id} className="flex items-center justify-between gap-2 px-1 text-[9.5px]">
                     <span className="flex min-w-0 items-center gap-2 text-slate-300">
-                      <span className={`h-1.5 w-1.5 shrink-0 rounded-full ${source.status === "online" ? "bg-emerald-400 shadow-[0_0_10px_rgba(37,211,102,0.85)]" : source.status === "missing-key" ? "bg-amber-300" : "bg-red-400"}`} />
+                      <span className={`h-1.5 w-1.5 shrink-0 rounded-full ${source.status === "online" ? "bg-[#5d8871]" : source.status === "missing-key" ? "bg-amber-300" : "bg-red-400"}`} />
                       <span className="truncate">{source.name}</span>
                     </span>
                     <span className={source.status === "online" ? "text-emerald-300" : "text-amber-200"}>

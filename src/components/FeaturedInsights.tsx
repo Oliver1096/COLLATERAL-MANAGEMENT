@@ -20,7 +20,7 @@ export function FeaturedInsights() {
           return (
             <article key={insight.title} className="group min-h-[118px] rounded-xl border border-white/10 bg-white/[0.035] p-3 transition hover:border-emerald-300/30 hover:bg-white/[0.055]">
               <div className="mb-2 flex items-center justify-between">
-                <span className="rounded-full border border-emerald-300/20 bg-emerald-400/10 px-2 py-0.5 text-[9px] font-semibold text-emerald-300">{insight.tag}</span>
+                <span className="rounded-full border border-[#5d8871]/35 bg-[#17211c] px-2 py-0.5 text-[9px] font-semibold text-[#b8c7be]">{insight.tag}</span>
                 <Icon className="h-4 w-4 text-slate-500 group-hover:text-emerald-300" />
               </div>
               <h3 className="text-[12px] font-semibold text-white">{insight.title}</h3>

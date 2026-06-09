@@ -46,7 +46,7 @@ function ResolvedInstrumentCard({ instrument }) {
           <p className="section-title">Resolved Instrument</p>
           <h2 className="mt-1 text-xl font-semibold tracking-[-0.03em] text-white">{instrument.name || instrument.resolved_ticker}</h2>
         </div>
-        <span className="rounded-full border border-emerald-300/25 bg-emerald-400/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.16em] text-emerald-200">OpenFIGI</span>
+        <span className="rounded-full border border-[#5d8871]/35 bg-[#17211c] px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.16em] text-[#b8c7be]">OpenFIGI</span>
       </div>
       <div className="grid gap-2.5 sm:grid-cols-2 lg:grid-cols-3">
         {rows.map(([label, value]) => <InfoRow key={label} label={label} value={value} />)}
@@ -64,7 +64,7 @@ function CandidateSelection({ candidates, onSelect }) {
       <p className="mt-1 text-[12px] text-slate-500">OpenFIGI devolvió múltiples coincidencias posibles.</p>
       <div className="mt-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
         {candidates.map((candidate) => (
-          <button key={`${candidate.ticker}-${candidate.figi}-${candidate.exchange}`} onClick={() => onSelect(candidate)} className="group rounded-2xl border border-white/10 bg-white/[0.035] p-4 text-left transition hover:-translate-y-0.5 hover:border-emerald-300/35 hover:bg-emerald-400/10">
+          <button key={`${candidate.ticker}-${candidate.figi}-${candidate.exchange}`} onClick={() => onSelect(candidate)} className="group rounded-2xl border border-white/10 bg-white/[0.035] p-4 text-left transition hover:-translate-y-0.5 hover:border-[#5d8871]/50 hover:bg-white/[0.055]">
             <div className="flex items-start justify-between gap-3">
               <div>
                 <p className="text-lg font-semibold text-white">{candidate.ticker}</p>
@@ -93,7 +93,7 @@ function SummaryCard({ data }) {
           <h2 className="mt-1 text-xl font-semibold tracking-[-0.03em] text-white">{fund.name || fund.series_name || data.ticker}</h2>
           <p className="mt-1 text-[12px] text-slate-500">Input ticker: <span className="text-emerald-300">{data.ticker}</span></p>
         </div>
-        <span className="rounded-full border border-emerald-300/25 bg-emerald-400/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.16em] text-emerald-200">SEC NPORT-P</span>
+        <span className="rounded-full border border-[#5d8871]/35 bg-[#17211c] px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.16em] text-[#b8c7be]">SEC NPORT-P</span>
       </div>
       <div className="grid gap-2.5 sm:grid-cols-2 lg:grid-cols-4">
         <InfoRow label="Registrant" value={fund.registrant_name} />

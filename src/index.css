@@ -219,3 +219,67 @@ input {
 
 .market-pin { box-shadow: 0 0 20px rgba(37, 211, 102, 0.22), inset 0 1px 0 rgba(255,255,255,0.05); }
 .sparkline path, .sparkline polyline { filter: drop-shadow(0 0 5px rgba(37, 211, 102, 0.35)); }
+
+
+/* Minimal NSC theme override */
+:root {
+  background: #080a09;
+  color: #f4f5f4;
+}
+
+body {
+  background: #080a09;
+}
+
+.dashboard-bg::before,
+.dashboard-bg::after {
+  display: none;
+}
+
+.premium-panel,
+.glass-panel {
+  background: #0d1110;
+  border: 1px solid rgba(228, 232, 229, 0.1);
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+.premium-card {
+  background: #101514;
+  border: 1px solid rgba(228, 232, 229, 0.1);
+  box-shadow: none;
+}
+
+.section-title {
+  color: #9aa39e;
+  letter-spacing: 0.18em;
+}
+
+.green-glow,
+.market-pin {
+  box-shadow: none;
+}
+
+.hero-globe,
+.hero-planet,
+.earth-sphere,
+.map-grid {
+  opacity: 0.08;
+  filter: grayscale(1);
+}
+
+.sparkline path,
+.sparkline polyline {
+  filter: none;
+}
+
+.minimal-control-button {
+  border: 1px solid rgba(228, 232, 229, 0.12);
+  background: #111615;
+  color: #c8cfca;
+}
+
+.minimal-control-button:hover {
+  border-color: rgba(93, 136, 113, 0.65);
+  color: #ffffff;
+}
