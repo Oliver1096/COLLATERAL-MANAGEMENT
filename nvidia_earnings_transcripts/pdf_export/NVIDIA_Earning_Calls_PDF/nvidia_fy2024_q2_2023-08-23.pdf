@@ -1,0 +1,2012 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R] /Count 16 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Length 2751 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(NVIDIA FY2024 Q2 earnings call transcript) Tj
+T*
+(Call date: 2023-08-23) Tj
+T*
+(Source: Nasdaq/The Motley Fool) Tj
+T*
+(URL: https://www.nasdaq.com/articles/nvidia-nvda-q2-2024-earnings-call-transcript) Tj
+T*
+() Tj
+T*
+(Image source: The Motley Fool.) Tj
+T*
+() Tj
+T*
+(Nvidia \(NASDAQ: NVDA\)) Tj
+T*
+(Q2 2024 Earnings Call) Tj
+T*
+(Aug 23, 2023 , 5:00 p.m. ET) Tj
+T*
+() Tj
+T*
+(Contents:) Tj
+T*
+() Tj
+T*
+(Prepared Remarks) Tj
+T*
+() Tj
+T*
+(Questions and Answers) Tj
+T*
+() Tj
+T*
+(Call Participants) Tj
+T*
+() Tj
+T*
+(Prepared Remarks:) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Good afternoon. My name is David, and I'll be your conference operator today. At this time, ) Tj
+T*
+(I'd like to welcome everyone to Nvidia's second-quarter earnings call Today's conference is ) Tj
+T*
+(being recorded.) Tj
+T*
+() Tj
+T*
+(All lines have been placed on mute to prevent any background noise. After the speakers' ) Tj
+T*
+(remarks, there'll be a question-and-answer session. [Operator instructions] Thank you. Simona ) Tj
+T*
+(Jankowski, you may begin your conference.) Tj
+T*
+() Tj
+T*
+(Simona Jankowski -- Vice President, Investor Relations) Tj
+T*
+() Tj
+T*
+(Thank you. Good afternoon, everyone, and welcome to Nvidia's conference call for the second ) Tj
+T*
+(quarter of fiscal 2024. With me today from Nvidia are Jensen Huang, president and chief ) Tj
+T*
+(executive officer; and Colette Kress, executive vice president and chief financial officer. ) Tj
+T*
+(I'd like to remind you that our call is being webcast live on Nvidia's investor relations ) Tj
+T*
+(website.) Tj
+T*
+() Tj
+T*
+(The webcast will be available for replay until the conference call to discuss our financial ) Tj
+T*
+(results for the third quarter of fiscal 2024. The content of today's call is Nvidia's ) Tj
+T*
+(property. It can't be reproduced or transcribed without our prior written consent. During this) Tj
+T*
+( call, we may make forward-looking statements based on current expectations.) Tj
+T*
+() Tj
+T*
+(10 stocks we like better than Nvidia) Tj
+T*
+(When o ur analyst team has a stock tip, it can pay to listen. After all, the newsletter they ) Tj
+T*
+(have run for over a decade, Motley Fool Stock Advisor , has tripled the market.*) Tj
+T*
+() Tj
+T*
+(They just revealed what they believe are the ten best stocks for investors to buy right now...) Tj
+T*
+( and Nvidia wasn't one of them! That's right -- they think these 10 stocks are even better ) Tj
+T*
+(buys.) Tj
+T*
+() Tj
+T*
+(See the 10 stocks) Tj
+T*
+() Tj
+T*
+(*Stock Advisor returns as of August 21, 2023) Tj
+T*
+() Tj
+T*
+(These are subject to a number of significant risks and uncertainties, and our actual results ) Tj
+T*
+(may differ materially. For a discussion of factors that could affect our future financial ) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 4666 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(results and business, please refer to the disclosure in today's earnings release, our most ) Tj
+T*
+(recent Forms 10-K and 10-Q, and the reports that we may file on Form 8-K with the Securities ) Tj
+T*
+(and Exchange Commission. All our statements are made as of today, August 23rd, 2023, based on ) Tj
+T*
+(information currently available to us. Except as required by law, we assume no obligation to ) Tj
+T*
+(update any such statements.) Tj
+T*
+() Tj
+T*
+(During this call, we will discuss non-GAAP financial measures. You can find a reconciliation ) Tj
+T*
+(of these non-GAAP financial measures to GAAP financial measures in our CFO commentary, which ) Tj
+T*
+(is posted on our website. And with that, let me turn the call over to Colette.) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President, Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Thanks, Simona. We had an exceptional quarter. Record Q2 revenue of 13.51 billion was up 88% ) Tj
+T*
+(sequentially and up 101% year on year and above our outlook of 11 billion. Let me first start ) Tj
+T*
+(with data center.) Tj
+T*
+() Tj
+T*
+(Record revenue of 10.32 billion was up 141% sequentially and up 171% year on year. Data center) Tj
+T*
+( compute revenue nearly tripled year on year driven primarily by accelerating demand for cloud) Tj
+T*
+( from cloud service providers and large consumer internet companies for our HGX platform, the ) Tj
+T*
+(engine of generative and large language models. Major companies including AWS, Google Cloud, ) Tj
+T*
+(Meta, Microsoft Azure, and Oracle Cloud, as well as a growing number of GPU cloud providers ) Tj
+T*
+(are deploying in-volume HGX systems based on our Hopper and Ampere architecture tensor core ) Tj
+T*
+(GPUs. Networking revenue almost doubled year on year driven by our end-to-end InfiniBand ) Tj
+T*
+(networking platform, the gold standard for AI.) Tj
+T*
+() Tj
+T*
+(There is tremendous demand for Nvidia accelerated computing and AI platforms. Our supply ) Tj
+T*
+(partners have been exceptional in ramping capacity to support our needs. Our data center ) Tj
+T*
+(supply chain, including HGX, with 35,000 parts and highly complex networking, has been built ) Tj
+T*
+(up over the past decade. We have also developed and qualified additional capacity and ) Tj
+T*
+(suppliers for key steps in the manufacturing process such as co-op packaging.) Tj
+T*
+() Tj
+T*
+(We expect supply to increase each quarter through next year. By geography, data center growth ) Tj
+T*
+(was strongest in the U.S. as customers direct their capital investments to AI and accelerated ) Tj
+T*
+(computing. China's demand was within the historical range of 20% to 25% of our data center ) Tj
+T*
+(revenue, including compute and networking solutions.) Tj
+T*
+() Tj
+T*
+(At this time, let me take a moment to address recent reports on the potential for increased ) Tj
+T*
+(regulations on our exports to China. We believe the current regulation is achieving the ) Tj
+T*
+(intended results. Given the strength of demand for our products worldwide, we do not ) Tj
+T*
+(anticipate that additional export restrictions on our data center GPUs, if adopted, would have) Tj
+T*
+( an immediate material impact to our financial results. However, over the long term, ) Tj
+T*
+(restrictions prohibiting the sale of our data center GPUs to China, if implemented, will ) Tj
+T*
+(result in a permanent loss of an opportunity for the U.S.) Tj
+T*
+() Tj
+T*
+(industry to compete and lead in one of the world's largest markets. Our cloud service ) Tj
+T*
+(providers drove exceptional strong demand for HGX systems in the quarter as they undertake a ) Tj
+T*
+(generational transition to upgrade their data center infrastructure for the new era of ) Tj
+T*
+(accelerated computing and AI. The NVIDIA HGX platform is culminating of nearly two decades of ) Tj
+T*
+(full-stack innovation across silicon, systems, interconnects, networking, software, and ) Tj
+T*
+(algorithms. Instances powered by the NVIDIA H100 tensor core GPUs are now generally available ) Tj
+T*
+(at AWS, Microsoft Azure, and several GPU cloud providers, with others on the way shortly.) Tj
+T*
+() Tj
+T*
+(Consumer internet companies also drove the very strong demand. Their investments in data ) Tj
+T*
+(center infrastructure purpose-built for AI are already generating significant returns. For ) Tj
+T*
+(example, Meta recently highlighted that, since launching reels and AI recommendations, have ) Tj
+T*
+(driven a more than 24% increase in time spent on Instagram. Enterprises are also racing to ) Tj
+T*
+(deploy generative AI, driving strong consumption of Nvidia-powered instances in the cloud, as ) Tj
+T*
+(well as demand for on-premise infrastructure.) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 4878 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+() Tj
+T*
+(Whether we serve customers in the cloud or on-prem through partners or direct, their ) Tj
+T*
+(applications can run seamlessly on Nvidia AI Enterprise software with access to our ) Tj
+T*
+(acceleration libraries, pre-trained models, and APIs. We announced a partnership with ) Tj
+T*
+(Snowflake to provide enterprises with accelerated paths to create customized generative AI ) Tj
+T*
+(applications using their own proprietary data, all securely within the Snowflake data cloud. ) Tj
+T*
+(With the NVIDIA NeMo platform for developing large language models, enterprises will be able ) Tj
+T*
+(to make custom LLMs for advanced AI services, including chatbots, search, and summarization ) Tj
+T*
+(right from the Snowflake data cloud. Virtually every industry can benefit from generative AI.) Tj
+T*
+() Tj
+T*
+(For example, AI co-pilot, such as those just announced by Microsoft, can boost the ) Tj
+T*
+(productivity of over a billion office workers and tens of millions of software engineers. ) Tj
+T*
+(Millions of professionals in legal services, sales, customer support, and education will be ) Tj
+T*
+(available to leverage AI systems trained in their fields. And the co-pilots and assistants are) Tj
+T*
+( set to create new multi-hundred billion dollars market opportunities for our customers. We ) Tj
+T*
+(are seeing some of the earliest applications of generative AI in marketing, media, and ) Tj
+T*
+(entertainment.) Tj
+T*
+() Tj
+T*
+(WPP, the world's largest marketing and communication services organization, is developing a ) Tj
+T*
+(content engine using Nvidia Omniverse to enable artists and designers to integrate generative ) Tj
+T*
+(AI into 3D content creation. WPP designers can create images from text prompts while ) Tj
+T*
+(responsibly train generative AI tools and content from Nvidia partners such as Adobe and Getty) Tj
+T*
+( Images using NVIDIA Picasso, a foundry for custom generative AI models for visual design. ) Tj
+T*
+(Visual content provider Shutterstock is also using NVIDIA Picasso to build tools and services ) Tj
+T*
+(that enable users to create 3D scene backgrounds with the help of generative AI. We partnered ) Tj
+T*
+(with ServiceNow and Accenture to launch the AI Lighthouse program, fast-tracking the ) Tj
+T*
+(development of enterprise AI capabilities.) Tj
+T*
+() Tj
+T*
+(AI Lighthouse unites the ServiceNow enterprise automation platform and engine with Nvidia ) Tj
+T*
+(accelerated computing and with Accenture consulting and deployment services. We are ) Tj
+T*
+(collaborating also with Hugging Face to simplify the creation of new and custom AI models for ) Tj
+T*
+(enterprises. Hugging Face will offer a new service for enterprises to train and tune advanced ) Tj
+T*
+(AI models powered by NVIDIA DGX Cloud. And just yesterday, VMware and Nvidia announce a major ) Tj
+T*
+(new enterprise offering called VMware Private AI Foundation with Nvidia, a fully integrated ) Tj
+T*
+(platform featuring AI software and accelerated computing from Nvidia, with multi-cloud ) Tj
+T*
+(software for enterprises running VMware.) Tj
+T*
+() Tj
+T*
+(VMware's hundreds of thousands of enterprise customers will have access to the infrastructure,) Tj
+T*
+( AI, and cloud management software needed to customize models and run generative AI ) Tj
+T*
+(applications such as intelligent chatbot assistance, search, and summarization. We also ) Tj
+T*
+(announced new NVIDIA AI Enterprise-ready servers featuring the new NVIDIA L40S GPU built for ) Tj
+T*
+(the industry-standard data center server ecosystem and BlueField-3 DPU data center ) Tj
+T*
+(infrastructure processor. L40S is not limited by co-op supply and is shipping to the world's ) Tj
+T*
+(leading server system makers. L40S is a universal data center processor designed for high-) Tj
+T*
+(volume data center scaling out to accelerate the most compute-intensive applications including) Tj
+T*
+( AI training and [Inaudible], 3D design and visualization, video processing, and NVIDIA ) Tj
+T*
+(Omniverse industrial digitalization.) Tj
+T*
+() Tj
+T*
+(NVIDIA AI Enterprise-ready servers are fully optimized for VMware Cloud Foundation and Private) Tj
+T*
+( AI Foundation. Nearly 100 configurations of NVIDIA AI Enterprise-ready servers will soon be ) Tj
+T*
+(available from the world's leading enterprise IT computing companies including Dell, HPE, and ) Tj
+T*
+(Lenovo. The GH200 Grace Hopper Superchip, which combines our Arm-based Grace CPU with Hopper ) Tj
+T*
+(GPU, entered full production and will be available this quarter in OEM servers. It is also ) Tj
+T*
+(shipping to multiple supercomputing customers including Los Alamos National Labs and the Swiss) Tj
+T*
+( National Computing Centre.) Tj
+T*
+() Tj
+T*
+(And Nvidia and SoftBank are collaborating on a platform based on GH200 for generative AI and ) Tj
+T*
+(5G/6G applications. The second-generation version of our Grace Hopper Superchip with the ) Tj
+T*
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 4768 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(latest HBM GPU memory will be available in Q2 of calendar 2024. We announced the DGX GH200, a ) Tj
+T*
+(new class of large memory AI supercomputer for giant AI language models, recommender systems, ) Tj
+T*
+(and data analytics. This is the first use of the new NVIDIA NVLink Switch System enabling all ) Tj
+T*
+(of its 256 Grace Hopper superchips to work together as one, a huge jump compared to our prior ) Tj
+T*
+(generation connecting just eight GPUs on NVIDIA Link.) Tj
+T*
+() Tj
+T*
+(DGX GH200 systems are expected to be available by the end of the year, Google Cloud, Meta, and) Tj
+T*
+( Microsoft among the first to gain access. Strong networking growth was driven primarily by ) Tj
+T*
+(InfiniBand infrastructure to connect HGX GPU systems. Thanks to its end-to-end optimization ) Tj
+T*
+(and in-network computing capabilities, InfiniBand delivers more than double the performance of) Tj
+T*
+( traditional Ethernet for AI. For billions-of-dollar AI infrastructures, the value from the ) Tj
+T*
+(increased throughput of InfiniBand is worth hundreds of millions and pays for the network.) Tj
+T*
+() Tj
+T*
+(In addition, only InfiniBand can scale to hundreds of thousands of GPUs. It is the network of ) Tj
+T*
+(choice for leading AI practitioners. For Ethernet-based cloud data centers that seek to ) Tj
+T*
+(optimize their AI performance, we announced NVIDIA Spectrum-X, an accelerated networking ) Tj
+T*
+(platform designed to optimize Ethernet for AI workloads. Spectrum-X couples the spectrum for ) Tj
+T*
+(the Ethernet switch with the BlueField-3 DPU, achieving 1.5x better overall AI performance and) Tj
+T*
+( power efficiency versus traditional Ethernet.) Tj
+T*
+() Tj
+T*
+(BlueField-3 DPU is a major success. It is in qualification with major OEMs and ramping across ) Tj
+T*
+(multiple CSP and consumer internet companies. Now, moving to gaming. Gaming revenue of 2.49 ) Tj
+T*
+(billion was up 11% sequentially and 22% year on year.) Tj
+T*
+() Tj
+T*
+(Growth was fueled by GeForce RTX 40 series GPUs for laptops and desktops, and customer demand ) Tj
+T*
+(was solid and consistent with seasonality. We believe global end demand has returned to growth) Tj
+T*
+( after last year's slowdown. We have a large upgrade opportunity ahead of us, just 47% of our ) Tj
+T*
+(installed base have upgraded to RTX, and about 20% of a GPU with an RTX 3060 or higher ) Tj
+T*
+(performance. Laptop GPUs posted strong growth in the key back-to-school season led by RTX 4060) Tj
+T*
+( GPUs.) Tj
+T*
+() Tj
+T*
+(Nvidia's GPU-powered laptops have gained in popularity, and their shipments are now outpacing ) Tj
+T*
+(desktop GPUs in several regions around the world. This is likely to shift the reality of our ) Tj
+T*
+(overall gaming revenue again with Q2 and Q3 as the stronger quarters of the year, reflecting ) Tj
+T*
+(the back-to-school and holiday build schedules for laptops. In desktop, we launched the ) Tj
+T*
+(GeForce RTX 4060 and the GeForce RTX 4060 Ti GPUs, bringing the Ada Lovelace architecture down) Tj
+T*
+( to price points as low as $299. The ecosystem of RTX and DLSS games continued to expand, 35 ) Tj
+T*
+(new games added to DLSS support including blockbusters such as Diablo 4 and Baldur's Gate 3.) Tj
+T*
+() Tj
+T*
+(There's now over 330 RTX accelerated games and apps. We are bringing generative AI to games. ) Tj
+T*
+(At Computex, we announced NVIDIA Avatar Cloud Engine [Inaudible] for games, a custom AI model ) Tj
+T*
+(foundry service. Developers can use the service to bring intelligence to nonplayer characters.) Tj
+T*
+() Tj
+T*
+(It harnesses a number of NVIDIA Omniverse and AI technologies including NeMo Riva and ) Tj
+T*
+(Audio2Face. Now moving to professional visualization. Revenue of 375 million was up 28% ) Tj
+T*
+(sequentially and down 24% year on year. The Ada architecture ramp drove strong growth in Q2, ) Tj
+T*
+(rolling out initially in laptop workstations, with a refresh of desktop workstations coming in) Tj
+T*
+( Q3.) Tj
+T*
+() Tj
+T*
+(These will include powerful new RTX systems with up to four NVIDIA RTX 6000 GPUs, providing ) Tj
+T*
+(more than 5,800 teraflops of AI performance and 192 gigabytes of GPU memory. They can be ) Tj
+T*
+(configured with NVIDIA AI Enterprise or NVIDIA Omniverse Enterprise. We also announced three ) Tj
+T*
+(new desktop workstation GPUs based on the Ada generation, the NVIDIA RTX 5000, 4500, and 4000,) Tj
+T*
+( offering up to 2x the RT core throughput and up to 2x faster AI training performance compared) Tj
+T*
+( to the previous generation. In addition to traditional workloads such as 3D design and ) Tj
+T*
+(content creation, new workloads and generative AI, large language model development, and data ) Tj
+T*
+(science are expanding the opportunities in pro visualization for our RTX technology.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 4457 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(One of the key themes in Jensen's keynote at SIGGRAPH earlier this month was the convergence ) Tj
+T*
+(of graphics and AI. This is where NVIDIA Omniverse is positioned. Omniverse is OpenUSD data ) Tj
+T*
+(platform. OpenUSD is a universal interchange that is quickly becoming the standard for the 3D ) Tj
+T*
+(world, much like HTML is the universal language for 2D content.) Tj
+T*
+() Tj
+T*
+(Together, Adobe, Apple, Autodesk, Pixar, and Nvidia formed the Alliance for OpenUSD. Our ) Tj
+T*
+(mission is to accelerate OpenUSD development and adoption. We announced new and upcoming ) Tj
+T*
+(Omniverse Cloud APIs, including RunUSD and ChatUSD to bring generative AI to OpenUSD ) Tj
+T*
+(workloads. Moving to automotive.) Tj
+T*
+() Tj
+T*
+(Revenue was 253 million, down 15% sequentially and up 15% year on year. Solid year-on-year ) Tj
+T*
+(growth was driven by the ramp of self-driving platforms based on NVIDIA DRIVE Orin SoC with a ) Tj
+T*
+(number of new energy vehicle makers. The sequential decline reflects lower overall automotive ) Tj
+T*
+(demand, particularly in China. We announced a partnership with MediaTek to bring drivers and ) Tj
+T*
+(passengers new experiences inside the car.) Tj
+T*
+() Tj
+T*
+(MediaTek will develop automotive SoCs and integrate a new product line of NVIDIA GPU chipsets.) Tj
+T*
+( The partnership covers a wide range of vehicle segments from luxury to entry-level. Moving to) Tj
+T*
+( the rest of the P&L. GAAP gross margins expanded to 70.1% and non-GAAP gross margin to 71.2% ) Tj
+T*
+(driven by higher data center sales.) Tj
+T*
+() Tj
+T*
+(Our data center products include a significant amount of software and complexity, which is ) Tj
+T*
+(also helping drive our gross margins. Sequential GAAP operating expenses were up 6%, and non-) Tj
+T*
+(GAAP operating expenses were up 5%, primarily reflecting increased compensation and benefits. ) Tj
+T*
+(We returned approximately 3.4 billion to shareholders in the form of share repurchases and ) Tj
+T*
+(cash dividends. Our board of directors has just approved an additional 25 billion in stock ) Tj
+T*
+(repurchases to add to our remaining 4 billion of authorization as of the end of Q2.) Tj
+T*
+() Tj
+T*
+(Let me turn to the outlook for the third quarter of fiscal 2024. Demand for our data center ) Tj
+T*
+(platform for AI is tremendous and broad-based across industries and customers. Our demand ) Tj
+T*
+(visibility extends into next year. Our supply over the next several quarters will continue to ) Tj
+T*
+(ramp as we lower cycle times and work with our supply partners to add capacity.) Tj
+T*
+() Tj
+T*
+(Additionally, the new L40S GPU will help address the growing demand for many types of ) Tj
+T*
+(workloads from cloud to enterprise. For Q3, total revenue is expected to be 16 billion, plus ) Tj
+T*
+(or minus 2%. We expect sequential growth to be driven largely by data center, with gaming and ) Tj
+T*
+(pro vis also contributing. GAAP and non-GAAP gross margins are expected to be 71.5% and 72.5%,) Tj
+T*
+( respectively, plus or minus 50 basis points. GAAP and non-GAAP operating expenses are ) Tj
+T*
+(expected to be approximately 2.95 billion and 2 billion, respectively.) Tj
+T*
+() Tj
+T*
+(GAAP and non-GAAP other income and expenses are expected to be an income of approximately 100 ) Tj
+T*
+(million, excluding gains and losses from nonaffiliated investments. GAAP and non-GAAP tax ) Tj
+T*
+(rates are expected to be 14.5%, plus or minus 1%, excluding any discrete items. Further ) Tj
+T*
+(financial details are included in the CFO commentary and other information available on our IR) Tj
+T*
+( website. In closing, let me highlight some upcoming events for the financial community.) Tj
+T*
+() Tj
+T*
+(We will attend the Jefferies Tech Summit on August 30th in Chicago, the Goldman Sachs Tech ) Tj
+T*
+(Conference on September 5th in San Francisco, the Evercore Semiconductor Conference on ) Tj
+T*
+(September 6th, as well as the Citi Tech Conference on September 10th, both in New York, and ) Tj
+T*
+(the BofA Virtual AI Conference on September 11th. Our earnings call to discuss the results of ) Tj
+T*
+(our third quarter of fiscal 2024 is scheduled for Tuesday, November 21st. Operator, we will ) Tj
+T*
+(now open the call for questions. Could you please pull for questions for us? Thank you.) Tj
+T*
+() Tj
+T*
+(Questions & Answers:) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Thank you. [Operator instructions] We'll take our first question from Matt Ramsay with TD ) Tj
+T*
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 4144 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(Cowen. Your line is now open.) Tj
+T*
+() Tj
+T*
+(Matt Ramsay -- TD Cowen -- Analyst) Tj
+T*
+() Tj
+T*
+(Yes, thank you very much. Good afternoon. Obviously, remarkable results. Jensen, I wanted to ) Tj
+T*
+(ask a question of you regarding the really quickly emerging application of -- of large model ) Tj
+T*
+(inference.) Tj
+T*
+() Tj
+T*
+(So, I think it's pretty well understood by the majority of investors that you guys have a very) Tj
+T*
+( much a lockdown share of the training market. A lot of the smaller market -- smaller -- ) Tj
+T*
+(smaller model inference workloads have been done on ASICs or CPUs in the past. And with many ) Tj
+T*
+(of these GPT and other really large models, there's this new workload that's accelerating ) Tj
+T*
+(super-duper quickly on -- on large model inference. And I think your -- your Grace Hopper ) Tj
+T*
+(Superchip products and others are pretty well aligned for that. But could you maybe talk to us) Tj
+T*
+( about how you're seeing the inference market segment between small model inference and large ) Tj
+T*
+(model inference and how your product portfolio is positioned for that? Thanks.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah, thanks a lot. So, let's take a quick step back. These large language models are -- are ) Tj
+T*
+(fairly -- are pretty phenomenal. It -- it does several things, of course.) Tj
+T*
+() Tj
+T*
+(It has the ability to understand unstructured language. But at its core, what it has learned ) Tj
+T*
+(is the structure of human language and it has encoded or within it -- compressed within it a ) Tj
+T*
+(large amount of human knowledge that it has learned by the corpuses that it studied. What ) Tj
+T*
+(happens is you create these large language models and you create as large as you can, and then) Tj
+T*
+( you derive from it smaller versions of the model, essentially teach-your-student models. It's) Tj
+T*
+( a process called distillation. And -- and so, when you see these smaller -- smaller models, ) Tj
+T*
+(it's very likely the case that they were derived from or distilled from or learned from larger) Tj
+T*
+( models, and just as you have professors and teachers and students and so on, so forth.) Tj
+T*
+() Tj
+T*
+(And you're going to see this going forward. And so, you start from a very large model and it ) Tj
+T*
+(has to build -- it has a large amount of generality and generalization and -- and what's ) Tj
+T*
+(called zero-shot capability. And so, for a lot of applications and questions or skills that ) Tj
+T*
+(you haven't trained it specifically on, these large language models, miraculously, has the ) Tj
+T*
+(capability to perform them. That's what makes it so magical. On the other hand -- on the other) Tj
+T*
+( hand, you -- you -- you would like to have these capabilities and all kinds of computing ) Tj
+T*
+(devices.) Tj
+T*
+() Tj
+T*
+(And so, what you do is you distill them down. These smaller models might have excellent ) Tj
+T*
+(capabilities in a particular skill, but they don't generalize as well. They don't have what is) Tj
+T*
+( called as-good zero-shot capabilities. And so, they all have their own -- own unique ) Tj
+T*
+(capabilities, but -- but you start from very large models.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(OK, next, we'll go to Vivek Arya with BofA Securities. Your line is now open.) Tj
+T*
+() Tj
+T*
+(Vivek Arya -- Bank of America Merrill Lynch -- Analyst) Tj
+T*
+() Tj
+T*
+(Thank you. Just had a quick clarification on a question. Colette, if you could please clarify ) Tj
+T*
+(how much incremental supply do you expect to come online in the next year? You think it's up ) Tj
+T*
+(20, 30, 40, 50%? So, just any sense of how much supply because you said it's growing every ) Tj
+T*
+(quarter. And then, Jensen, the question for you is, when we look at the overall hyperscaler ) Tj
+T*
+(spending, that pie is not really growing that much. So, what is giving you the confidence that) Tj
+T*
+( they can continue to carve out more of that pie for generative AI? Just give us your sense of) Tj
+T*
+( how sustainable is this demand as we look over the next one to two years.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Length 4290 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(So, if I take your implied Q3 outlook of data center, 12 billion,13 billion, what does that ) Tj
+T*
+(say about how many servers are already AI accelerated? Where is that going? So, just give us ) Tj
+T*
+(some confidence that the growth that you are seeing is sustainable into the next one to two ) Tj
+T*
+(years.) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President, Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(So, thanks for that question regarding our supply. Yes, we -- we do expect to continue ) Tj
+T*
+(increasing, ramping our supply over the next quarter, as well as into next fiscal year. In ) Tj
+T*
+(terms of percent, that's not something that we -- we have here. It is a work across so many ) Tj
+T*
+(different suppliers, so many different parts of building, and -- and HGX many of our other new) Tj
+T*
+( products that are coming to market. But we are very pleased with both the support that we ) Tj
+T*
+(have with our suppliers and the long time that we have spent with them improving their supply.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(The world has something along the lines of about $1 trillion worth of data centers installed ) Tj
+T*
+(in the cloud and enterprise and otherwise. And that trillion dollars of data centers is in the) Tj
+T*
+( process of transitioning into accelerated computing and generative AI. We're seeing two ) Tj
+T*
+(simultaneous platform shifts at the same time. One is accelerated computing, and the reason ) Tj
+T*
+(for that is because it's the most cost-effective, most energy-effective, and the most ) Tj
+T*
+(performant way of doing computing now. And so -- so, what you're seeing -- and then, all of a ) Tj
+T*
+(sudden enabled by generative AI -- enabled by accelerated computing, generative AI came along.) Tj
+T*
+( And this incredible application now gives everyone two reasons to transition, to do a ) Tj
+T*
+(platform shift from general purpose computing, the classical way of doing computing, to this ) Tj
+T*
+(new way of doing computing, accelerated computing.) Tj
+T*
+() Tj
+T*
+(There's about $1 trillion worth of data centers, call it, a quarter of trillion dollars of -- ) Tj
+T*
+(of capital spend each year. You're seeing the -- the data centers around the world are taking ) Tj
+T*
+(that capital spend and focusing it on the two most important trends of -- of computing today, ) Tj
+T*
+(accelerated computing and generative AI. And so, I think this is not a -- this is not a -- a ) Tj
+T*
+(near-term thing. This is a -- a long-term industry transition, and we're seeing these two ) Tj
+T*
+(platform shifts happening at the same time.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Next, we go to Stacy Rasgon with Bernstein Research. Your line is open.) Tj
+T*
+() Tj
+T*
+(Stacy Rasgon -- AllianceBernstein -- Analyst) Tj
+T*
+() Tj
+T*
+(Hi, guys. Thanks for taking my question. I was wondering, Colette, if you could tell me like ) Tj
+T*
+(how much of data center in the quarter, maybe even the guidance, like, systems versus GPU, ) Tj
+T*
+(like DGX versus just the H100. What I'm really trying to get at is how much is like pricing or) Tj
+T*
+( content, or however you want to define that, versus units actually driving the growth going ) Tj
+T*
+(forward. Can you give us any color around that?) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President, Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Sure, Stacy. Let me help. Within the quarter, our HGX systems were a very significant part of ) Tj
+T*
+(our data center as well as our data center growth that we had seen. Those systems include our ) Tj
+T*
+(HGX of our Hopper architecture but also our Ampere architecture.) Tj
+T*
+() Tj
+T*
+(Yes, we are still selling -- both of these architectures are in the market. Now, when you ) Tj
+T*
+(think about that, what does that mean from both the systems as a unit, of course, is growing ) Tj
+T*
+(quite substantially, and that is driving in terms of the revenue increases. So, both of these ) Tj
+T*
+(things are the drivers of the revenue inside data center. Our DGXs are always a portion of ) Tj
+T*
+(additional systems that we will sell. Those are a great opportunity for our enterprise ) Tj
+T*
+(customers and many other different types of customers that we're seeing even in our consumer ) Tj
+T*
+ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Length 4113 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(internet companies. Now, the importance there is also coming together with software that we ) Tj
+T*
+(sell with our DGXs, but that's a portion of our sales that we're doing. The rest of the GPUs, ) Tj
+T*
+(we have new GPUs coming to market that we talk about, the L40S, and they will add continued ) Tj
+T*
+(growth going forward.) Tj
+T*
+() Tj
+T*
+(But again, the largest driver of our revenue within this last quarter was definitely the HGX ) Tj
+T*
+(system.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(And, Stacy, if I could just add something. The -- you -- you say it's H100, and I know you ) Tj
+T*
+(know what your -- your -- your mental image in your mind, but the H100 is 35,000 parts, 70 ) Tj
+T*
+(pounds, nearly a trillion transistors in combination; takes a robot to build -- well, many ) Tj
+T*
+(robots to build because it's 70 pounds to lift. And it takes a supercomputer to test a ) Tj
+T*
+(supercomputer. And so, these -- these things are technology marvels, and -- and the ) Tj
+T*
+(manufacturing of them is really intensive. And so -- so I think we -- you know, we call it ) Tj
+T*
+(H100 as if it's a chip that comes off of a fab, but H100s go -- go out really as HGX as they ) Tj
+T*
+(are the world's hyperscalers, and -- and they're really really quite large system components, ) Tj
+T*
+(if you will.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Next, we go to Mark Lipacis with Jefferies. Your line is now open.) Tj
+T*
+() Tj
+T*
+(Mark Lipacis -- Jefferies -- Analyst) Tj
+T*
+() Tj
+T*
+(Hi, thanks for taking my question, and congrats on the -- on the success. Jensen, it seems ) Tj
+T*
+(like the -- a key part of the success -- your success in the market is delivering the software) Tj
+T*
+( ecosystem along with the chip and the hardware platform. And I had a two-part question on ) Tj
+T*
+(this. I was wondering if you could just help us understand the evolution of your software ) Tj
+T*
+(ecosystem, the critical elements.) Tj
+T*
+() Tj
+T*
+(And is there a way to quantify your lead on this dimension, like how many person years you've ) Tj
+T*
+(invested in building it? And then, part two, I was wondering if you would care to share with ) Tj
+T*
+(us your view on what percentage of the value of the Nvidia platform is hardware ) Tj
+T*
+(differentiation versus software differentiation. Thank you.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah, Mark, thanks for your question. The -- let me see if I could use some metrics. So, we ) Tj
+T*
+(have a runtime score in the AI enterprise. This is -- this is one part of our software stack.) Tj
+T*
+() Tj
+T*
+(And this is -- this is, if you will, the runtime that just about every company uses for the ) Tj
+T*
+(end-to-end of machine learning, from data processing, the training of any model that you -- ) Tj
+T*
+(that you like to do on any framework you like to do, the inference, and the deployment, the ) Tj
+T*
+(scaling it out into data center, could be a scale-out for a hyperscale data center, could be a) Tj
+T*
+( scale-out for enterprise data center, for example, on VMware. You can do this on any of our ) Tj
+T*
+(GPUs. We have hundreds of millions of GPUs in the field and millions of GPUs in the cloud in ) Tj
+T*
+(just about every single cloud. And it runs in a single GPU configuration as well as multi-GPU ) Tj
+T*
+(per compute or multi-node. It also has multiple -- multiple sessions or multiple -- multiple ) Tj
+T*
+(computing instances per GPU.) Tj
+T*
+() Tj
+T*
+(So, from multiple instances per GPU to multiple GPUs, multiple nodes, to entire data center ) Tj
+T*
+(scale. So, this runtime called NVIDIA AI Enterprise has something like 4,500 software ) Tj
+T*
+(packages, software libraries and has something like 10,000 dependencies among each other. And ) Tj
+T*
+(that runtime is -- is, as I mentioned, continuously updated and optimized for -- for our ) Tj
+T*
+(install base for our stack. And that's just one example of what it would take to get ) Tj
+T*
+(accelerated computing to work that the number of -- of code combinations and type of ) Tj
+T*
+ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 18 0 R >>
+endobj
+20 0 obj
+<< /Length 4290 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(application combinations is really quite insane.) Tj
+T*
+() Tj
+T*
+(And that's taken us two decades to get here. But what I would -- what I would -- what I would ) Tj
+T*
+(characterize as probably our -- are the elements of our -- of our -- of our company, if you ) Tj
+T*
+(will, are several. I would say number one is architecture. The flexibility, the versatility, ) Tj
+T*
+(and the performance of our architecture makes it possible for us to do all the things that I ) Tj
+T*
+(just said, you know, from data processing to training, to inference, for preprocessing of the ) Tj
+T*
+(data before you do the inference, to the post-processing of the data, tokenizing of -- of -- ) Tj
+T*
+(of -- of languages so that you could then train -- train with it. The amount of the workflow ) Tj
+T*
+(is much more intense than just training or inference. But anyways, that's where we'll focus, ) Tj
+T*
+(and is fine.) Tj
+T*
+() Tj
+T*
+(But -- but when people actually use these computing systems, it's quite -- requires a lot of ) Tj
+T*
+(applications. And so, the combination of our architecture makes it possible for us to deliver ) Tj
+T*
+(the lowest cost of ownership. And the reason for that is because -- because we accelerate so ) Tj
+T*
+(many different things. The second characteristic of our -- of our company is the install base.) Tj
+T*
+( You know, you have to ask yourself why is it that all the software developers come to our ) Tj
+T*
+(platform.) Tj
+T*
+() Tj
+T*
+(And the reason for that is because software developers seek a large install base so that they ) Tj
+T*
+(can reach the largest number of end users so that they could build a business or get a return ) Tj
+T*
+(on the investments that they make. And -- and then, the third characteristic is reach. We're ) Tj
+T*
+(in the cloud today, both for public cloud -- public-facing cloud because we have so many ) Tj
+T*
+(customers that use -- so many developers and customers, they use our -- our platform. CSPs are) Tj
+T*
+( delighted to put it up in the cloud. They use it for internal consumption, you know, to ) Tj
+T*
+(develop and train and operate recommender systems or search or data processing engines and ) Tj
+T*
+(whatnot, all the way to training and inference. And so, we're in the cloud, we're in ) Tj
+T*
+(enterprise.) Tj
+T*
+() Tj
+T*
+(Yesterday, we had a very big announcement. It's really worthwhile to -- to take a look at ) Tj
+T*
+(that. VMware is the operating system of the world's enterprise. And we've been working ) Tj
+T*
+(together for several years now and we're going to bring together -- together, we're going to ) Tj
+T*
+(bring generative AI to the world's enterprises all the way out to the edge. And so, reach is ) Tj
+T*
+(another reason.) Tj
+T*
+() Tj
+T*
+(And because of reach, all of the world's system makers are anxious to put Nvidia's platform in) Tj
+T*
+( their systems. And so, we have a very broad distribution from all of the world's OEMs and ) Tj
+T*
+(ODMs and so on and so forth because of our reach. And then, lastly, because of our scale and ) Tj
+T*
+(velocity, we were -- we were able to sustain this -- this really complex stack of software and) Tj
+T*
+( hardware and networking and compute and across all of these different usage models and ) Tj
+T*
+(different computing environments. And we're able to -- to do all this while accelerating the ) Tj
+T*
+(velocity of our engineering. You know, it seems like we're introducing a new architecture ) Tj
+T*
+(every two years now.) Tj
+T*
+() Tj
+T*
+(We're introducing a new architecture, a new new product just about every six months. And so, ) Tj
+T*
+(these -- these properties make it possible for the ecosystem to build their company and their ) Tj
+T*
+(business on top of us. And so, those in combination makes it special.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Next, we'll go to Atif Malik with Citi. Your line is open.) Tj
+T*
+() Tj
+T*
+(Atif Malik -- Citi -- Analyst) Tj
+T*
+() Tj
+T*
+(Hi, thank you for taking my question. And great job on the results and outlook. Colette, I ) Tj
+T*
+(have a question on the cool-off list, L40S that you guys talked about. Any idea how much of ) Tj
+T*
+(the supply tightness can L40S help with? And if you can talk about the incremental ) Tj
+T*
+(profitability or gross margin contribution from this product.) Tj
+T*
+ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 20 0 R >>
+endobj
+22 0 obj
+<< /Length 3916 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+() Tj
+T*
+(Thank you.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah, Atif, let me -- let me take that for -- for you. The L40 -- L40S is really designed for ) Tj
+T*
+(a different type of application. H100 is designed for large-scale language models and ) Tj
+T*
+(processing, just very large models and a great deal of data. And so, that's -- that's not ) Tj
+T*
+(L40S' focus.) Tj
+T*
+() Tj
+T*
+(L40S' focus is to be able to fine-tune models -- fine-tune pre-trained models and it'll do ) Tj
+T*
+(that incredibly well. It has a transformer engine. It's got a lot of performance. You can get ) Tj
+T*
+(multiple GPUs in a -- in a server. It's designed for -- for hyperscale scale-out, meaning it's) Tj
+T*
+( easy to -- to -- to install L40S servers into the world's hyperscale data centers.) Tj
+T*
+() Tj
+T*
+(It comes in a standard rack, standard server. And everything about it is standard, and so it's) Tj
+T*
+( easy to install. L40S also is, with the software stack around it and along with BlueField-3, ) Tj
+T*
+(and all the work that we did with VMware and the work that we did with Snow -- Snowflake's and) Tj
+T*
+( -- and ServiceNow and so many other enterprise partners, L40S is designed for the world's ) Tj
+T*
+(enterprise IT systems. And that's the reason why HPE, Dell, and Lenovo, and some 20 other ) Tj
+T*
+(system makers building about 100 different configurations of enterprise servers are going to ) Tj
+T*
+(work with us to take generative AI to the world's enterprise. And so, L40S is really designed ) Tj
+T*
+(for -- for a different -- different type of scale-out, if you will. It's, of course, large ) Tj
+T*
+(language models.) Tj
+T*
+() Tj
+T*
+(It's, of course, generative AI, but it's a different use case. And the L40S is going to -- is ) Tj
+T*
+(off to a great start, and, you know, the world's enterprise and hyperscalers are really ) Tj
+T*
+(clamoring to get -- get L40S deployed.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(OK, next, we'll go to Joe Moore with Morgan Stanley. Your line is now open.) Tj
+T*
+() Tj
+T*
+(Joe Moore -- Morgan Stanley -- Analyst) Tj
+T*
+() Tj
+T*
+(Great. Thank you. I guess the thing about these numbers that's so remarkable to me is the ) Tj
+T*
+(amount of demand that remains unfulfilled. Talking to some of your customers, you know, as ) Tj
+T*
+(good as these numbers are, you sort of more than tripled your revenue in a couple of quarters.) Tj
+T*
+() Tj
+T*
+(There's -- there's a demand, in some cases, for -- for multiples of what people are getting. ) Tj
+T*
+(So, can you talk about that, how much-unfulfilled demand do you think there is? And you talked) Tj
+T*
+( about visibility extending into next year. Do you have a line of sight into when you'll get ) Tj
+T*
+(to see supply demand equilibrium here?) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah, we have excellent visibility through the year and into next year. And we're already ) Tj
+T*
+(planning the next-generation infrastructure with the leading CSPs and data center builders. ) Tj
+T*
+(The demand -- the easiest way to think about the demand is the world is transitioning from ) Tj
+T*
+(general-purpose computing to accelerated computing. That's the easiest way to think about the ) Tj
+T*
+(demand.) Tj
+T*
+() Tj
+T*
+(The best way for companies to increase their throughput, improve their energy efficiency, ) Tj
+T*
+(improve their cost efficiency, is to divert their capital budget to accelerated computing and ) Tj
+T*
+(generative AI. Because by doing that, you're going to offload so much workload off of the CPUs) Tj
+T*
+( that the available CPUs is -- in your data center will get boosted. And -- and so, what ) Tj
+T*
+(you're seeing companies do now is recognizing this -- this, the tipping point here, ) Tj
+T*
+(recognizing the beginning of this transition, and diverting their capital investment to ) Tj
+T*
+ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 22 0 R >>
+endobj
+24 0 obj
+<< /Length 4510 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(accelerated computing and generative AI. And so -- so, that's -- that's probably the easiest ) Tj
+T*
+(way to think about the opportunity ahead of us. This isn't a -- a singular application that --) Tj
+T*
+( that is driving the demand, but this is a new computing platform, if you will, a new ) Tj
+T*
+(computing transition that's happening, and data centers all over the world are responding to ) Tj
+T*
+(this and shifting, you know, in a broad-based way.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(OK, next, we go to Toshiya Hari with Goldman Sachs. Your line is now open.) Tj
+T*
+() Tj
+T*
+(Toshi Hari -- Goldman Sachs -- Analyst) Tj
+T*
+() Tj
+T*
+(Hi, thank you for taking the question. I had one quick clarification question for Colette and ) Tj
+T*
+(then another one for Jensen. Colette, I think, last quarter, you had said CSPs were about 40% ) Tj
+T*
+(of your data center revenue; consumer internet, 30%; enterprise, 30%. Based on your remarks, ) Tj
+T*
+(it sounded like CSPs and consumer internet may have been a larger percentage of your business.) Tj
+T*
+( If you can kind of clarify that or confirm that, that would be super helpful.) Tj
+T*
+() Tj
+T*
+(And then, Jensen, a question for you. You know, given your position as the key enabler of AI, ) Tj
+T*
+(the breadth of engagements and the visibility you have into customer projects, I'm curious how) Tj
+T*
+( confident you are that there will be enough applications or use cases for your customers to ) Tj
+T*
+(generate a reasonable return on their investments. I guess I asked the question because there ) Tj
+T*
+(is a concern out there that, you know, there could be a bit of a pause in your -- in your ) Tj
+T*
+(demand profile in the outyears. Curious, you know, if there's enough breadth and depth there ) Tj
+T*
+(to -- to support a sustained increase in your data center business going forward. Thank you.) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President, Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(So, thank you on the question regarding our types of customers that we have in our data center) Tj
+T*
+( business, and we look at it in terms of combining our compute as well as our networking ) Tj
+T*
+(together. Our CSPs -- our large CSPs are contributing a little bit more than 50% of our ) Tj
+T*
+(revenue within Q2, and the next largest category will be our consumer internet companies. And ) Tj
+T*
+(then, the last piece of it will be our enterprise and high-performance computing.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Toshi, I'm reluctant to -- to guess about the future, and so I'll answer the question from the) Tj
+T*
+( first principle of computer science perspective. It is -- it is recognized, for some time ) Tj
+T*
+(now, that general-purpose computing is just not in-brute forcing general-purpose computing. ) Tj
+T*
+(Using general-purpose computing at scale is no longer the best way to go forward. It's too ) Tj
+T*
+(costly, it's too expensive, and the performance of the applications are too slow, right? And ) Tj
+T*
+(finally, the world has a new way of doing it. It's called accelerated computing.) Tj
+T*
+() Tj
+T*
+(And what kicked it into turbocharge is generative AI. But accelerated computing could be used ) Tj
+T*
+(for all kinds of different applications that's already in the data center. And by using it, ) Tj
+T*
+(you offload the CPUs, you save a ton of money, an order of magnitude in cost and order of ) Tj
+T*
+(magnitude in energy, and the throughput is higher. And -- and that's what -- that's what the ) Tj
+T*
+(industry is really responding to.) Tj
+T*
+() Tj
+T*
+(Going forward, the best way to invest in a data center is to divert the capital investment ) Tj
+T*
+(from general-purpose computing and focus it on generative AI and accelerated computing. ) Tj
+T*
+(Generative AI provides a new way of generating productivity, a new way of generating new ) Tj
+T*
+(services to offer to your customers, and accelerated computing helps you save money and save ) Tj
+T*
+(power. And -- and the number of applications is -- is, well, you know, tons, lots of ) Tj
+T*
+(developers, lots of applications, lots of libraries. It's ready to be deployed. And so, I ) Tj
+T*
+(think -- I think the data centers around the world recognize that this is the -- the best way ) Tj
+T*
+(to deploy resources, deploy capital going forward for data centers. This is true for the ) Tj
+T*
+(world's clouds, and -- and -- and you're seeing a whole crop of -- of new GPUs -- specialty ) Tj
+T*
+ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 24 0 R >>
+endobj
+26 0 obj
+<< /Length 4297 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(GPU-specialized cloud service providers. One of the famous ones is CoreWeave, and they're ) Tj
+T*
+(doing incredibly well.) Tj
+T*
+() Tj
+T*
+(But you're seeing the regional GPU specialists -- service providers all over the world now, ) Tj
+T*
+(and -- and -- and because they all recognize the same thing, that the best way to invest your ) Tj
+T*
+(capital going forward is to put it into accelerated computing and generative AI. We're also ) Tj
+T*
+(seeing that -- that enterprises want to do that. But in order for enterprises to do it, you ) Tj
+T*
+(have to support the management system, the operating system, the security, and software -- ) Tj
+T*
+(software-defined data center approach of enterprises, and that's called VMware. And we've been) Tj
+T*
+( working several years with VMware to make it possible for VMware to support, not just the ) Tj
+T*
+(virtualization of CPUs, but the virtualization of GPUs as well as the distributed computing ) Tj
+T*
+(capabilities of GPUs, supporting NVIDIA's BlueField for high-performance networking. And all ) Tj
+T*
+(of the generative AI libraries that we've been working on is now going to be offered as a ) Tj
+T*
+(special SKU by VMware's sales force, which is, as we all know, quite large because they reach ) Tj
+T*
+(some several hundred thousand VMware customers around the world. And this new SKU is going to ) Tj
+T*
+(be called VMware Private AI Foundation.) Tj
+T*
+() Tj
+T*
+(And -- and this will be a new SKU that makes it possible for enterprises. And in combination ) Tj
+T*
+(with HPE, Dell, and Lenovo's new server offerings based on L40S, any -- any enterprise could ) Tj
+T*
+(have a state-of-the-art AI data center and be able to engage generative AI. And so, I think ) Tj
+T*
+(the -- the -- the answer to -- to that question, it's hard to predict exactly what's going to ) Tj
+T*
+(happen quarter to quarter. But I think the trend is very very clear now that we're seeing a ) Tj
+T*
+(platform shift.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Next, we'll go to Timothy Arcuri with UBS. Your line is now open.) Tj
+T*
+() Tj
+T*
+(Tim Arcuri -- UBS -- Analyst) Tj
+T*
+() Tj
+T*
+(Thanks a lot. Can you talk about the attach rate of your networking solutions to your -- to --) Tj
+T*
+( to the compute that you're shipping? In other words, is -- is like half of your compute ) Tj
+T*
+(shipping with your networking solutions, you know, more than half, less than half, and is this) Tj
+T*
+( something that maybe you can use to prioritize allocation of the -- of -- of the GPUs? Thank ) Tj
+T*
+(you.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Well, working backwards, we don't use that to prioritize the allocation of our GPUs. We let ) Tj
+T*
+(customers decide what networking they would like to use. And for the customers that are ) Tj
+T*
+(building very large infrastructure, InfiniBand is, you know, I hate to say it, kind of a no-) Tj
+T*
+(brainer. And the reason for that, because -- because the efficiency of InfiniBand is so ) Tj
+T*
+(significant.) Tj
+T*
+() Tj
+T*
+(You know, some 10, 15, 20% higher throughput for $1 billion infrastructure translates to ) Tj
+T*
+(enormous savings. Basically, the networking is free. And so, if you have a -- a single ) Tj
+T*
+(application, if you will, infrastructure or it's largely dedicated to large language models or) Tj
+T*
+( large AI systems, InfiniBand is really -- really a terrific choice. However, if you're -- if ) Tj
+T*
+(you're hosting for a lot of different users and -- and Ethernet is really important to the way) Tj
+T*
+( you manage your data center, we have -- we have an excellent solution there that we just ) Tj
+T*
+(recently announced and it's called Spectrum X, where we're going to bring the capabilities, if) Tj
+T*
+( you will, not all of it, but -- but some of it of the capabilities of InfiniBand, to Ethernet) Tj
+T*
+( so that we can -- we can also, within the -- the environment of Ethernet, allow you to -- ) Tj
+T*
+(enable you to get excellent generative AI capabilities. So, Spectrum X is -- is just ramping ) Tj
+T*
+(now. It requires BlueField-3 and supports both our Spectrum-2 and Spectrum-3 Ethernet ) Tj
+T*
+(switches.) Tj
+T*
+() Tj
+T*
+(And the additional performance is really spectacular. And, you know, BlueField-3 makes it ) Tj
+T*
+ET
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 26 0 R >>
+endobj
+28 0 obj
+<< /Length 4097 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(possible and a whole bunch of software that goes along with it. BlueField -- BlueField, as all) Tj
+T*
+( of you know, is -- is a project really dear to my heart. And it's -- it's off to just a ) Tj
+T*
+(tremendous start. I think it's a home run.) Tj
+T*
+() Tj
+T*
+(This is the -- the concept of -- of in-network computing, and putting a lot of software in the) Tj
+T*
+( computing fabric is being realized with -- with BlueField-3. And it is going to be a home ) Tj
+T*
+(run.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Our final question comes from the line of Ben Reitzes with Melius. Your line is now open.) Tj
+T*
+() Tj
+T*
+(Ben Reitzes -- Melius Research -- Analyst) Tj
+T*
+() Tj
+T*
+(Hi. Good afternoon, good evening. Thank you for the question and putting me in here. My ) Tj
+T*
+(question is with regard to DGX Cloud.) Tj
+T*
+() Tj
+T*
+(Can you talk about the reception that you're seeing and, you know, how the momentum is going? ) Tj
+T*
+(And then, Colette, can you also talk about your software business? What is the run rate right ) Tj
+T*
+(now and the materiality of that business? And it does seem like it's already helping margins a) Tj
+T*
+( bit. Thank you very much.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(DGX Cloud's strategy, let me start there. DGX Cloud's strategy is to -- to achieve several ) Tj
+T*
+(things: number one, to enable a really close partnership between us and the world's CSPs. We ) Tj
+T*
+(-- we recognize that -- that many of our -- we work with some 30,000 companies around the ) Tj
+T*
+(world, 15,000 of them are start-ups, thousands of them are generative AI companies. And the ) Tj
+T*
+(fastest-growing segment, of course, is generative AI. We're working with all of -- all of the ) Tj
+T*
+(world's AI start-ups. And -- and -- and ultimately, they would like to be able to land in one ) Tj
+T*
+(of the world's leading clouds.) Tj
+T*
+() Tj
+T*
+(And -- and so, we -- we built DGX Cloud as a footprint inside the world's leading clouds so ) Tj
+T*
+(that we could simultaneously work with all of our AI partners and help land them in -- easily ) Tj
+T*
+(in one of our cloud partners. The second benefit is that it allows our CSPs and ourselves to ) Tj
+T*
+(work really closely together to improve the performance of hyperscale clouds, which is ) Tj
+T*
+(historically designed for multi-tenancy and not designed for high-performance distributed ) Tj
+T*
+(computing like generative AI. And so, to be able to work closely architecturally to -- to have) Tj
+T*
+( our engineers work hand in hand to improve the networking performance and the computing ) Tj
+T*
+(performance has been really powerful, really terrific. And then, thirdly, of course, Nvidia ) Tj
+T*
+(uses very large infrastructures ourselves, and -- and our self-driving car team, our Nvidia ) Tj
+T*
+(research team, our generative AI team, our language model team. You know, the amount of ) Tj
+T*
+(infrastructure that we need is quite -- quite significant. And none of our -- none of our ) Tj
+T*
+(optimizing compilers are possible without our DGX systems. Even compilers these days require ) Tj
+T*
+(AI, and optimizing software and infrastructure software requires AI to -- to even develop.) Tj
+T*
+() Tj
+T*
+(It's been well publicized that our engineering uses AI to design our chips. And so -- so, the ) Tj
+T*
+(internal -- our own consumption of AI, robotics team, so and so forth; Omniverse team, so on ) Tj
+T*
+(and so forth, all needs AI, and so -- all right? So, our -- our internal consumption is quite ) Tj
+T*
+(large as well, and we land that in DGX Cloud. And so, DFX Cloud has multiple -- multiple use ) Tj
+T*
+(cases, multiple drivers, and it's been off to an -- just an enormous success. Our -- our -- ) Tj
+T*
+(our CSPs love it.) Tj
+T*
+() Tj
+T*
+(The developers love it. And our own internal engineers are clamoring to have more of it. And ) Tj
+T*
+(it's a great way for us to engage and work closely with all of the AI ecosystem around the ) Tj
+T*
+(world.) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President, Chief Financial Officer) Tj
+T*
+ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 28 0 R >>
+endobj
+30 0 obj
+<< /Length 4515 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+() Tj
+T*
+(And let's see if I can answer your question regarding our software revenue and part of our ) Tj
+T*
+(opening remarks that we made as well. Remember, software is a part of almost all of our ) Tj
+T*
+(products, whether they are data center products, GPUs, systems, or any of our products within ) Tj
+T*
+(gaming and our future automotive products. You're correct, we're also selling it in a stand-) Tj
+T*
+(alone business. And that stand-alone software continues to grow, where we are providing both ) Tj
+T*
+(the software, services, upgrades across there as well. Now, we're seeing, at this point, ) Tj
+T*
+(probably hundreds of millions of dollars annually for our software business.) Tj
+T*
+() Tj
+T*
+(And we are looking at NVIDIA AI Enterprise to be included with many of the products that we're) Tj
+T*
+( selling, such as our DGX, such as our PCIe versions of our H100. And I think we're going to ) Tj
+T*
+(see more availability even with our CSP marketplaces. So, we're off to a great start, and I do) Tj
+T*
+( believe we'll see this continue to grow going forward.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(And that does include today's question-and-answer session. I'll turn the call back over to ) Tj
+T*
+(Jensen Huang for any additional or closing remarks.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(A new computing era has begun. The industry is simultaneously going through two platform ) Tj
+T*
+(transitions: accelerated computing and generative AI. Data centers are making a platform shift) Tj
+T*
+( from general-purpose to accelerated computing. The trillion dollars of global data centers ) Tj
+T*
+(will transition to accelerated computing to achieve an order of magnitude better performance, ) Tj
+T*
+(energy efficiency, and cost. Accelerated computing enabled generative AI, which is now driving) Tj
+T*
+( a platform shift in software and enabling new, never-before-possible applications.) Tj
+T*
+() Tj
+T*
+(Together, accelerated computing and generative AI are driving a broad-based computer industry ) Tj
+T*
+(platform shift. Our demand is tremendous. We are significantly expanding our production ) Tj
+T*
+(capacity. Supply will substantially increase for the rest of this year and next year. Nobody ) Tj
+T*
+(has been preparing for this for over two decades and has created a new computing platform that) Tj
+T*
+( the world's industry -- world's industries can build upon.) Tj
+T*
+() Tj
+T*
+(What makes them so special are, one, architecture. Nvidia accelerates everything from data ) Tj
+T*
+(processing, training inference every AI model, real-time speech-to-computer vision, and giant ) Tj
+T*
+(recommenders to vector databases. The performance and versatility of our architecture ) Tj
+T*
+(translates to the lowest data center TCO, and best energy efficiency. Two, install base.) Tj
+T*
+() Tj
+T*
+(Nvidia has hundreds of millions of CUDA-compatible GPUs worldwide. Developers need a large ) Tj
+T*
+(install base to reach end users and grow their business. Nvidia is the developer's preferred ) Tj
+T*
+(platform. More developers create more applications that make Nvidia more valuable for ) Tj
+T*
+(customers. Three, reach.) Tj
+T*
+() Tj
+T*
+(Nvidia's in cloud's enterprise data centers, industrial edge, PCs, workstations, instruments, ) Tj
+T*
+(and robotics. Each has fundamentally unique computing models and ecosystems. System suppliers ) Tj
+T*
+(like OEMs -- computer OEMs can confidently invest in Nvidia because we offer significant ) Tj
+T*
+(market demand and reach. Scale and velocity. Nvidia has achieved significant -- significant ) Tj
+T*
+(scale and is 100% invested in accelerated computing and generative AI.) Tj
+T*
+() Tj
+T*
+(Our ecosystem partners can trust that we have the expertise, focus, and scale to deliver a ) Tj
+T*
+(strong roadmap and reach to help them grow. We are accelerating because of the additive ) Tj
+T*
+(results of these capabilities. We're upgrading and adding new products about every six months ) Tj
+T*
+(versus every two years to address the expanding universe of generative AI. While we increase ) Tj
+T*
+(the output of H100 for training and inference of large language models, we're ramping up our ) Tj
+T*
+(new L40S universal GPU for scale -- for cloud scale-out and enterprise servers. Spectrum X, ) Tj
+T*
+(which consists of our Ethernet switch, BlueField-3, supernet, and software helps customers who) Tj
+T*
+( want the best possible AI performance on Ethernet infrastructures. Customers are already ) Tj
+T*
+ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 30 0 R >>
+endobj
+32 0 obj
+<< /Length 2803 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(working on next-generation, accelerated computing and generative AI with our Grace Hopper.) Tj
+T*
+() Tj
+T*
+(We're extending NVIDIA AI to the world's enterprises that demand generative AI but with the ) Tj
+T*
+(model privacy, security, and sovereignty. Together with the world's leading enterprise IT ) Tj
+T*
+(companies, Accenture, Adobe, Getty, Hugging Face, Snowflake, ServiceNow, VMware, and WPP; and ) Tj
+T*
+(our enterprise system partners, Dell, HPE, and Lenovo, we are bringing generative AI to the ) Tj
+T*
+(world's enterprise. We're building NVIDIA Omniverse to digitalize and enable the world's ) Tj
+T*
+(multi-trillion-dollar heavy industries to use generative AI to automate how they build and ) Tj
+T*
+(operate physical assets and achieve greater productivity. Generative AI starts in the cloud, ) Tj
+T*
+(but the most significant opportunities are in the world's largest industries where companies ) Tj
+T*
+(can realize trillions of dollars of productivity gains. It is an exciting time for Nvidia, our) Tj
+T*
+( customers, partners, and the entire ecosystem to drive this generational shift in computing. ) Tj
+T*
+(We look forward to updating you on our progress next quarter.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+([Operator signoff]) Tj
+T*
+() Tj
+T*
+(Duration: 0 minutes) Tj
+T*
+() Tj
+T*
+(Call participants:) Tj
+T*
+() Tj
+T*
+(Simona Jankowski -- Vice President, Investor Relations) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President, Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Matt Ramsay -- TD Cowen -- Analyst) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Vivek Arya -- Bank of America Merrill Lynch -- Analyst) Tj
+T*
+() Tj
+T*
+(Stacy Rasgon -- AllianceBernstein -- Analyst) Tj
+T*
+() Tj
+T*
+(Mark Lipacis -- Jefferies -- Analyst) Tj
+T*
+() Tj
+T*
+(Atif Malik -- Citi -- Analyst) Tj
+T*
+() Tj
+T*
+(Joe Moore -- Morgan Stanley -- Analyst) Tj
+T*
+() Tj
+T*
+(Toshi Hari -- Goldman Sachs -- Analyst) Tj
+T*
+() Tj
+T*
+(Tim Arcuri -- UBS -- Analyst) Tj
+T*
+() Tj
+T*
+(Ben Reitzes -- Melius Research -- Analyst) Tj
+T*
+() Tj
+T*
+(More NVDA analysis) Tj
+T*
+() Tj
+T*
+(All earnings call transcripts) Tj
+T*
+() Tj
+T*
+(This article is a transcript of this conference call produced for The Motley Fool. While we ) Tj
+T*
+(strive for our Foolish Best, there may be errors, omissions, or inaccuracies in this ) Tj
+T*
+(transcript. As with all our articles, The Motley Fool does not assume any responsibility for ) Tj
+T*
+(your use of this content, and we strongly encourage you to do your own research, including ) Tj
+T*
+(listening to the call yourself and reading the company's SEC filings. Please see our Terms and) Tj
+T*
+( Conditions for additional details, including our Obligatory Capitalized Disclaimers of ) Tj
+T*
+(Liability.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 32 0 R >>
+endobj
+34 0 obj
+<< /Length 305 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(The Motley Fool has positions in and recommends Nvidia. The Motley Fool has a disclosure ) Tj
+T*
+(policy .) Tj
+T*
+() Tj
+T*
+(The views and opinions expressed herein are the views and opinions of the author and do not ) Tj
+T*
+(necessarily reflect those of Nasdaq, Inc.) Tj
+T*
+ET
+endstream
+endobj
+35 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 34 0 R >>
+endobj
+xref
+0 36
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000225 00000 n 
+0000000293 00000 n 
+0000003096 00000 n 
+0000003222 00000 n 
+0000007940 00000 n 
+0000008066 00000 n 
+0000012996 00000 n 
+0000013122 00000 n 
+0000017943 00000 n 
+0000018071 00000 n 
+0000022581 00000 n 
+0000022709 00000 n 
+0000026906 00000 n 
+0000027034 00000 n 
+0000031377 00000 n 
+0000031505 00000 n 
+0000035671 00000 n 
+0000035799 00000 n 
+0000040142 00000 n 
+0000040270 00000 n 
+0000044239 00000 n 
+0000044367 00000 n 
+0000048930 00000 n 
+0000049058 00000 n 
+0000053408 00000 n 
+0000053536 00000 n 
+0000057686 00000 n 
+0000057814 00000 n 
+0000062382 00000 n 
+0000062510 00000 n 
+0000065366 00000 n 
+0000065494 00000 n 
+0000065851 00000 n 
+trailer
+<< /Size 36 /Root 1 0 R >>
+startxref
+65979
+%%EOF

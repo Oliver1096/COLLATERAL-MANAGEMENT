@@ -1,0 +1,2844 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R] /Count 22 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Length 3380 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(NVIDIA FY2021 Q1 earnings call transcript) Tj
+T*
+(Call date: 2020-05-21) Tj
+T*
+(Source: The Motley Fool) Tj
+T*
+(URL: https://www.fool.com/earnings/call-transcripts/2020/05/22/nvidia-corp-) Tj
+T*
+(nvda-q1-2021-earnings-call-transcript.aspx) Tj
+T*
+() Tj
+T*
+(Image source: The Motley Fool.) Tj
+T*
+() Tj
+T*
+(NVIDIA Corp † \( NVDA 3.56% \)) Tj
+T*
+(Q1†2021 Earnings Call) Tj
+T*
+(May 21, 2020 , 5:30 p.m. ET) Tj
+T*
+() Tj
+T*
+(Contents:) Tj
+T*
+() Tj
+T*
+(Prepared Remarks) Tj
+T*
+() Tj
+T*
+(Questions and Answers) Tj
+T*
+() Tj
+T*
+(Call Participants) Tj
+T*
+() Tj
+T*
+(Prepared Remarks:) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Good afternoon, my name is Josh and I will be your conference operator today. At this time, I ) Tj
+T*
+(would like to welcome everyone to NVIDIA's Financial Results Conference Call. All lines have ) Tj
+T*
+(been placed on mute to prevent any background noise. After the speakers' remarks, there will ) Tj
+T*
+(be a question-and-answer session. [Operator Instructions] Thank you, Simona Jankowski, you may) Tj
+T*
+( begin your conference.) Tj
+T*
+() Tj
+T*
+(Simona Jankowski -- Investor Relations) Tj
+T*
+() Tj
+T*
+(Thank you. Good afternoon everyone and welcome to NVIDIA's conference call for the first ) Tj
+T*
+(quarter of fiscal 2021. With me on the call today from NVIDIA are Jensen Huang, President and ) Tj
+T*
+(Chief Executive Officer and Colette Kress, Executive Vice President and Chief Financial ) Tj
+T*
+(Officer. I'd like to remind you that our call is being webcast live on NVIDIA's Investor ) Tj
+T*
+(Relations website. The webcast will be available for replay until the conference call to ) Tj
+T*
+(discuss our financial results for the second quarter of fiscal 2021. The content of today's ) Tj
+T*
+(call is NVIDIA's property. It can't be reproduced or transcribed without our prior written ) Tj
+T*
+(consent.) Tj
+T*
+() Tj
+T*
+(During this call, we may make forward-looking statements based on current expectations. These ) Tj
+T*
+(are subject to a number of significant risks and uncertainties and our actual results may vary) Tj
+T*
+( materially. For a discussion of factors that could affect our future financial results and ) Tj
+T*
+(business, please refer to the disclosure in today's earnings release, our most recent Forms ) Tj
+T*
+(10-K and 10-Q, and the reports that we may file on Form 8-K with the Securities and Exchange ) Tj
+T*
+(Commission. All our statements are made as of today, May 21st, 2020 based on information ) Tj
+T*
+(currently available to us. Except as required by law, we assume no obligation to update any ) Tj
+T*
+(such statements. During this call, we will discuss non-GAAP financial measures. We can find a ) Tj
+T*
+(reconciliation of these non-GAAP financial measures to GAAP financial measures in our CFO ) Tj
+T*
+(commentary, which is posted on our website. With that, let me turn the call over to Jensen.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Thanks, Simona. Before Colette describes our quarterly results, I'd like to thank those who ) Tj
+T*
+(are on the front lines of this crisis: first responders, healthcare workers, service providers) Tj
+T*
+( who inspires every day with their bravery and selflessness. I also want to acknowledge the ) Tj
+T*
+(incredible efforts of our colleagues here at NVIDIA. Despite many challenges, they have barely) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 4854 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+( broken stride during one of the busiest periods in our history. Our efforts related to the ) Tj
+T*
+(virus are focused in three areas. First, we're taking care of our families and communities. ) Tj
+T*
+(We've pulled in raises by six months to put more money in our employees hands and NVIDIA and ) Tj
+T*
+(our people have donated thus far more than $10 million to those in need.) Tj
+T*
+() Tj
+T*
+(Second, we're using NVIDIA's unique capabilities to fight the virus. A great deal of science ) Tj
+T*
+(being done on COVID-19 uses NVIDIA technology for acceleration. Some of the many examples ) Tj
+T*
+(including sequencing the virus, analyzing drug candidates, imaging the virus at molecular ) Tj
+T*
+(resolution with cryo-electron microscopy, and identifying elevated body temperature with AI ) Tj
+T*
+(cameras. And third, because COVID-19 won't be the last killer virus, we need to be ready for ) Tj
+T*
+(the next outbreak. NVIDIA technology is essential for the scientific community to develop an ) Tj
+T*
+(end-to-end computational defense system, a system that can detect early, accelerate the ) Tj
+T*
+(development of a vaccine, contain the spread of disease, and continuously test and monitor.) Tj
+T*
+() Tj
+T*
+(We are racing to deploy the NVIDIA Clara computational healthcare platforms. Clara Parabricks ) Tj
+T*
+(can accelerate genomics analysis from days to minutes. Clara Imaging will continue to partner ) Tj
+T*
+(with leading research institutes to develop state-of-the-art AI models to detect infections, ) Tj
+T*
+(and Clara Guardian will connect AI to cameras and microphones in hospitals to help overloaded ) Tj
+T*
+(staff watch over patients.) Tj
+T*
+() Tj
+T*
+(We completed the acquisition of Mellanox on April 27th. Mellanox is now NVIDIA's networking ) Tj
+T*
+(brand and business unit and will be reported as part of our data center market platform, and ) Tj
+T*
+(Israel is now one of NVIDIA's major technology centers. The new NVIDIA has a much larger ) Tj
+T*
+(footprint in data center computing, end-to-end and full stack expertise in data center ) Tj
+T*
+(architectures and tremendous scale to accelerate innovation. NVIDIA and Mellanox are a perfect) Tj
+T*
+( combination and position us for the major forces shaping the IT industry today, data center ) Tj
+T*
+(scale computing and AI.) Tj
+T*
+() Tj
+T*
+(From micro service cloud applications to machine learning and AI, accelerated computing and ) Tj
+T*
+(high performance networking are critical to modern data centers. Previously, a CPU compute ) Tj
+T*
+(node was the unit of computing. Going forward, the new unit of computing is an entire data ) Tj
+T*
+(center. The basic computing elements are now storage servers, CPU servers, and GPU servers and) Tj
+T*
+( are composed and orchestrated by hyperscale applications that are serving millions of users ) Tj
+T*
+(simultaneously. Connecting these computing elements together is the high performance Mellanox ) Tj
+T*
+(networking. This is the era of data center scale computing and together, NVIDIA and Mellanox ) Tj
+T*
+(can architect end-to-end. Mellanox is an extraordinary company and I'm thrilled that we're now) Tj
+T*
+( one force to invent the future together. Now let me turn the call over to Colette.) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Thanks, Jensen. Against the backdrop of the extraordinary events unfolding around the globe, ) Tj
+T*
+(we had a very strong quarter. Q1 revenue was $3.08 billion, up 39% year-on-year, down 1% ) Tj
+T*
+(sequentially and slightly ahead of our outlook reflecting upside in our data center and gaming) Tj
+T*
+( platforms. Starting with gaming, revenue of $1.34 billion was up 27% year-on-year and down ) Tj
+T*
+(10% sequentially. We are pleased with these results which exceeded expectations in the quarter) Tj
+T*
+( marked by the unprecedented challenge of the COVID-19.) Tj
+T*
+() Tj
+T*
+(Let me give you some color. Early in Q1, as the epidemic unfolded, demand in China was ) Tj
+T*
+(impacted with iCafes closing for an extended period. As the virus spread globally, much of the) Tj
+T*
+( world started working and learning from home and gameplay surged. Globally, we have seen 50% ) Tj
+T*
+(rise in gaming hours played on our GeForce platform driven both by more people playing and ) Tj
+T*
+(more gameplay per user. With many retail outlets closed, demand for our products has shifted ) Tj
+T*
+(quite efficiently to e-tail channels globally. Gaming laptops revenue accelerated to its ) Tj
+T*
+(fastest year-on-year growth in six quarters. We are working with our OEMs, channel partners to) Tj
+T*
+( meet the growing needs of the professionals and students engaged in working, learning, and ) Tj
+T*
+(playing at home.) Tj
+T*
+() Tj
+T*
+(In early April, our global OEM partners announced a record new 100 NVIDIA GeForce powered ) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 5327 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(laptops with availability starting in Q1 and the most to ship in Q2. These laptops are the ) Tj
+T*
+(first to use our high-end NVIDIA GeForce RTX 2080 SUPER and 2070 SUPER GPUs, which have been ) Tj
+T*
+(available for desktop since last summer. In addition, OEMs are bringing to market laptops ) Tj
+T*
+(based on the RTX 2060 GPU at just $999, a price point that enables a larger audience to take ) Tj
+T*
+(advantage of the power and features of RTX including its unique ray tracing and AI ) Tj
+T*
+(capabilities. These launches are well timed as mobile and remote computing needs accelerate. ) Tj
+T*
+(The global rise in gaming also lifted sales of NVIDIA, Nintendo Switch and our console ) Tj
+T*
+(business driving strong growth both sequentially and year-over-year.) Tj
+T*
+() Tj
+T*
+(We collaborated with Microsoft and Mojang to bring RTX ray tracing to Minecraft, the world's ) Tj
+T*
+(most popular game with over 100 million gamers monthly and over 100 billion total views on ) Tj
+T*
+(YouTube. Minecraft with RTX looks astounding with realistic shadows and reflections, light ) Tj
+T*
+(that reflects, refracts, and scatters through surfaces as naturalistic effects like fog. ) Tj
+T*
+(Reviews for it are off the charts. Ars Technica called it a jaw-dropping stunner and PC World ) Tj
+T*
+(said it was glorious to behold. Our RTX technology stands apart not only with our two-year ) Tj
+T*
+(lead in ray tracing, but with its use of AI to speed up and enhance games using the Tensor ) Tj
+T*
+(Core silicon on our RTX-class GPUs. We introduced the next version of our AI algorithm called ) Tj
+T*
+(deep learning super sampling. In real-time, DLSS 2.0 can fill the missing bits from every ) Tj
+T*
+(frame, doubling performance. It represents a major step function from the original and it can ) Tj
+T*
+(be trained on non-gaming specific images making it universal and easy to implement. The value ) Tj
+T*
+(and momentum of our RTx GPUs continue to grow. We have a significant upgrade opportunity over ) Tj
+T*
+(the next year with the rising tide of RTx enabled games, including major blockbusters like ) Tj
+T*
+(Minecraft and Cyberpunk. Let me also touch on our game streaming service, GFN which exited ) Tj
+T*
+(beta this quarter. It gives gamers access to more than 650 games, with another 1,500 in line ) Tj
+T*
+(to get on-boarded. These include Epic Games' Fortnite, which is the most played game on GFN ) Tj
+T*
+(and other popular titles such as Control, Destiny 2 and League of Legends with Cyberpunk ) Tj
+T*
+(joining in the fall. Since launching in February GFN has added 2 million users around the ) Tj
+T*
+(world with both sign-ups and hours of game playing boosted by stay-at-home measures. GFN ) Tj
+T*
+(expands our market reach to the billions of gamers with underpowered devices. It is the most ) Tj
+T*
+(publisher-friendly, developer-friendly game streaming service with the greatest number of ) Tj
+T*
+(games and the only one that supports ray tracing.) Tj
+T*
+() Tj
+T*
+(Moving to Pro Visualization. Revenue was $307 million, up 15% year-on-year and down 7% ) Tj
+T*
+(sequentially. Year-on-year revenue growth accelerated in Q1, driven by laptop workstations and) Tj
+T*
+( Turing adoption. We are seeing continued momentum in our ecosystem for RTx ray tracing. We ) Tj
+T*
+(now have RTx support for all major rendering visualization and design software packages, ) Tj
+T*
+(including Autodesk Maya, Dassault's CATIA, Pixar's RenderMan, Chaos Group's V-Ray and many ) Tj
+T*
+(others. Autodesk has announced that the latest release of VRED its automotive 3D visualization) Tj
+T*
+( software supports NVIDIA RTx GPUs. This enables designers to take advantage of RTx to produce) Tj
+T*
+( more like-life designs in a fraction of the time versus CPU base systems. Over 45 leading ) Tj
+T*
+(creative and design applications now take advantage of RTx driving a sustained upgrade ) Tj
+T*
+(opportunity for Quadro powered systems, while also extending their reach.) Tj
+T*
+() Tj
+T*
+(We see strong demand in verticals including healthcare, media and entertainment and higher ) Tj
+T*
+(education among others. Higher healthcare demand was fueled in part by COVID-19 related ) Tj
+T*
+(research at Siemens, Oxford and Caption Health. Caption Health received FDA clearance for an ) Tj
+T*
+(update to its AI guided ultrasound making it easier to perform diagnostics quality cardiac ) Tj
+T*
+(ultrasound. And in media and entertainment demand increased as companies like Disney deployed ) Tj
+T*
+(remote workforce initiatives.) Tj
+T*
+() Tj
+T*
+(Turning to automotive and robotic autonomous machines. Automotive revenue was $155 million, ) Tj
+T*
+(down 7% year-on-year and down 5% sequentially. The automotive industry is seeing a significant) Tj
+T*
+( impact from the pandemic and we expect that to affect our revenue in the second quarter as ) Tj
+T*
+(well, likely declining about 40% from Q1. Despite the near-term challenges, our important work) Tj
+T*
+( continues. We believe that every machine that moves someday will have autonomous ) Tj
+T*
+(capabilities. During the quarter, Xpeng introduced the P7, an all-electric sports sedan with ) Tj
+T*
+(innovative level 3 automated driving features, powered by the NVIDIA DRIVE AGX Xavier AI ) Tj
+T*
+(compute platform. Our open programmable software defined platform enables Xpeng to run is ) Tj
+T*
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 4969 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(proprietary software while also delivering over-the-air updates for new driving features and ) Tj
+T*
+(capabilities. Production deliveries of the P7 with NVIDIA DRIVE begin next month.) Tj
+T*
+() Tj
+T*
+(Our Ampere architecture will power our next generation NVIDIA DRIVE platform called Orin, ) Tj
+T*
+(delivering more than six times the performance of Xavier solutions and four times better power) Tj
+T*
+( efficiency. With Ampere scalability the DRIVE platform will extend from driverless robotaxis ) Tj
+T*
+(all the way down to in-windshield driver assistance systems sipping just a few watts of power.) Tj
+T*
+( Customers appreciate the top-to-bottom platform all based on a single architecture, letting ) Tj
+T*
+(them build one software-defined platform for every vehicle in their fleet.) Tj
+T*
+() Tj
+T*
+(Lastly in the area of robotics, we announced that BMW Group has selected the new NVIDIA Isaac ) Tj
+T*
+(robotics platforms to automate their factories, utilizing logistic robots built on advanced AI) Tj
+T*
+( computing and visualization technologies.) Tj
+T*
+() Tj
+T*
+(Turning to Data Center. Quarterly revenue was a record $1.14 billion, up 80% year-on-year and ) Tj
+T*
+(up 18% sequentially, crossing the $1 billion mark for the first time. Announced last week the ) Tj
+T*
+(A100 is the first Ampere architecture GPU. Although just announced, A100 is in full ) Tj
+T*
+(production, contributed meaningful to Q1 revenue and demand is strong. Overall data center ) Tj
+T*
+(demand was solid throughout the quarter. It was also broad based across hyperscale and ) Tj
+T*
+(vertical industry customers as well as across workloads, including training, inference and ) Tj
+T*
+(high-performance computing. We continue to have solid visibility into Q2. The A100 offers the ) Tj
+T*
+(largest leap in performance to date over our eight generations of GPUs boosting performance by) Tj
+T*
+( up to 20 times over its predecessor. It is exceptionally versatile, serving as a universal ) Tj
+T*
+(accelerator for the most important high performance workloads, including AI training and ) Tj
+T*
+(inference as well as data analytics, scientific computing and cloud graphics.) Tj
+T*
+() Tj
+T*
+(Beyond its leap performance and versatility, the A100 introduces new elastic computing ) Tj
+T*
+(technologies that make it possible to bring right-size computing power to every job, A multi-) Tj
+T*
+(instance GPU capability allows each A100 to be partitioned into as many as seven smaller GPU ) Tj
+T*
+(instances. Conversely multiple A100s interconnected by our third generation NVLink can operate) Tj
+T*
+( as one giant GPU for ever larger training tasks. This makes the A100 ideal for both training ) Tj
+T*
+(and for inference. The A100 will be deployed by the world's leading cloud service providers ) Tj
+T*
+(and system builders, including Alibaba Cloud, Amazon Web Services, Baidu Cloud, Dell ) Tj
+T*
+(Technologies, Google Cloud Platform, HPE and Microsoft Azure among others. It is also getting ) Tj
+T*
+(adopted by several supercomputing centers, including the National Energy Research Scientific ) Tj
+T*
+(Computing Center and the Julich Supercomputing Centre in Germany and Argonne National ) Tj
+T*
+(Laboratory. We launched and shipped the DGX A100, our third generation DGX and the most ) Tj
+T*
+(advanced AI system in the world. The DGX A100 is configurable from one to 56 independent GPUs ) Tj
+T*
+(to deliver elastic software defined datacenter infrastructure for the most demanding workloads) Tj
+T*
+( from AI training and inference to data analytics.) Tj
+T*
+() Tj
+T*
+(We announced two products for Edge AI, the EGX A100 for larger commercial off-the-shelf ) Tj
+T*
+(servers and EGX Jetson Xavier NX micro-edge servers. Supported by full AI optimized cloud ) Tj
+T*
+(native and secure software the EGX platform is built for AI computing at the edge. With the ) Tj
+T*
+(EGX, hospitals, retail stores, farms and factories can securely carry out real-time processing) Tj
+T*
+( of the massive amounts of data streaming from trillions of edge sensors. NVIDIA EGX makes it ) Tj
+T*
+(possible to securely deploy and manage and update fleets of servers remotely. EGX is also ) Tj
+T*
+(ideal for the massive computational challenge of 5G networks, which we are working on with our) Tj
+T*
+( partners like Ericsson and Mavenir.) Tj
+T*
+() Tj
+T*
+(Additionally, we announced CUDA 11 another important software harnessing the A100's ) Tj
+T*
+(performance and universatility to accelerate three of the most complex and fast-growing ) Tj
+T*
+(workloads, recommendation systems, computational AI and data science. First NVIDIA Merlin is a) Tj
+T*
+( deep recommendator application framework that enables developers to quickly build state-of-) Tj
+T*
+(the-art recommendation systems, leveraging our pre-trained models. With billions of users and ) Tj
+T*
+(trillions of items on the Internet deep recommendator are the critical engine powering ) Tj
+T*
+(virtually every Internet service.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 5196 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(Second NVIDIA Jarvis is a GPU accelerated application framework that makes it easy for ) Tj
+T*
+(developers to create, deploy, and run end-to-end real-time conversational AI applications that) Tj
+T*
+( understand terminology unique to each company and its customers using both vision and speech.) Tj
+T*
+( Demand for these applications are surging amid the shift to working from home, telemedicine, ) Tj
+T*
+(and remote learning. And third, in the field of data science and data analytics, we announced ) Tj
+T*
+(that we are bringing end-to-end GPU acceleration to Apache Spark, an analytics engine for big ) Tj
+T*
+(data processing that uses more than 500,000 data scientists worldwide. Native GPU acceleration) Tj
+T*
+( for the entire Spark pipeline from extracting, transforming, and loading the data to training) Tj
+T*
+( to inference, delivers the performance and the scale needed to finally connect the potential ) Tj
+T*
+(of big data with the power of AI. Adobe has achieved a 7 times performance improvement and a ) Tj
+T*
+(90% cost savings in an initial test using GPU accelerated data analytics with Spark.) Tj
+T*
+() Tj
+T*
+(Our accelerated computing platform continues to gain momentum underscored by the tremendous ) Tj
+T*
+(success of GTC Digital, our annual GPU technology conference, which shifted this spring to an ) Tj
+T*
+(online format. More than 55,000 online developers in AI research registered for the online ) Tj
+T*
+(event, which includes hundreds of hours of free content from AI practitioners and industry ) Tj
+T*
+(experts who leverage NVIDIA's platforms. Our ecosystem is now 1.8 million developer strong. ) Tj
+T*
+(Times like these truly test a computing platform's metal in the utility it brings to ) Tj
+T*
+(scientists racing for solutions. Researchers around the world are deploying our GPU computing ) Tj
+T*
+(platform in the fight against COVID-19. Scientists are combining AI simulation to detect ) Tj
+T*
+(changes in pneumonia [Phonetic] cases, sequence the virus, and seek effective bio-molecular ) Tj
+T*
+(compounds for a vaccine or treatment.) Tj
+T*
+() Tj
+T*
+(The first breakthrough came from researchers at the University of Texas at Austin and National) Tj
+T*
+( Institute of Health who used the GPU accelerated application to create the first 3D atomic ) Tj
+T*
+(scale map of the virus using NVIDIA GPUs. This was followed by researchers at Oak Ridge ) Tj
+T*
+(National Laboratory who screened 8,000 compounds to identify 77 promising drug targets using ) Tj
+T*
+(the world's fastest supercomputer Summit, which is powered by more than 27,000 NVIDIA GPUs. ) Tj
+T*
+(The V100 GPUs at Oak Ridge are in high demand as they can analyze 17 million compound protein ) Tj
+T*
+(combinations in a day. To help understand the virus spread pattern, the University of ) Tj
+T*
+(California at San Diego, researchers ported their microbiomic analysis software to GPUs in the) Tj
+T*
+( San Diego supercomputing cluster of 500 times analysis speed up from what some people are ) Tj
+T*
+(more susceptible to the virus.) Tj
+T*
+() Tj
+T*
+(Okay, moving to the rest of the P&L. Q1 GAAP gross margins were 65.1% and non-GAAP was 65.8%, ) Tj
+T*
+(up sequentially and year-on-year primarily driven by GeForce GPU product mix and higher data ) Tj
+T*
+(center sales. Q1 GAAP operating expenses were $1.03 billion and non-GAAP operating expenses ) Tj
+T*
+(were $821 million, up 10% and 9% year-on-year respectively. Q1 GAAP EPS was $1.47, up 130% ) Tj
+T*
+(from a year earlier and non-GAAP EPS was $1.80, up 105% from a year ago. Q1 cash flow from ) Tj
+T*
+(operations was $909 million.) Tj
+T*
+() Tj
+T*
+(Before I turn to the outlook, let me make a few comments on our Mellanox acquisition. Beyond ) Tj
+T*
+(the strong strategic and cultural fit that Jensen has discussed, Mellanox has exceptionally ) Tj
+T*
+(strong financial profile. The company reported revenue of $429 million in its March quarter, ) Tj
+T*
+(accelerating to 40% year-on-year growth with GAAP and non-GAAP gross margins in the mid-to-) Tj
+T*
+(high 60% range. We expect the acquisition to be immediately accretive to non-GAAP gross ) Tj
+T*
+(margins, non-GAAP earnings per share, and free cash flow. We aim to retain the full Mellanox ) Tj
+T*
+(team and accelerate investments in our combined road map as we jointly innovate on our shared ) Tj
+T*
+(vision for the future of accelerated computing.) Tj
+T*
+() Tj
+T*
+(With that, let me turn to the outlook of the second quarter of fiscal 2021, which includes a ) Tj
+T*
+(full quarter contribution from Mellanox. We have assumed in our outlook the potential ongoing ) Tj
+T*
+(impact from COVID-19. We expect our automotive platform sales to be down 40% on a sequential ) Tj
+T*
+(basis and ProViz to decline sequentially. In gaming, while we will likely see ongoing impact ) Tj
+T*
+(from the partial operations or closures of iCafes and retail stores, we expect that to be ) Tj
+T*
+(largely offset by a shift to e-retail channels. Overall, the precise magnitude of the impact ) Tj
+T*
+(is difficult to predict given uncertainties around the reopening of the economy. Overall, we ) Tj
+T*
+(expect second quarter revenue to be $3.65 billion plus or minus 2%. The contribution of ) Tj
+T*
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 4542 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(Mellanox revenue is likely to be in the low teens percentage range of our total Q2 revenue. We) Tj
+T*
+( are providing this breakout to help with comparability between Q1 and Q2, but going forward, ) Tj
+T*
+(will become an integrated part of our data center market platform.) Tj
+T*
+() Tj
+T*
+(GAAP and non-GAAP gross margins are expected to be 58.6% and 66% respectively, plus or minus ) Tj
+T*
+(50 basis points. The sequential decline in GAAP gross margins primarily reflects an increase ) Tj
+T*
+(in acquisition-related costs, most of which are non-reoccurring. GAAP and non-GAAP operating ) Tj
+T*
+(expenses are expected to be approximately $1.52 billion and $1.04 billion respectively. A ) Tj
+T*
+(sequential change in GAAP operating expenses reflects an increase in stock-based compensation ) Tj
+T*
+(and acquisition related costs. GAAP and non-GAAP operating expenses for the full year are ) Tj
+T*
+(expected to be approximately $5.7 billion and $4.1 billion respectively. For the full year, ) Tj
+T*
+(stock-based compensation and acquisition related costs also influence. GAAP and non-GAAP OI&E ) Tj
+T*
+(are both expected to be an increase of approximately $50 million and $45 million respectively.) Tj
+T*
+( GAAP and non-GAAP tax rates are both expected to be 9% plus or minus 1% excluding discrete ) Tj
+T*
+(items. Capital expenditures are expected to be approximately $225 million to $250 million. ) Tj
+T*
+(Further financial details are included in the CFO commentary and other information available ) Tj
+T*
+(on our IR website. New this quarter, we have also posted an investor presentation summarizing ) Tj
+T*
+(our results and key highlights.) Tj
+T*
+() Tj
+T*
+(In closing, let me highlight upcoming events for the financial community. Next Thursday, May ) Tj
+T*
+(28th, we will webcast a presentation and Q&A with Jensen on our recent product announcements ) Tj
+T*
+(moderated by Evercore. We will also be at Cowen's TMT Conference on May 27th, Morgan Stanley's) Tj
+T*
+( Cloud Secular Winners Conference on June 1st, BofA's Technology Conference on June 2nd, ) Tj
+T*
+(Needham's Fourth Automotive Technology Conference on June 3rd and NASDAQ Investor Conference ) Tj
+T*
+(on June 16th. Operator, we will now open for questions. Can you please poll for questions ) Tj
+T*
+(please.) Tj
+T*
+() Tj
+T*
+(Questions and Answers:) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+([Operator Instructions] And your first question comes from Aaron Rakers with Wells Fargo. ) Tj
+T*
+(Please go ahead.) Tj
+T*
+() Tj
+T*
+(Aaron Rakers -- Wells Fargo -- Analyst) Tj
+T*
+() Tj
+T*
+(Yeah, thanks and congratulations on the solid quarter. Colette, I'm curious of your commentary) Tj
+T*
+( around visibility in the data center side. That's been [Phonetic] you know, comments over the) Tj
+T*
+( last couple of quarters, how would you characterize your visibility today relative to maybe ) Tj
+T*
+(what it was last quarter and how do we think about the visibility in the context of trends ) Tj
+T*
+(maybe into the back half of the calendar year. Thank you.) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Thanks well [Phonetic] for the question. You're correct. We have indicated a couple of ) Tj
+T*
+(quarters ago that we were starting to see improved visibility after we came out of the ) Tj
+T*
+(digestion period in the prior overall fiscal year. As we move into Q2, we still have ) Tj
+T*
+(visibility and solid visibility into our Q2 results for overall data centers. So at this time,) Tj
+T*
+( I'd say, they are relatively about the same of what we had seen going into the Q1 period and ) Tj
+T*
+(we think that is a true indication of their excitement about our platform and most ) Tj
+T*
+(particularly our excitement regarding A100 and its launch and its additional products. Now ) Tj
+T*
+(regarding the second half of the year, as you know, we have seen broad-based growth in both ) Tj
+T*
+(the hyperscale and the vertical industries, both of them in terms -- have hit record levels in) Tj
+T*
+( our Q1 results and we see in terms of inferencing continuing to grow as well. As well as ) Tj
+T*
+(we're also expanding in terms of edge AI. Our strong demand of the A100 products including the) Tj
+T*
+( Delta board, but also in terms of our DGXs are just starting a initial ramp. However, we do ) Tj
+T*
+(guide only one quarter at a time. So it's still a little bit too early for us to give a true ) Tj
+T*
+(certainty in terms of the macro situation that's in front of us, but again, we feel very good ) Tj
+T*
+ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Length 3267 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(about the demand for A100.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question comes from Stacy Rasgon with Bernstein Research. Please go ahead.) Tj
+T*
+() Tj
+T*
+(Stacy Rasgon -- Bernstein Research -- Analyst) Tj
+T*
+() Tj
+T*
+(Hi guys, thanks for taking my questions. I first wanted to follow-up on your gaming ) Tj
+T*
+(commentary. You sort of mentioned a couple of offsets, COVID potentially still a headwind, ) Tj
+T*
+(e-tail a tailwind and maybe offsetting each other. Were you trying to suggest that those did ) Tj
+T*
+(offset completely and gaming was kind of flattish into Q2, because I know it has a typical ) Tj
+T*
+(seasonal pattern, switch [Phonetic] is typically up. I guess what were trying to say with ) Tj
+T*
+(those kind of factors and what are the kinds of things we should be thinking about when it ) Tj
+T*
+(comes to seasonality, Colette, into Q2 around that business segment?) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(So let me start and I'll see if Jensen also wants to add on to it. I think you're talking ) Tj
+T*
+(about our sequential between Q1 and Q2. Some of the --) Tj
+T*
+() Tj
+T*
+(Stacy Rasgon -- Bernstein Research -- Analyst) Tj
+T*
+() Tj
+T*
+(That's right.) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Right, some of the pieces that we had seen related to COVID-19 in Q1 may carryover into Q2. ) Tj
+T*
+(COVID-19 in fact had an impact in terms of our retail channels as well as our iCafes. However,) Tj
+T*
+( as we discussed, it efficiently moved to overall e-tail. We have normally been seasonally ) Tj
+T*
+(down in desktop between Q1 and Q2 and that will likely happen, but we do see the strength in ) Tj
+T*
+(terms of laptops and overall consoles as we move from Q1 to Q2. So in summary, we do expect ) Tj
+T*
+(growth sequentially between Q1 and Q2 for our overall gaming business. Now, I'll turn it over ) Tj
+T*
+(to Jensen to see if he has additional commentary.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(No, that was great. That was fantastic.) Tj
+T*
+() Tj
+T*
+(Stacy Rasgon -- Bernstein Research -- Analyst) Tj
+T*
+() Tj
+T*
+(Yeah, I guess just a follow-up on that though, if it's growing I mean -- like in prior years, ) Tj
+T*
+(we've seen it grow like very strong double digits, obviously the mix of the business was ) Tj
+T*
+(different back then, but do you think that the kind of -- I mean are we thinking kind of it's ) Tj
+T*
+(up somewhat -- you don't -- is there any chance that it could be up like on to what we've seen) Tj
+T*
+( in terms of like typical levels in the past, like, can you give us any sense of magnitude ) Tj
+T*
+(that would be really helpful.) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Yeah I think when we think about that sequential growth, we'll probably be in the low moving ) Tj
+T*
+(up to probably the mid-single digits in terms of -- that's what our guidance right now and ) Tj
+T*
+(we'll just have to see how the quarter goes.) Tj
+T*
+() Tj
+T*
+(Stacy Rasgon -- Bernstein Research -- Analyst) Tj
+T*
+() Tj
+T*
+(That's very helpful.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Length 4056 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Stacy, the thing I would add is this, I would say, I think the guidance is exactly what ) Tj
+T*
+(Colette mentioned, but if you look at the big picture, there's a few dynamics that are working) Tj
+T*
+( really well in our favor. First, of course, is that RTX and ray tracing is just a home run. ) Tj
+T*
+(Minecraft was phenomenal. We have 33 games in the pipe that has already been announced or ) Tj
+T*
+(shipping. Just about every game developer is signed onto RTX and ray tracing and I think it's ) Tj
+T*
+(a forgone conclusion that this is the next generation. This is the way computer graphics are ) Tj
+T*
+(going to be in the future. So I think RTX is a home run.) Tj
+T*
+() Tj
+T*
+(The second, the notebooks that we created with RTX and Max-Q is just doing great. We got 100 ) Tj
+T*
+(notebooks in gaming. We have 75 notebooks designed for either mobile workstations or what we ) Tj
+T*
+(call NVIDIA Studio for designers and creators and the timing was just perfect. With everybody ) Tj
+T*
+(needing to stay at home, the ability to have a mobile gaming platform and a mobile workstation) Tj
+T*
+( was just perfect timing and then, of course, you guys know quite well that Nintendo Switch is) Tj
+T*
+( doing fantastic. There are three -- the Top 3 games in the world, the top games in the world ) Tj
+T*
+(today are Fortnite, Minecraft, and Animal Crossing. All three games are NVIDIA platforms and ) Tj
+T*
+(so I think we have all the dynamics working in our favor and then we just got to see how it ) Tj
+T*
+(turns out.) Tj
+T*
+() Tj
+T*
+(Stacy Rasgon -- Bernstein Research -- Analyst) Tj
+T*
+() Tj
+T*
+(Got it. That's helpful. Thank you, guys.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah. Thank you.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question comes from Joe Moore with Morgan Stanley.) Tj
+T*
+() Tj
+T*
+(Joe Moore -- Morgan Stanley -- Analyst) Tj
+T*
+() Tj
+T*
+(Great, thank you. I wanted to ask about the roll out of Ampere, how quickly does that roll ) Tj
+T*
+(into the various segments between hyperscale as well as on the DGX side as well as on the HPC ) Tj
+T*
+(side and is it a smooth transition, is there, you know, I remember when you launched Volta, ) Tj
+T*
+(there was a little bit of a transitional pause, just can you tell us how you see that ramping ) Tj
+T*
+(up with the different customer segments?) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah, thanks a lot Joe. So first of all, taking a step back, accelerated computing is now ) Tj
+T*
+(common sense in data centers. It wasn't the case when we first launched Volta. If you went ) Tj
+T*
+(back to Volta, Volta was the first generation that did deep learning training in a really ) Tj
+T*
+(serious way and it was really focused on training. It was focused on training and high ) Tj
+T*
+(performance computing. We didn't come until later with the inference version called T4, but ) Tj
+T*
+(over the course of the last five years, we've been accelerating workloads that are now ) Tj
+T*
+(diversifying in data centers. If you take a look at most of the hyperscalers, machine learning) Tj
+T*
+( is now pervasive, deep learning is now pervasive. The notion of accelerating deep learning ) Tj
+T*
+(and machine learning using our GPUs is now common sense. It didn't used to be. People still ) Tj
+T*
+(saw it as something esoteric, but today, data centers all over the world expect a very ) Tj
+T*
+(significant part of their data center being accelerated with GPUs.) Tj
+T*
+() Tj
+T*
+(The number of workloads that we've accelerated since in the last five years has expanded ) Tj
+T*
+(tremendously whether it's imaging or video or conversational AI or deep recommender systems ) Tj
+T*
+(that probably unquestionably at this point, the most important machine learning model in the ) Tj
+T*
+(world. So the number of applications we now accelerate is quite diverse and so that's really ) Tj
+T*
+ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 18 0 R >>
+endobj
+20 0 obj
+<< /Length 4024 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(-- that's contributed greatly to the ramp of Ampere. When we started to introduce Ampere to ) Tj
+T*
+(the data centers, it was very commonsensical to them that they would adopt it. They have a ) Tj
+T*
+(large amount of workload that's already accelerated by NVIDIA GPUs and as you know, our GPUs ) Tj
+T*
+(are architecturally compatible from generation to generation. We're forward compatible, we're ) Tj
+T*
+(backwards compatible. Everything that runs on T4 runs on A100, everything that runs on V100 ) Tj
+T*
+(runs on A100 and so I think the transition is going to be really, really smooth.) Tj
+T*
+() Tj
+T*
+(On the other hand, because V100 and T4 which by the way, V100 and T4 had a great quarter. It ) Tj
+T*
+(was sequentially up and then on top of that, we grew with the A100 shipment. A100 or excuse ) Tj
+T*
+(me, V100 and T4 are now quite broadly adopted in hyperscalers for their AI services, in cloud ) Tj
+T*
+(computing, and in vertical industries, as Colette mentioned earlier, which is almost roughly ) Tj
+T*
+(half of our overall HPC business all the way out to the edge, which had a great quarter and ) Tj
+T*
+(then a much smaller part, of course, you know, supercomputing is important, but it's a very ) Tj
+T*
+(small part of high performance computing, but that's also -- we also shipped A100 to ) Tj
+T*
+(supercomputing centers. So I think the general sense of it -- the summary of it is that the ) Tj
+T*
+(number of workloads breaks [Phonetic] already computing has continued to grow. The adoption of) Tj
+T*
+( machine learning and AI in all the clouds and hyperscalers has grown. The common sense of ) Tj
+T*
+(using acceleration is now a foregone conclusion and so I think we're ramping into a very ) Tj
+T*
+(receptive market with a really fantastic product.) Tj
+T*
+() Tj
+T*
+(Joe Moore -- Morgan Stanley -- Analyst) Tj
+T*
+() Tj
+T*
+(Thank you.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah, thanks a lot, Joe.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question comes from Vivek Arya with Bank of America. Please go ahead.) Tj
+T*
+() Tj
+T*
+(Vivek Arya -- Bank of America Merrill Lynch -- Analyst) Tj
+T*
+() Tj
+T*
+(Thanks for taking my question and congratulations on the strong growth and execution. Just a ) Tj
+T*
+(quick clarification, Colette, 66% kind of the new baseline for gross margin.) Tj
+T*
+() Tj
+T*
+(And then the question Jensen for you is, give us a sense for how much inference as a workload ) Tj
+T*
+(and Ampere as a product are expected to contribute. I'm just curious where you are in terms of) Tj
+T*
+( growing in the inference and edge AI market and where are we kind of in the journey of Ampere) Tj
+T*
+( penetration? Thank you.) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Let me start on the first question regarding the gross margin and our gross margin as we look ) Tj
+T*
+(into Q2. We are guiding Q2 non-GAAP gross margins at 66%. This is -- would be another record ) Tj
+T*
+(gross margin quarter just as we finished a -- overall record level even as we are continuing ) Tj
+T*
+(right now to ramp our overall Ampere architecture withing that. The Q2 also incorporates ) Tj
+T*
+(Mellanox. Mellanox is -- had very similar overall margins to our overall data center margins ) Tj
+T*
+(as well. But we see this new baseline as a great transition and likely to see some changes as ) Tj
+T*
+(we go forward. However, it's still a little early to see where these gross margins will go, ) Tj
+T*
+(but we're very pleased with the overall guidance right now at 66% for Q2.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Accelerated computing is just at the beginning of its journey. And if you look at -- if you ) Tj
+T*
+(look at -- I would characterize it as several segments. First is hyperscaler AI micro ) Tj
+T*
+(services, which is all the services that we enjoy today that has AI, whenever you shop on the ) Tj
+T*
+ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 20 0 R >>
+endobj
+22 0 obj
+<< /Length 4075 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(web it recommends a product, when you're watching a movie it recommends a movie or recommends ) Tj
+T*
+(a song, all of those -- or recommends news or recommends a friend or recommends a website, the) Tj
+T*
+( first 10 websites that they recommend, now all of these recommenders that are powering the ) Tj
+T*
+(Internet are all based on machine learning today. It's the reason why they're collecting so ) Tj
+T*
+(much data. The more data they can collect, the more they could predict your preference. And ) Tj
+T*
+(predicting your preference is the core to a personalized Internet. It used to be largely based) Tj
+T*
+( on CPU approaches, but going forward it's all based on deep learning approaches. The results ) Tj
+T*
+(are much more superior and a few percentage change in preference prediction accuracy could ) Tj
+T*
+(result in tens of billions of dollars of economics. And so this is very, very big deal and the) Tj
+T*
+( shift toward deep learning in hyperscale micro services or AI micro services is still ) Tj
+T*
+(ramping.) Tj
+T*
+() Tj
+T*
+(Second is cloud. And as you know, cloud is a $100 billion market segment of IT today, growing ) Tj
+T*
+(about 40% into $1 trillion opportunity. This -- cloud computing is the single largest IT ) Tj
+T*
+(industry transformation that we have ever seen. The two powers that is really -- the force -- ) Tj
+T*
+(the two forces that is really driving our data center business is AI and cloud computing. ) Tj
+T*
+(We're perfectly positioned to benefit from these two powerful forces. So the second is cloud ) Tj
+T*
+(computing and that journey is -- has a long ways to go.) Tj
+T*
+() Tj
+T*
+(Then the third is industrial edge. In the future -- today it's not -- it's not the case today.) Tj
+T*
+( But the combination of IoT, 5G, industrial 5G and artificial intelligence is going to be -- ) Tj
+T*
+(is going to turn every single industry into a tech industry. And whether it's logistics or ) Tj
+T*
+(warehousing or manufacturing or farming, construction, industrial every single industry will ) Tj
+T*
+(become a tech industry. And there will be trillions of sensors and they will be connected to ) Tj
+T*
+(little micro data centers and those data centers will be in the millions, they will be ) Tj
+T*
+(distributed all over the edge. And that journey has just barely started.) Tj
+T*
+() Tj
+T*
+(We announced three very important partners in three domains and they are the lead partners ) Tj
+T*
+(that we felt that people would know, but we have several hundred partners that are working ) Tj
+T*
+(with us on edge AI. We announced Walmart for smart retail, we announced the US Postal Service,) Tj
+T*
+( the world's largest mail sorting service and logistics service and then we announced this ) Tj
+T*
+(last quarter, BMW who is working with us to transform their factory into a robotics automated ) Tj
+T*
+(factory in the future. And so these three applications are great examples of the next phase of) Tj
+T*
+( artificial intelligence and where Ampere is going to ramp into and that is just really at its) Tj
+T*
+( early, early stages.) Tj
+T*
+() Tj
+T*
+(And so I think it's fair to say that we're really well positioned in the two fundamental ) Tj
+T*
+(forces of IT today, data center scale computing and artificial intelligence and the segments ) Tj
+T*
+(that it's going to make a real impact are all gigantic markets, hyperscale AI, cloud and edge ) Tj
+T*
+(AI.) Tj
+T*
+() Tj
+T*
+(Vivek Arya -- Bank of America Merrill Lynch -- Analyst) Tj
+T*
+() Tj
+T*
+(Thank you.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Thanks a lot, Vivek.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(C.J. Muse with Evercore, please go ahead.) Tj
+T*
+() Tj
+T*
+(C.J. Muse -- Evercore ISI -- Analyst) Tj
+T*
+() Tj
+T*
+(Yeah. Good afternoon. Thank you for taking the question. I guess I'm going to ask two. ) Tj
+T*
+(Colette, can you help us with what you think the growth rate for Mellanox could look like in ) Tj
+T*
+(calendar '20? And then Jensen, a bigger picture question for you. And really not specific to ) Tj
+T*
+ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 22 0 R >>
+endobj
+24 0 obj
+<< /Length 4398 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(healthcare, more broad based, but how do you think about the long-lasting impact of COVID on ) Tj
+T*
+(worldwide demand for AI? Thank you.) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(C.J., can you help me? You cut out in the middle of your sentence to me. Can you repeat the ) Tj
+T*
+(first part of it for me? Thank you.) Tj
+T*
+() Tj
+T*
+(C.J. Muse -- Evercore ISI -- Analyst) Tj
+T*
+() Tj
+T*
+(Yeah. Sorry about that. I'm curious if you could provide a little handholding on what we ) Tj
+T*
+(should think about for growth for Mellanox in calendar '20.) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(At this time it's a little early for us and as you know, we generally just give one quarter ) Tj
+T*
+(out and we're excited to bring the Mellanox team on board, so we can start beginning the ) Tj
+T*
+(future of building products together for the overall [Technical Issues] seen their overall ) Tj
+T*
+(performance over the last couple of quarters. They had a great last year, they had a great ) Tj
+T*
+(March quarter as well and we're just going to have to stay tuned to see equally with them what) Tj
+T*
+( the second half of the year looks for them. Okay.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah, C.J. Thanks for the question. This pandemic is really quite tragic and is reshaping ) Tj
+T*
+(industries and markets. And I think it's going to be structural. I think it's going to remain ) Tj
+T*
+(and I think your question is really good because now is a good time to think about where to ) Tj
+T*
+(double down. There is a few areas that I believe are going to be structurally changed. And I ) Tj
+T*
+(think that once I said it will be very sensible.) Tj
+T*
+() Tj
+T*
+(The first is that the world's enterprise digital transformation and moving to the cloud that's) Tj
+T*
+( going to accelerate. Every single company can't afford to rely just on on-prem IT. They have ) Tj
+T*
+(to be much more resilient. And having a hybrid cloud computing infrastructure is going to ) Tj
+T*
+(provide them the resilience they need. And so that's one. And when the world moves and ) Tj
+T*
+(accelerates into this $1 trillion IT infrastructure transformation which is now $100 billion ) Tj
+T*
+(into that journey, it's growing 40% a year, I wouldn't be surprised to see that that ) Tj
+T*
+(accelerate. And so cloud computing AI is going to accelerate because of that.) Tj
+T*
+() Tj
+T*
+(The second is the importance of creating a computational defense system. The defense systems ) Tj
+T*
+(of most nations today are based on radar and in the future our defense systems are going to ) Tj
+T*
+(detect things that are unseeable, it's going to be infectious disease. And I think every ) Tj
+T*
+(nation and government and scientific lab are now gearing up to think about what does it take ) Tj
+T*
+(to create each country that is based on computational methods. And NVIDIA an accelerated ) Tj
+T*
+(computing company. We take something that otherwise would take a year in the case of Oak Ridge) Tj
+T*
+( and they filtered one billion compounds in a day. And that's what you need to do, you need to) Tj
+T*
+( find a way to have an acceleration -- an accelerated computational defense system that allows) Tj
+T*
+( you to find insight, detect early warning ASAP. And then of course that computational system ) Tj
+T*
+(has to go through the entire range from mitigation to containment to living within a ) Tj
+T*
+(monitoring. And so scientific labs are going to be gearing up, national labs are going to be ) Tj
+T*
+(gearing up.) Tj
+T*
+() Tj
+T*
+(The third part is the AI and robotics. We're going to have to have the ability to be able to ) Tj
+T*
+(do our work remotely. NVIDIA has a lot of robots that are helping us in our labs and without ) Tj
+T*
+(those robots helping us in our labs, we have a hard time getting our work done. And so we need) Tj
+T*
+( to have -- we need to have remote autonomous capability for -- to handle all of these ) Tj
+T*
+(dangerous circumstances, to disinfect environments, to fumigate environments autonomously, to ) Tj
+T*
+(clean environments, to be able to interact with people where as little as possible in the ) Tj
+T*
+(event of an outbreak, all kinds of robotics applications are being dreamed up right now to ) Tj
+T*
+ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 24 0 R >>
+endobj
+26 0 obj
+<< /Length 4237 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(help society forward in the case of another outbreak.) Tj
+T*
+() Tj
+T*
+(And then lastly, I think more and more people are going to work permanently from home. There ) Tj
+T*
+(is a strong movement of those companies that are going to support a larger percentage of ) Tj
+T*
+(people working from home. And when people are working from home it's going to clearly increase) Tj
+T*
+( the single best home entertainment, which is video games. I think video games is going to ) Tj
+T*
+(represent a much larger segment of the overall entertainment budget of society. And so these ) Tj
+T*
+(are some of the trends I would say. I would say, cloud computing, AI, I would say national ) Tj
+T*
+(labs, a computational defense system, robotics and working from home are structural changes ) Tj
+T*
+(that are going to be here to stay and these dynamics are really good for us.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question comes from Toshiya Hari with Goldman Sachs. Please go ahead.) Tj
+T*
+() Tj
+T*
+(Toshiya Hari -- Goldman Sachs -- Analyst) Tj
+T*
+() Tj
+T*
+(Hi guys. Good afternoon and thank you very much for taking the question. I had one for Colette) Tj
+T*
+( and then one for Jensen as well, if I may. Colette I wanted to come back to the gross margin ) Tj
+T*
+(question. You're guiding July essentially flat sequentially, despite what I'm guessing as a ) Tj
+T*
+(better mix with non-ops coming in and automotive guided down 40% sequentially, I guess the ) Tj
+T*
+(question is what are some of the offsets that are pulling down gross margin in the current ) Tj
+T*
+(quarter? And sort of related to that, how should we be thinking about the cadence in opex ) Tj
+T*
+(going forward, given the six month pull-in that you guys talked about on the compensation ) Tj
+T*
+(side? And then one quick one for Jensen. I was hoping you could comment on the current trade ) Tj
+T*
+(landscape between the US and China. I feel like you guys shouldn't be impacted in a material ) Tj
+T*
+(way directly nor indirectly. But at the same time, given the critical role you play in ) Tj
+T*
+(scientific computing, I can sort of see a scenario where some people may claim that you guys ) Tj
+T*
+(contribute to efforts outside of the US. So you can kind of speak on that -- speak to that and) Tj
+T*
+( that will be helpful. Thank you.) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Thanks Toshiya for your question. So regarding our gross margins in the second quarter, our ) Tj
+T*
+(second quarter guide at 66% is up sequentially from even a record level in terms of what we ) Tj
+T*
+(had in terms of Q1. This next record that we hope to achieve with our overall guidance is even) Tj
+T*
+( with including our overall Ampere architecture. So typically when we transition to new ) Tj
+T*
+(architectures margins can somewhat be a little bit lower on the on-track potential kind of ) Tj
+T*
+(move up and trend up over time. Additionally, as you articulated, our automotive is lower, but) Tj
+T*
+( also we're going to see growth in some of our platforms in gaming such as consoles which may ) Tj
+T*
+(offset those two.) Tj
+T*
+() Tj
+T*
+(But overall, there's nothing structural to really highlight other than our mix in business and) Tj
+T*
+( the ramp of Ampere and its transition.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Let's see. The trade tension, we've been living in this environment for some time, Toshiya. ) Tj
+T*
+(And as you know, the trade tension has been in the background for -- coming up on a year, ) Tj
+T*
+(probably got longer. And China's high-performance computing systems are largely based on ) Tj
+T*
+(Chinese electronics anyhow. And so -- so that's -- I think our condition won't materially ) Tj
+T*
+(change going forward.) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(So Toshiya, let me respond to your second question that you had for me, which was regarding to) Tj
+T*
+( our opex and our decision to pull forward our overall struggle [Phonetic] into Q2. This is ) Tj
+T*
+(something that we've normally done later in the year. We felt it was prudent during the ) Tj
+T*
+ET
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 26 0 R >>
+endobj
+28 0 obj
+<< /Length 4737 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(current COVID-19. Although our employees are quite safe, we just wanted to make sure that ) Tj
+T*
+(their family members also were safe and have the opportunity to have cash upfront. It is about) Tj
+T*
+( a couple of months, about four months earlier than normal and it is incorporated in our ) Tj
+T*
+(guidance for Q2.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question comes from Mark Lipacis with Jefferies. Please go ahead.) Tj
+T*
+() Tj
+T*
+(Mark Lipacis -- Jefferies -- Analyst) Tj
+T*
+() Tj
+T*
+(Hi. Thanks for taking my question. Question coming back to the A100. I am trying to understand) Tj
+T*
+( how this kind of fits into the evolution of your solutions set over time and the evolution of) Tj
+T*
+( the demand for the applications. Is -- I think -- I guess if I think about it going back, you) Tj
+T*
+( had a solution which was largely training based and then you kind of introduced solutions ) Tj
+T*
+(that were targeted more inferencing and now you have a solution. It sounds to my understanding) Tj
+T*
+( that it solves both inferencing and training efficiently. And so I guess I'm wondering is ) Tj
+T*
+(three years, five years, 10 years down the line is this part of the kind of general-purpose ) Tj
+T*
+(computing or acceleration framework that you had talked about in the past, Jensen, where ) Tj
+T*
+(Ampere is kind of like an Ampere class product. Or is this -- would you still -- should we ) Tj
+T*
+(still expect to see inferencing specific solutions in the market and the training specific ) Tj
+T*
+(solutions and then Ampere solution for a different class application? If you could provide a ) Tj
+T*
+(framework for thinking about Ampere in those context, I think that would be helpful. Thank ) Tj
+T*
+(you.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah. Thanks a lot, Mark. Good question. I think the -- if you take a step back, currently in ) Tj
+T*
+(our data centers, the current setup in data centers, starting from probably all the way back ) Tj
+T*
+(six, seven years ago, but really accelerating in the last five years and then really ) Tj
+T*
+(accelerating in the last couple of years. We learned our way into it. There are three classes ) Tj
+T*
+(of workloads and they kind of came into acceleration over time.) Tj
+T*
+() Tj
+T*
+(The first class of workload that we discovered was -- the major workload was deep learning ) Tj
+T*
+(training -- deep learning training. And the ideal setup for that today, prior to Ampere or ) Tj
+T*
+(yesterday prior to Ampere is the V100 SXM with NVLink, eight GPUs on one board and that ) Tj
+T*
+(architecture is called scale up. It's like a supercomputer architecture. It's like a weather ) Tj
+T*
+(simulation architecture. It's -- if you are trying to build the largest possible computing ) Tj
+T*
+(node you can for one operating system, so scale up.) Tj
+T*
+() Tj
+T*
+(And the second -- the second thing that we learned along the way was then cloud computing ) Tj
+T*
+(started to grow because researchers around the world needed to get access to accelerated ) Tj
+T*
+(platform for developing their machine learning algorithms. And because they have a different ) Tj
+T*
+(degree of budget and they want to get into it a little bit more lightly and have the ability ) Tj
+T*
+(to scale up to larger nodes, the perfect model for that was actually a B100 PCI Express not ) Tj
+T*
+(SXM, but PCI Express that allows you to offer one GPU all the way up to many GPUs. And so that) Tj
+T*
+( versatility B100 PCI Express, not as scalable in performance as the B100 SXMs but it was much) Tj
+T*
+( more flexible for rentals. Cloud renting was really quite ideal. And then we started to get ) Tj
+T*
+(into inference and we're now on our seventh generation of TensorRT 7. Along the way we've been) Tj
+T*
+( able to accelerate more and more and today we large accelerate every deep learning inference,) Tj
+T*
+( computational graph that's out there and the ideal GPU for that was something that has the ) Tj
+T*
+(reduced precision, which is called [Indecipherable] reduced precision, not with electronics ) Tj
+T*
+(that is focused more for inference and because inference is a scale out application where you ) Tj
+T*
+(have millions of queries and each one of the queries are quite small versus scale up where you) Tj
+T*
+( have one training job and that one training job is running for days. It could be running for ) Tj
+T*
+(days and sometimes even weeks and so scale up application is for one user that uses it for a ) Tj
+T*
+(long period of time on a very large machine. Scale out is for millions of users, each one of ) Tj
+T*
+(them have a very small query and that query could last hundreds of milliseconds where ideally ) Tj
+T*
+ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 28 0 R >>
+endobj
+30 0 obj
+<< /Length 4292 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(you'd like to get done in hundreds of milliseconds.) Tj
+T*
+() Tj
+T*
+(And so notice I've got three different architecture in the data center today. Most data ) Tj
+T*
+(centers today has a storage server, has CPU servers, and it has scale up acceleration servers ) Tj
+T*
+(with Voltas, has scale out servers with T4s and then it has scale cloud computing flexible ) Tj
+T*
+(servers based on V100s. And so, the ability to predict workload is so hard and therefore the ) Tj
+T*
+(utilization of these systems will be spiky and so we created an architecture that allows for ) Tj
+T*
+(three things. The three characteristics of Ampere are number one, it is the greatest ) Tj
+T*
+(generational leap in history. I mean, I don't remember a generation where we increased ) Tj
+T*
+(throughput for training and inference by 20 times, it's just a gigantic leap. For training and) Tj
+T*
+( for inference, it is a gigantic leap forward. The second, it's the first architecture that is) Tj
+T*
+( unified. We could use the computation engine of Ampere accelerates the moment the data comes ) Tj
+T*
+(into the data center from data processing, it's called ETL, the engine, which many of you ) Tj
+T*
+(publicly know is the single most important computational engine in the world today for big ) Tj
+T*
+(data, it used to be Hadoop, but now it's Spark. Spark is used all over the world, 16,000 ) Tj
+T*
+([Phonetic] customers. We finally have the ability to accelerate that. And then it's -- Ampere ) Tj
+T*
+(is also good for training, deep learning, machine learning, XG [Phonetic] boost as well as ) Tj
+T*
+(deep learning all the way out to inference and so we now have a unified acceleration platform ) Tj
+T*
+(for the entire workload.) Tj
+T*
+() Tj
+T*
+(And then the third thing is it's the first GPU ever, the first acceleration platform ever ) Tj
+T*
+(that's elastic. You can reconfigure it, you could configure it for either scale up or you can ) Tj
+T*
+(configure it for scale out. When you configure it for scale up, you gang a whole bunch of GPUs) Tj
+T*
+( together using NVLink and it creates this one gigantic GPU. When you want to scale it out, ) Tj
+T*
+(that same computation node becomes 56 small GPUs and each one of those 56 small GPUs, each one) Tj
+T*
+( of those 56 partitions, each one is more powerful than Volta. I mean it's really quite ) Tj
+T*
+(extraordinary. And so, Ampere is a breakthrough on all of these fronts for performance, for ) Tj
+T*
+(the fact that it unifies the workload and you can now have one acceleration cluster, and the ) Tj
+T*
+(number three, it's elastic. You can use it in the cloud, you can use it for inference, you can) Tj
+T*
+( use it for training and so the versatility of Ampere is the thing that I'm most excited about) Tj
+T*
+( and now you could have one acceleration cluster that serves all of your needs.) Tj
+T*
+() Tj
+T*
+(Mark Lipacis -- Jefferies -- Analyst) Tj
+T*
+() Tj
+T*
+(Thank you. It's very helpful.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah. Thanks a lot, Mark.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question comes from Timothy Arcuri with UBS. Please go ahead.) Tj
+T*
+() Tj
+T*
+(Timothy Arcuri -- UBS -- Analyst) Tj
+T*
+() Tj
+T*
+(Thanks a lot. Actually I had two, I guess Jensen, first for you. Just on the data center ) Tj
+T*
+(business, things have been very strong recently, obviously there's always concerns that ) Tj
+T*
+(customers are pulling in capex, but it sounds like you have pretty good visibility into July, ) Tj
+T*
+(but I guess last time most folks also thought that you're kind of attrition [Phonetic] was so ) Tj
+T*
+(low that you would be immune to any digestion, but that wasn't the case. I guess I'm ) Tj
+T*
+(wondering, things are different now with A100 and what not, but my question is, how do you ) Tj
+T*
+(handicap your ability to this time maybe get through any digestion on the capex side and then ) Tj
+T*
+(I guess second question, Colette, stock comp had been running like $220 million [Phonetic] a ) Tj
+T*
+(quarter and the guidance implies that it goes to like $460 million [Phonetic] a quarter. So it) Tj
+T*
+( goes up a lot. Is that all executive retention and is that sort of the right level as you ) Tj
+T*
+(look into 2021? Thanks.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 30 0 R >>
+endobj
+32 0 obj
+<< /Length 4537 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Colette, did you want to handle that first and then I'll do the --) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Sure. So let me help you on the overall GAAP adjustments. So the delta between our GAAP opex ) Tj
+T*
+(and our non-GAAP opex. If you look at it for the full year and what we guided, we probably ) Tj
+T*
+(have about $1.55 billion associated with GAAP level expenses. Keep in mind, there is more in ) Tj
+T*
+(there than just our stock-based compensation. We have also incorporated the accounting that we) Tj
+T*
+( will do for the overall Mellanox and a really good portion of those costs are associated with) Tj
+T*
+( the amortization of intangibles and also in terms of acquisition-related costs and deal fees ) Tj
+T*
+(and one-time items. So our stock-based compensation includes what we need for NVIDIA and also ) Tj
+T*
+(the onboarding of Mellanox. There is some retention with the overall onboarding of Mellanox, ) Tj
+T*
+(but for the most part, it is just working them in to the year for three quarters which is ) Tj
+T*
+(influencing the stock-based compensation.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Tim, there are several differences between our condition then and our condition today. So the ) Tj
+T*
+(first difference is the diversity of workload we now accelerate. Back then, we were early in ) Tj
+T*
+(our inference, we're still early in our inference and most of the data center acceleration was) Tj
+T*
+( used for deep learning and so today, the versatility spans from data processing to deep ) Tj
+T*
+(learning and the number of different types of AI models that's been trained for deep learning ) Tj
+T*
+(is growing tremendously from detecting -- from training video -- from training of models for ) Tj
+T*
+(detecting unsafe video to natural language understanding to conversational AI to now a ) Tj
+T*
+(gigantic movement toward deep recommender systems and so the number of different models that ) Tj
+T*
+(are being trained is growing, the size of the models are gigantic, recommendation systems are ) Tj
+T*
+(gigantic. They are training on models that are hundreds of -- the data size is hundreds of ) Tj
+T*
+(terabytes, hundreds of terabytes and it would take tens -- hundreds of servers to hold all of ) Tj
+T*
+(the data that is needed to train these recommender systems. And so the diversity of -- from ) Tj
+T*
+(data analytics to training all the different models to the inference of all the different ) Tj
+T*
+(models, we didn't inference recurring neural net [Phonetic] at the time, which was -- which is) Tj
+T*
+( probably the most important model today language models, speech models are all recurring ) Tj
+T*
+(neural net [Phonetic] models and so those models were early for us at the time. So number one,) Tj
+T*
+( is the diversity of workloads.) Tj
+T*
+() Tj
+T*
+(The second is the acceleration to cloud computing. I think that accelerated cloud computing is) Tj
+T*
+( a movement that is going to be a multi-year, if not, a decade-long transition. From where we ) Tj
+T*
+(are today, it's only $100 billion industry -- segment of the IT industry, it's going to be $1 ) Tj
+T*
+(trillion some day and that movement is just starting. We're also much more diversified out of ) Tj
+T*
+(the clouds. At the time, cloud was largely where our acceleration went for a deep learning and) Tj
+T*
+( today, hyperscale only represents about half and so we've diversified significantly out of ) Tj
+T*
+(cloud -- not out of cloud, but including vertical industries and a lot of that has to do with ) Tj
+T*
+(edge AI and inference and as I mentioned earlier, we're working with Walmart and BMW and USPS ) Tj
+T*
+(and that's just the tip of the iceberg and so I think the conditions are a little different ) Tj
+T*
+(and what I would say lastly is Ampere. I mean we ramped a few weeks, even though it was quite ) Tj
+T*
+(significant, it was a great ramp. The demand is fantastic. It is the best ramp we've ever had.) Tj
+T*
+( The demand is the strongest we've ever had in data centers and we're starting the ramp of a ) Tj
+T*
+(multi-year ramp. And so -- so those are some of the differences. I think the conditions are ) Tj
+T*
+(very different.) Tj
+T*
+() Tj
+T*
+(Timothy Arcuri -- UBS -- Analyst) Tj
+T*
+() Tj
+T*
+(Thank you, Jensen.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 32 0 R >>
+endobj
+34 0 obj
+<< /Length 4625 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(Yeah, thanks a lot, Tim.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question comes from Harlan Sur with J. P. Morgan. Please go ahead.) Tj
+T*
+() Tj
+T*
+(Harlan Sur -- J. P. Morgan -- Analyst) Tj
+T*
+() Tj
+T*
+(Good afternoon. Thanks for taking my question. Jensen, can you [Phonetic] show the importance ) Tj
+T*
+(of networking, networking fabric and the Mellanox acquisition, right, for example, when you ) Tj
+T*
+(guys moved from virtual DGX-1 to virtual DGX-2, [Indecipherable] the GPU chipset but by adding) Tj
+T*
+( a custom networking fabric chip and more Mellanox network interface cards, among other things) Tj
+T*
+( you guys drove a pretty significant improvement in performance for GPU. But now when we think) Tj
+T*
+( about scaling out compute acceleration to data center scaled implementation, how does ) Tj
+T*
+(Mellanox and Ethernet switching platforms differ from those provided by other large networking) Tj
+T*
+( OEMs, some of whom have been your long-term partners? And then how does the Cumulus ) Tj
+T*
+(acquisition fit into the switching and networking strategy as well?) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah. Great. Thanks a lot, Harlan. Appreciate the question. So DGX, you know this is our third) Tj
+T*
+( generation DGX and it's really successful, people love it. It's the most advanced AI ) Tj
+T*
+(instrument in the world. If you're a serious AI researcher this is your instrument. And in the) Tj
+T*
+( DGX there are eight A100 and there are nine Mellanox mix, the highest speed mix they have. ) Tj
+T*
+(And so we have a great appreciation for high-performance networking. High-performance ) Tj
+T*
+(networking and high-performance computing go hand in hand. And the reason for that is because ) Tj
+T*
+(the problems we're trying to solve no longer fit in one computer, no matter how big it is. And) Tj
+T*
+( so it has to be distributed. And when you distribute a computational workload of such intense) Tj
+T*
+( scale the communications overhead becomes one of its greatest bottlenecks, which is the ) Tj
+T*
+(reason why Mellanox is so valuable. This is the reason why this company is so precious and ) Tj
+T*
+(really a jewel and one of a kind. And so -- and it's not just about the link speed, it's -- ) Tj
+T*
+(not mostly, I mean, we just have a deep appreciation for software. It's a combination of ) Tj
+T*
+(architecture and software and electronics design, chip design. And that combination Mellanox ) Tj
+T*
+(is just world-class and that's the reason why they're in 60% of the world's supercomputers. ) Tj
+T*
+(That's why there in 100% of the AI supercomputers. And their understanding of a large scale ) Tj
+T*
+(distributed computing is second to none.) Tj
+T*
+() Tj
+T*
+(Now in the world of -- and I just talked about scale up and you're absolutely right. Now the ) Tj
+T*
+(question is why scale out. And the reason for that is this. This is the reason why they're ) Tj
+T*
+(doing so well. The movement toward disaggregated micro service applications where containers ) Tj
+T*
+(--micro service containers are distributed all over the data center and orchestrated so that ) Tj
+T*
+(the workload could be distributed across a very large hyperscale data center. That ) Tj
+T*
+(architecture and you probably know, the three most important applications in my estimation in ) Tj
+T*
+(the world today, number one would be Tensorflow and PyTorch, number two would be Spark and ) Tj
+T*
+(number three would be Kubernetes, you could rank it however you desire. And these three ) Tj
+T*
+(applications in the case of Kubernetes, it's a brand new type of application where the ) Tj
+T*
+(application is broken up into small pieces and orchestrated across an entire data center.) Tj
+T*
+() Tj
+T*
+(And because it's broken up into small pieces and orchestrated across the entire data center ) Tj
+T*
+(the networking between the compute nodes becomes the bottleneck again. And that's the reason ) Tj
+T*
+(why they're doing so well, by increasing the network performance by offloading the ) Tj
+T*
+(communications of the CPUs you increase the support of a data center tremendously. And so it's) Tj
+T*
+( the reason why they had a record quarter last quarter, it's the reason why they've been going) Tj
+T*
+( 27% per year and their stock was that, their integration into the hyperscale cloud companies ) Tj
+T*
+(there are no -- there are incredibly low latency of their link makes them really unique, even ) Tj
+T*
+(-- whether it's Ethernet or InfiniBand, in both cases. And so there -- there it's a really ) Tj
+T*
+(fantastic stack.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+35 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 34 0 R >>
+endobj
+36 0 obj
+<< /Length 4348 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(And then lastly Cumulus. We would like to -- we would like to innovate in this world where the) Tj
+T*
+( world is moving away from just a CPU as a compute node. The new computing unit, a software ) Tj
+T*
+(developer is writing a piece of software that runs on the entire data center. In the future ) Tj
+T*
+(going forward, the fundamental computing unit is an entire datacenter, it's so incredible, ) Tj
+T*
+(it's just utterly incredible. You write an application, one human provide an application and ) Tj
+T*
+(it would literally activate an entire data center.) Tj
+T*
+() Tj
+T*
+(And in that world, we would like to be able to innovate from end to end, from networking ) Tj
+T*
+(storage, security, everything has to be secured in the future so that we can reduce the attack) Tj
+T*
+( surface down to practically nothing and so networking storage, security all completely ) Tj
+T*
+(offloaded, all incredibly low latency, all incredibly high performance, and all the way to ) Tj
+T*
+(compute all the way through the switch. And then the second thing is we'd like to be able to ) Tj
+T*
+(innovate across the entire stack. You know that NVIDIA is just supremely obsessed on software ) Tj
+T*
+(stacks and the reason for that is because software creates market, you can't create new ) Tj
+T*
+(markets like we're talking about, whether it's computational healthcare or autonomous driving ) Tj
+T*
+(or robotic or conversational AI or recommender systems edge AI all of that requires software ) Tj
+T*
+(stacks. It takes software to create markets. And so our obsession about software and creating ) Tj
+T*
+(creating open platforms for the ecosystem and all of our developer partners, Cumulus plays ) Tj
+T*
+(perfectly into that. They are -- they pioneered the open networking stack and they pioneered ) Tj
+T*
+(in a lot of way, software defined data centers and so we are super super excited about the ) Tj
+T*
+(team and now we have the ability to innovate in a data center scale world from end to end and ) Tj
+T*
+(then from top to bottom the entire stack. Okay.) Tj
+T*
+() Tj
+T*
+(Harlan Sur -- J. P. Morgan -- Analyst) Tj
+T*
+() Tj
+T*
+(Thank you, Jensen.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Hey, thanks a lot.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question comes from William Stein with SunTrust. Please go ahead.) Tj
+T*
+() Tj
+T*
+(Will Stein -- SunTrust Robinson Humphrey -- Analyst) Tj
+T*
+() Tj
+T*
+(All right. Thank you for taking my question. Jensen, I'd like to focus on something you said I) Tj
+T*
+( think it was in one of your earlier responses. You said something about a very significant ) Tj
+T*
+(part of data centers are now accelerated with GPUs. I'm sort of curious how to interpret that.) Tj
+T*
+( If we think about sort of the evolution of compute architecture going from almost entirely ) Tj
+T*
+(let's say, racks and racks of GPUs to some future day where we have many more accelerators and) Tj
+T*
+( maybe a much smaller number of of CPUs relative to those. Maybe you can talk to us about ) Tj
+T*
+(where we are in terms of that architectural shift and where you think it goes sort of longer ) Tj
+T*
+(term, where we are in the position of that?) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah. I appreciate the question and this -- for computer architecture geeks and people who ) Tj
+T*
+(follow history you know well that in the entire history of time, there are only two computing ) Tj
+T*
+(architectures that has made it so far, which is one of them is x86 the other one is ARM in any) Tj
+T*
+( reasonable way. And if you get a ARM computer, you get a x86 computer you could program it. ) Tj
+T*
+(And in fact, there is no such thing as an accelerated computing platform until we came along. ) Tj
+T*
+(And today we're the only computing [Indecipherable] computing platform that you could really ) Tj
+T*
+(marginally address. We are in every cloud, we are in every computer company, we're in every ) Tj
+T*
+(country, we are at every single site and we accelerate applications from computer graphics to ) Tj
+T*
+(video games to scientific computing to workstations to machine learning to robotics. This ) Tj
+T*
+(journey took 20-some-odd years. Inside our company it took 20-some odd years and we've been ) Tj
+T*
+ET
+endstream
+endobj
+37 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 36 0 R >>
+endobj
+38 0 obj
+<< /Length 4774 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(focused on accelerated computing since the beginning of our Company and we made a general ) Tj
+T*
+(purpose really starting with endeavor cost CG, C for graphics and then it became CUDA and ) Tj
+T*
+(we've been working on accelerated computing for quite a long time and I think at this point, ) Tj
+T*
+(it's a forgone conclusion that accelerated computing has reached the tipping point as well ) Tj
+T*
+(beyond it. The number of developers this year that we supported was almost 2 million ) Tj
+T*
+(developers around the world and it's growing what appears to be exponentially and so I think ) Tj
+T*
+(accelerated computing is now a well-established -- NVIDIA accelerated computing is well ) Tj
+T*
+(established, is common sense and people who are designing data centers expect to put ) Tj
+T*
+(accelerated computing in it.) Tj
+T*
+() Tj
+T*
+(The question is how much? How much accelerated computing do you use and what part of the date ) Tj
+T*
+(-- in your pipeline do you do it? And the big -- the gigantic breakthrough of course, we know ) Tj
+T*
+(well now, and NVIDIA is recognized as one of the three pillars that ignited the modern AI, the) Tj
+T*
+( big bang of modern AI and the other key pillar of course is deep learning algorithm and the ) Tj
+T*
+(abundance of data. And so these three ingredients came together and people use NVIDIA ) Tj
+T*
+(accelerated computing largely for training, but over time, we expanded training to have a lot ) Tj
+T*
+(more models and as I mentioned earlier, the single most important model of machine learning ) Tj
+T*
+(today is the recommender system.) Tj
+T*
+() Tj
+T*
+(It's the most important model because it's the only way that you and I could use the Internet ) Tj
+T*
+(in any reasonable way, it is the only way that you and I could use a shopping website or a ) Tj
+T*
+(video web or a video app or a music app or a book or news or anything and so it is the engine ) Tj
+T*
+(of the Internet from the consumers' perspective. From the company's perspective, it is the ) Tj
+T*
+(engine of commerce. Without the recommender system, there is no way they could possibly make ) Tj
+T*
+(money and so their accuracy in predicting user preferences is core to everything they do. You ) Tj
+T*
+(just go up and down the list of every company and that engine is gigantic, it is just a ) Tj
+T*
+(gigantic engine and from the data processing part of it, which is the reason why we went and ) Tj
+T*
+(spent three years on Spark and RAPIDS, which made Spark possible and all the work that we did ) Tj
+T*
+(on NVLink and all that stuff was really focused on big data analytics.) Tj
+T*
+() Tj
+T*
+(The second is all of the training of the deep learning models and then inference. So the ) Tj
+T*
+(number of applications, the footprint of accelerated computing has grown tremendously and its ) Tj
+T*
+(importance has grown tremendously, because the applications are the most important ) Tj
+T*
+(applications of these companies and so I think when I mentioned, when I said that that ) Tj
+T*
+(acceleration is still growing, it is, but the major workloads, the most important workloads of) Tj
+T*
+( the world's most important companies solidly require acceleration and so I'm looking forward ) Tj
+T*
+(to a really exciting ramp for Ampere for all of the reasons that I've just mentioned.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question comes from John Pitzer with Credit Suisse. Please go ahead.) Tj
+T*
+() Tj
+T*
+(John Pitzer -- Credit Suisse -- Analyst) Tj
+T*
+() Tj
+T*
+(Yeah, hi guys. Thanks for letting me ask the question. Just two quick ones. Colette, I hate to) Tj
+T*
+( ask something as mundane as opex, but just given the full year guide, there's sort of a lot ) Tj
+T*
+(to unpack and you talked about some of it like the raises. I mean, I think you also probably ) Tj
+T*
+(have some COVID plus or minuses in that. I think there is an extra week this year as well. And) Tj
+T*
+( then, of course, there is Mellanox and how you're thinking about investing in that asset. I ) Tj
+T*
+(guess I'm just kind of curious, when we look at the full year guide, is there something ) Tj
+T*
+(structural going on, on opex as you try to take advantage of all these opportunities or can we) Tj
+T*
+( use it as sort of a guidepost to how you're thinking about revenue for the back half of the ) Tj
+T*
+(year as well. How do I understand that and then Jensen, just a quick one for you, kind of ) Tj
+T*
+(makes sense to me that COVID is accelerating activity in sort of HPC and hyperscale and maybe ) Tj
+T*
+(even in certain verticals like healthcare, but in the other verticals as the sort of the ) Tj
+T*
+(shelter-in-place kind of hurt engagement and could we actually come out of Covid with some ) Tj
+T*
+(pent-up demand in those vertical markets?) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+39 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 38 0 R >>
+endobj
+40 0 obj
+<< /Length 4846 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Okay. Thanks, John for the question. Let's start from the first perspective on the overall ) Tj
+T*
+(opex for the year. We've guided the non-GAAP at approximately $4.1 billion for the year. Yes, ) Tj
+T*
+(that incorporates three full quarters of Mellanox, Mellanox and its employees, we have about ) Tj
+T*
+(close to 3,000 Mellanox employees coming on board. You are correct, we have a 53rd week in ) Tj
+T*
+(this quarter, excuse me, not this quarter, this year and that has been outlined in our SEC ) Tj
+T*
+(filings that you should expect that as well. We pulled forward a little bit our focal by ) Tj
+T*
+(several months in order to take care of our employees. And then lastly, though we are ) Tj
+T*
+(investing in our business, we see some great opportunities. You've seen some great results ) Tj
+T*
+(from our investment and there is more to do. We are hiring and investing in those businesses. ) Tj
+T*
+(So there is nothing different structurally but just this onset of Mellanox and are investing ) Tj
+T*
+(together I think we'll produce long-term great results.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(And as usual, John, you know that we're investing into the IT industry's largest ) Tj
+T*
+(opportunities: cloud computing and AI. And then after these two opportunities is edge AI. And ) Tj
+T*
+(so we're looking down the fairway with some pretty extraordinary opportunities, but as usual, ) Tj
+T*
+(we're thoughtful about the rate of investment and we're well managed and NVIDIA's leadership ) Tj
+T*
+(team are excellent managers and and you could count on us to continue to do that. Hey, Simona,) Tj
+T*
+( what was John's question? Could you just give me one hint. I have it at the tip of my hand.) Tj
+T*
+() Tj
+T*
+(John Pitzer -- Credit Suisse -- Analyst) Tj
+T*
+() Tj
+T*
+(Just the idea of engagement levels in verticals just with shelter-in-place, has that hampered ) Tj
+T*
+([Speech Overlap].) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Oh, yeah, right, A few -- some of the industries have been affected. We already mentioned ) Tj
+T*
+(automotive industry. The automotive industry has been grounded to a halt. Manufacturing has ) Tj
+T*
+(largely stopped and you saw that in our guidance. We expect automotive to be down 40% quarter-) Tj
+T*
+(to-quarter, it's not going to remain that way. It's going to come back and nobody knows what ) Tj
+T*
+(level it is going to come back to and how long, but it's going to come back and there is no ) Tj
+T*
+(question in my mind that the automotive industry, they are hunkered down right now, but they ) Tj
+T*
+(will absolutely invest in the future of autonomous vehicles, they have too or they'll be ) Tj
+T*
+(extinct. It's not possible not to have autonomous capability in the future of everything that ) Tj
+T*
+(moves, not so that it could just completely drive without you, that's a nice benefit too, but ) Tj
+T*
+(mostly because of safety and comfort and just the joy of what seems like the car is reading ) Tj
+T*
+(your mind and, of course, you are still responsible for driving it, but it just seems to be ) Tj
+T*
+(coasting down the road reading your mind and helping you.) Tj
+T*
+() Tj
+T*
+(So I think the future of autonomous vehicles is a certainty. People recognize the incredible ) Tj
+T*
+(economics that the pioneer Tesla is enjoying and the industry is going to go after it. The ) Tj
+T*
+(future car companies are going to be software-defined companies and technology companies and ) Tj
+T*
+(they would love to have an economic that allows them to enjoy the installed base of their ) Tj
+T*
+(fleets and so they are going to go after it. I am certain that this is going to come back and ) Tj
+T*
+(I have every confidence its going to come back. And let's see, the energy sectors have been ) Tj
+T*
+(impacted, the retail sector has been impacted. Those aren't large industries for us, but ) Tj
+T*
+(nonetheless, they are impacted. The impact in some of the industries is accelerating their ) Tj
+T*
+(focus in robotics. Like for example, on the one hand, BMW's has obviously impacted in ) Tj
+T*
+(manufacturing, which is the reason why they're moving so rapidly toward robotics. They have to) Tj
+T*
+( figure out a way to get robotics into their factories. The same thing with retail. You're ) Tj
+T*
+(going to see a lot more robotics support in retail, you're going to see a lot more robotics ) Tj
+T*
+(support in warehouses, in logistics, and so during this time when the market when the industry) Tj
+T*
+( is disrupted and impacted, it allows the market leaders to really lean into investing into ) Tj
+T*
+(the future and so when they come back, they'll be coming back stronger than ever.) Tj
+T*
+ET
+endstream
+endobj
+41 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 40 0 R >>
+endobj
+42 0 obj
+<< /Length 4038 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(And your next question comes from Matt Ramsay with Cowen. Please go ahead.) Tj
+T*
+() Tj
+T*
+(Matt Ramsay -- Cowen -- Analyst) Tj
+T*
+() Tj
+T*
+(Thank you very much. Good afternoon. Two different topics. Jensen, first of all, congrats on ) Tj
+T*
+(Ampere, it's heck of a product.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Thank you, Matt. I'm so proud of it.) Tj
+T*
+() Tj
+T*
+(Matt Ramsay -- Cowen -- Analyst) Tj
+T*
+() Tj
+T*
+(The first question is it might have been a little bit hard to talk when the deal was pending ) Tj
+T*
+(about this topic, but now that its closed, maybe you could talk a little bit about ) Tj
+T*
+(opportunities to innovate on and customize the Mellanox stack and the balance of having an ) Tj
+T*
+(industry standard. And the second one is E3 canceled, Computex moved around, at the same, ) Tj
+T*
+(there's obviously stay-at-home gaming demand. Just how you think about gaming product, launch ) Tj
+T*
+(logistics and any comments on there would be really helpful. Thank you.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah, thanks a lot, Matt. Appreciate your questions. I'll go backwards, because it's kind of ) Tj
+T*
+(cool. On the one hand, I do miss that we can't engage the developers face-to-face, it's just ) Tj
+T*
+(so much fun, GTC seeing all their work and the hundreds of papers that are presented, I learn ) Tj
+T*
+(so much each time and frankly I really enjoy the analyst meetings that we have and so there is) Tj
+T*
+( all kinds of stuff that I miss about the physical GTC, but here's the amazing thing. We're ) Tj
+T*
+(now almost [Phonetic] 58,000 attendees. The GTC kitchen keynote, I did it from my kitchen just) Tj
+T*
+( right behind me and the kitchen keynote has been viewed almost 4 million times and the video ) Tj
+T*
+(is incredible and so I think our reach could be quite great and so I'm not too -- we've got an) Tj
+T*
+( amazing marketing team and we just -- we got great people, they're going to find a way to ) Tj
+T*
+(reach our gamers and whenever we launch something next, the gamers are going to be in our -- ) Tj
+T*
+(and our customers are going to be -- our end market is going to be real excited to see it. And) Tj
+T*
+( so, I'm very confident that we're going to do just fine. Matt, what was the question before. ) Tj
+T*
+(I should never do it backwards.) Tj
+T*
+() Tj
+T*
+(Matt Ramsay -- Cowen -- Analyst) Tj
+T*
+() Tj
+T*
+(Just the industry standard versus customization of Mellanox opportunity.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(I see, OK, yeah. There is -- we worked so closely with Mellanox over the years and on the day ) Tj
+T*
+(that we announced GTC, you could see the number of products that we have working together, the) Tj
+T*
+( product synergies are really incredible and the product synergies include a lot of software ) Tj
+T*
+(development that went in and a lot of architectural development that went in. DGX comes with ) Tj
+T*
+([Indecipherable] as I mentioned. If you look at our data center, before we shipped DGXs to the) Tj
+T*
+( customers, we shipped it to our own engineers and the reason for that is because every single) Tj
+T*
+( product in our company has AI in it, from Jarvis to Metropolis to Merlin, to DRIVE, to Clara ) Tj
+T*
+(to Isaac, right, all of our products has AI in it and we're accelerating frameworks for all of) Tj
+T*
+( the AI industry and Ampere comes with a brand new numerical format called TensorFloat-32 and ) Tj
+T*
+(TF32 is just a fantastic new numerical format and the performance is incredible and we had to ) Tj
+T*
+(get it integrated in with the industry standard frameworks and now TensorFloat comes standard ) Tj
+T*
+(with -- with TensorFloat -- with TF32 and PyTorch comes standard with TF32 and so we need our ) Tj
+T*
+(own large-scale data center and so the first customer we shipped to was ourselves and then we ) Tj
+T*
+ET
+endstream
+endobj
+43 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 42 0 R >>
+endobj
+44 0 obj
+<< /Length 4064 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(started shipping as quickly as we could to all of the customers.) Tj
+T*
+() Tj
+T*
+(You saw that in our data center in our supercomputer, we have 170 state-of-the-art brand new ) Tj
+T*
+(Mellanox switches and almost 1,500, 200-gigabit per second Mellanox mix and 15 kilometers of ) Tj
+T*
+(cables, fiber-optic cables and that is one of the most powerful supercomputers in the world ) Tj
+T*
+(today and it's based on Ampere and so we have a great deal of work that we did there together.) Tj
+T*
+( We announced our first edge computer. Between us and Mellanox, in this new card we call the ) Tj
+T*
+(EGX A100 and it integrates Ampere and it integrates Mellanox's CX-6 Dx which is designed for ) Tj
+T*
+(5G telcos and edge computing, it's incredible security and it has single root of trust and ) Tj
+T*
+(it's virtualized and so basically, the EGX A100 when you put it into a standard x86 server, ) Tj
+T*
+(turns that server into a cloud computer in a box, the entire capability of a state-of-the-art ) Tj
+T*
+(cloud, which is cloud native, its secure, it has incredible AI processing, it's now completely) Tj
+T*
+( hyperconverged inside one box. The technology that made EGX A100 is really quite remarkable ) Tj
+T*
+(and so you could see all the different different product synergies that we have in working ) Tj
+T*
+(together. We couldn't have done Spark acceleration without the collaboration with Mellanox. ) Tj
+T*
+(They worked on this piece of networking software called UCX. We worked on NCCL, together it ) Tj
+T*
+(made possible the infrastructure for large scale distributed computing. I mean -- just the ) Tj
+T*
+(list goes on and on and on and so we -- the two teams have great chemistry, it's a great ) Tj
+T*
+(culture fit. I love working with them and right out of the chute, you saw all of the great ) Tj
+T*
+(product synergies that are made possible because of the combination.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(That is all the time we have for questions. I'l turn the call back to Jensen Huang for closing) Tj
+T*
+( remarks.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Thank you. We had a great and busy quarter. With our announcements, we highlighted several ) Tj
+T*
+(initiatives: First, computing is moving to data center scale. Where computing and networking ) Tj
+T*
+(go hand-in-hand, the acquisition of Mellanox gives us deep expertise and scale to innovate ) Tj
+T*
+(from end-to-end. Second, AI is the most powerful technology force of our time. Our Ampere ) Tj
+T*
+(generation offers several breakthroughs. It is the largest ever generational leap, 20 times in) Tj
+T*
+( training and inference throughput, the first unified acceleration platform for data ) Tj
+T*
+(analytics, machine learning, deep learning, training and inference, and the first elastic ) Tj
+T*
+(accelerator that can be configured for scale up applications like training to scale out ) Tj
+T*
+(applications like inference. Ampere is fast, it's universal, and it's elastic. It's going to ) Tj
+T*
+(rearchitect the modern data center. Third, we're opening large new markets with AI software ) Tj
+T*
+(application frameworks such as Clara for healthcare, DRIVE for autonomous vehicles, Isaac for ) Tj
+T*
+(robotics, Jarvis for conversational AI, Metropolis for edge IoT, Aerial for 5G and Merlin with) Tj
+T*
+( the very important recommender systems. And then finally, we have built up multiple engines ) Tj
+T*
+(of accelerated computing growth, RTX computer graphics, artificial intelligence and data ) Tj
+T*
+(center scale computing from cloud to edge. I look forward to updating you on our progress next) Tj
+T*
+( quarter. Thanks everybody.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+([Operator Closing Remarks]) Tj
+T*
+() Tj
+T*
+(Duration: 98 minutes) Tj
+T*
+() Tj
+T*
+(Call participants:) Tj
+T*
+() Tj
+T*
+(Simona Jankowski -- Investor Relations) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+ET
+endstream
+endobj
+45 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 44 0 R >>
+endobj
+46 0 obj
+<< /Length 806 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+() Tj
+T*
+(Aaron Rakers -- Wells Fargo -- Analyst) Tj
+T*
+() Tj
+T*
+(Stacy Rasgon -- Bernstein Research -- Analyst) Tj
+T*
+() Tj
+T*
+(Joe Moore -- Morgan Stanley -- Analyst) Tj
+T*
+() Tj
+T*
+(Vivek Arya -- Bank of America Merrill Lynch -- Analyst) Tj
+T*
+() Tj
+T*
+(C.J. Muse -- Evercore ISI -- Analyst) Tj
+T*
+() Tj
+T*
+(Toshiya Hari -- Goldman Sachs -- Analyst) Tj
+T*
+() Tj
+T*
+(Mark Lipacis -- Jefferies -- Analyst) Tj
+T*
+() Tj
+T*
+(Timothy Arcuri -- UBS -- Analyst) Tj
+T*
+() Tj
+T*
+(Harlan Sur -- J. P. Morgan -- Analyst) Tj
+T*
+() Tj
+T*
+(Will Stein -- SunTrust Robinson Humphrey -- Analyst) Tj
+T*
+() Tj
+T*
+(John Pitzer -- Credit Suisse -- Analyst) Tj
+T*
+() Tj
+T*
+(Matt Ramsay -- Cowen -- Analyst) Tj
+T*
+() Tj
+T*
+(More NVDA analysis) Tj
+T*
+() Tj
+T*
+(All earnings call transcripts) Tj
+T*
+ET
+endstream
+endobj
+47 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 46 0 R >>
+endobj
+xref
+0 48
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000267 00000 n 
+0000000335 00000 n 
+0000003767 00000 n 
+0000003893 00000 n 
+0000008799 00000 n 
+0000008925 00000 n 
+0000014304 00000 n 
+0000014430 00000 n 
+0000019452 00000 n 
+0000019580 00000 n 
+0000024829 00000 n 
+0000024957 00000 n 
+0000029552 00000 n 
+0000029680 00000 n 
+0000033000 00000 n 
+0000033128 00000 n 
+0000037237 00000 n 
+0000037365 00000 n 
+0000041442 00000 n 
+0000041570 00000 n 
+0000045698 00000 n 
+0000045826 00000 n 
+0000050277 00000 n 
+0000050405 00000 n 
+0000054695 00000 n 
+0000054823 00000 n 
+0000059613 00000 n 
+0000059741 00000 n 
+0000064086 00000 n 
+0000064214 00000 n 
+0000068804 00000 n 
+0000068932 00000 n 
+0000073610 00000 n 
+0000073738 00000 n 
+0000078139 00000 n 
+0000078267 00000 n 
+0000083094 00000 n 
+0000083222 00000 n 
+0000088121 00000 n 
+0000088249 00000 n 
+0000092340 00000 n 
+0000092468 00000 n 
+0000096585 00000 n 
+0000096713 00000 n 
+0000097571 00000 n 
+trailer
+<< /Size 48 /Root 1 0 R >>
+startxref
+97699
+%%EOF

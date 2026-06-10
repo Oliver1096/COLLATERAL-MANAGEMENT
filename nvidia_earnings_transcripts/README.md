@@ -14,6 +14,10 @@ This folder contains NVIDIA earnings-call transcripts from calls held in calenda
   date for every transcript.
 - `raw_html/` - raw source pages used to extract the `.txt` transcripts.
 - `download_transcripts.py` - reproducible downloader.
+- `export_pdfs.py` - creates a PDF-only export folder.
+- `pdf_export/NVIDIA_Earning_Calls_PDF/` - one PDF per earnings call, ready to
+  copy to:
+  `C:\Users\jorgeperez\OneDrive - NSC Asesores\Documentos\NVIDIA_Earning_Calls_PDF`
 
 ## Source note
 
@@ -26,4 +30,10 @@ To re-run the download:
 
 ```bash
 python3 nvidia_earnings_transcripts/download_transcripts.py
+```
+
+To rebuild the PDF-only export:
+
+```bash
+python3 nvidia_earnings_transcripts/export_pdfs.py
 ```
