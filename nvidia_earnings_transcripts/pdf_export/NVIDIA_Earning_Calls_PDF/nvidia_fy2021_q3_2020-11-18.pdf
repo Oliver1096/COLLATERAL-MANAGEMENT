@@ -1,0 +1,3499 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R 51 0 R 53 0 R 55 0 R 57 0 R] /Count 27 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Length 2847 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(NVIDIA FY2021 Q3 earnings call transcript) Tj
+T*
+(Call date: 2020-11-18) Tj
+T*
+(Source: StockInsights) Tj
+T*
+(URL: https://www.stockinsights.ai/us/NVDA/earnings-transcript/fy20-q3-21d8) Tj
+T*
+() Tj
+T*
+(Simona Jankowski - Vice President of Investor Relations) Tj
+T*
+() Tj
+T*
+(Colette Kress - Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(John Pitzer - Credit Suisse - Analyst) Tj
+T*
+() Tj
+T*
+(C.J. Muse - Evercore - Analyst) Tj
+T*
+() Tj
+T*
+(Stacy Rasgon - Bernstein Research - Analyst) Tj
+T*
+() Tj
+T*
+(Vivek Arya - Bank of America - Analyst) Tj
+T*
+() Tj
+T*
+(Harlan Sur - JPMorgan - Analyst) Tj
+T*
+() Tj
+T*
+(Timothy Arcuri - UBS - Analyst) Tj
+T*
+() Tj
+T*
+(Aaron Rakers - Wells Fargo - Analyst) Tj
+T*
+() Tj
+T*
+(Ambrish Srivastava - BMO Capital Markets - Analyst) Tj
+T*
+() Tj
+T*
+(William Stein - Truist Securities - Analyst) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Good afternoon. My name is Jason and I will be your conference operator today. At this time, I) Tj
+T*
+( would like to welcome everyone to NVIDIA's Third Quarter Financial Results Conference Call.) Tj
+T*
+() Tj
+T*
+([Operator Instructions]) Tj
+T*
+() Tj
+T*
+(Simona Jankowski, you may begin your conference.) Tj
+T*
+() Tj
+T*
+(Simona Jankowski - Vice President of Investor Relations) Tj
+T*
+() Tj
+T*
+(Thank you. Good afternoon, everyone and welcome to NVIDIA's conference call for the third ) Tj
+T*
+(quarter of fiscal 2021. With me on the call today from NVIDIA are Jensen Huang, President and ) Tj
+T*
+(Chief Executive Officer; and Colette Kress, Executive Vice President and Chief Financial ) Tj
+T*
+(Officer.) Tj
+T*
+() Tj
+T*
+(I'd like to remind you that our call is being webcast live on NVIDIA's Investor Relations ) Tj
+T*
+(website. The webcast will be available for replay until the conference call to discuss our ) Tj
+T*
+(financial results for the fourth quarter of fiscal 2021. The content of today's call is ) Tj
+T*
+(NVIDIA's property. It can't be reproduced or transcribed without our prior written consent. ) Tj
+T*
+(During this call, we may make forward-looking statements based on current expectations. These ) Tj
+T*
+(are subject to a number of significant risks and uncertainties and our actual results may ) Tj
+T*
+(differ materially. For a discussion of factors that could affect our future financial results ) Tj
+T*
+(and business, please refer to the disclosure in today's earnings release, our most recent ) Tj
+T*
+(Forms 10-K and 10-Q and the reports that we may file on Form 8-K with the Securities and ) Tj
+T*
+(Exchange Commission.) Tj
+T*
+() Tj
+T*
+(All our statements are made as of today, November 18, 2020 based on information currently ) Tj
+T*
+(available to us. Except as required by law, we assume no obligation to update any such ) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 4996 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(statements. During this call, we will discuss non-GAAP financial measures. You can find a ) Tj
+T*
+(reconciliation of these non-GAAP financial measures to GAAP financial measures in our CFO ) Tj
+T*
+(commentary, which is posted on our website.) Tj
+T*
+() Tj
+T*
+(With that, let me turn the call over to Colette.) Tj
+T*
+() Tj
+T*
+(Colette Kress - Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Thank you, Simona. Q3 was another exceptional quarter with record revenue of $4.73 billion, up) Tj
+T*
+( 57% year-on-year, up 22% sequentially and well above our outlook. Our new NVIDIA Ampere GPU ) Tj
+T*
+(architecture is ramping with excellent demand across our major market platforms. Q3 was also a) Tj
+T*
+( landmark quarter both for us and the industry as a whole. As we announced plans to acquire ) Tj
+T*
+(Arm from SoftBank for $40 billion, we are incredibly excited about the combined companies' ) Tj
+T*
+(opportunities and we are working through the regulatory approval process. For today, we will ) Tj
+T*
+(focus our remarks on our quarterly performance.) Tj
+T*
+() Tj
+T*
+(Starting with Gaming. Revenue was a record $2.27 billion, up 37% year-on-year, up 37% ) Tj
+T*
+(sequentially and ahead of our high expectations. Driving strong growth was our new NVIDIA ) Tj
+T*
+(Ampere architecture based GeForce RTX 30 Series of gaming GPUs. The GeForce RTX 3070, 3080 and) Tj
+T*
+( 3090 GPUs offer up to two times the performance and two times the power efficiency over the ) Tj
+T*
+(previous Turing-based generation. Our second-generation NVIDIA RTX combines ray tracing and AI) Tj
+T*
+( to deliver the greatest ever generational leap in performance. First announced on September 1) Tj
+T*
+( and ranging in price from $499 to $1,499, these GPUs have generated amazing reviews and ) Tj
+T*
+(overwhelming demand. PC World called them staggeringly powerful, while Newegg cited more ) Tj
+T*
+(traffic than Black Friday. Many of our retail and e-tail partners sold out instantly. The RTX ) Tj
+T*
+(30 series drove our biggest ever launch. But we had anticipated strong demand. It exceeded ) Tj
+T*
+(even our bullish expectations. Given industry-wide capacity constraints and long cycle times, ) Tj
+T*
+(it may take a few more months for product availability to catch up with demand.) Tj
+T*
+() Tj
+T*
+(In addition to the NVIDIA Ampere GPU architecture, we announced powerful new tools for gamers ) Tj
+T*
+(as well as for tens of millions of live streamers, broadcasters, Esports professionals, ) Tj
+T*
+(artists and creators. NVIDIA Reflex is a new technology that improves reaction time in games, ) Tj
+T*
+(reducing system latency by up to 58%. NVIDIA Reflex is being integrated into popular Esports ) Tj
+T*
+(games such as Apex Legends, Call of Duty Warzone, Fortnite and Valorant. NVIDIA Broadcast is a) Tj
+T*
+( universal plug-in for video conferencing and live streaming applications that enhances the ) Tj
+T*
+(quality of microphones, speakers and webcams with NVIDIA AI effects such as audio noise ) Tj
+T*
+(removal, virtual background effects and webcam audio frame. With it, remote workers and live ) Tj
+T*
+(streamers can turn any room into a broadcast studio.) Tj
+T*
+() Tj
+T*
+(Blockbuster games continue to adopt NVIDIA's RTX ray tracing and AI technologies as the games ) Tj
+T*
+(announced at Fortnite, which has more than 350 million players worldwide is adding NVIDIA RTX ) Tj
+T*
+(real-time ray tracing, NVIDIA DLSS AI super resolution and NVIDIA Reflex, making the game more) Tj
+T*
+( beautiful and even more responsive. Other major new titles featuring RTX this holiday season ) Tj
+T*
+(include Watch Dogs: Legion, Call of Duty: Black Ops Cold War and much anticipated Cyberpunk ) Tj
+T*
+(2077. Gaming laptop demand was also strong with double-digit year-on-year growth for the 11th ) Tj
+T*
+(quarter in a row. NVIDIA GeForce laptops support the most demanding applications for creators ) Tj
+T*
+(and designers while doubling as a powerful gaming rig by night. We also had record gaming ) Tj
+T*
+(console revenue on strong demand for the Nintendo Switch.) Tj
+T*
+() Tj
+T*
+(And we continue to grow our cloud gaming service, GeForce NOW, which has doubled in the past ) Tj
+T*
+(seven months to reach over 5 million registered users. GeForce NOW is unique as an open ) Tj
+T*
+(platform that connects to popular game stores including Steam, Epic Games and Ubisoft Connect,) Tj
+T*
+( allowing gamers access to the titles they already own. 750 games are currently available on ) Tj
+T*
+(GFN, the most of any cloud gaming platform, including 75 free to play games with more games ) Tj
+T*
+(added every Thursday. GFN supports many popular clients including PCs, Mac and Chromebook. ) Tj
+T*
+(Stay tuned for more devices to come in the near future. In addition, GFN's reach continues to ) Tj
+T*
+(expand through our telco partners in a growing list of countries including Japan, Korea, ) Tj
+T*
+(Taiwan, Russia and Saudi Arabia. We are also providing technology that enables the cloud ) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 5032 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(gaming services to an expanding number of partners. Following our earlier announcement with ) Tj
+T*
+(Tencent, Amazon and Facebook are beginning to offer cloud gaming services powered by NVIDIA.) Tj
+T*
+() Tj
+T*
+(Moving to ProViz. Q3 revenue was $236 million, down 27% year-on-year and up 16% sequentially, ) Tj
+T*
+(ahead of our expectations. Sequential growth was driven by strength in notebooks, which posted) Tj
+T*
+( record revenue boosted by work from home initiatives and the shift to thin and light mobile ) Tj
+T*
+(workstations. This was particularly offset by a decline in desktop workstations, which ) Tj
+T*
+(continue to be impacted by the pandemic and drove the year-on-year decline. From an industry ) Tj
+T*
+(demand perspective, stronger verticals including healthcare, public sector, higher education ) Tj
+T*
+(and research and financial services. We continue to win new business in a number of areas. In ) Tj
+T*
+(healthcare we added Medtronic for visual surgical applications and Philips for medical ) Tj
+T*
+(imaging. In technology and media and entertainment, we gained wins for design, rendering and ) Tj
+T*
+(broadcast applications.) Tj
+T*
+() Tj
+T*
+(During the quarter, we announced that Omniverse, the world's first 3D collaboration and ) Tj
+T*
+(simulation platform has entered open beta. Omniverse enables the tens of millions of ) Tj
+T*
+(designers, architects and creators to collaborate real time on-premises or remotely. Using the) Tj
+T*
+( virtual and physical world on Omniverse brings together NVIDIA breakthroughs in graphics, ) Tj
+T*
+(simulation and AI. It will help enterprises address evolving requirements as workforces become) Tj
+T*
+( increasingly distributed. Initial market response from this transformative platform has been ) Tj
+T*
+(phenomenal. Over 400 individual creators and developers in diverse industries have been ) Tj
+T*
+(evaluating Omniverse, and early adopters, including Ericsson, BMW, Foster + Partners, and ) Tj
+T*
+(Lucasfilm.) Tj
+T*
+() Tj
+T*
+(The pandemic is accelerating the development of AR, VR and mixed reality technologies, which ) Tj
+T*
+(will have a profound impact on how we work and play. For example, our work with NASCAR to ) Tj
+T*
+(enable a variety of AR and VR services at the edge is revolutionizing the racing experience ) Tj
+T*
+(for millions of fans across the globe. With our industry-leading real-time ray tracing ) Tj
+T*
+(graphics, AI and simulation hardware and software stacks, NVIDIA is in a unique position to ) Tj
+T*
+(enable the future of blending the physical and virtual world.) Tj
+T*
+() Tj
+T*
+(Moving to Automotive, Q3 revenue was $125 million, down 23% year-on-year and up 13% ) Tj
+T*
+(sequentially. Sequential growth was driven by a recovery in global automotive production ) Tj
+T*
+(volumes, as well as continued growth in AI cockpit revenue. The year-on-year decline was due ) Tj
+T*
+(to the expected ramp down of legacy infotainment revenue. In September, Mercedes-Benz debuted ) Tj
+T*
+(its redesign of S-Class sedan, featuring an all new NVIDIA powered MBUX AI cockpit system with) Tj
+T*
+( an augmented reality heads up display, AI voice assistance and rich interactive graphics to ) Tj
+T*
+(enable every passenger in the vehicle to enjoy personalized intelligent features.) Tj
+T*
+() Tj
+T*
+(Also in September, Li Auto, a leading electric car brand in China announced that it will ) Tj
+T*
+(develop its next-generation of vehicles using the software defined NVIDIA DRIVE AGX Orin ) Tj
+T*
+(platform. Orin delivers nearly seven times the performance and three times the energy ) Tj
+T*
+(efficiency of our previous generation SoC, making it uniquely capable to power next generation) Tj
+T*
+( autonomous electric vehicles. We have excellent traction with EV start-ups. Finally, last ) Tj
+T*
+(week, NVIDIA and Hyundai Motor Group announced the automakers entire lineup of Hyundai, Kia ) Tj
+T*
+(and Genesis models will come standard with NVIDIA DRIVE in-vehicle infotainment systems ) Tj
+T*
+(starting in 2022. This feature rich software defined computing platform will allow vehicles to) Tj
+T*
+( be perpetually upgraded with the latest AI cockpit features.) Tj
+T*
+() Tj
+T*
+(Now moving to Data Center. Revenue was a record $1.9 billion, up 162% year-over-year and up 8%) Tj
+T*
+( sequentially. Driving growth was the strong ramp of our A100-based platforms, continued ) Tj
+T*
+(growth with Mellanox and record T4 shipments for inference. Let me give you a little bit of ) Tj
+T*
+(color on each. Our new NVIDIA Ampere architecture gained further adoption by cloud and ) Tj
+T*
+(hyperscale customers and started ramping into vertical industries. Over the past weeks Amazon ) Tj
+T*
+(Web Services, Oracle Cloud Infrastructure and Alibaba Cloud announced general availability of ) Tj
+T*
+(the A100 following Google Cloud platform and Microsoft Azure. A100 adoption by vertical ) Tj
+T*
+(industries drove strong growth as we began shipments to server OEM partners whose broad ) Tj
+T*
+(enterprise channels reach a large number of end customers.) Tj
+T*
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 4994 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+() Tj
+T*
+(We also ramped the DGX A100 server and began shipping NVIDIA DGX SuperPOD, the first turnkey ) Tj
+T*
+(AI infrastructure. These range from 20 to 140 DGX A100 systems interconnected with Mellanox's ) Tj
+T*
+(HDR InfiniBand networking and enable customers to install incredibly powerful AI ) Tj
+T*
+(supercomputers in just a few weeks time. In fact, we have announced plans to build an 80 node ) Tj
+T*
+(DGX SuperPOD with 400 petaflops of AI performance called Cambridge-1 which will be in the UK's) Tj
+T*
+( fastest AI supercomputer that will be used by NVIDIA researchers for collaborative research ) Tj
+T*
+(within the UK's AI and healthcare community across academia, industry and startups. It joins ) Tj
+T*
+(other systems in NVIDIA's complex of AI supercomputers powered by our R&D and autonomous ) Tj
+T*
+(vehicles, conversational AI, robotics, graphics, HPC and other domains. This includes Selene, ) Tj
+T*
+(now the world fifth fastest supercomputer and fastest commercial supercomputer and a new ) Tj
+T*
+(NVIDIA DGX SuperPOD, which ranked first on the Green500 list of the world most energy ) Tj
+T*
+(efficient supercomputers.) Tj
+T*
+() Tj
+T*
+(A great example of the tremendous opportunities for AI in healthcare is our new partnership ) Tj
+T*
+(with GSK for applying computational to the drug and vaccine discovery process. GSK's London ) Tj
+T*
+(based AI hub will utilize biomedical data, AI methods and advanced computing platforms to ) Tj
+T*
+(unlock genetic and clinical data with increased precision and scale. In addition to this ) Tj
+T*
+(investment in NVIDIA's DGX A100 system, GSK will have access to NVIDIA's Cambridge-1, the ) Tj
+T*
+(NVIDIA Clara discovery software and NVIDIA scientists.) Tj
+T*
+() Tj
+T*
+(In Q3, the A100 swept the industry standard MLPerf benchmark for AI inference performance ) Tj
+T*
+(following our suite in the prior quarters MLPerf benchmark for AI training. Notably, our ) Tj
+T*
+(performance led in AI inference actually extended compared with last year's benchmark. For ) Tj
+T*
+(example, in the ResNet-50 test for image recognition, our A100 GPU beat CPU only systems by 30) Tj
+T*
+( times this year versus six times last year. Additionally, A100 outperformed CPUs by up to 237) Tj
+T*
+( times in the newly added recommender test, which represent some of the most complex and ) Tj
+T*
+(widely used AI models on the Internet. Our winning performance in AI inference is translating ) Tj
+T*
+(to continued strong revenue growth. Alongside the continued ramp of the A100, T4 sales set a ) Tj
+T*
+(record, as the NVIDIA AI inference adoption is in full throttle. We estimate that NVIDIA's ) Tj
+T*
+(installed GPU capacity for inference across the seven largest public cloud now exceeds that of) Tj
+T*
+( the aggregate CPU capacity in the cloud, testament to the tremendous performance and TCO ) Tj
+T*
+(advantage of our GPUs.) Tj
+T*
+() Tj
+T*
+(Hundreds of companies now operate AI-enabled services on NVIDIA's inference platform, ) Tj
+T*
+(including the A100 or T4 GPU and our Triton inference serving software. For example, Tencent ) Tj
+T*
+(uses NVIDIA AI inference to recommend video, music, news and apps, supporting billions of ) Tj
+T*
+(queries per day. Microsoft uses NVIDIA AI inference for grammar correction in Microsoft ) Tj
+T*
+(Office, supporting half a trillion queries a year and American Express uses it for real-time ) Tj
+T*
+(fraud detection.) Tj
+T*
+() Tj
+T*
+(We also gained tremendous traction in supercomputing. We announced that NVIDIA technology ) Tj
+T*
+(including Ampere architecture GPUs and HDR InfiniBand networking will power five systems ) Tj
+T*
+(awarded by EuroHPC, a European initiative to build excess scale supercomputing. This includes ) Tj
+T*
+(CINECA, a university consortium in Italy and one of the world's most important supercomputing ) Tj
+T*
+(center, which will use NVIDIA's accelerated computing platform to build the world's fastest AI) Tj
+T*
+( supercomputer. CINECA supercomputer named Leonardo advances the age of excess scale AI, ) Tj
+T*
+(delivering 10 exaFLOPS of AI performance to enable AI and high performance computing converged) Tj
+T*
+( applications use cases. It is built with nearing 14,000 NVIDIA Ampere architecture based GPUs) Tj
+T*
+( and Mellanox HDR 200-gigabit per second InfiniBand networking. And just the released top 500 ) Tj
+T*
+(list of supercomputers show that NVIDIA GPUs or networking powered nearly 70% and eight of the) Tj
+T*
+( 10 top supercomputers on the list.) Tj
+T*
+() Tj
+T*
+(Mellanox had another record quarter with double-digit sequential growth, well ahead of our ) Tj
+T*
+(expectations, contributing 13% of overall company revenue. The upside reflected sales to a ) Tj
+T*
+(China OEM that will not recur in Q4. As a result, we expect a meaningful sequential revenue ) Tj
+T*
+(decline for Mellanox in Q4, but still growing 30% from last year. Mellanox reached record ) Tj
+T*
+(revenue in both InfiniBand and Ethernet, driven by cloud, enterprise and supercomputing ) Tj
+T*
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 4997 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(customers. Strong demand for high-performance interconnects where Mellanox is leader is being ) Tj
+T*
+(fueled by AI increasingly complex applications which demand faster, smarter, more scalable ) Tj
+T*
+(networks. As the data center becomes the new unit of computing in the age of AI, Mellanox ) Tj
+T*
+(networking is foundational to modern scale out architectures.) Tj
+T*
+() Tj
+T*
+(At GTC in October, we unveiled the BlueField-2 DPU, our Data Processing Unit, a new kind of ) Tj
+T*
+(processor which offloads critical networking, storage and security tasks from the CPU. A ) Tj
+T*
+(single BlueField-2 DPU can deliver the same data center services that consume up 125 CPU ) Tj
+T*
+(cores. This frees up valuable CPU cores to run a wide range of other enterprise applications. ) Tj
+T*
+(In addition, it enabled zero trust security features to prevent data breaches and cyber-) Tj
+T*
+(attacks and accelerates overall performance. VMware announced that it will offload, accelerate) Tj
+T*
+( and isolate its industry-leading ESXi Hypervisor with NVIDIA's BlueField-2 DPU, boosting ) Tj
+T*
+(vSphere and data center performance and efficiencies.) Tj
+T*
+() Tj
+T*
+(We also unveiled our three-year DPU roadmap, unified Mellanox's leading network capabilities ) Tj
+T*
+(with NVIDIA's GPUs and the new NVIDIA DOCA or Data Center on a Chip Architecture, software ) Tj
+T*
+(development kit for building DPU accelerated applications. We believe that over time DPUs will) Tj
+T*
+( ship millions of servers unlocking a $10 billion total addressable market. BlueField-2 is ) Tj
+T*
+(sampling now with major hyperscale customers and will be integrated into the enterprise server) Tj
+T*
+( offerings of major OEMs. This was our busy period for product launches. Earlier this week at ) Tj
+T*
+(Supercomputing 20, we announced the new double capacity A100 80-gigabyte GPUs and GTX systems ) Tj
+T*
+(for organizations to build, train, and deploy massive AI models. We also announced the new DGX) Tj
+T*
+( station A100, a powerful work group server with 4 and 100 GPUs and a massive 320-gigabyte GPU) Tj
+T*
+( memory for data scientists and AI researchers working in offices, research facilities, cloud ) Tj
+T*
+(or at home. All these additions to the NVIDIA ampere, architecture family of products will be ) Tj
+T*
+(available early next year.) Tj
+T*
+() Tj
+T*
+(At SC20, we also announced the next generation NVIDIA Mellanox 400-gigabit per second ) Tj
+T*
+(InfiniBand architecture getting AI developers and scientific researchers for fastest available) Tj
+T*
+( networking performance. This doubles data throughput and has new in network computing engines) Tj
+T*
+( to provide additional acceleration. Solutions based on this new architecture are expected to ) Tj
+T*
+(sample in the second quarter of calendar 2021.) Tj
+T*
+() Tj
+T*
+(Moving to the rest of the P&L. Q3 GAAP gross margin was 62.6% and non-GAAP gross margin was ) Tj
+T*
+(65.5%. GAAP gross margin declined year-on-year primarily due to charges related to the ) Tj
+T*
+(Mellanox acquisition partially offset by product mix. The sequential increase was driven by ) Tj
+T*
+(the absence of non-recurring inventory step-up expense related to the Mellanox acquisition. ) Tj
+T*
+(Non-GAAP gross margins increased by 140 basis points year-on-year, reflecting a shift in ) Tj
+T*
+(product mix with higher data center sales, including the contribution from Mellanox.) Tj
+T*
+() Tj
+T*
+(Non-GAAP gross margin was down 50 basis points sequentially, in line with our expectations, ) Tj
+T*
+(driven by product mix. Q3 GAAP operating expenses were $1.56 billion and non-GAAP operating ) Tj
+T*
+(expenses were $1.1 billion, up 6% and 42% from a year ago respectively. Q3 GAAP EPS was $2.12,) Tj
+T*
+( up 46% from a year earlier and non-GAAP EPS was $2.91 up 63% from year ago. Q3 Cash flow from) Tj
+T*
+( operations was $1.28 billion.) Tj
+T*
+() Tj
+T*
+(With that let me turn to the outlook for the fourth quarter of fiscal 2021. As a reminder, Q4 ) Tj
+T*
+(include a 14th week, which we expect to be incrementally addition to revenue and operating ) Tj
+T*
+(expenses. We expect gaming to be up sequentially in what is typically a seasonally down ) Tj
+T*
+(quarter. As we continue to ramp up our new RTX 30 series products. We expect data center to be) Tj
+T*
+( down slightly versus Q3. With that, we expect computing products to grow in the mid-single ) Tj
+T*
+(digits sequentially, more than offset by sequential decline in Mellanox. We expect continued ) Tj
+T*
+(sequential growth in auto and ProViz though not yet returning to year-on-year growth and we ) Tj
+T*
+(expect a seasonal decline in OEM. Revenue is expected to be $4.8 billion plus or minus 2%.) Tj
+T*
+() Tj
+T*
+(GAAP and non-GAAP gross margins are expected to be 62.8% and 65.5% respectively, plus or minus) Tj
+T*
+( 50 basis points. GAAP and non-GAAP operating expenses are expected to be approximately $1.64 ) Tj
+T*
+(billion and $1.18 billion respectively. GAAP and non-GAAP other income and expenses are both ) Tj
+T*
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 3668 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(expected to be an expense of approximately $55 million. GAAP and non-GAAP tax rates are both ) Tj
+T*
+(expected to be 8% plus or minus 1% excluding discrete items. Capital expenditures are expected) Tj
+T*
+( to be approximately $300 million to $325 million. Further financial details are included in ) Tj
+T*
+(the CFO commentary and other information available on our IR website.) Tj
+T*
+() Tj
+T*
+(In closing, let me highlight upcoming events for the financial community will be virtually ) Tj
+T*
+(attending the Credit Suisse Technology Conference on November 30, Wells Fargo, TMT Summit, ) Tj
+T*
+(December 1 and the UBS TMT Conference on December 7. Our earnings call to discuss the fourth ) Tj
+T*
+(quarter and full year results is scheduled for Wednesday, February 24.) Tj
+T*
+() Tj
+T*
+(We will now open the call for questions. Operator, would you please poll for questions.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+([Operator Instructions]) Tj
+T*
+() Tj
+T*
+(Your first question comes from the line of John Pitzer from Credit Suisse. Your line is open.) Tj
+T*
+() Tj
+T*
+(John Pitzer - Credit Suisse - Analyst) Tj
+T*
+() Tj
+T*
+(Can you hear me?) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Yes.) Tj
+T*
+() Tj
+T*
+(John Pitzer - Credit Suisse - Analyst) Tj
+T*
+() Tj
+T*
+(Yeah, hey guys. Congratulations on the solid results. Thank you for taking my questions. Just,) Tj
+T*
+( Colette, going back to your commentary around Mellanox, it seems like you're guiding the ) Tj
+T*
+(January quarter to about $500 million, which means the core data center business is still ) Tj
+T*
+(growing nicely, call it 6%, 7% sequentially.) Tj
+T*
+() Tj
+T*
+(I'm just kind of curious when you look at the core data center business, I know there's not a ) Tj
+T*
+(direct correlation to server business but we're clearly going through a cloud digestion in ) Tj
+T*
+(server and core vertical markets, enterprise for servers are weak. When you look at your core ) Tj
+T*
+(data center business, do you feel as though that's having an impact and this is sort of the ) Tj
+T*
+(digestion that you saw kind of in late fiscal '20 - sorry fiscal '19 into '20, but you're ) Tj
+T*
+(doing it, still growing significantly year-over-year. How would you characterize the macro ) Tj
+T*
+(backdrop?) Tj
+T*
+() Tj
+T*
+(Colette Kress - Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Sure. Let me clarify for those also on the call. Yes. We expect our data center revenue in ) Tj
+T*
+(total to be down slightly quarter-over-quarter. The computing products, NVIDIA computing ) Tj
+T*
+(products is expected to grow in the mid-single-digit quarter-over-quarter as we continue the ) Tj
+T*
+(NVIDIA AI adoption and particularly as A100 continues to ramp. Our networking - our Mellanox ) Tj
+T*
+(networking is expected to decline meaningfully quarter-over-quarter as sales to that China OEM) Tj
+T*
+( will not recur in Q4, though, we still expect the results to be growth of 30% or more year-) Tj
+T*
+(over-year. The timing of some of this business therefore shifted from Q4 to Q3 but overall H2 ) Tj
+T*
+(is quite strong. So, in referring to overall digestion, the hyperscale business remains ) Tj
+T*
+(extremely strong. We expect hyperscales to grow quarter-over-quarter in computing products as ) Tj
+T*
+(A100 continues to ramp. The A100 continues to gain adoption not only across those hyperscale ) Tj
+T*
+(customers, but again, we're also receiving great momentum in inferencing with the A100 and the) Tj
+T*
+( T4. I'll turn it over here to Jensen to see if he has more that he would like to add.) Tj
+T*
+() Tj
+T*
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Length 4218 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(Colette captured it very well. The only thing that I would add is our inference initiative is ) Tj
+T*
+(really gaining great momentum. Inference is one of the hardest computer science problems, ) Tj
+T*
+(compiling these gigantic neural network computational graphs into a target device is really, ) Tj
+T*
+(really - has proven to be really, really hard. The models are diverse when you convert vision ) Tj
+T*
+(to language to speech and there are so many different types of models been created, the model ) Tj
+T*
+(sizes are doubling every couple of months. The length of your expectations are increasing all ) Tj
+T*
+(the time or latency is decreasing all the time.) Tj
+T*
+() Tj
+T*
+(And so the pressure on inference is really great, the technology pressures is really great. ) Tj
+T*
+(And our leadership there is really pulling ahead. We're in our seventh generation TensorRT. We) Tj
+T*
+( over the course of last couple of years developed an inference server, it's called Triton, ) Tj
+T*
+(has been adopted all over the place. We have several hundred customers now using NVIDIA AI to ) Tj
+T*
+(deploy their AI services.) Tj
+T*
+() Tj
+T*
+(This is some of the early innings. And I think this is going to be our largest near-term ) Tj
+T*
+(growth opportunity. We are really firing on all cylinders there between A100s ramping in the ) Tj
+T*
+(cloud, A100s beginning to ramp in enterprise and all of our inference initiatives are really ) Tj
+T*
+(doing great.) Tj
+T*
+() Tj
+T*
+(John Pitzer - Credit Suisse - Analyst) Tj
+T*
+() Tj
+T*
+(Jensen, maybe to follow-on there, just on the vertical markets. Clearly, work from home and ) Tj
+T*
+(COVID this year, kind of presented a headwind to new technology deployments on-prem. I'm kind ) Tj
+T*
+(of curious if we expect sort of an enterprise recovery in general next year, how do you think ) Tj
+T*
+(that will translate into your vertical market strategy? And is there anything else above and ) Tj
+T*
+(beyond that you can do to help accelerate penetration of AI to that end market?) Tj
+T*
+() Tj
+T*
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah, John, that's good point. I mean, it's very clear that the inability to go to work is ) Tj
+T*
+(slowing down the adoption of new technology in some of the verticals. Of course, we're seeing ) Tj
+T*
+(rapid adoption in certain verticals like for example, using AI in healthcare to rapidly ) Tj
+T*
+(discover new vaccines and early detection of outbreaks and robotic applications. So, ) Tj
+T*
+(warehouses, digital retail, last mile delivery, they are seeing just really, really great ) Tj
+T*
+(enthusiasm adopting new AI and robotics technology. But in some of the old - some of the more ) Tj
+T*
+(traditional industries, the new capabilities and new technologies are slower to deploy.) Tj
+T*
+() Tj
+T*
+(One of the areas that I'm really super excited about is the work that we're doing in remote ) Tj
+T*
+(work and making it possible for people to collaborate remotely. We have a platform called ) Tj
+T*
+(Omniverse, it's, an early data. The feedback from marketplace has been really great. And so, ) Tj
+T*
+(I've got a lot more to report to you guys in the upcoming months around Omniverse. And so but ) Tj
+T*
+(anyways, I think when the industry recover, we serve - our fundamental purpose as a company is) Tj
+T*
+( to solve the greatest challenges that impact industry where ordinary computers can't. And ) Tj
+T*
+(these challenges are - serve some of the most important applications in the verticals that we ) Tj
+T*
+(address. And they're not commodity applications, they are really impactful, needle moving ) Tj
+T*
+(applications.) Tj
+T*
+() Tj
+T*
+(So, I have every confidence when the industries recover, things will get designed, cars will ) Tj
+T*
+(be designed and planes will be designed and ships will be designed and buildings would be ) Tj
+T*
+(designed in and we're going to see a lot of design and we are going to see a lot of ) Tj
+T*
+(simulation, we are going to see a lot of robotics applications.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+([Operator Instructions]) Tj
+T*
+() Tj
+T*
+(Your next question comes from the line of C.J. Muse from Evercore. Your line is open.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Length 4239 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(C.J. Muse - Evercore - Analyst) Tj
+T*
+() Tj
+T*
+(Yeah, good afternoon. Thank you for taking the question. You talked about in your prepared ) Tj
+T*
+(remarks limited availability of capacity components. You suggested perhaps a few months to ) Tj
+T*
+(catch up. Curious if you can speak to the visibility that you have for both Gaming and Data ) Tj
+T*
+(Center into your April quarter?) Tj
+T*
+() Tj
+T*
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah. Colette, you want me to take that real quick and then you can help me out.) Tj
+T*
+() Tj
+T*
+(Colette Kress - Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Yes, absolutely.) Tj
+T*
+() Tj
+T*
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(So, C.J., first of all, we have a lot of visibility into the channel as you know, especially ) Tj
+T*
+(for gaming. And we know how many weeks of inventory is in what parts of the channel. We've ) Tj
+T*
+(been draining down the channel inventory opportunity for some time and meanwhile, we've also ) Tj
+T*
+(expected a very, very successful launch with Ampere. And even, even with our bullish demand ) Tj
+T*
+(expectations and all of the anchors that we built, which is one of the fastest ramps ever.) Tj
+T*
+() Tj
+T*
+(The demand is overwhelming. And I guess in a lot of ways, it's kind of expected. The ) Tj
+T*
+(circumstances are - it's been a decade since we've invented a new type of computer graphics. ) Tj
+T*
+(And two years ago we invented a programmable shader and it set the industry on the course to ) Tj
+T*
+(create the type of images that we see today. But it's very clear that the future is going to ) Tj
+T*
+(look something much, much more beautiful and we invented and NVIDIA RTX to do that and it has ) Tj
+T*
+(two capabilities; one, based on ray tracing and the other one is based on artificial ) Tj
+T*
+(intelligence in its generation.) Tj
+T*
+() Tj
+T*
+(The combination of those two capabilities is creating images that people are pretty excited ) Tj
+T*
+(about. And at this point it's defined the next generation content. And so when we - it took us) Tj
+T*
+( 10 years to invent it. We launched it two years ago. And took our second-generation to really) Tj
+T*
+( achieve the level of quality and performance that the industry - that the customers really, ) Tj
+T*
+(really expect. And now the demand is just overwhelming. So we're going to continue to ramp ) Tj
+T*
+(fast and this is going to be one of our most successful ramps ever. And it gives our installed) Tj
+T*
+( base of some 200 million plus GeForce gamers the best reason to upgrade in over a decade. And) Tj
+T*
+( so this is going to be a very large challenge for us [Phonetic] is my guess.) Tj
+T*
+() Tj
+T*
+(And then with respect to data center, they are ramping into A100. A100 is our first generation) Tj
+T*
+( of GPUs that does several things at the same time. It's universal, we positioned it as a ) Tj
+T*
+(universal because it's able to do all of the applications that we in the past had to have ) Tj
+T*
+(multiple GPUs to do it. It does training well, it does inference incredibly well. It does high) Tj
+T*
+( performance computing, it does data analytics. And so it's able - the Ampere architecture is ) Tj
+T*
+(able to do all of this at the same time. And so the utilization for data centers is - and the ) Tj
+T*
+(utility is really, really fantastic and the reception has been great. And so we're going to ) Tj
+T*
+(ramp into all of the world's cloud.) Tj
+T*
+() Tj
+T*
+(I think starting this quarter, we're now in every, every major cloud provider in the world, ) Tj
+T*
+(including Alibaba, Oracle and of course the giants, the Amazons, the Azure, and Google Clouds.) Tj
+T*
+( And we're going to continue to ramp into that. And then of course, we're starting to ramp ) Tj
+T*
+(into enterprise which in my estimation, long-term, will still be the largest growth ) Tj
+T*
+(opportunity for us, turning every industry into an AI, turning every company into AI and ) Tj
+T*
+(augment it with AI and bring the iPhone moment to all of the world's largest industries. And ) Tj
+T*
+(so we're ramping into that and we are seeing great deal of enthusiasm.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 18 0 R >>
+endobj
+20 0 obj
+<< /Length 3888 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+() Tj
+T*
+(Your next question comes from the line of Stacy Rasgon from Bernstein Research. Your line is ) Tj
+T*
+(open.) Tj
+T*
+() Tj
+T*
+(Stacy Rasgon - Bernstein Research - Analyst) Tj
+T*
+() Tj
+T*
+(Hi guys, thanks for taking my question. You said that the extra week was contributing ) Tj
+T*
+(incrementally to revenue and opex. Can you give us some feeling for how much it's contributing) Tj
+T*
+( to revenue and opex in Q4? And does that impact, at least on the revenue side differ say ) Tj
+T*
+(between like gaming and data center? And then how should we think about it impacting ) Tj
+T*
+(seasonality in the Q1 as that extra week close off?) Tj
+T*
+() Tj
+T*
+(Colette Kress - Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Sure, let me try this one Jensen. Yes, we've incorporated that 14th week into our guidance for) Tj
+T*
+( both revenue and opex. We will likely have incrementally positive impact on revenue, although) Tj
+T*
+( it is tough to quantify. Okay. Our outlook also reflects incremental opex for Q4 in primarily) Tj
+T*
+( two different areas in terms of compensation and depreciation. And given that our employees ) Tj
+T*
+(are such a material powered of our opex, it can be close to one-fourteenth of the quarter.) Tj
+T*
+() Tj
+T*
+(Now, when we look a little bit farther, we should think about the incremental positive in both) Tj
+T*
+( gaming and data center from that extra week as we are hopefully will be extra supply. But not) Tj
+T*
+( likely as much as one-fourteenth of the quarter of revenue as enterprise demand is ) Tj
+T*
+(essentially project-based and gaming demand though is tied to the number of gamers that might ) Tj
+T*
+(be shopping for the overall holiday. So again, still very hard for us to determine at this ) Tj
+T*
+(time.) Tj
+T*
+() Tj
+T*
+(Normally between Q4 and Q1, there is seasonality in gaming, big seasonality downward, but ) Tj
+T*
+(we'll just have to see as we are still supply constrained within this Q4 to see what that ) Tj
+T*
+(looks like. From an opex standpoint, we will probably expect our opex to be relatively ) Tj
+T*
+(flattish as we move from Q4 to Q1.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question comes from the line of Vivek Arya from Bank of America. Your line is open.) Tj
+T*
+() Tj
+T*
+(Vivek Arya - Bank of America - Analyst) Tj
+T*
+() Tj
+T*
+(Thanks for taking my question and congratulations on the strong growth. Jensen, my question is) Tj
+T*
+( on competition from internally designed products by some of your larger cloud customers, ) Tj
+T*
+(Amazon and Google on. And others we ahead about competition from time to time and I wanted to ) Tj
+T*
+(get your perspective. Is this a manageable risk is the right way to think that they are ) Tj
+T*
+(perhaps using more of your product in the public cloud. But they are moving to internal ) Tj
+T*
+(products for internal workloads. Just how should we think about this risk going forward. Thank) Tj
+T*
+( you.) Tj
+T*
+() Tj
+T*
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Thanks Vivek. Thanks for that. Most of the cloud vendors. In fact, in fact, I believe all of ) Tj
+T*
+(the cloud vendors use the same infrastructures marginally for their internal cloud and ) Tj
+T*
+(external clouds or have the ability to or marginally due. And there is a competition. - the ) Tj
+T*
+(competition we want to be really good and the reason for that is this. It's just that ) Tj
+T*
+(acceleration, make that very clear that acceleration is the right path forward for training ) Tj
+T*
+(and inference.) Tj
+T*
+() Tj
+T*
+(The vast majority of the world's training models are doubling in size in a couple of months. ) Tj
+T*
+(And it's one of the reasons why our demand is so great. The second is inference. The vast ) Tj
+T*
+(majority, the world's inference is done on CPUs and, nothing is better than, the whole world ) Tj
+T*
+ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 20 0 R >>
+endobj
+22 0 obj
+<< /Length 4594 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(recognizing that the best way forward is to do inference on accelerators and when that happens) Tj
+T*
+( our accelerators the most versatile, it has the highest performance, we move the fastest, our) Tj
+T*
+( rate of innovation is the fastest because we're also the most dedicated to it, we're most ) Tj
+T*
+(committed to it and we have the mortgage team in the world to it. Iur stack is the most ) Tj
+T*
+(advanced giving us the greatest versatility and performance. And so we see a sponsor of ) Tj
+T*
+(announcement here now. But they're also our largest customers.) Tj
+T*
+() Tj
+T*
+(And as you know that we're ramping quite nicely and growing ramping quite nicely in Amazon and) Tj
+T*
+( Microsoft and Alibaba and Oracle and others. And so I think the big takeaway is that and the ) Tj
+T*
+(great opportunity for us to be, if you look at the vast amount of workload, AI workload in the) Tj
+T*
+( world, the vast majority of it today is still on CPUs and it's very clear now this is going ) Tj
+T*
+(to be an accelerator workload and we're the best accelerator in the world and this is going to) Tj
+T*
+( be a really big growth opportunity for us in the near term. In fact, we believe, it's our ) Tj
+T*
+(largest growth opportunity in near term and we're in the early innings of it.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question comes from the line of Harlan Sur from JPMorgan. Your line is open.) Tj
+T*
+() Tj
+T*
+(Harlan Sur - JPMorgan - Analyst) Tj
+T*
+() Tj
+T*
+(Good afternoon and thanks for taking my question and great job on the quarterly execution. On ) Tj
+T*
+(the Mellanox networking connectivity business was up 80% year-over-year. I think it was up ) Tj
+T*
+(about 13%, 14% sequentially. I know there was upside in October from one China customer, but ) Tj
+T*
+(it did grow 70% year-over-year last quarter, and you're still expecting 30% year-over-year ) Tj
+T*
+(growth next quarter.) Tj
+T*
+() Tj
+T*
+(If I remember correctly, I think InfiniBand is about 40% of that business, Ethernet cloud is ) Tj
+T*
+(about 60%. Jensen, what are the big drivers, especially since we're in the midst of cloud ) Tj
+T*
+(spending digestion cycle. And I just thought that the team announced their next-gen 400 gig ) Tj
+T*
+(InfiniBand solution, which should drive another strong adoptions like with your supercomputer ) Tj
+T*
+(customers. When does this upgrade cycle start to fire?) Tj
+T*
+() Tj
+T*
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah. Let's see. Our data center business consists of Supercomputing centers, which is small, ) Tj
+T*
+(high performance computing which is a much larger part of supercomputing - much larger than ) Tj
+T*
+(supercomputing and then hyperscale and enterprise which which about 50/50. Of the data center ) Tj
+T*
+(business, the accelerated computing part is not very much associated with digestion, it's much) Tj
+T*
+( more associated with workloads and our new product cycles, the TCO that we bring in our ) Tj
+T*
+(inference. The type of models that the cloud service providers are deploying whether they are ) Tj
+T*
+(deploying new AI models based on deep learning and how much of that we - how much of those ) Tj
+T*
+(workloads that we've completed according to our accelerators and ready them for deployment. ) Tj
+T*
+(And so those are the factors associated with accelerated computing. It's really about the ) Tj
+T*
+(apps, it's really about the workloads, really driven by AI.) Tj
+T*
+() Tj
+T*
+(On the other hand, the networking part of our business is more connected to CPU business ) Tj
+T*
+(because they are much more broad based. The networking part of our business is driven by this ) Tj
+T*
+(idea of new hyperscale data center architecture called disaggregation, software disaggregation) Tj
+T*
+( not necessarily hardware disaggregation, software disaggregation, where this type of software) Tj
+T*
+( called Kubernetes orchestrate microservices that are deployed across the data center.) Tj
+T*
+() Tj
+T*
+(So, one service, one application isn't monolithic running on one computer anymore, it's ) Tj
+T*
+(distributed across multiple computers and multiple nodes, so that the hyperscale data centers ) Tj
+T*
+(can more easily scale up and scale out according to the workloads and according to the demand ) Tj
+T*
+(on the data center. And so this aggregation has caused the networking between the compute ) Tj
+T*
+(nodes to pick up all vital points and because Mellanox is the lowest latency, highest ) Tj
+T*
+(performance, highest bandwidth network that you can get. The TCO benefit at the data center ) Tj
+T*
+ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 22 0 R >>
+endobj
+24 0 obj
+<< /Length 3933 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(scale is really fantastic. And so when they are building our data centers, Mellanox is going ) Tj
+T*
+(to be much more connected to that.) Tj
+T*
+() Tj
+T*
+(In the enterprise, depending on new CPU cycles, it could affect them. If a CPU cycle were to ) Tj
+T*
+(delay a little bit, it would affect them by quarter, if they were deploying by quarter, it ) Tj
+T*
+(would affect them by a pull in the quarter. And so those are kind of the dynamics of it. I ) Tj
+T*
+(think the net-net of it is that it's a forgone conclusion at this point that, that AI is is ) Tj
+T*
+(going to be the future of the way software is written. AI is the most powerful technology ) Tj
+T*
+(force of our time. And acceleration is the best path forward. And so that's what drives our ) Tj
+T*
+(computing business.) Tj
+T*
+() Tj
+T*
+(On the networking business has everything to do with the way architecture of data centers, ) Tj
+T*
+(cloud data centers which is not architected with microservices now. And that's what ) Tj
+T*
+(foundationally drives our networking business demand. And so we're really well positioned in ) Tj
+T*
+(these two fundamental dynamics because as we know, AI is the future and cloud computing is the) Tj
+T*
+( future. Both of those dynamics are very favorable to us.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question comes from the line of Timothy Arcuri from UBS. Your line is open.) Tj
+T*
+() Tj
+T*
+(Timothy Arcuri - UBS - Analyst) Tj
+T*
+() Tj
+T*
+(Thanks a lot. I wanted to ask a question that was asked before in a bit of different way. If I) Tj
+T*
+( look at the core business excluding Mellanox, the core data center business, it was up about ) Tj
+T*
+(6% sequentially the past few quarters and your guidance sort of implies up about that much ) Tj
+T*
+(again in January, which is certainly good and it's in cloud digestion. But of course, you have) Tj
+T*
+( Ampere still ramping as well which should be a pretty good tailwind. So, there seems to be ) Tj
+T*
+(some offsetting factors. So, I guess I wonder if you feel like your core data center revenue ) Tj
+T*
+(is still being constrained right now by some market digestion and kind of how you sort of ) Tj
+T*
+(balance or handicap these two factors? Thanks.) Tj
+T*
+() Tj
+T*
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Our growth in the near term is more affected by the cycle time of manufacturing and ) Tj
+T*
+(flexibility of supply. We are in a good shape and all of our supply is, informs our guidance. ) Tj
+T*
+(But we would appreciate shorter cycle times, we would appreciate more agile on supply chains. ) Tj
+T*
+(But the world is constrained at the moment. And so we just have to make the best of it. But ) Tj
+T*
+(even in that condition - even in that condition, we've - all of that is working for our ) Tj
+T*
+(guidance and we expect to grow.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question comes from the line of Aaron Rakers from Wells Fargo. Your line is open.) Tj
+T*
+() Tj
+T*
+(Aaron Rakers - Wells Fargo - Analyst) Tj
+T*
+() Tj
+T*
+(Yeah, thanks for taking the question. And also congratulations on the quarter. I wanted to go ) Tj
+T*
+(back to kind of the Mellanox question. I know prior to the acquisition, Mellanox was growing ) Tj
+T*
+(maybe in the mid-to-high 20% range. These last two quarters, it's grown over 75%. I guess the ) Tj
+T*
+(simple question is how do you think about the growth rate for Mellanox going forward? And on ) Tj
+T*
+(that topic we've started to hear you talk more about BlueField and data processing units. I ) Tj
+T*
+(think in your commentary you alluded to server OEM design wins incorporating these DPUs. What ) Tj
+T*
+(are you looking at or when should we think about the DPU business really starting to inflect ) Tj
+T*
+(and become a material driver for the business? Thank you.) Tj
+T*
+() Tj
+T*
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 24 0 R >>
+endobj
+26 0 obj
+<< /Length 4464 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(Long term, every computer in the world will be built like a data center. And every node of a ) Tj
+T*
+(data center is going to be a data center in itself. And the reason for that is because we want) Tj
+T*
+( the apex surface to be basically zero. And today, most of the data centers are all protected ) Tj
+T*
+(as a periphery. But in the future if you would like cloud computing to be the architecture for) Tj
+T*
+( everything and every data center is multi-tenant, every center is secure, then you're going ) Tj
+T*
+(to have to secure every single node. And each one of those nodes are going to be - have ) Tj
+T*
+(software defined networking, software defined storage and it's going to have per application ) Tj
+T*
+(security.) Tj
+T*
+() Tj
+T*
+(And so the processing that is - that it will need to offload the CPU is really quite ) Tj
+T*
+(significant. In fact, we believe that somewhere between 20% to 40% of today's data centers - ) Tj
+T*
+(cloud data centers is the capacity, the throughput the computational load is consumed running ) Tj
+T*
+(basically the infrastructure overhead. And that's what the DPUs intended was designed to do. ) Tj
+T*
+(We're going to, we're going to offload out number one and number two, we are going to make ) Tj
+T*
+(every single application secure and confidential computing, zero trust computing, that will ) Tj
+T*
+(become a reality.) Tj
+T*
+() Tj
+T*
+(And so the importance is really quite tremendous. And I believe therefore that every single ) Tj
+T*
+(server in the world will have a DPU inside somewhere, just because we care so much about ) Tj
+T*
+(security and just because we care so much about throughput in TCL. It is really - it's really ) Tj
+T*
+(the most cost-effective way of getting the data center. And so I expect our DPU business to be) Tj
+T*
+( quite large. And so that's the reason why we're putting so much energy into it. It's a ) Tj
+T*
+(programmable data center on a chip, data center infrastructure on a chip. It is the reason why) Tj
+T*
+( we're working with VMware on taking the operating system with the data center. The software ) Tj
+T*
+(defined operating system to data center and putting it on BlueField. And so this is a very ) Tj
+T*
+(important initiative for us. I'm very excited about it as you can imagine.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question comes from the line of Ambrish Srivastava from BMO Capital Markets. Your ) Tj
+T*
+(line is open.) Tj
+T*
+() Tj
+T*
+(Ambrish Srivastava - BMO Capital Markets - Analyst) Tj
+T*
+() Tj
+T*
+(Thank you very much. Colette and I apologize if I missed it, but for Mellanox, do you expect ) Tj
+T*
+(it to get back to that growth trajectory on a sequential basis in the April quarter? And I'm ) Tj
+T*
+(assuming that the shortfall in the current quarter is from a pull-in from Huawei?) Tj
+T*
+() Tj
+T*
+(Colette Kress - Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(So, our impact to our Q4 guidance for Mellanox is impacted by a sale to a China OEM for ) Tj
+T*
+(Mellanox that will not recur in Q4. As we look forward into Q1 of April, we're going to take ) Tj
+T*
+(this a quarter at a time and provide thoughts and guidance for that once we turn the corner to) Tj
+T*
+( the new fiscal year.) Tj
+T*
+() Tj
+T*
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(At the highest level cloud, I think the, it's safe to say that high-speed networking is going ) Tj
+T*
+(to be one of the most important things than cloud data centers as we go forward. And the vast ) Tj
+T*
+(majority of the world's data center is still built for the traditional hyper-converged ) Tj
+T*
+(architecture, which is all moving over to microservices based disaggregate software defined ) Tj
+T*
+(disaggregated architectures and that journey is still in its early days. And so I fully expect) Tj
+T*
+( future cloud data centers - all future data centres are going to be connected with high-speed) Tj
+T*
+( networking inside, they call it East West traffic and all of the traffic will be secured. And) Tj
+T*
+( so imagine building firewalls into every single server and imagine every single transaction, ) Tj
+T*
+(every single transmission inside the data center to be high-speed and fully encrypted. And so ) Tj
+T*
+(pretty amazing amount of computation is going to have to be installed into future data centers) Tj
+T*
+( but that's an accepted requirement now. And I think our networking business in Mellanox is in) Tj
+T*
+ET
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 26 0 R >>
+endobj
+28 0 obj
+<< /Length 3618 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+( the early innings of growth.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your final question today comes from the line of William Stein from Truist Securities. Your ) Tj
+T*
+(line is open.) Tj
+T*
+() Tj
+T*
+(William Stein - Truist Securities - Analyst) Tj
+T*
+() Tj
+T*
+(Great, thanks for taking my question. You've given us some pieces of this puzzle. But I'm ) Tj
+T*
+(hoping maybe you can address directly the sort of SKU by SKU roll out of Ampere. We know that ) Tj
+T*
+(we didn't have a ton of SKUs last quarter, there were more in this quarter that you announced ) Tj
+T*
+(and now you're doing sort of this refresh, it sounds like with double the memory on the A100. ) Tj
+T*
+(Is the T4 going to be refreshed? And if so, when does that happen? And are there other either ) Tj
+T*
+(systems or chips that are still waiting for the Ampere refresh that could potentially ) Tj
+T*
+(contribute to an extended cycle as we look at the next year.) Tj
+T*
+() Tj
+T*
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah, in terms of the total number of SKUs that we've ramped of Ampere, we're probably ) Tj
+T*
+(somewhere along a third to a half of this - at the SKUs at this point, maybe a little bit ) Tj
+T*
+(less. Yeah, it's less. The way that you can think through it, you could reverse engineer it ) Tj
+T*
+(like this. You know what our gaming lineup looks like for desktops. And so, traditionally we ) Tj
+T*
+(try to have a new architecture in every single segment. And we have not, we've not gone below ) Tj
+T*
+(- gone below $499 [Phonetic] yet.) Tj
+T*
+() Tj
+T*
+(And so there is a very big part of the marketplace that we're still in the process of ) Tj
+T*
+(addressing. And then the second thing is laptops. None of those - none of the Ampere ) Tj
+T*
+(architecture has launched for laptops. And then there's workstations, do the same thing with ) Tj
+T*
+(desktops and workstations and laptops workstations and none of those have gone out yet and ) Tj
+T*
+(then there's data center. And our data center business for cloud, you've seen some of the ) Tj
+T*
+(early versions of it, A100 but then there is cloud computing for graphics, there's cloud ) Tj
+T*
+(gaming, there's enterprise, edge enterprise applications, enterprise data analytics ) Tj
+T*
+(applications and so there is a fair number of exciting new products we still have in progress.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(That concludes our Q&A for today. I now turn the call back to Ms. Jankowski for closing ) Tj
+T*
+(remarks.) Tj
+T*
+() Tj
+T*
+(Simona Jankowski - Vice President of Investor Relations) Tj
+T*
+() Tj
+T*
+(Actually, that would be for Jensen.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(My apologies.) Tj
+T*
+() Tj
+T*
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Okay. Thank you, Simona. This was a terrific quarter. NVIDIA is firing on all cylinders, ) Tj
+T*
+(NVIDIA RTX has reinvented graphics and has made real-time ray tracing the standard of next ) Tj
+T*
+(generation content. Creating the best ever reason to upgrade for hundreds of millions of ) Tj
+T*
+(NVIDIA gamers. AI where software write software no humans can is the most powerful technology ) Tj
+T*
+(force of our time and is impacting every industry. NVIDIA AI again swept MLPerf training and ) Tj
+T*
+(now inference as well, extending our leadership in this important new way of doing computing. ) Tj
+T*
+(NVIDIA AI's new Triton inference server, a platform that I will speak a lot more about in the ) Tj
+T*
+(future and a lot more frequently because of its importance and our full stack optimize ) Tj
+T*
+ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 28 0 R >>
+endobj
+30 0 obj
+<< /Length 2721 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(platform are gaining rapid adoption to operate many of the world's most popular AI enhanced ) Tj
+T*
+(services, opening a major growth opportunity. Data centers are the new unit of computing. ) Tj
+T*
+(Someday, we believe there will be millions of autonomous data centers distributed all over the) Tj
+T*
+( globe.) Tj
+T*
+() Tj
+T*
+(NVIDIA's BlueField DPU programmable data center on a chip in our rich software stack will help) Tj
+T*
+( place AI data centers in factories, warehouses, 5G base stations and even on wheels. And with) Tj
+T*
+( our pending acquisition of Arm, the company that builds the most - the world's most popular ) Tj
+T*
+(CPU, we will create the computing company for the age of AI with computing extending from the ) Tj
+T*
+(cloud to trillions of devices.) Tj
+T*
+() Tj
+T*
+(Thank you for joining us today and wish all of you happy holidays and please do stay safe and ) Tj
+T*
+(I look forward to seeing you guys next call.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(</body></html>"]\)</script><script>self.__next_f.push\([1,"33:Tc96e,"]\)</script><script>self.__n) Tj
+T*
+(ext_f.push\([1,"<html><body><h2>Title</h2>NVIDIA Corp \(NASDAQ: NVDA\) Q3 2020 earnings call ) Tj
+T*
+(<h2>Management</h2><p>Simona Jankowski - Vice President of Investor Relations) Tj
+T*
+() Tj
+T*
+(Colette Kress - Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(John Pitzer - Credit Suisse - Analyst) Tj
+T*
+() Tj
+T*
+(C.J. Muse - Evercore - Analyst) Tj
+T*
+() Tj
+T*
+(Stacy Rasgon - Bernstein Research - Analyst) Tj
+T*
+() Tj
+T*
+(Vivek Arya - Bank of America - Analyst) Tj
+T*
+() Tj
+T*
+(Harlan Sur - JPMorgan - Analyst) Tj
+T*
+() Tj
+T*
+(Timothy Arcuri - UBS - Analyst) Tj
+T*
+() Tj
+T*
+(Aaron Rakers - Wells Fargo - Analyst) Tj
+T*
+() Tj
+T*
+(Ambrish Srivastava - BMO Capital Markets - Analyst) Tj
+T*
+() Tj
+T*
+(William Stein - Truist Securities - Analyst) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Good afternoon. My name is Jason and I will be your conference operator today. At this time, I) Tj
+T*
+( would like to welcome everyone to NVIDIA's Third Quarter Financial Results Conference Call.) Tj
+T*
+() Tj
+T*
+([Operator Instructions]) Tj
+T*
+() Tj
+T*
+(Simona Jankowski, you may begin your conference.) Tj
+T*
+() Tj
+T*
+(Simona Jankowski - Vice President of Investor Relations) Tj
+T*
+() Tj
+T*
+(Thank you. Good afternoon, everyone and welcome to NVIDIA's conference call for the third ) Tj
+T*
+(quarter of fiscal 2021. With me on the call today from NVIDIA are Jensen Huang, President and ) Tj
+T*
+(Chief Executive Officer; and Colette Kress, Executive Vice President and Chief Financial ) Tj
+T*
+(Officer.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 30 0 R >>
+endobj
+32 0 obj
+<< /Length 4947 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(I'd like to remind you that our call is being webcast live on NVIDIA's Investor Relations ) Tj
+T*
+(website. The webcast will be available for replay until the conference call to discuss our ) Tj
+T*
+(financial results for the fourth quarter of fiscal 2021. The content of today's call is ) Tj
+T*
+(NVIDIA's property. It can't be reproduced or transcribed without our prior written consent. ) Tj
+T*
+(During this call, we may make forward-looking statements based on current expectations. These ) Tj
+T*
+(are subject to a number of significant risks and uncertainties and our actual results may ) Tj
+T*
+(differ materially. For a discussion of factors that could affect our future financial results ) Tj
+T*
+(and business, please refer to the disclosure in today's earnings release, our most recent ) Tj
+T*
+(Forms 10-K and 10-Q and the reports that we may file on Form 8-K with the Securities and ) Tj
+T*
+(Exchange Commission.) Tj
+T*
+() Tj
+T*
+(All our statements are made as of today, November 18, 2020 based on information currently ) Tj
+T*
+(available to us. Except as required by law, we assume no obligation to update any such ) Tj
+T*
+(statements. During this call, we will discuss non-GAAP financial measures. You can find a ) Tj
+T*
+(reconciliation of these non-GAAP financial measures to GAAP financial measures in our CFO ) Tj
+T*
+(commentary, which is posted on our website.) Tj
+T*
+() Tj
+T*
+(With that, let me turn the call over to Colette.) Tj
+T*
+() Tj
+T*
+(Colette Kress - Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Thank you, Simona. Q3 was another exceptional quarter with record revenue of $4.73 billion, up) Tj
+T*
+( 57% year-on-year, up 22% sequentially and well above our outlook. Our new NVIDIA Ampere GPU ) Tj
+T*
+(architecture is ramping with excellent demand across our major market platforms. Q3 was also a) Tj
+T*
+( landmark quarter both for us and the industry as a whole. As we announced plans to acquire ) Tj
+T*
+(Arm from SoftBank for $40 billion, we are incredibly excited about the combined companies' ) Tj
+T*
+(opportunities and we are working through the regulatory approval process. For today, we will ) Tj
+T*
+(focus our remarks on our quarterly performance.) Tj
+T*
+() Tj
+T*
+(Starting with Gaming. Revenue was a record $2.27 billion, up 37% year-on-year, up 37% ) Tj
+T*
+(sequentially and ahead of our high expectations. Driving strong growth was our new NVIDIA ) Tj
+T*
+(Ampere architecture based GeForce RTX 30 Series of gaming GPUs. The GeForce RTX 3070, 3080 and) Tj
+T*
+( 3090 GPUs offer up to two times the performance and two times the power efficiency over the ) Tj
+T*
+(previous Turing-based generation. Our second-generation NVIDIA RTX combines ray tracing and AI) Tj
+T*
+( to deliver the greatest ever generational leap in performance. First announced on September 1) Tj
+T*
+( and ranging in price from $499 to $1,499, these GPUs have generated amazing reviews and ) Tj
+T*
+(overwhelming demand. PC World called them staggeringly powerful, while Newegg cited more ) Tj
+T*
+(traffic than Black Friday. Many of our retail and e-tail partners sold out instantly. The RTX ) Tj
+T*
+(30 series drove our biggest ever launch. But we had anticipated strong demand. It exceeded ) Tj
+T*
+(even our bullish expectations. Given industry-wide capacity constraints and long cycle times, ) Tj
+T*
+(it may take a few more months for product availability to catch up with demand.) Tj
+T*
+() Tj
+T*
+(In addition to the NVIDIA Ampere GPU architecture, we announced powerful new tools for gamers ) Tj
+T*
+(as well as for tens of millions of live streamers, broadcasters, Esports professionals, ) Tj
+T*
+(artists and creators. NVIDIA Reflex is a new technology that improves reaction time in games, ) Tj
+T*
+(reducing system latency by up to 58%. NVIDIA Reflex is being integrated into popular Esports ) Tj
+T*
+(games such as Apex Legends, Call of Duty Warzone, Fortnite and Valorant. NVIDIA Broadcast is a) Tj
+T*
+( universal plug-in for video conferencing and live streaming applications that enhances the ) Tj
+T*
+(quality of microphones, speakers and webcams with NVIDIA AI effects such as audio noise ) Tj
+T*
+(removal, virtual background effects and webcam audio frame. With it, remote workers and live ) Tj
+T*
+(streamers can turn any room into a broadcast studio.) Tj
+T*
+() Tj
+T*
+(Blockbuster games continue to adopt NVIDIA's RTX ray tracing and AI technologies as the games ) Tj
+T*
+(announced at Fortnite, which has more than 350 million players worldwide is adding NVIDIA RTX ) Tj
+T*
+(real-time ray tracing, NVIDIA DLSS AI super resolution and NVIDIA Reflex, making the game more) Tj
+T*
+( beautiful and even more responsive. Other major new titles featuring RTX this holiday season ) Tj
+T*
+(include Watch Dogs: Legion, Call of Duty: Black Ops Cold War and much anticipated Cyberpunk ) Tj
+T*
+(2077. Gaming laptop demand was also strong with double-digit year-on-year growth for the 11th ) Tj
+T*
+ET
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 32 0 R >>
+endobj
+34 0 obj
+<< /Length 5069 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(quarter in a row. NVIDIA GeForce laptops support the most demanding applications for creators ) Tj
+T*
+(and designers while doubling as a powerful gaming rig by night. We also had record gaming ) Tj
+T*
+(console revenue on strong demand for the Nintendo Switch.) Tj
+T*
+() Tj
+T*
+(And we continue to grow our cloud gaming service, GeForce NOW, which has doubled in the past ) Tj
+T*
+(seven months to reach over 5 million registered users. GeForce NOW is unique as an open ) Tj
+T*
+(platform that connects to popular game stores including Steam, Epic Games and Ubisoft Connect,) Tj
+T*
+( allowing gamers access to the titles they already own. 750 games are currently available on ) Tj
+T*
+(GFN, the most of any cloud gaming platform, including 75 free to play games with more games ) Tj
+T*
+(added every Thursday. GFN supports many popular clients including PCs, Mac and Chromebook. ) Tj
+T*
+(Stay tuned for more devices to come in the near future. In addition, GFN's reach continues to ) Tj
+T*
+(expand through our telco partners in a growing list of countries including Japan, Korea, ) Tj
+T*
+(Taiwan, Russia and Saudi Arabia. We are also providing technology that enables the cloud ) Tj
+T*
+(gaming services to an expanding number of partners. Following our earlier announcement with ) Tj
+T*
+(Tencent, Amazon and Facebook are beginning to offer cloud gaming services powered by NVIDIA.) Tj
+T*
+() Tj
+T*
+(Moving to ProViz. Q3 revenue was $236 million, down 27% year-on-year and up 16% sequentially, ) Tj
+T*
+(ahead of our expectations. Sequential growth was driven by strength in notebooks, which posted) Tj
+T*
+( record revenue boosted by work from home initiatives and the shift to thin and light mobile ) Tj
+T*
+(workstations. This was particularly offset by a decline in desktop workstations, which ) Tj
+T*
+(continue to be impacted by the pandemic and drove the year-on-year decline. From an industry ) Tj
+T*
+(demand perspective, stronger verticals including healthcare, public sector, higher education ) Tj
+T*
+(and research and financial services. We continue to win new business in a number of areas. In ) Tj
+T*
+(healthcare we added Medtronic for visual surgical applications and Philips for medical ) Tj
+T*
+(imaging. In technology and media and entertainment, we gained wins for design, rendering and ) Tj
+T*
+(broadcast applications.) Tj
+T*
+() Tj
+T*
+(During the quarter, we announced that Omniverse, the world's first 3D collaboration and ) Tj
+T*
+(simulation platform has entered open beta. Omniverse enables the tens of millions of ) Tj
+T*
+(designers, architects and creators to collaborate real time on-premises or remotely. Using the) Tj
+T*
+( virtual and physical world on Omniverse brings together NVIDIA breakthroughs in graphics, ) Tj
+T*
+(simulation and AI. It will help enterprises address evolving requirements as workforces become) Tj
+T*
+( increasingly distributed. Initial market response from this transformative platform has been ) Tj
+T*
+(phenomenal. Over 400 individual creators and developers in diverse industries have been ) Tj
+T*
+(evaluating Omniverse, and early adopters, including Ericsson, BMW, Foster + Partners, and ) Tj
+T*
+(Lucasfilm.) Tj
+T*
+() Tj
+T*
+(The pandemic is accelerating the development of AR, VR and mixed reality technologies, which ) Tj
+T*
+(will have a profound impact on how we work and play. For example, our work with NASCAR to ) Tj
+T*
+(enable a variety of AR and VR services at the edge is revolutionizing the racing experience ) Tj
+T*
+(for millions of fans across the globe. With our industry-leading real-time ray tracing ) Tj
+T*
+(graphics, AI and simulation hardware and software stacks, NVIDIA is in a unique position to ) Tj
+T*
+(enable the future of blending the physical and virtual world.) Tj
+T*
+() Tj
+T*
+(Moving to Automotive, Q3 revenue was $125 million, down 23% year-on-year and up 13% ) Tj
+T*
+(sequentially. Sequential growth was driven by a recovery in global automotive production ) Tj
+T*
+(volumes, as well as continued growth in AI cockpit revenue. The year-on-year decline was due ) Tj
+T*
+(to the expected ramp down of legacy infotainment revenue. In September, Mercedes-Benz debuted ) Tj
+T*
+(its redesign of S-Class sedan, featuring an all new NVIDIA powered MBUX AI cockpit system with) Tj
+T*
+( an augmented reality heads up display, AI voice assistance and rich interactive graphics to ) Tj
+T*
+(enable every passenger in the vehicle to enjoy personalized intelligent features.) Tj
+T*
+() Tj
+T*
+(Also in September, Li Auto, a leading electric car brand in China announced that it will ) Tj
+T*
+(develop its next-generation of vehicles using the software defined NVIDIA DRIVE AGX Orin ) Tj
+T*
+(platform. Orin delivers nearly seven times the performance and three times the energy ) Tj
+T*
+(efficiency of our previous generation SoC, making it uniquely capable to power next generation) Tj
+T*
+( autonomous electric vehicles. We have excellent traction with EV start-ups. Finally, last ) Tj
+T*
+(week, NVIDIA and Hyundai Motor Group announced the automakers entire lineup of Hyundai, Kia ) Tj
+T*
+ET
+endstream
+endobj
+35 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 34 0 R >>
+endobj
+36 0 obj
+<< /Length 4975 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(and Genesis models will come standard with NVIDIA DRIVE in-vehicle infotainment systems ) Tj
+T*
+(starting in 2022. This feature rich software defined computing platform will allow vehicles to) Tj
+T*
+( be perpetually upgraded with the latest AI cockpit features.) Tj
+T*
+() Tj
+T*
+(Now moving to Data Center. Revenue was a record $1.9 billion, up 162% year-over-year and up 8%) Tj
+T*
+( sequentially. Driving growth was the strong ramp of our A100-based platforms, continued ) Tj
+T*
+(growth with Mellanox and record T4 shipments for inference. Let me give you a little bit of ) Tj
+T*
+(color on each. Our new NVIDIA Ampere architecture gained further adoption by cloud and ) Tj
+T*
+(hyperscale customers and started ramping into vertical industries. Over the past weeks Amazon ) Tj
+T*
+(Web Services, Oracle Cloud Infrastructure and Alibaba Cloud announced general availability of ) Tj
+T*
+(the A100 following Google Cloud platform and Microsoft Azure. A100 adoption by vertical ) Tj
+T*
+(industries drove strong growth as we began shipments to server OEM partners whose broad ) Tj
+T*
+(enterprise channels reach a large number of end customers.) Tj
+T*
+() Tj
+T*
+(We also ramped the DGX A100 server and began shipping NVIDIA DGX SuperPOD, the first turnkey ) Tj
+T*
+(AI infrastructure. These range from 20 to 140 DGX A100 systems interconnected with Mellanox's ) Tj
+T*
+(HDR InfiniBand networking and enable customers to install incredibly powerful AI ) Tj
+T*
+(supercomputers in just a few weeks time. In fact, we have announced plans to build an 80 node ) Tj
+T*
+(DGX SuperPOD with 400 petaflops of AI performance called Cambridge-1 which will be in the UK's) Tj
+T*
+( fastest AI supercomputer that will be used by NVIDIA researchers for collaborative research ) Tj
+T*
+(within the UK's AI and healthcare community across academia, industry and startups. It joins ) Tj
+T*
+(other systems in NVIDIA's complex of AI supercomputers powered by our R&D and autonomous ) Tj
+T*
+(vehicles, conversational AI, robotics, graphics, HPC and other domains. This includes Selene, ) Tj
+T*
+(now the world fifth fastest supercomputer and fastest commercial supercomputer and a new ) Tj
+T*
+(NVIDIA DGX SuperPOD, which ranked first on the Green500 list of the world most energy ) Tj
+T*
+(efficient supercomputers.) Tj
+T*
+() Tj
+T*
+(A great example of the tremendous opportunities for AI in healthcare is our new partnership ) Tj
+T*
+(with GSK for applying computational to the drug and vaccine discovery process. GSK's London ) Tj
+T*
+(based AI hub will utilize biomedical data, AI methods and advanced computing platforms to ) Tj
+T*
+(unlock genetic and clinical data with increased precision and scale. In addition to this ) Tj
+T*
+(investment in NVIDIA's DGX A100 system, GSK will have access to NVIDIA's Cambridge-1, the ) Tj
+T*
+(NVIDIA Clara discovery software and NVIDIA scientists.) Tj
+T*
+() Tj
+T*
+(In Q3, the A100 swept the industry standard MLPerf benchmark for AI inference performance ) Tj
+T*
+(following our suite in the prior quarters MLPerf benchmark for AI training. Notably, our ) Tj
+T*
+(performance led in AI inference actually extended compared with last year's benchmark. For ) Tj
+T*
+(example, in the ResNet-50 test for image recognition, our A100 GPU beat CPU only systems by 30) Tj
+T*
+( times this year versus six times last year. Additionally, A100 outperformed CPUs by up to 237) Tj
+T*
+( times in the newly added recommender test, which represent some of the most complex and ) Tj
+T*
+(widely used AI models on the Internet. Our winning performance in AI inference is translating ) Tj
+T*
+(to continued strong revenue growth. Alongside the continued ramp of the A100, T4 sales set a ) Tj
+T*
+(record, as the NVIDIA AI inference adoption is in full throttle. We estimate that NVIDIA's ) Tj
+T*
+(installed GPU capacity for inference across the seven largest public cloud now exceeds that of) Tj
+T*
+( the aggregate CPU capacity in the cloud, testament to the tremendous performance and TCO ) Tj
+T*
+(advantage of our GPUs.) Tj
+T*
+() Tj
+T*
+(Hundreds of companies now operate AI-enabled services on NVIDIA's inference platform, ) Tj
+T*
+(including the A100 or T4 GPU and our Triton inference serving software. For example, Tencent ) Tj
+T*
+(uses NVIDIA AI inference to recommend video, music, news and apps, supporting billions of ) Tj
+T*
+(queries per day. Microsoft uses NVIDIA AI inference for grammar correction in Microsoft ) Tj
+T*
+(Office, supporting half a trillion queries a year and American Express uses it for real-time ) Tj
+T*
+(fraud detection.) Tj
+T*
+() Tj
+T*
+(We also gained tremendous traction in supercomputing. We announced that NVIDIA technology ) Tj
+T*
+(including Ampere architecture GPUs and HDR InfiniBand networking will power five systems ) Tj
+T*
+(awarded by EuroHPC, a European initiative to build excess scale supercomputing. This includes ) Tj
+T*
+(CINECA, a university consortium in Italy and one of the world's most important supercomputing ) Tj
+T*
+ET
+endstream
+endobj
+37 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 36 0 R >>
+endobj
+38 0 obj
+<< /Length 5028 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(center, which will use NVIDIA's accelerated computing platform to build the world's fastest AI) Tj
+T*
+( supercomputer. CINECA supercomputer named Leonardo advances the age of excess scale AI, ) Tj
+T*
+(delivering 10 exaFLOPS of AI performance to enable AI and high performance computing converged) Tj
+T*
+( applications use cases. It is built with nearing 14,000 NVIDIA Ampere architecture based GPUs) Tj
+T*
+( and Mellanox HDR 200-gigabit per second InfiniBand networking. And just the released top 500 ) Tj
+T*
+(list of supercomputers show that NVIDIA GPUs or networking powered nearly 70% and eight of the) Tj
+T*
+( 10 top supercomputers on the list.) Tj
+T*
+() Tj
+T*
+(Mellanox had another record quarter with double-digit sequential growth, well ahead of our ) Tj
+T*
+(expectations, contributing 13% of overall company revenue. The upside reflected sales to a ) Tj
+T*
+(China OEM that will not recur in Q4. As a result, we expect a meaningful sequential revenue ) Tj
+T*
+(decline for Mellanox in Q4, but still growing 30% from last year. Mellanox reached record ) Tj
+T*
+(revenue in both InfiniBand and Ethernet, driven by cloud, enterprise and supercomputing ) Tj
+T*
+(customers. Strong demand for high-performance interconnects where Mellanox is leader is being ) Tj
+T*
+(fueled by AI increasingly complex applications which demand faster, smarter, more scalable ) Tj
+T*
+(networks. As the data center becomes the new unit of computing in the age of AI, Mellanox ) Tj
+T*
+(networking is foundational to modern scale out architectures.) Tj
+T*
+() Tj
+T*
+(At GTC in October, we unveiled the BlueField-2 DPU, our Data Processing Unit, a new kind of ) Tj
+T*
+(processor which offloads critical networking, storage and security tasks from the CPU. A ) Tj
+T*
+(single BlueField-2 DPU can deliver the same data center services that consume up 125 CPU ) Tj
+T*
+(cores. This frees up valuable CPU cores to run a wide range of other enterprise applications. ) Tj
+T*
+(In addition, it enabled zero trust security features to prevent data breaches and cyber-) Tj
+T*
+(attacks and accelerates overall performance. VMware announced that it will offload, accelerate) Tj
+T*
+( and isolate its industry-leading ESXi Hypervisor with NVIDIA's BlueField-2 DPU, boosting ) Tj
+T*
+(vSphere and data center performance and efficiencies.) Tj
+T*
+() Tj
+T*
+(We also unveiled our three-year DPU roadmap, unified Mellanox's leading network capabilities ) Tj
+T*
+(with NVIDIA's GPUs and the new NVIDIA DOCA or Data Center on a Chip Architecture, software ) Tj
+T*
+(development kit for building DPU accelerated applications. We believe that over time DPUs will) Tj
+T*
+( ship millions of servers unlocking a $10 billion total addressable market. BlueField-2 is ) Tj
+T*
+(sampling now with major hyperscale customers and will be integrated into the enterprise server) Tj
+T*
+( offerings of major OEMs. This was our busy period for product launches. Earlier this week at ) Tj
+T*
+(Supercomputing 20, we announced the new double capacity A100 80-gigabyte GPUs and GTX systems ) Tj
+T*
+(for organizations to build, train, and deploy massive AI models. We also announced the new DGX) Tj
+T*
+( station A100, a powerful work group server with 4 and 100 GPUs and a massive 320-gigabyte GPU) Tj
+T*
+( memory for data scientists and AI researchers working in offices, research facilities, cloud ) Tj
+T*
+(or at home. All these additions to the NVIDIA ampere, architecture family of products will be ) Tj
+T*
+(available early next year.) Tj
+T*
+() Tj
+T*
+(At SC20, we also announced the next generation NVIDIA Mellanox 400-gigabit per second ) Tj
+T*
+(InfiniBand architecture getting AI developers and scientific researchers for fastest available) Tj
+T*
+( networking performance. This doubles data throughput and has new in network computing engines) Tj
+T*
+( to provide additional acceleration. Solutions based on this new architecture are expected to ) Tj
+T*
+(sample in the second quarter of calendar 2021.) Tj
+T*
+() Tj
+T*
+(Moving to the rest of the P&L. Q3 GAAP gross margin was 62.6% and non-GAAP gross margin was ) Tj
+T*
+(65.5%. GAAP gross margin declined year-on-year primarily due to charges related to the ) Tj
+T*
+(Mellanox acquisition partially offset by product mix. The sequential increase was driven by ) Tj
+T*
+(the absence of non-recurring inventory step-up expense related to the Mellanox acquisition. ) Tj
+T*
+(Non-GAAP gross margins increased by 140 basis points year-on-year, reflecting a shift in ) Tj
+T*
+(product mix with higher data center sales, including the contribution from Mellanox.) Tj
+T*
+() Tj
+T*
+(Non-GAAP gross margin was down 50 basis points sequentially, in line with our expectations, ) Tj
+T*
+(driven by product mix. Q3 GAAP operating expenses were $1.56 billion and non-GAAP operating ) Tj
+T*
+(expenses were $1.1 billion, up 6% and 42% from a year ago respectively. Q3 GAAP EPS was $2.12,) Tj
+T*
+( up 46% from a year earlier and non-GAAP EPS was $2.91 up 63% from year ago. Q3 Cash flow from) Tj
+T*
+( operations was $1.28 billion.) Tj
+T*
+ET
+endstream
+endobj
+39 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 38 0 R >>
+endobj
+40 0 obj
+<< /Length 3701 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+() Tj
+T*
+(With that let me turn to the outlook for the fourth quarter of fiscal 2021. As a reminder, Q4 ) Tj
+T*
+(include a 14th week, which we expect to be incrementally addition to revenue and operating ) Tj
+T*
+(expenses. We expect gaming to be up sequentially in what is typically a seasonally down ) Tj
+T*
+(quarter. As we continue to ramp up our new RTX 30 series products. We expect data center to be) Tj
+T*
+( down slightly versus Q3. With that, we expect computing products to grow in the mid-single ) Tj
+T*
+(digits sequentially, more than offset by sequential decline in Mellanox. We expect continued ) Tj
+T*
+(sequential growth in auto and ProViz though not yet returning to year-on-year growth and we ) Tj
+T*
+(expect a seasonal decline in OEM. Revenue is expected to be $4.8 billion plus or minus 2%.) Tj
+T*
+() Tj
+T*
+(GAAP and non-GAAP gross margins are expected to be 62.8% and 65.5% respectively, plus or minus) Tj
+T*
+( 50 basis points. GAAP and non-GAAP operating expenses are expected to be approximately $1.64 ) Tj
+T*
+(billion and $1.18 billion respectively. GAAP and non-GAAP other income and expenses are both ) Tj
+T*
+(expected to be an expense of approximately $55 million. GAAP and non-GAAP tax rates are both ) Tj
+T*
+(expected to be 8% plus or minus 1% excluding discrete items. Capital expenditures are expected) Tj
+T*
+( to be approximately $300 million to $325 million. Further financial details are included in ) Tj
+T*
+(the CFO commentary and other information available on our IR website.) Tj
+T*
+() Tj
+T*
+(In closing, let me highlight upcoming events for the financial community will be virtually ) Tj
+T*
+(attending the Credit Suisse Technology Conference on November 30, Wells Fargo, TMT Summit, ) Tj
+T*
+(December 1 and the UBS TMT Conference on December 7. Our earnings call to discuss the fourth ) Tj
+T*
+(quarter and full year results is scheduled for Wednesday, February 24.) Tj
+T*
+() Tj
+T*
+(We will now open the call for questions. Operator, would you please poll for questions.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+([Operator Instructions]) Tj
+T*
+() Tj
+T*
+(Your first question comes from the line of John Pitzer from Credit Suisse. Your line is open.) Tj
+T*
+() Tj
+T*
+(John Pitzer - Credit Suisse - Analyst) Tj
+T*
+() Tj
+T*
+(Can you hear me?) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Yes.) Tj
+T*
+() Tj
+T*
+(John Pitzer - Credit Suisse - Analyst) Tj
+T*
+() Tj
+T*
+(Yeah, hey guys. Congratulations on the solid results. Thank you for taking my questions. Just,) Tj
+T*
+( Colette, going back to your commentary around Mellanox, it seems like you're guiding the ) Tj
+T*
+(January quarter to about $500 million, which means the core data center business is still ) Tj
+T*
+(growing nicely, call it 6%, 7% sequentially.) Tj
+T*
+() Tj
+T*
+(I'm just kind of curious when you look at the core data center business, I know there's not a ) Tj
+T*
+(direct correlation to server business but we're clearly going through a cloud digestion in ) Tj
+T*
+(server and core vertical markets, enterprise for servers are weak. When you look at your core ) Tj
+T*
+(data center business, do you feel as though that's having an impact and this is sort of the ) Tj
+T*
+(digestion that you saw kind of in late fiscal '20 - sorry fiscal '19 into '20, but you're ) Tj
+T*
+(doing it, still growing significantly year-over-year. How would you characterize the macro ) Tj
+T*
+(backdrop?) Tj
+T*
+() Tj
+T*
+(Colette Kress - Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Sure. Let me clarify for those also on the call. Yes. We expect our data center revenue in ) Tj
+T*
+(total to be down slightly quarter-over-quarter. The computing products, NVIDIA computing ) Tj
+T*
+ET
+endstream
+endobj
+41 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 40 0 R >>
+endobj
+42 0 obj
+<< /Length 4741 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(products is expected to grow in the mid-single-digit quarter-over-quarter as we continue the ) Tj
+T*
+(NVIDIA AI adoption and particularly as A100 continues to ramp. Our networking - our Mellanox ) Tj
+T*
+(networking is expected to decline meaningfully quarter-over-quarter as sales to that China OEM) Tj
+T*
+( will not recur in Q4, though, we still expect the results to be growth of 30% or more year-) Tj
+T*
+(over-year. The timing of some of this business therefore shifted from Q4 to Q3 but overall H2 ) Tj
+T*
+(is quite strong. So, in referring to overall digestion, the hyperscale business remains ) Tj
+T*
+(extremely strong. We expect hyperscales to grow quarter-over-quarter in computing products as ) Tj
+T*
+(A100 continues to ramp. The A100 continues to gain adoption not only across those hyperscale ) Tj
+T*
+(customers, but again, we're also receiving great momentum in inferencing with the A100 and the) Tj
+T*
+( T4. I'll turn it over here to Jensen to see if he has more that he would like to add.) Tj
+T*
+() Tj
+T*
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Colette captured it very well. The only thing that I would add is our inference initiative is ) Tj
+T*
+(really gaining great momentum. Inference is one of the hardest computer science problems, ) Tj
+T*
+(compiling these gigantic neural network computational graphs into a target device is really, ) Tj
+T*
+(really - has proven to be really, really hard. The models are diverse when you convert vision ) Tj
+T*
+(to language to speech and there are so many different types of models been created, the model ) Tj
+T*
+(sizes are doubling every couple of months. The length of your expectations are increasing all ) Tj
+T*
+(the time or latency is decreasing all the time.) Tj
+T*
+() Tj
+T*
+(And so the pressure on inference is really great, the technology pressures is really great. ) Tj
+T*
+(And our leadership there is really pulling ahead. We're in our seventh generation TensorRT. We) Tj
+T*
+( over the course of last couple of years developed an inference server, it's called Triton, ) Tj
+T*
+(has been adopted all over the place. We have several hundred customers now using NVIDIA AI to ) Tj
+T*
+(deploy their AI services.) Tj
+T*
+() Tj
+T*
+(This is some of the early innings. And I think this is going to be our largest near-term ) Tj
+T*
+(growth opportunity. We are really firing on all cylinders there between A100s ramping in the ) Tj
+T*
+(cloud, A100s beginning to ramp in enterprise and all of our inference initiatives are really ) Tj
+T*
+(doing great.) Tj
+T*
+() Tj
+T*
+(John Pitzer - Credit Suisse - Analyst) Tj
+T*
+() Tj
+T*
+(Jensen, maybe to follow-on there, just on the vertical markets. Clearly, work from home and ) Tj
+T*
+(COVID this year, kind of presented a headwind to new technology deployments on-prem. I'm kind ) Tj
+T*
+(of curious if we expect sort of an enterprise recovery in general next year, how do you think ) Tj
+T*
+(that will translate into your vertical market strategy? And is there anything else above and ) Tj
+T*
+(beyond that you can do to help accelerate penetration of AI to that end market?) Tj
+T*
+() Tj
+T*
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah, John, that's good point. I mean, it's very clear that the inability to go to work is ) Tj
+T*
+(slowing down the adoption of new technology in some of the verticals. Of course, we're seeing ) Tj
+T*
+(rapid adoption in certain verticals like for example, using AI in healthcare to rapidly ) Tj
+T*
+(discover new vaccines and early detection of outbreaks and robotic applications. So, ) Tj
+T*
+(warehouses, digital retail, last mile delivery, they are seeing just really, really great ) Tj
+T*
+(enthusiasm adopting new AI and robotics technology. But in some of the old - some of the more ) Tj
+T*
+(traditional industries, the new capabilities and new technologies are slower to deploy.) Tj
+T*
+() Tj
+T*
+(One of the areas that I'm really super excited about is the work that we're doing in remote ) Tj
+T*
+(work and making it possible for people to collaborate remotely. We have a platform called ) Tj
+T*
+(Omniverse, it's, an early data. The feedback from marketplace has been really great. And so, ) Tj
+T*
+(I've got a lot more to report to you guys in the upcoming months around Omniverse. And so but ) Tj
+T*
+(anyways, I think when the industry recover, we serve - our fundamental purpose as a company is) Tj
+T*
+( to solve the greatest challenges that impact industry where ordinary computers can't. And ) Tj
+T*
+(these challenges are - serve some of the most important applications in the verticals that we ) Tj
+T*
+(address. And they're not commodity applications, they are really impactful, needle moving ) Tj
+T*
+ET
+endstream
+endobj
+43 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 42 0 R >>
+endobj
+44 0 obj
+<< /Length 3856 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(applications.) Tj
+T*
+() Tj
+T*
+(So, I have every confidence when the industries recover, things will get designed, cars will ) Tj
+T*
+(be designed and planes will be designed and ships will be designed and buildings would be ) Tj
+T*
+(designed in and we're going to see a lot of design and we are going to see a lot of ) Tj
+T*
+(simulation, we are going to see a lot of robotics applications.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+([Operator Instructions]) Tj
+T*
+() Tj
+T*
+(Your next question comes from the line of C.J. Muse from Evercore. Your line is open.) Tj
+T*
+() Tj
+T*
+(C.J. Muse - Evercore - Analyst) Tj
+T*
+() Tj
+T*
+(Yeah, good afternoon. Thank you for taking the question. You talked about in your prepared ) Tj
+T*
+(remarks limited availability of capacity components. You suggested perhaps a few months to ) Tj
+T*
+(catch up. Curious if you can speak to the visibility that you have for both Gaming and Data ) Tj
+T*
+(Center into your April quarter?) Tj
+T*
+() Tj
+T*
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah. Colette, you want me to take that real quick and then you can help me out.) Tj
+T*
+() Tj
+T*
+(Colette Kress - Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Yes, absolutely.) Tj
+T*
+() Tj
+T*
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(So, C.J., first of all, we have a lot of visibility into the channel as you know, especially ) Tj
+T*
+(for gaming. And we know how many weeks of inventory is in what parts of the channel. We've ) Tj
+T*
+(been draining down the channel inventory opportunity for some time and meanwhile, we've also ) Tj
+T*
+(expected a very, very successful launch with Ampere. And even, even with our bullish demand ) Tj
+T*
+(expectations and all of the anchors that we built, which is one of the fastest ramps ever.) Tj
+T*
+() Tj
+T*
+(The demand is overwhelming. And I guess in a lot of ways, it's kind of expected. The ) Tj
+T*
+(circumstances are - it's been a decade since we've invented a new type of computer graphics. ) Tj
+T*
+(And two years ago we invented a programmable shader and it set the industry on the course to ) Tj
+T*
+(create the type of images that we see today. But it's very clear that the future is going to ) Tj
+T*
+(look something much, much more beautiful and we invented and NVIDIA RTX to do that and it has ) Tj
+T*
+(two capabilities; one, based on ray tracing and the other one is based on artificial ) Tj
+T*
+(intelligence in its generation.) Tj
+T*
+() Tj
+T*
+(The combination of those two capabilities is creating images that people are pretty excited ) Tj
+T*
+(about. And at this point it's defined the next generation content. And so when we - it took us) Tj
+T*
+( 10 years to invent it. We launched it two years ago. And took our second-generation to really) Tj
+T*
+( achieve the level of quality and performance that the industry - that the customers really, ) Tj
+T*
+(really expect. And now the demand is just overwhelming. So we're going to continue to ramp ) Tj
+T*
+(fast and this is going to be one of our most successful ramps ever. And it gives our installed) Tj
+T*
+( base of some 200 million plus GeForce gamers the best reason to upgrade in over a decade. And) Tj
+T*
+( so this is going to be a very large challenge for us [Phonetic] is my guess.) Tj
+T*
+() Tj
+T*
+(And then with respect to data center, they are ramping into A100. A100 is our first generation) Tj
+T*
+( of GPUs that does several things at the same time. It's universal, we positioned it as a ) Tj
+T*
+(universal because it's able to do all of the applications that we in the past had to have ) Tj
+T*
+(multiple GPUs to do it. It does training well, it does inference incredibly well. It does high) Tj
+T*
+( performance computing, it does data analytics. And so it's able - the Ampere architecture is ) Tj
+T*
+ET
+endstream
+endobj
+45 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 44 0 R >>
+endobj
+46 0 obj
+<< /Length 3929 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(able to do all of this at the same time. And so the utilization for data centers is - and the ) Tj
+T*
+(utility is really, really fantastic and the reception has been great. And so we're going to ) Tj
+T*
+(ramp into all of the world's cloud.) Tj
+T*
+() Tj
+T*
+(I think starting this quarter, we're now in every, every major cloud provider in the world, ) Tj
+T*
+(including Alibaba, Oracle and of course the giants, the Amazons, the Azure, and Google Clouds.) Tj
+T*
+( And we're going to continue to ramp into that. And then of course, we're starting to ramp ) Tj
+T*
+(into enterprise which in my estimation, long-term, will still be the largest growth ) Tj
+T*
+(opportunity for us, turning every industry into an AI, turning every company into AI and ) Tj
+T*
+(augment it with AI and bring the iPhone moment to all of the world's largest industries. And ) Tj
+T*
+(so we're ramping into that and we are seeing great deal of enthusiasm.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question comes from the line of Stacy Rasgon from Bernstein Research. Your line is ) Tj
+T*
+(open.) Tj
+T*
+() Tj
+T*
+(Stacy Rasgon - Bernstein Research - Analyst) Tj
+T*
+() Tj
+T*
+(Hi guys, thanks for taking my question. You said that the extra week was contributing ) Tj
+T*
+(incrementally to revenue and opex. Can you give us some feeling for how much it's contributing) Tj
+T*
+( to revenue and opex in Q4? And does that impact, at least on the revenue side differ say ) Tj
+T*
+(between like gaming and data center? And then how should we think about it impacting ) Tj
+T*
+(seasonality in the Q1 as that extra week close off?) Tj
+T*
+() Tj
+T*
+(Colette Kress - Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Sure, let me try this one Jensen. Yes, we've incorporated that 14th week into our guidance for) Tj
+T*
+( both revenue and opex. We will likely have incrementally positive impact on revenue, although) Tj
+T*
+( it is tough to quantify. Okay. Our outlook also reflects incremental opex for Q4 in primarily) Tj
+T*
+( two different areas in terms of compensation and depreciation. And given that our employees ) Tj
+T*
+(are such a material powered of our opex, it can be close to one-fourteenth of the quarter.) Tj
+T*
+() Tj
+T*
+(Now, when we look a little bit farther, we should think about the incremental positive in both) Tj
+T*
+( gaming and data center from that extra week as we are hopefully will be extra supply. But not) Tj
+T*
+( likely as much as one-fourteenth of the quarter of revenue as enterprise demand is ) Tj
+T*
+(essentially project-based and gaming demand though is tied to the number of gamers that might ) Tj
+T*
+(be shopping for the overall holiday. So again, still very hard for us to determine at this ) Tj
+T*
+(time.) Tj
+T*
+() Tj
+T*
+(Normally between Q4 and Q1, there is seasonality in gaming, big seasonality downward, but ) Tj
+T*
+(we'll just have to see as we are still supply constrained within this Q4 to see what that ) Tj
+T*
+(looks like. From an opex standpoint, we will probably expect our opex to be relatively ) Tj
+T*
+(flattish as we move from Q4 to Q1.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question comes from the line of Vivek Arya from Bank of America. Your line is open.) Tj
+T*
+() Tj
+T*
+(Vivek Arya - Bank of America - Analyst) Tj
+T*
+() Tj
+T*
+(Thanks for taking my question and congratulations on the strong growth. Jensen, my question is) Tj
+T*
+( on competition from internally designed products by some of your larger cloud customers, ) Tj
+T*
+(Amazon and Google on. And others we ahead about competition from time to time and I wanted to ) Tj
+T*
+(get your perspective. Is this a manageable risk is the right way to think that they are ) Tj
+T*
+(perhaps using more of your product in the public cloud. But they are moving to internal ) Tj
+T*
+(products for internal workloads. Just how should we think about this risk going forward. Thank) Tj
+T*
+( you.) Tj
+T*
+ET
+endstream
+endobj
+47 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 46 0 R >>
+endobj
+48 0 obj
+<< /Length 4394 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+() Tj
+T*
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Thanks Vivek. Thanks for that. Most of the cloud vendors. In fact, in fact, I believe all of ) Tj
+T*
+(the cloud vendors use the same infrastructures marginally for their internal cloud and ) Tj
+T*
+(external clouds or have the ability to or marginally due. And there is a competition. - the ) Tj
+T*
+(competition we want to be really good and the reason for that is this. It's just that ) Tj
+T*
+(acceleration, make that very clear that acceleration is the right path forward for training ) Tj
+T*
+(and inference.) Tj
+T*
+() Tj
+T*
+(The vast majority of the world's training models are doubling in size in a couple of months. ) Tj
+T*
+(And it's one of the reasons why our demand is so great. The second is inference. The vast ) Tj
+T*
+(majority, the world's inference is done on CPUs and, nothing is better than, the whole world ) Tj
+T*
+(recognizing that the best way forward is to do inference on accelerators and when that happens) Tj
+T*
+( our accelerators the most versatile, it has the highest performance, we move the fastest, our) Tj
+T*
+( rate of innovation is the fastest because we're also the most dedicated to it, we're most ) Tj
+T*
+(committed to it and we have the mortgage team in the world to it. Iur stack is the most ) Tj
+T*
+(advanced giving us the greatest versatility and performance. And so we see a sponsor of ) Tj
+T*
+(announcement here now. But they're also our largest customers.) Tj
+T*
+() Tj
+T*
+(And as you know that we're ramping quite nicely and growing ramping quite nicely in Amazon and) Tj
+T*
+( Microsoft and Alibaba and Oracle and others. And so I think the big takeaway is that and the ) Tj
+T*
+(great opportunity for us to be, if you look at the vast amount of workload, AI workload in the) Tj
+T*
+( world, the vast majority of it today is still on CPUs and it's very clear now this is going ) Tj
+T*
+(to be an accelerator workload and we're the best accelerator in the world and this is going to) Tj
+T*
+( be a really big growth opportunity for us in the near term. In fact, we believe, it's our ) Tj
+T*
+(largest growth opportunity in near term and we're in the early innings of it.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question comes from the line of Harlan Sur from JPMorgan. Your line is open.) Tj
+T*
+() Tj
+T*
+(Harlan Sur - JPMorgan - Analyst) Tj
+T*
+() Tj
+T*
+(Good afternoon and thanks for taking my question and great job on the quarterly execution. On ) Tj
+T*
+(the Mellanox networking connectivity business was up 80% year-over-year. I think it was up ) Tj
+T*
+(about 13%, 14% sequentially. I know there was upside in October from one China customer, but ) Tj
+T*
+(it did grow 70% year-over-year last quarter, and you're still expecting 30% year-over-year ) Tj
+T*
+(growth next quarter.) Tj
+T*
+() Tj
+T*
+(If I remember correctly, I think InfiniBand is about 40% of that business, Ethernet cloud is ) Tj
+T*
+(about 60%. Jensen, what are the big drivers, especially since we're in the midst of cloud ) Tj
+T*
+(spending digestion cycle. And I just thought that the team announced their next-gen 400 gig ) Tj
+T*
+(InfiniBand solution, which should drive another strong adoptions like with your supercomputer ) Tj
+T*
+(customers. When does this upgrade cycle start to fire?) Tj
+T*
+() Tj
+T*
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah. Let's see. Our data center business consists of Supercomputing centers, which is small, ) Tj
+T*
+(high performance computing which is a much larger part of supercomputing - much larger than ) Tj
+T*
+(supercomputing and then hyperscale and enterprise which which about 50/50. Of the data center ) Tj
+T*
+(business, the accelerated computing part is not very much associated with digestion, it's much) Tj
+T*
+( more associated with workloads and our new product cycles, the TCO that we bring in our ) Tj
+T*
+(inference. The type of models that the cloud service providers are deploying whether they are ) Tj
+T*
+(deploying new AI models based on deep learning and how much of that we - how much of those ) Tj
+T*
+(workloads that we've completed according to our accelerators and ready them for deployment. ) Tj
+T*
+(And so those are the factors associated with accelerated computing. It's really about the ) Tj
+T*
+(apps, it's really about the workloads, really driven by AI.) Tj
+T*
+ET
+endstream
+endobj
+49 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 48 0 R >>
+endobj
+50 0 obj
+<< /Length 4127 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+() Tj
+T*
+(On the other hand, the networking part of our business is more connected to CPU business ) Tj
+T*
+(because they are much more broad based. The networking part of our business is driven by this ) Tj
+T*
+(idea of new hyperscale data center architecture called disaggregation, software disaggregation) Tj
+T*
+( not necessarily hardware disaggregation, software disaggregation, where this type of software) Tj
+T*
+( called Kubernetes orchestrate microservices that are deployed across the data center.) Tj
+T*
+() Tj
+T*
+(So, one service, one application isn't monolithic running on one computer anymore, it's ) Tj
+T*
+(distributed across multiple computers and multiple nodes, so that the hyperscale data centers ) Tj
+T*
+(can more easily scale up and scale out according to the workloads and according to the demand ) Tj
+T*
+(on the data center. And so this aggregation has caused the networking between the compute ) Tj
+T*
+(nodes to pick up all vital points and because Mellanox is the lowest latency, highest ) Tj
+T*
+(performance, highest bandwidth network that you can get. The TCO benefit at the data center ) Tj
+T*
+(scale is really fantastic. And so when they are building our data centers, Mellanox is going ) Tj
+T*
+(to be much more connected to that.) Tj
+T*
+() Tj
+T*
+(In the enterprise, depending on new CPU cycles, it could affect them. If a CPU cycle were to ) Tj
+T*
+(delay a little bit, it would affect them by quarter, if they were deploying by quarter, it ) Tj
+T*
+(would affect them by a pull in the quarter. And so those are kind of the dynamics of it. I ) Tj
+T*
+(think the net-net of it is that it's a forgone conclusion at this point that, that AI is is ) Tj
+T*
+(going to be the future of the way software is written. AI is the most powerful technology ) Tj
+T*
+(force of our time. And acceleration is the best path forward. And so that's what drives our ) Tj
+T*
+(computing business.) Tj
+T*
+() Tj
+T*
+(On the networking business has everything to do with the way architecture of data centers, ) Tj
+T*
+(cloud data centers which is not architected with microservices now. And that's what ) Tj
+T*
+(foundationally drives our networking business demand. And so we're really well positioned in ) Tj
+T*
+(these two fundamental dynamics because as we know, AI is the future and cloud computing is the) Tj
+T*
+( future. Both of those dynamics are very favorable to us.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question comes from the line of Timothy Arcuri from UBS. Your line is open.) Tj
+T*
+() Tj
+T*
+(Timothy Arcuri - UBS - Analyst) Tj
+T*
+() Tj
+T*
+(Thanks a lot. I wanted to ask a question that was asked before in a bit of different way. If I) Tj
+T*
+( look at the core business excluding Mellanox, the core data center business, it was up about ) Tj
+T*
+(6% sequentially the past few quarters and your guidance sort of implies up about that much ) Tj
+T*
+(again in January, which is certainly good and it's in cloud digestion. But of course, you have) Tj
+T*
+( Ampere still ramping as well which should be a pretty good tailwind. So, there seems to be ) Tj
+T*
+(some offsetting factors. So, I guess I wonder if you feel like your core data center revenue ) Tj
+T*
+(is still being constrained right now by some market digestion and kind of how you sort of ) Tj
+T*
+(balance or handicap these two factors? Thanks.) Tj
+T*
+() Tj
+T*
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Our growth in the near term is more affected by the cycle time of manufacturing and ) Tj
+T*
+(flexibility of supply. We are in a good shape and all of our supply is, informs our guidance. ) Tj
+T*
+(But we would appreciate shorter cycle times, we would appreciate more agile on supply chains. ) Tj
+T*
+(But the world is constrained at the moment. And so we just have to make the best of it. But ) Tj
+T*
+(even in that condition - even in that condition, we've - all of that is working for our ) Tj
+T*
+(guidance and we expect to grow.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question comes from the line of Aaron Rakers from Wells Fargo. Your line is open.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+51 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 50 0 R >>
+endobj
+52 0 obj
+<< /Length 4185 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(Aaron Rakers - Wells Fargo - Analyst) Tj
+T*
+() Tj
+T*
+(Yeah, thanks for taking the question. And also congratulations on the quarter. I wanted to go ) Tj
+T*
+(back to kind of the Mellanox question. I know prior to the acquisition, Mellanox was growing ) Tj
+T*
+(maybe in the mid-to-high 20% range. These last two quarters, it's grown over 75%. I guess the ) Tj
+T*
+(simple question is how do you think about the growth rate for Mellanox going forward? And on ) Tj
+T*
+(that topic we've started to hear you talk more about BlueField and data processing units. I ) Tj
+T*
+(think in your commentary you alluded to server OEM design wins incorporating these DPUs. What ) Tj
+T*
+(are you looking at or when should we think about the DPU business really starting to inflect ) Tj
+T*
+(and become a material driver for the business? Thank you.) Tj
+T*
+() Tj
+T*
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Long term, every computer in the world will be built like a data center. And every node of a ) Tj
+T*
+(data center is going to be a data center in itself. And the reason for that is because we want) Tj
+T*
+( the apex surface to be basically zero. And today, most of the data centers are all protected ) Tj
+T*
+(as a periphery. But in the future if you would like cloud computing to be the architecture for) Tj
+T*
+( everything and every data center is multi-tenant, every center is secure, then you're going ) Tj
+T*
+(to have to secure every single node. And each one of those nodes are going to be - have ) Tj
+T*
+(software defined networking, software defined storage and it's going to have per application ) Tj
+T*
+(security.) Tj
+T*
+() Tj
+T*
+(And so the processing that is - that it will need to offload the CPU is really quite ) Tj
+T*
+(significant. In fact, we believe that somewhere between 20% to 40% of today's data centers - ) Tj
+T*
+(cloud data centers is the capacity, the throughput the computational load is consumed running ) Tj
+T*
+(basically the infrastructure overhead. And that's what the DPUs intended was designed to do. ) Tj
+T*
+(We're going to, we're going to offload out number one and number two, we are going to make ) Tj
+T*
+(every single application secure and confidential computing, zero trust computing, that will ) Tj
+T*
+(become a reality.) Tj
+T*
+() Tj
+T*
+(And so the importance is really quite tremendous. And I believe therefore that every single ) Tj
+T*
+(server in the world will have a DPU inside somewhere, just because we care so much about ) Tj
+T*
+(security and just because we care so much about throughput in TCL. It is really - it's really ) Tj
+T*
+(the most cost-effective way of getting the data center. And so I expect our DPU business to be) Tj
+T*
+( quite large. And so that's the reason why we're putting so much energy into it. It's a ) Tj
+T*
+(programmable data center on a chip, data center infrastructure on a chip. It is the reason why) Tj
+T*
+( we're working with VMware on taking the operating system with the data center. The software ) Tj
+T*
+(defined operating system to data center and putting it on BlueField. And so this is a very ) Tj
+T*
+(important initiative for us. I'm very excited about it as you can imagine.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question comes from the line of Ambrish Srivastava from BMO Capital Markets. Your ) Tj
+T*
+(line is open.) Tj
+T*
+() Tj
+T*
+(Ambrish Srivastava - BMO Capital Markets - Analyst) Tj
+T*
+() Tj
+T*
+(Thank you very much. Colette and I apologize if I missed it, but for Mellanox, do you expect ) Tj
+T*
+(it to get back to that growth trajectory on a sequential basis in the April quarter? And I'm ) Tj
+T*
+(assuming that the shortfall in the current quarter is from a pull-in from Huawei?) Tj
+T*
+() Tj
+T*
+(Colette Kress - Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(So, our impact to our Q4 guidance for Mellanox is impacted by a sale to a China OEM for ) Tj
+T*
+(Mellanox that will not recur in Q4. As we look forward into Q1 of April, we're going to take ) Tj
+T*
+(this a quarter at a time and provide thoughts and guidance for that once we turn the corner to) Tj
+T*
+( the new fiscal year.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+53 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 52 0 R >>
+endobj
+54 0 obj
+<< /Length 3899 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(At the highest level cloud, I think the, it's safe to say that high-speed networking is going ) Tj
+T*
+(to be one of the most important things than cloud data centers as we go forward. And the vast ) Tj
+T*
+(majority of the world's data center is still built for the traditional hyper-converged ) Tj
+T*
+(architecture, which is all moving over to microservices based disaggregate software defined ) Tj
+T*
+(disaggregated architectures and that journey is still in its early days. And so I fully expect) Tj
+T*
+( future cloud data centers - all future data centres are going to be connected with high-speed) Tj
+T*
+( networking inside, they call it East West traffic and all of the traffic will be secured. And) Tj
+T*
+( so imagine building firewalls into every single server and imagine every single transaction, ) Tj
+T*
+(every single transmission inside the data center to be high-speed and fully encrypted. And so ) Tj
+T*
+(pretty amazing amount of computation is going to have to be installed into future data centers) Tj
+T*
+( but that's an accepted requirement now. And I think our networking business in Mellanox is in) Tj
+T*
+( the early innings of growth.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your final question today comes from the line of William Stein from Truist Securities. Your ) Tj
+T*
+(line is open.) Tj
+T*
+() Tj
+T*
+(William Stein - Truist Securities - Analyst) Tj
+T*
+() Tj
+T*
+(Great, thanks for taking my question. You've given us some pieces of this puzzle. But I'm ) Tj
+T*
+(hoping maybe you can address directly the sort of SKU by SKU roll out of Ampere. We know that ) Tj
+T*
+(we didn't have a ton of SKUs last quarter, there were more in this quarter that you announced ) Tj
+T*
+(and now you're doing sort of this refresh, it sounds like with double the memory on the A100. ) Tj
+T*
+(Is the T4 going to be refreshed? And if so, when does that happen? And are there other either ) Tj
+T*
+(systems or chips that are still waiting for the Ampere refresh that could potentially ) Tj
+T*
+(contribute to an extended cycle as we look at the next year.) Tj
+T*
+() Tj
+T*
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah, in terms of the total number of SKUs that we've ramped of Ampere, we're probably ) Tj
+T*
+(somewhere along a third to a half of this - at the SKUs at this point, maybe a little bit ) Tj
+T*
+(less. Yeah, it's less. The way that you can think through it, you could reverse engineer it ) Tj
+T*
+(like this. You know what our gaming lineup looks like for desktops. And so, traditionally we ) Tj
+T*
+(try to have a new architecture in every single segment. And we have not, we've not gone below ) Tj
+T*
+(- gone below $499 [Phonetic] yet.) Tj
+T*
+() Tj
+T*
+(And so there is a very big part of the marketplace that we're still in the process of ) Tj
+T*
+(addressing. And then the second thing is laptops. None of those - none of the Ampere ) Tj
+T*
+(architecture has launched for laptops. And then there's workstations, do the same thing with ) Tj
+T*
+(desktops and workstations and laptops workstations and none of those have gone out yet and ) Tj
+T*
+(then there's data center. And our data center business for cloud, you've seen some of the ) Tj
+T*
+(early versions of it, A100 but then there is cloud computing for graphics, there's cloud ) Tj
+T*
+(gaming, there's enterprise, edge enterprise applications, enterprise data analytics ) Tj
+T*
+(applications and so there is a fair number of exciting new products we still have in progress.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(That concludes our Q&A for today. I now turn the call back to Ms. Jankowski for closing ) Tj
+T*
+(remarks.) Tj
+T*
+() Tj
+T*
+(Simona Jankowski - Vice President of Investor Relations) Tj
+T*
+() Tj
+T*
+(Actually, that would be for Jensen.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+ET
+endstream
+endobj
+55 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 54 0 R >>
+endobj
+56 0 obj
+<< /Length 1921 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+() Tj
+T*
+(My apologies.) Tj
+T*
+() Tj
+T*
+(Jensen Huang - Founder, President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Okay. Thank you, Simona. This was a terrific quarter. NVIDIA is firing on all cylinders, ) Tj
+T*
+(NVIDIA RTX has reinvented graphics and has made real-time ray tracing the standard of next ) Tj
+T*
+(generation content. Creating the best ever reason to upgrade for hundreds of millions of ) Tj
+T*
+(NVIDIA gamers. AI where software write software no humans can is the most powerful technology ) Tj
+T*
+(force of our time and is impacting every industry. NVIDIA AI again swept MLPerf training and ) Tj
+T*
+(now inference as well, extending our leadership in this important new way of doing computing. ) Tj
+T*
+(NVIDIA AI's new Triton inference server, a platform that I will speak a lot more about in the ) Tj
+T*
+(future and a lot more frequently because of its importance and our full stack optimize ) Tj
+T*
+(platform are gaining rapid adoption to operate many of the world's most popular AI enhanced ) Tj
+T*
+(services, opening a major growth opportunity. Data centers are the new unit of computing. ) Tj
+T*
+(Someday, we believe there will be millions of autonomous data centers distributed all over the) Tj
+T*
+( globe.) Tj
+T*
+() Tj
+T*
+(NVIDIA's BlueField DPU programmable data center on a chip in our rich software stack will help) Tj
+T*
+( place AI data centers in factories, warehouses, 5G base stations and even on wheels. And with) Tj
+T*
+( our pending acquisition of Arm, the company that builds the most - the world's most popular ) Tj
+T*
+(CPU, we will create the computing company for the age of AI with computing extending from the ) Tj
+T*
+(cloud to trillions of devices.) Tj
+T*
+() Tj
+T*
+(Thank you for joining us today and wish all of you happy holidays and please do stay safe and ) Tj
+T*
+(I look forward to seeing you guys next call.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+ET
+endstream
+endobj
+57 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 56 0 R >>
+endobj
+xref
+0 58
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000302 00000 n 
+0000000370 00000 n 
+0000003269 00000 n 
+0000003395 00000 n 
+0000008443 00000 n 
+0000008569 00000 n 
+0000013653 00000 n 
+0000013779 00000 n 
+0000018826 00000 n 
+0000018954 00000 n 
+0000024004 00000 n 
+0000024132 00000 n 
+0000027853 00000 n 
+0000027981 00000 n 
+0000032252 00000 n 
+0000032380 00000 n 
+0000036672 00000 n 
+0000036800 00000 n 
+0000040741 00000 n 
+0000040869 00000 n 
+0000045516 00000 n 
+0000045644 00000 n 
+0000049630 00000 n 
+0000049758 00000 n 
+0000054275 00000 n 
+0000054403 00000 n 
+0000058074 00000 n 
+0000058202 00000 n 
+0000060976 00000 n 
+0000061104 00000 n 
+0000066104 00000 n 
+0000066232 00000 n 
+0000071354 00000 n 
+0000071482 00000 n 
+0000076510 00000 n 
+0000076638 00000 n 
+0000081719 00000 n 
+0000081847 00000 n 
+0000085601 00000 n 
+0000085729 00000 n 
+0000090523 00000 n 
+0000090651 00000 n 
+0000094560 00000 n 
+0000094688 00000 n 
+0000098670 00000 n 
+0000098798 00000 n 
+0000103245 00000 n 
+0000103373 00000 n 
+0000107553 00000 n 
+0000107681 00000 n 
+0000111919 00000 n 
+0000112047 00000 n 
+0000115999 00000 n 
+0000116127 00000 n 
+0000118101 00000 n 
+trailer
+<< /Size 58 /Root 1 0 R >>
+startxref
+118229
+%%EOF

@@ -1,0 +1,2203 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R] /Count 17 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Length 2826 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(NVIDIA FY2025 Q2 earnings call transcript) Tj
+T*
+(Call date: 2024-08-28) Tj
+T*
+(Source: Nasdaq/The Motley Fool) Tj
+T*
+(URL: https://www.nasdaq.com/articles/nvidia-nvda-q2-2025-earnings-call-transcript) Tj
+T*
+() Tj
+T*
+(Image source: The Motley Fool.) Tj
+T*
+() Tj
+T*
+(Nvidia \(NASDAQ: NVDA\)) Tj
+T*
+(Q2 2025 Earnings Call) Tj
+T*
+(Aug 28, 2024 , 5:00 p.m. ET) Tj
+T*
+() Tj
+T*
+(Contents:) Tj
+T*
+() Tj
+T*
+(Prepared Remarks) Tj
+T*
+() Tj
+T*
+(Questions and Answers) Tj
+T*
+() Tj
+T*
+(Call Participants) Tj
+T*
+() Tj
+T*
+(Prepared Remarks:) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Good afternoon. My name is Abby, and I will be your conference operator today. At this time, I) Tj
+T*
+( would like to welcome everyone to NVIDIA's second-quarter earnings call All lines have been ) Tj
+T*
+(placed on mute to prevent any background noise.) Tj
+T*
+() Tj
+T*
+(After the speakers' remarks, there will be a question-and-answer session. [Operator ) Tj
+T*
+(instructions] Thank you. And Mr. Stewart Stecker, you may begin your conference.) Tj
+T*
+() Tj
+T*
+(Stewart Stecker -- Senior Director, Investor Relations) Tj
+T*
+() Tj
+T*
+(Thank you. Good afternoon, everyone, and welcome to NVIDIA's conference call for the second ) Tj
+T*
+(quarter of fiscal 2025. With me today from NVIDIA are Jensen Huang, president and chief ) Tj
+T*
+(executive officer; and Colette Kress, executive vice president and chief financial officer. I ) Tj
+T*
+(would like to remind you that our call is being webcast live on NVIDIA's Investor Relations ) Tj
+T*
+(website.) Tj
+T*
+() Tj
+T*
+(The webcast will be available for replay until the conference call to discuss our financial ) Tj
+T*
+(results for the third quarter of fiscal 2025. The content of today's call is NVIDIA's ) Tj
+T*
+(property. It cannot be reproduced or transcribed without prior written consent. During this ) Tj
+T*
+(call, we may make forward-looking statements based on current expectation.) Tj
+T*
+() Tj
+T*
+(Should you invest $1,000 in Nvidia right now?) Tj
+T*
+() Tj
+T*
+(Before you buy stock in Nvidia, consider this:) Tj
+T*
+() Tj
+T*
+(The Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best ) Tj
+T*
+(stocks for investors to buy now? and Nvidia wasn?t one of them. The 10 stocks that made the ) Tj
+T*
+(cut could produce monster returns in the coming years.) Tj
+T*
+() Tj
+T*
+(Consider when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of) Tj
+T*
+( our recommendation, you?d have $786,169 !*) Tj
+T*
+() Tj
+T*
+(Stock Advisor provides investors with an easy-to-follow blueprint for success, including ) Tj
+T*
+(guidance on building a portfolio, regular updates from analysts, and two new stock picks each ) Tj
+T*
+(month. The Stock Advisor service has more than quadrupled the return of S&P 500 since 2002*.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 4341 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(See the 10 stocks ª) Tj
+T*
+() Tj
+T*
+(*Stock Advisor returns as of August 26, 2024) Tj
+T*
+() Tj
+T*
+(These are subject to a number of risks, significant risks, and uncertainties, and our actual ) Tj
+T*
+(results may differ materially. For a discussion of factors that could affect our future ) Tj
+T*
+(financial results and business, please refer to the disclosure in today's earnings release, ) Tj
+T*
+(our most recent Forms 10-K and 10-Q, and the reports that we may file on Form 8-K with the ) Tj
+T*
+(Securities and Exchange Commission. All our statements are made as of today, August 28, 2024, ) Tj
+T*
+(based on information currently available to us. Except as required by law, we assume no ) Tj
+T*
+(obligation to update any such statements.) Tj
+T*
+() Tj
+T*
+(During this call, we will discuss non-GAAP financial measures. You can find a reconciliation ) Tj
+T*
+(of these non-GAAP financial measures to GAAP financial measures in our CFO commentary, which ) Tj
+T*
+(is posted on our website. Let me highlight an upcoming event for the financial community. We ) Tj
+T*
+(will be attending the Goldman Sachs Communacopia and Technology Conference on September 11 in ) Tj
+T*
+(San Francisco, where Jensen will participate in a keynote fireside chat.) Tj
+T*
+() Tj
+T*
+(Our earnings call to discuss the results of our third quarter of fiscal 2025 is scheduled for ) Tj
+T*
+(Wednesday, November 20, 2024. With that, let me turn the call over to Colette.) Tj
+T*
+() Tj
+T*
+(Colette M. Kress -- Chief Financial Officer, Executive Vice President) Tj
+T*
+() Tj
+T*
+(Thanks, Stewart. Q2 was another record quarter. Revenue of $30 billion was up 15% sequentially) Tj
+T*
+( and up 122% year on year and well above our outlook of $28 billion. Starting with Data ) Tj
+T*
+(Center.) Tj
+T*
+() Tj
+T*
+(Data Center revenue of $26.3 billion was a record, up 16% sequentially and up 154% year on ) Tj
+T*
+(year, driven by strong demand for NVIDIA Hopper, GPU computing, and our networking platforms. ) Tj
+T*
+(Compute revenue grew more than 2.5x. Networking revenue grew more than 2x from the last year. ) Tj
+T*
+(Cloud service providers represented roughly 45% of our Data Center revenue, and more than 50% ) Tj
+T*
+(stemmed from the consumer Internet and enterprise companies.) Tj
+T*
+() Tj
+T*
+(Customers continue to accelerate their Hopper architecture purchases while gearing up to adopt) Tj
+T*
+( Blackwell. Key workloads driving our Data Center growth include generative AI model training ) Tj
+T*
+(and inferencing; video, image, and text data pre and post processing with CUDA and AI ) Tj
+T*
+(workloads; synthetic data generation; AI-powered recommender systems; SQL and Vector database ) Tj
+T*
+(processing as well. Next-generation models will require 10 to 20 times more compute to train ) Tj
+T*
+(with significantly more data. The trend is expected to continue.) Tj
+T*
+() Tj
+T*
+(Over the trailing four quarters, we estimate that inference drove more than 40% of our Data ) Tj
+T*
+(Center revenue. CSPs, consumer Internet companies, and enterprises benefit from the incredible) Tj
+T*
+( throughput and efficiency of NVIDIA's inference platform. Demand for NVIDIA is coming from ) Tj
+T*
+(frontier model makers, consumer Internet services, and tens of thousands of companies and ) Tj
+T*
+(start-ups building generative AI applications for consumers, advertising, education, ) Tj
+T*
+(enterprise and healthcare, and robotics. Developers desire NVIDIA's rich ecosystem and ) Tj
+T*
+(availability in every cloud.) Tj
+T*
+() Tj
+T*
+(CSPs appreciate the broad adoption of NVIDIA and are growing their NVIDIA capacity given the ) Tj
+T*
+(high demand. NVIDIA H200 platform began ramping in Q2, shipping to large CSPs, consumer ) Tj
+T*
+(Internet, and enterprise company. The NVIDIA H200 builds upon the strength of our Hopper ) Tj
+T*
+(architecture and offering over 40% more memory bandwidth compared to the H100. Our Data Center) Tj
+T*
+( revenue in China grew sequentially in Q2 and a significant contributor to our Data Center ) Tj
+T*
+(revenue.) Tj
+T*
+() Tj
+T*
+(As a percentage of total Data Center revenue, it remains below levels seen prior to the ) Tj
+T*
+(imposition of export controls. We continue to expect the China market to be very competitive ) Tj
+T*
+(going forward. The latest round of MLPerf inference benchmarks highlighted NVIDIA's inference ) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 4742 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(leadership with both NVIDIA Hopper and Blackwell platform combining to win gold medals on all ) Tj
+T*
+(tasks. At Computex, NVIDIA, with the top computer manufacturers, unveiled an array of ) Tj
+T*
+(Blackwell architecture-powered systems and NVIDIA networking for building AI factories and ) Tj
+T*
+(data centers.) Tj
+T*
+() Tj
+T*
+(With the NVIDIA MGX modular reference architecture, our OEMs and ODM partners are building ) Tj
+T*
+(more than 100 Blackwell-based systems designed quickly and cost-effectively. The NVIDIA ) Tj
+T*
+(Blackwell platform brings together multiple GPU, CPU, DPU, NVLink, and Link Switch and the ) Tj
+T*
+(networking chips, systems, and NVIDIA CUDA software to power the next generation of AI across ) Tj
+T*
+(the cases, industries, and countries. The NVIDIA GB200 NVL72 system with the fifth-generation ) Tj
+T*
+(NVLink enables all 72 GPUs to act as a single GPU and deliver up to 30x faster inference for ) Tj
+T*
+(LLM's workloads and unlocking the ability to run trillion-parameter models in real time. ) Tj
+T*
+(Hopper demand is strong, and Blackwell is widely sampling.) Tj
+T*
+() Tj
+T*
+(We executed a change to the Blackwell GPU mass to improve production yields. Blackwell ) Tj
+T*
+(production ramp is scheduled to begin in the fourth quarter and continue into fiscal year '26.) Tj
+T*
+( In Q4, we expect to get several billion dollars in Blackwell revenue. Hopper shipments are ) Tj
+T*
+(expected to increase in the second half of fiscal 2025.) Tj
+T*
+() Tj
+T*
+(Hopper supply and availability have improved. Demand for Blackwell platforms is well above ) Tj
+T*
+(supply, and we expect this to continue into next year. Networking revenue increased 16% ) Tj
+T*
+(sequentially. Our Ethernet for AI revenue, which includes our Spectrum-X end-to-end Ethernet ) Tj
+T*
+(platform, doubled sequentially with hundreds of customers adopting our Ethernet offerings.) Tj
+T*
+() Tj
+T*
+(Spectrum-X has broad market support from OEM and ODM partners and is being adopted by CSPs, ) Tj
+T*
+(GPU cloud providers, and enterprises, including xAI to connect the largest GPU compute cluster) Tj
+T*
+( in the world. Spectrum-X supercharges Ethernet for AI processing and delivers 1.6x the ) Tj
+T*
+(performance of traditional Ethernet. We plan to launch new Spectrum-X products every year to ) Tj
+T*
+(support demand for scaling compute clusters from tens of thousands of GPUs today to millions ) Tj
+T*
+(of DPUs in the near future. Spectrum-X is well on track to begin a multibillion-dollar product) Tj
+T*
+( line within a year.) Tj
+T*
+() Tj
+T*
+(Our sovereign AI opportunities continue to expand as countries recognize AI expertise and ) Tj
+T*
+(infrastructure at national imperatives for their society and industries. Japan's National ) Tj
+T*
+(Institute of Advanced Industrial Science and Technology is building its AI Bridging Cloud ) Tj
+T*
+(Infrastructure 3.0 supercomputer with NVIDIA. We believe sovereign AI revenue will reach low ) Tj
+T*
+(double-digit billions this year. The enterprise AI wave has started.) Tj
+T*
+() Tj
+T*
+(Enterprises also drove sequential revenue growth in the quarter. We are working with most of ) Tj
+T*
+(the Fortune 100 companies on AI initiatives across industries and geographies. A range of ) Tj
+T*
+(applications are fueling our growth, including AI-powered chatbots, generative AI copilots, ) Tj
+T*
+(and agents to build new monetizable business applications and enhance employee productivity. ) Tj
+T*
+(Amdocs is using NVIDIA generative AI for their smart agent, transforming the customer ) Tj
+T*
+(experience and reducing customer service costs by 30%.) Tj
+T*
+() Tj
+T*
+(ServiceNow is using NVIDIA for its Now Assist offering, the fastest-growing new product in the) Tj
+T*
+( company's history. SAP is using NVIDIA to build dual copilots. Cohesity is using NVIDIA to ) Tj
+T*
+(build their generative AI agent and lower generative AI development costs. Snowflake, serves ) Tj
+T*
+(over 3 billion queries a day for over 10,000 enterprise customers, is working with NVIDIA to ) Tj
+T*
+(build copilots.) Tj
+T*
+() Tj
+T*
+(And lastly, is using NVIDIA AI Omniverse to reduce end-to-end cycle times for their factories ) Tj
+T*
+(by 50%. Automotive was a key growth driver for the quarter as every automaker developing ) Tj
+T*
+(autonomous vehicle technology is using NVIDIA in their data centers. Automotive will drive ) Tj
+T*
+(multibillion dollars in revenue across on-prem and cloud consumption and will grow as next-) Tj
+T*
+(generation AV models require significantly more compute. Health care is also on its way to ) Tj
+T*
+(being a multibillion-dollar business as AI revolutionizes medical imaging, surgical robots, ) Tj
+T*
+(patient care, electronic health record processing, and drug discovery.) Tj
+T*
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 4766 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+() Tj
+T*
+(During the quarter, we announced a new NVIDIA AI foundry service to supercharge generative AI ) Tj
+T*
+(for the world's enterprises with Meta's Llama 3.1 collection of models. This marks a watershed) Tj
+T*
+( moment for enterprise AI. Companies for the first time can leverage the capabilities of an ) Tj
+T*
+(open-source frontier-level model to develop customized AI applications to encode their ) Tj
+T*
+(institutional knowledge into an AI flywheel to automate and accelerate their business. ) Tj
+T*
+(Accenture is the first to adopt the new service to build custom Llama 3.1 models for both its ) Tj
+T*
+(own use and to assist clients seeking to deploy generative AI applications.) Tj
+T*
+() Tj
+T*
+(NVIDIA NIMs accelerate and simplify model deployment. Companies across healthcare, energy, ) Tj
+T*
+(financial services, retail, transportation, and telecommunications are adopting NIMs, ) Tj
+T*
+(including Aramco, Lowes, and Uber. AT&T realized 70% cost savings and eight times latency ) Tj
+T*
+(reduction after moving into NIMs for generative AI, call transcription, and classification. ) Tj
+T*
+(Over 150 partners are embedding NIMs across every layer of the AI ecosystem.) Tj
+T*
+() Tj
+T*
+(We announced NIM Agent Blueprint, a catalog of customizable reference applications that ) Tj
+T*
+(include a full suite of software for building and deploying enterprise generative AI ) Tj
+T*
+(applications. With NIM Agent Blueprint, enterprises can refine their AI applications over ) Tj
+T*
+(time, creating a data-driven AI flywheel. The first NIM Agent Blueprints include workloads for) Tj
+T*
+( customer service, computer-aided drug discovery, and enterprise retrieval augmented ) Tj
+T*
+(generation. Our system integrators, technology solution providers, and system builders are ) Tj
+T*
+(bringing NVIDIA NIM Agent Blueprints to enterprises.) Tj
+T*
+() Tj
+T*
+(NVIDIA NIM and NIM Agent Blueprints are available through the NVIDIA AI Enterprise software ) Tj
+T*
+(platform, which has great momentum. We expect our software, SaaS, and support revenue to ) Tj
+T*
+(approach a $2 billion annual run rate exiting this year, with NVIDIA AI Enterprise notably ) Tj
+T*
+(contributing to growth. Moving to gaming and AI PC. Gaming revenue of $2.88 billion increased ) Tj
+T*
+(9% sequentially and 16% year on year.) Tj
+T*
+() Tj
+T*
+(We saw sequential growth in console, notebook, and desktop revenue, and demand is strong and ) Tj
+T*
+(growing and channel inventory remains healthy. Every PC with RTX is an AI PC. RTX PCs can ) Tj
+T*
+(deliver up to 1,300 AI tops and are now over 200 RTX AI laptops designed from leading PC ) Tj
+T*
+(manufacturers. With 600 AI-powered applications and games and an installed base of 100 million) Tj
+T*
+( devices, RTX is set to revolutionize consumer experiences with generative AI.) Tj
+T*
+() Tj
+T*
+(NVIDIA ACE, a suite of generative AI technologies is available for RTX AI PCs. Megabreak is ) Tj
+T*
+(the first game to use NVIDIA ACE, including our small language model, Nemotron 4B optimized on) Tj
+T*
+( device inference. The NVIDIA gaming ecosystem continues to grow. Recently added RTX and DLSS ) Tj
+T*
+(titles include Indiana Jones and The Great Circle, Awakening, and Dragon Age: The Vanguard.) Tj
+T*
+() Tj
+T*
+(The GeForce NOW library continues to expand with total catalog size of over 2,000 titles, the ) Tj
+T*
+(most content of any cloud gaming service. Moving to pro visualization. Revenue of $454 million) Tj
+T*
+( was up 6% sequentially and 20% year on year. Demand is being driven by AI and graphic use ) Tj
+T*
+(cases, including model fine-tuning and Omniverse-related workloads.) Tj
+T*
+() Tj
+T*
+(Automotive and manufacturing were among the key industry verticals driving growth this ) Tj
+T*
+(quarter. Companies are racing to digitalize workflows to drive efficiency across their ) Tj
+T*
+(operations. The world's largest electronics manufacturer, Foxconn, is using NVIDIA Omniverse ) Tj
+T*
+(to power digital twins of the physical plants that produce NVIDIA Blackwell systems. And ) Tj
+T*
+(several large global enterprises, including Mercedes-Benz, signed multiyear contracts for ) Tj
+T*
+(NVIDIA Omniverse Cloud to build industrial digital twins of factories.) Tj
+T*
+() Tj
+T*
+(We announced new NVIDIA USD NIMs and connectors to open Omniverse to new industries and enable) Tj
+T*
+( developers to incorporate generative AI copilots and agents into USD workloads, accelerating ) Tj
+T*
+(our ability to build highly accurate virtual worlds. WPP is implementing the USD NIM ) Tj
+T*
+(microservices in its generative AI-enabled content creation pipeline for customers such as The) Tj
+T*
+( Coca-Cola Company. Moving to automotive and robotics. Revenue was $346 million, up 5% ) Tj
+T*
+(sequentially and up 37% year on year.) Tj
+T*
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 4054 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+() Tj
+T*
+(Year-on-year growth was driven by the new customer ramp in self-driving platforms and ) Tj
+T*
+(increased demand for AI cockpit solutions. At the consumer -- at the Computer Vision and ) Tj
+T*
+(Pattern Recognition Conference, NVIDIA won the Autonomous Brand Challenge in the end-to-end ) Tj
+T*
+(driving upscale category, outperforming more than 400 entries worldwide. Boston Dynamics, BYD ) Tj
+T*
+(Electronics, Figure, Intrinsyc, Siemens, and Teradyne Robotics are using the NVIDIA Isaac ) Tj
+T*
+(robotics platform for autonomous robot arms, humanoids, and mobile robots. Now, moving to the ) Tj
+T*
+(rest of the P&L.) Tj
+T*
+() Tj
+T*
+(GAAP gross margins were 75.1% and non-GAAP gross margins were 75.7%, down sequentially due to ) Tj
+T*
+(a higher mix of new products within Data Center and inventory provisions for low-yielding ) Tj
+T*
+(Blackwell material. Sequentially, GAAP and non-GAAP operating expenses were up 12%, primarily ) Tj
+T*
+(reflecting higher compensation-related costs. Cash flow from operations was $14.5 billion. In ) Tj
+T*
+(Q2, we utilized cash of $7.4 billion toward shareholder returns in the form of share ) Tj
+T*
+(repurchases and cash dividends, reflecting the increase in dividend per shareholder.) Tj
+T*
+() Tj
+T*
+(Our board of directors recently approved a $50 billion share repurchase authorization to add ) Tj
+T*
+(to our remaining $7.5 billion of authorization at the end of Q2. Let me turn the outlook for ) Tj
+T*
+(the third quarter. Total revenue is expected to be $32.5 billion, plus or minus 2%. Our third-) Tj
+T*
+(quarter revenue outlook incorporates continued growth of our Hopper architecture and sampling ) Tj
+T*
+(of our Blackwell products.) Tj
+T*
+() Tj
+T*
+(We expect Blackwell production ramp in Q4. GAAP and non-GAAP gross margins are expected to be ) Tj
+T*
+(74.4% and 75%, respectively, plus or minus 50 basis points. As our Data Center mix continues ) Tj
+T*
+(to shift to new products, we expect this trend to continue into the fourth quarter of fiscal ) Tj
+T*
+(2025. For the full year, we expect gross margins to be in the mid-70% range.) Tj
+T*
+() Tj
+T*
+(GAAP and non-GAAP operating expenses are expected to be approximately $4.3 billion and $3.0 ) Tj
+T*
+(billion, respectively. Full-year operating expenses are expected to grow in the mid- to upper ) Tj
+T*
+(40% range as we work on developing our next generation of products. GAAP and non-GAAP other ) Tj
+T*
+(income and expenses are expected to be about $350 million, including gains and losses from ) Tj
+T*
+(nonaffiliated investments and publicly held equity securities. GAAP and non-GAAP tax rates are) Tj
+T*
+( expected to be 17%, plus or minus 1%, excluding any discrete items.) Tj
+T*
+() Tj
+T*
+(Further financial details are included in the CFO commentary and other information available ) Tj
+T*
+(on our IR website. We are now going to open the call for questions. Operator, would you please) Tj
+T*
+( help us poll for questions?) Tj
+T*
+() Tj
+T*
+(Questions & Answers:) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Thank you. [Operator instructions] We will pause for just a moment to compile the Q&A roster. ) Tj
+T*
+(And as a reminder, we ask that you please limit yourself to one question. And your first ) Tj
+T*
+(question comes from the line of Vivek Arya with Bank of America Securities.) Tj
+T*
+() Tj
+T*
+(Your line is open.) Tj
+T*
+() Tj
+T*
+(Vivek Arya -- Analyst) Tj
+T*
+() Tj
+T*
+(Thanks for taking my question. Jensen, you mentioned in the prepared comments that there's a ) Tj
+T*
+(change in the Blackwell GPU mask. I'm curious, are there any other incremental changes in ) Tj
+T*
+(back-end packaging or anything else? And I think related, you suggested that you could ship ) Tj
+T*
+(several billion dollars of Blackwell in Q4 despite the change in the design. Is it because all) Tj
+T*
+( these issues will be solved by then? Just help us size what is the overall impact of any ) Tj
+T*
+(changes in Blackwell timing, what that means to your kind of revenue profile and how are ) Tj
+T*
+(customers reacting to it.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 3950 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah. Thanks, Vivek. The change to the mask is complete. There were no functional changes ) Tj
+T*
+(necessary.) Tj
+T*
+() Tj
+T*
+(And so, we're sampling functional samples of Blackwell, Grace Blackwell, and a variety of ) Tj
+T*
+(system configurations as we speak. There are something like 100 different types of Blackwell-) Tj
+T*
+(based systems that are built that were shown at Computex, and we're enabling our ecosystem to ) Tj
+T*
+(start sampling those. The functionality of Blackwell is as it is, and we expect to start ) Tj
+T*
+(production in Q4.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(And your next question comes from the line of Toshiya Hari with Goldman Sachs. Your line is ) Tj
+T*
+(open.) Tj
+T*
+() Tj
+T*
+(Toshiya Hari -- Analyst) Tj
+T*
+() Tj
+T*
+(Hi. Thank you so much for taking the question. Jensen, I had a relatively longer-term ) Tj
+T*
+(question. As you may know, there's a pretty heated debate in the market on your customers and ) Tj
+T*
+(customers' customers return on investment and what that means for the sustainability of capex ) Tj
+T*
+(going forward.) Tj
+T*
+() Tj
+T*
+(Internally at NVIDIA, like what are you guys watching? What's on your dashboard as you try to ) Tj
+T*
+(gauge customer return and how that impacts capex? And then a quick follow-up maybe for ) Tj
+T*
+(Colette. I think your sovereign AI number for the full year went up maybe a couple of billion.) Tj
+T*
+( What's driving the improved outlook and how should we think about fiscal '26? Thank you.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Thanks, Toshiya. First of all, when I said ship production in Q4, I mean shipping out, I don't) Tj
+T*
+( mean starting to ship, but I mean -- I don't mean starting production but shipping up. On the) Tj
+T*
+( longer-term question, let's take a step back. And you've heard me say that we're going ) Tj
+T*
+(through two simultaneous platform transitions at the same time.) Tj
+T*
+() Tj
+T*
+(The first one is transitioning from accelerated computing to -- from general-purpose computing) Tj
+T*
+( to accelerated computing. And the reason for that is because CPU scaling has been known to be) Tj
+T*
+( slowing for some time and it has slowed to a crawl. And yet the amount of computing demand ) Tj
+T*
+(continues to grow quite significantly. You could maybe even estimate it to be doubling every ) Tj
+T*
+(single year.) Tj
+T*
+() Tj
+T*
+(And so, if we don't have a new approach, computing inflation would be driving up the cost for ) Tj
+T*
+(every company, and it would be driving up the energy consumption of data centers around the ) Tj
+T*
+(world. In fact, you're seeing that. And so, the answer is accelerated computing. We know that ) Tj
+T*
+(accelerated computing, of course, speeds up applications.) Tj
+T*
+() Tj
+T*
+(It also enables you to do computing at a much larger scale, for example, scientific ) Tj
+T*
+(simulations or database processing, but what that translates directly to is lower cost and ) Tj
+T*
+(lower energy consumed. And in fact, this week, there's a blog that came out that talked about ) Tj
+T*
+(a whole bunch of new libraries that we offer. And that's really the core of the first platform) Tj
+T*
+( transition, going from general-purpose computing to accelerated computing. And it's not ) Tj
+T*
+(unusual to see someone save 90% of their computing cost.) Tj
+T*
+() Tj
+T*
+(And the reason for that is, of course, you just sped up an application 50x. You would expect ) Tj
+T*
+(the computing cost to decline quite significantly. The second was enabled by accelerated ) Tj
+T*
+(computing because we drove down the cost of training large language models or training deep ) Tj
+T*
+(learning so incredibly that it is now possible to have gigantic scale models, multitrillion-) Tj
+T*
+(parameter models and train it on -- pretrain it on just about the world's knowledge corpus and) Tj
+T*
+ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Length 4769 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+( let the model go figure out how to understand human language representation and how to codify) Tj
+T*
+( knowledge into its neural networks and how to learn reasoning, and so which caused the ) Tj
+T*
+(generative AI revolution. Now, generative AI, taking a step back about why it is that we went ) Tj
+T*
+(so deeply into it is because it's not just a feature, it's not just the capability.) Tj
+T*
+() Tj
+T*
+(It's a fundamental new way of doing software. Instead of human-engineered algorithms, we now ) Tj
+T*
+(have data. We tell the AI, we tell the model, we tell the computer what are the expected ) Tj
+T*
+(answers. What are our previous observations? And then for it to figure out what the algorithm ) Tj
+T*
+(is, what's the function.) Tj
+T*
+() Tj
+T*
+(It learns a universal -- AI is a bit of a universal function approximator and it learns the ) Tj
+T*
+(function. And so, you could learn the function of almost anything. And anything that you have ) Tj
+T*
+(that's predictable, anything that has structure, anything that you have previous examples of. ) Tj
+T*
+(And so, now here we are with generative AI.) Tj
+T*
+() Tj
+T*
+(It's a fundamental new form of computer science. It's affecting how every layer of computing ) Tj
+T*
+(is done from CPU to GPU, from human-engineered algorithms to machine-learned algorithms, and ) Tj
+T*
+(the type of applications you could now develop and produce is fundamentally remarkable. And ) Tj
+T*
+(there are several things that are happening in generative AI. So, the first thing that's ) Tj
+T*
+(happening is the frontier models are growing in quite substantial scale.) Tj
+T*
+() Tj
+T*
+(And they're still seeing -- we're still all seeing the benefits of scaling. And whenever you ) Tj
+T*
+(double the size of a model, you also have to more than double the size of the data set to go ) Tj
+T*
+(train it. And so, the amount of flops necessary in order to create that model goes up ) Tj
+T*
+(quadratically. And so, it's not unexpected to see that the next-generation models could take ) Tj
+T*
+(10, 20, 40 times more compute than last generation.) Tj
+T*
+() Tj
+T*
+(So, we have to continue to drive the generational performance up quite significantly so we can) Tj
+T*
+( drive down the energy consumed and drive down the cost necessary to do it. And so, the first ) Tj
+T*
+(one is there are larger frontier models trained on more modalities. And surprisingly, there ) Tj
+T*
+(are more frontier model makers than last year. And so, you have more and more and more.) Tj
+T*
+() Tj
+T*
+(That's one of the dynamics going on in generative AI. The second is although it's below the ) Tj
+T*
+(tip of the iceberg, what we see are ChatGPT image generators. We see coding. We use generative) Tj
+T*
+( AI for coding quite extensively here at NVIDIA now.) Tj
+T*
+() Tj
+T*
+(We, of course, have a lot of digital designers and things like that. But those are kind of the) Tj
+T*
+( tip of the iceberg. What's below the iceberg are the largest systems, largest computing ) Tj
+T*
+(systems in the world today, which are -- and you've heard me talk about this in the past, ) Tj
+T*
+(which are recommender systems moving from CPUs. It's now moving from CPUs to generative AI.) Tj
+T*
+() Tj
+T*
+(So, recommender systems, ad generation, custom ad generation targeting ads at very large scale) Tj
+T*
+( and quite hyper-targeting, search, and user-generated content, these are all very large-scale) Tj
+T*
+( applications have now evolved to generative AI. Of course, the number of generative AI start-) Tj
+T*
+(ups is generating tens of billions of dollars of cloud renting opportunities for our cloud ) Tj
+T*
+(partners. And sovereign AI, countries that are now realizing that their data is their natural ) Tj
+T*
+(and national resource and they have to use AI, build their own AI infrastructure so that they ) Tj
+T*
+(could have their own digital intelligence. Enterprise AI, as Colette mentioned earlier, is ) Tj
+T*
+(starting, and you might have seen our announcement that the world's leading IT companies are ) Tj
+T*
+(joining us to take the NVIDIA AI Enterprise platform to the world's enterprises.) Tj
+T*
+() Tj
+T*
+(The companies that we're talking to, so many of them are just so incredibly excited to drive ) Tj
+T*
+(more productivity out of the company. And then general robotics. The big transformation last ) Tj
+T*
+(year as we are able to now learn physical AI from watching video and human demonstration and ) Tj
+T*
+(synthetic data generation from reinforcement learning from systems like Omniverse, we are now ) Tj
+T*
+(able to work with just about every robotics companies now to start thinking about, start ) Tj
+T*
+(building general robotics. And so, you can see that there are just so many different ) Tj
+T*
+(directions that generative AI is going.) Tj
+T*
+ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Length 3675 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+() Tj
+T*
+(And so, we're actually seeing the momentum of generative AI accelerating.) Tj
+T*
+() Tj
+T*
+(Colette M. Kress -- Chief Financial Officer, Executive Vice President) Tj
+T*
+() Tj
+T*
+(And Toshiya, to answer your question regarding sovereign AI and our goals in terms of growth, ) Tj
+T*
+(in terms of revenue, it certainly is a unique and growing opportunity, something that surfaced) Tj
+T*
+( with generative AI and the desires of countries around the world to have their own generative) Tj
+T*
+( AI that would be able to incorporate their own language, incorporate their own culture, ) Tj
+T*
+(incorporate their own data in that country. So, more and more excitement around these models ) Tj
+T*
+(and what they can be specific for those countries. So, yes, we are seeing some growth ) Tj
+T*
+(opportunity in front of us.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(And your next question comes from the line of Joe Moore with Morgan Stanley. Your line is ) Tj
+T*
+(open.) Tj
+T*
+() Tj
+T*
+(Joe Moore -- Analyst) Tj
+T*
+() Tj
+T*
+(Great. Thank you. Jensen, in the press release, you talked about Blackwell anticipation being ) Tj
+T*
+(incredible. But it seems like Hopper demand is also really strong.) Tj
+T*
+() Tj
+T*
+(I mean, you're guiding for a very strong quarter without Blackwell in October. So, how long do) Tj
+T*
+( you see sort of coexisting strong demand for both? And can you talk about the transition to ) Tj
+T*
+(Blackwell? Do you see people intermixing clusters? Do you think most of the Blackwell ) Tj
+T*
+(activities, new clusters? Just some sense of what that transition looks like.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah. Thanks, Joe. The demand for Hopper is really strong. And it's true, the demand for ) Tj
+T*
+(Blackwell is incredible.) Tj
+T*
+() Tj
+T*
+(There's a couple of reasons for that. The first reason is if you just look at the world's ) Tj
+T*
+(cloud service providers, the amount of GPU capacity they have available, it's basically none. ) Tj
+T*
+(And the reason for that is because they're either being deployed internally for accelerating ) Tj
+T*
+(their own workloads, data processing, for example. Data processing, we hardly ever talk about ) Tj
+T*
+(it because it's mundane.) Tj
+T*
+() Tj
+T*
+(It's not very cool because it doesn't generate a picture or generate words. But almost every ) Tj
+T*
+(single company in the world processes data in the background. And NVIDIA's GPUs are the only ) Tj
+T*
+(accelerators on the planet that process and accelerate data. SQL data, Panda's data, data ) Tj
+T*
+(science toolkits like Panda's, and the new one, Polar's.) Tj
+T*
+() Tj
+T*
+(These are the ones -- the most popular data processing platforms in the world. And aside from ) Tj
+T*
+(CPUs, which as I've mentioned before, really running out of steam, NVIDIA's accelerated ) Tj
+T*
+(computing is really the only way to get boosting performance out of that. And so, number one ) Tj
+T*
+(is the primary -- the No. 1 use case long before generative AI came along is that the ) Tj
+T*
+(migration of applications one after another to accelerated computing.) Tj
+T*
+() Tj
+T*
+(The second is, of course, the rentals. They're renting capacity to model makers. They're ) Tj
+T*
+(renting it to start-up companies. And a generative AI company spends the vast majority of ) Tj
+T*
+(their invested capital into infrastructure so that they could use an AI to help them create ) Tj
+T*
+(products.) Tj
+T*
+() Tj
+T*
+(And so, these companies need it now. They just simply can't afford -- you just raise money. ) Tj
+T*
+(They want you to put it to use now. You have processing that you have to do.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 18 0 R >>
+endobj
+20 0 obj
+<< /Length 4007 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(You can't do it next year, you got to do it today. And so, there's a fair -- that's one ) Tj
+T*
+(reason. The second reason for Hopper demand right now is because of the race to the next ) Tj
+T*
+(plateau. The first person to the next plateau gets to be -- get to introduce a revolutionary ) Tj
+T*
+(level of AI.) Tj
+T*
+() Tj
+T*
+(The second person who gets there is incrementally better or about the same. And so, the ) Tj
+T*
+(ability to systematically and consistently race to the next plateau and be the first one there) Tj
+T*
+( is how you establish leadership. NVIDIA is constantly doing that, and we show that to the ) Tj
+T*
+(world and the GPUs we make and the AI factories that we make, the networking systems that we ) Tj
+T*
+(make, the SoCs we create. I mean, we want to set the pace.) Tj
+T*
+() Tj
+T*
+(We want to be consistently the world's best. And that's the reason why we drive ourselves so ) Tj
+T*
+(hard. Of course, we also want to see our dreams come true and all of the capabilities that we ) Tj
+T*
+(imagine in the future and the benefits that we can bring to society, we want to see all that ) Tj
+T*
+(come true. And so, these model makers are the same.) Tj
+T*
+() Tj
+T*
+(Of course, they want to be the world's best. They want to be the world's first. And although ) Tj
+T*
+(Blackwell will start shipping out in billions of dollars at the end of this year, the standing) Tj
+T*
+( up of the capacity is still probably weeks and a month or so away. And so, between now and ) Tj
+T*
+(then is a lot of generative AI market dynamic.) Tj
+T*
+() Tj
+T*
+(And so, everybody is just really in a hurry. It's either operational reasons that they need ) Tj
+T*
+(it. They need accelerated computing. They don't want to build any more general-purpose ) Tj
+T*
+(computing infrastructure and even Hopper.) Tj
+T*
+() Tj
+T*
+(Of course, H200 is state-of-the-art. Hopper, if you have a choice between building CPU ) Tj
+T*
+(infrastructure right now for business or Hopper infrastructure for business right now, that ) Tj
+T*
+(decision is relatively clear. And so, I think people are just clamoring to transition the $1 ) Tj
+T*
+(trillion of established installed infrastructure to a modern infrastructure and Hopper's ) Tj
+T*
+(state-of-the-art.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(And your next question comes from the line of Matt Ramsay with TD Cowen. Your line is open.) Tj
+T*
+() Tj
+T*
+(Matt Ramsay -- Analyst) Tj
+T*
+() Tj
+T*
+(Thank you very much. Good afternoon, everybody. Jensen, I wanted to kind of circle back to an ) Tj
+T*
+(earlier question about the debate that investors are having about the ROI on all of this ) Tj
+T*
+(capex. And hopefully, this question and the distinction will make some sense.) Tj
+T*
+() Tj
+T*
+(But what I'm having discussions about is with like the percentage of folks that you see that ) Tj
+T*
+(are spending all of this money and looking to sort of push the frontier toward AGI convergence) Tj
+T*
+( and, as you just said, a new plateau in capability, and they're going to spend regardless to ) Tj
+T*
+(get to that level of capability because it opens up so many doors for the industry and for ) Tj
+T*
+(their company versus customers that are really, really focused today on capex versus ROI. I ) Tj
+T*
+(don't know if that distinction makes sense. I'm just trying to get a sense of how you're ) Tj
+T*
+(seeing the priorities of people that are putting the dollars in the ground on this new ) Tj
+T*
+(technology and what their priorities are and their time frames are for that investment. ) Tj
+T*
+(Thanks.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Thanks, Matt. The people who are investing in NVIDIA infrastructure are getting returns on it ) Tj
+T*
+(right away. It's the best ROI infrastructure, computing infrastructure investment you can make) Tj
+T*
+( today. And so, one way to think through it, probably the most -- the easiest way to think ) Tj
+T*
+(through it is just go back to first principles.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 20 0 R >>
+endobj
+22 0 obj
+<< /Length 4117 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(You have $1 trillion worth of general-purpose computing infrastructure. And the question is, ) Tj
+T*
+(do you want to build more of that or not? And for every $1 billion worth of Juniper CPU-based ) Tj
+T*
+(infrastructure that you stand up, you probably rent it for less than $1 billion. And so, ) Tj
+T*
+(because it's commoditized, there's already $1 trillion on the ground. What's the point of ) Tj
+T*
+(getting more? And so, the people who are clamoring to get this infrastructure, one, when they ) Tj
+T*
+(build out Hopper-based infrastructure and soon, Blackwell-based infrastructure, they start ) Tj
+T*
+(saving money.) Tj
+T*
+() Tj
+T*
+(That's a tremendous return on investment. And the reason why they start saving money is ) Tj
+T*
+(because data processing saves money, and data processing is probably just a giant part of it ) Tj
+T*
+(already. And so, recommender systems save money, so on and so forth, OK? And so, you start ) Tj
+T*
+(saving money. The second thing is everything you stand up are going to get rented because so ) Tj
+T*
+(many companies are being founded to create generative AI.) Tj
+T*
+() Tj
+T*
+(And so, your capacity gets rented right away and the return on investment of that is really ) Tj
+T*
+(good. And then the third reason is your own business. Do you want to either create the next ) Tj
+T*
+(frontier yourself or your own Internet services benefit from a next-generation ad system or a ) Tj
+T*
+(next-generation recommender system or a next-generation search system? So, for your own ) Tj
+T*
+(services, for your own stores, for your own user-generated content, social media platforms, ) Tj
+T*
+(for your own services, generative AI is also a fast ROI. And so, there's a lot of ways you ) Tj
+T*
+(could think through it.) Tj
+T*
+() Tj
+T*
+(But at the core, it's because it is the best computing infrastructure you could put in the ) Tj
+T*
+(ground today. The world of general-purpose computing is shifting to accelerated computing. The) Tj
+T*
+( world of human-engineered software is moving to generative AI software. If you were to build ) Tj
+T*
+(infrastructure to modernize your cloud and your data centers, build it with accelerated ) Tj
+T*
+(computing NVIDIA.) Tj
+T*
+() Tj
+T*
+(That's the best way to do it.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(And your next question comes from the line of Timothy Arcuri with UBS. Your line is open.) Tj
+T*
+() Tj
+T*
+(Timothy Arcuri -- Analyst) Tj
+T*
+() Tj
+T*
+(Thanks a lot. I had a question on the shape of the revenue growth, both near and longer term. ) Tj
+T*
+(I know Colette, you did increase opex for the year. And if I look at the increase in your ) Tj
+T*
+(purchase commitments and your supply obligations, that's also quite bullish.) Tj
+T*
+() Tj
+T*
+(On the other hand, there's some school of thought that not that many customers really seem ) Tj
+T*
+(ready for liquid cooling, and I do recognize that some of these racks can be air-cooled. But ) Tj
+T*
+(Jensen, is that something to consider sort of on the shape of how Blackwell is going to ramp? ) Tj
+T*
+(And then I guess when you look beyond next year, which is obviously going to be a great year ) Tj
+T*
+(and you look into '26, do you worry about any other gating factors like, say, the power supply) Tj
+T*
+( chain or at some point, models start to get smaller? I'm just wondering if you can speak to ) Tj
+T*
+(that. Thanks.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(I'm going to work backwards. I really appreciate the question, Tim. So, remember, the world is) Tj
+T*
+( moving from general-purpose computing to accelerated computing. And the world builds about $1) Tj
+T*
+( trillion worth of data centers.) Tj
+T*
+() Tj
+T*
+($1 trillion worth of data centers in a few years will be all accelerated computing. In the ) Tj
+T*
+(past, no GPUs are in data centers, just CPUs. In the future, every single data center will ) Tj
+T*
+(have GPUs. And the reason for that is very clear: because we need to accelerate workloads so ) Tj
+T*
+(that we can continue to be sustainable, continue to drive down the cost of computing so that ) Tj
+T*
+ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 22 0 R >>
+endobj
+24 0 obj
+<< /Length 4084 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(when we do more computing, we don't experience computing inflation.) Tj
+T*
+() Tj
+T*
+(Second, we need GPUs for a new computing model called generative AI that we could all ) Tj
+T*
+(acknowledge is going to be quite transformative to the future of computing. And so, I think ) Tj
+T*
+(working backwards, the way to think about that is the next $1 trillion of the world's ) Tj
+T*
+(infrastructure will clearly be different than the last $1 trillion, and it will be vastly ) Tj
+T*
+(accelerated. With respect to the shape of our ramp, we offer multiple configurations of ) Tj
+T*
+(Blackwell. Blackwell comes in either a Blackwell classic, if you will, that uses the HGX form ) Tj
+T*
+(factor that we pioneered with Volta.) Tj
+T*
+() Tj
+T*
+(And I think it was Volta. And so, we've been shipping the HGX form factor for some time. It is) Tj
+T*
+( air-cooled. The Grace Blackwell is liquid-cooled.) Tj
+T*
+() Tj
+T*
+(However, the number of data centers that want to go to liquid-cooled is quite significant. And) Tj
+T*
+( the reason for that is because we can, in a liquid-cooled data center, in any data center -- ) Tj
+T*
+(power-limited data center, whatever size data center you choose, you could install and deploy ) Tj
+T*
+(anywhere from three to five times the AI throughput compared to the past. And so, liquid ) Tj
+T*
+(cooling is cheaper. Liquid cooling, our TCO is better, and liquid cooling allows you to have ) Tj
+T*
+(the benefit of this capability we call NVLink, which allows us to expand it to 72 Grace ) Tj
+T*
+(Blackwell packages, which has essentially 144 GPUs.) Tj
+T*
+() Tj
+T*
+(And so, imagine 144 GPUs connected in NVLink. And that, we're increasingly showing you the ) Tj
+T*
+(benefits of that. And the next click is obviously very low latency, very high throughput large) Tj
+T*
+( language model inference, and the large NVLink domain is going to be a game changer for that.) Tj
+T*
+( And so, I think people are very comfortable deploying both.) Tj
+T*
+() Tj
+T*
+(And so, almost every CSP we're working with are deploying some of both. And so, I'm pretty ) Tj
+T*
+(confident that we'll ramp it up just fine. Your second question out of the third is that ) Tj
+T*
+(looking forward, yes, next year is going to be a great year. We expect to grow our Data Center) Tj
+T*
+( business quite significantly next year.) Tj
+T*
+() Tj
+T*
+(Blackwell is going to be a complete game changer for the industry. And Blackwell is going to ) Tj
+T*
+(carry into the following year. And as I mentioned earlier, working backwards from first ) Tj
+T*
+(principles, remember that computing is going through two platform transitions at the same ) Tj
+T*
+(time. And that's just really, really important to keep your head on -- your mind focused on, ) Tj
+T*
+(which is general-purpose computing is shifting to accelerated computing, and human-engineered ) Tj
+T*
+(software is going to transition to generative AI or artificial intelligence-learned software.) Tj
+T*
+() Tj
+T*
+(OK.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(And your next question comes from the line of Stacy Rasgon with Bernstein Research. Your line ) Tj
+T*
+(is open.) Tj
+T*
+() Tj
+T*
+(Stacy Rasgon -- Analyst) Tj
+T*
+() Tj
+T*
+(Hi, guys. Thanks for taking my question. So, I have two short questions for Colette. The first) Tj
+T*
+( several billion dollars of Blackwell revenue in Q4, is that additive? You said you expected ) Tj
+T*
+(Hopper demand to strengthen in the second half.) Tj
+T*
+() Tj
+T*
+(Does that mean Hopper strengthens Q3 to Q4 as well on top of Blackwell adding several billion ) Tj
+T*
+(dollars? And the second question on gross margins. If I have mid-70s for the year, let's say, ) Tj
+T*
+(where I want to draw that, if I have 75 for the year, I'd be something like 71 to 72 for Q4, ) Tj
+T*
+(somewhere in that range. Is that the kind of exit rate for gross margins that you're ) Tj
+T*
+(expecting? And how should we think about the drivers of gross margin evolution into next year ) Tj
+T*
+(as Blackwell ramps? And I mean, hopefully, I guess the yields and the inventory reserves and ) Tj
+T*
+(everything come up.) Tj
+T*
+ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 24 0 R >>
+endobj
+26 0 obj
+<< /Length 3927 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+() Tj
+T*
+(Colette M. Kress -- Chief Financial Officer, Executive Vice President) Tj
+T*
+() Tj
+T*
+(So, Stacy, let's first take your question that you had about Hopper and Blackwell. So, we ) Tj
+T*
+(believe our Hopper will continue to grow into the second half. We have many new products for ) Tj
+T*
+(Hopper, our existing products for Hopper that we believe will start continuing to ramp in the ) Tj
+T*
+(next quarters, including our Q3 and those new products moving to Q4. So, let's say, Hopper ) Tj
+T*
+(there for versus H1 is a growth opportunity for that.) Tj
+T*
+() Tj
+T*
+(Additionally, we have the Blackwell on top of that, and the Blackwell starting ramping in Q4. ) Tj
+T*
+(So, I hope that helps you on those two pieces. Your second piece is in terms of our gross ) Tj
+T*
+(margin. We provided gross margin for our Q3.) Tj
+T*
+() Tj
+T*
+(We provided our gross margin on a non-GAAP at about 75. We'll work with all the different ) Tj
+T*
+(transitions that we're going through, but we do believe we can do that 75 in Q3. We provided ) Tj
+T*
+(that we're still on track for the full year also in the mid-70s or approximately the 75. So, ) Tj
+T*
+(we're going to see some slight difference possibly in Q4, again with our transitions and the ) Tj
+T*
+(different cost structures that we have on our new product introductions.) Tj
+T*
+() Tj
+T*
+(However, I'm not in the same number that you are there. We don't have exactly guidance, but I ) Tj
+T*
+(do believe you're lower than where we are.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(And your next question comes from the line of Ben Reitzes with Melius. Your line is open.) Tj
+T*
+() Tj
+T*
+(Ben Reitzes -- Melius Research -- Analyst) Tj
+T*
+() Tj
+T*
+(Yeah. Hey, thanks a lot for the question. I wanted to ask about the geographies. There was the) Tj
+T*
+( 10-Q that came out, and the United States was down sequentially while several Asian ) Tj
+T*
+(geographies were up a lot sequentially.) Tj
+T*
+() Tj
+T*
+(Just wondering what the dynamics are there. And obviously, China did very well. You mentioned ) Tj
+T*
+(it in your remarks. What are the puts and takes? And then I just wanted to clarify from ) Tj
+T*
+(Stacy's question if that means the sequential overall revenue growth rates for the company ) Tj
+T*
+(accelerate in the fourth quarter, given all those favorable revenue dynamics.) Tj
+T*
+() Tj
+T*
+(Thanks.) Tj
+T*
+() Tj
+T*
+(Colette M. Kress -- Chief Financial Officer, Executive Vice President) Tj
+T*
+() Tj
+T*
+(Let me talk about a bit in terms of our disclosure in terms of the 10-Q, a required disclosure) Tj
+T*
+( in a choice of geographies. Very challenging sometimes to create that right disclosure as we ) Tj
+T*
+(have to come up with one key piece. The pieces in terms of we have in terms of who we sell to ) Tj
+T*
+(and/or specifically who we invoice to, and so what you're seeing in terms of there is who we ) Tj
+T*
+(invoice. That's not necessarily where the product will eventually be and where it may even ) Tj
+T*
+(travel to the end customer.) Tj
+T*
+() Tj
+T*
+(These are just moving to our OEMs or ODMs and our system integrators for the most part across ) Tj
+T*
+(our product portfolio. So, what you're seeing there is sometimes just a swift shift in terms ) Tj
+T*
+(of who they are using to complete their full configuration before those things are going into ) Tj
+T*
+(the data center, going into notebooks and those pieces of it. And that shift happens from time) Tj
+T*
+( to time. But yes, our China number there are invoicing to China.) Tj
+T*
+() Tj
+T*
+(Keep in mind that is incorporating both gaming, also Data Center, also automotive in those ) Tj
+T*
+(numbers that we have. Going back to your statement and regarding gross margin and also what ) Tj
+T*
+(we're seeing in terms of what we're looking at for Hopper and Blackwell in terms of revenue. ) Tj
+T*
+(Hopper will continue to grow in the second half. We'll continue to grow from what we are ) Tj
+T*
+ET
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 26 0 R >>
+endobj
+28 0 obj
+<< /Length 4011 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(currently seeing.) Tj
+T*
+() Tj
+T*
+(Determining that exact mix in each Q3 and Q4, we don't have here. We are not here to guide yet) Tj
+T*
+( in terms of Q4. But we do see right now the demand expectations. We do see the visibility ) Tj
+T*
+(that that will be a growth opportunity in Q4.) Tj
+T*
+() Tj
+T*
+(On top of that, we will have our Blackwell architecture.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(And your next question comes from the line of C.J. Muse with Cantor Fitzgerald. Your line is ) Tj
+T*
+(open.) Tj
+T*
+() Tj
+T*
+(C.J. Muse -- Analyst) Tj
+T*
+() Tj
+T*
+(Yeah. Good afternoon. Thank you for taking the question. You've embarked on a remarkable ) Tj
+T*
+(annual product cadence with challenges only likely becoming more and more, given rising ) Tj
+T*
+(complexity in a rather limit advanced package world.) Tj
+T*
+() Tj
+T*
+(So, curious, if you take a step back, how does this backdrop alter your thinking around ) Tj
+T*
+(potentially greater vertical integration, supply chain partnerships, and then taking through a) Tj
+T*
+( consequential impact to your margin profile? Thank you.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah. Thanks. Let's see. I think the first answer to your -- the answer to your first question) Tj
+T*
+( is that the reason why our velocity is so high is simultaneously because the complexity of ) Tj
+T*
+(the model is growing, and we want to continue to drive its cost down.) Tj
+T*
+() Tj
+T*
+(It's growing so we want to continue to increase its scale. And we believe that by continuing ) Tj
+T*
+(to scale the AI models, that we'll reach a level of extraordinary usefulness and that it would) Tj
+T*
+( open up, realize the next industrial revolution. We believe it. And so, we're going to drive ) Tj
+T*
+(ourselves really hard to continue to go up that scale.) Tj
+T*
+() Tj
+T*
+(We have the ability, fairly uniquely, to integrate, to design an AI factory because we have ) Tj
+T*
+(all the parts. It's not possible to come up with a new AI factory every year unless you have ) Tj
+T*
+(all the parts. And so, we have -- next year, we're going to ship a lot more CPUs than we've ) Tj
+T*
+(ever had in the history of our company, more GPUs, of course, but also NVLink switches, CX ) Tj
+T*
+(DPUs, ConnectX for East and West, BlueField DPUs for North and South, and data and storage ) Tj
+T*
+(processing to InfiniBand for supercomputing centers, to Ethernet, which is a brand-new product) Tj
+T*
+( for us, which is well on its way to becoming a multibillion-dollar business to bring AI to ) Tj
+T*
+(Ethernet. And so, the fact that we could build -- we have access to all of this, we have one ) Tj
+T*
+(architectural stack, as you know, it allows us to introduce new capabilities to the market as ) Tj
+T*
+(we complete it.) Tj
+T*
+() Tj
+T*
+(Otherwise, what happens, you ship these parts, you go find customers to sell it to, and then ) Tj
+T*
+(you've got to build -- somebody's got to build up an AI factory, and the AI factory has got a ) Tj
+T*
+(mountain of software. And so, it's not about who integrates it. We love the fact that our ) Tj
+T*
+(supply chain is disintegrated in the sense that we could service Quanta, Foxconn, HP, Dell, ) Tj
+T*
+(Lenovo, Super Micro. We used to be able to serve ZTE.) Tj
+T*
+() Tj
+T*
+(They were recently purchased and so on and so forth. And so, the number of ecosystem partners ) Tj
+T*
+(that we have, Gigabyte, the number of ecosystem partners that we have that allows them to take) Tj
+T*
+( our architecture, which all works, but integrated in a bespoke way into all of the world's ) Tj
+T*
+(cloud service providers, enterprise data centers, the scale and reach necessary from our ODMs ) Tj
+T*
+(and our integrators, integrated supply chain, is vast and gigantic because the world is huge. ) Tj
+T*
+(And so, that part, we don't want to do and we're not good at doing. And -- but we know how to ) Tj
+T*
+(design the AI infrastructure, provided the way that customers would like it and lets the ) Tj
+T*
+ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 28 0 R >>
+endobj
+30 0 obj
+<< /Length 3610 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(ecosystem integrate it.) Tj
+T*
+() Tj
+T*
+(Well, yes. So, anyways, that's the reason why.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(And your final question comes from the line of Aaron Rakers with Wells Fargo. Your line is ) Tj
+T*
+(open.) Tj
+T*
+() Tj
+T*
+(Aaron Rakers -- Analyst) Tj
+T*
+() Tj
+T*
+(Yes. Thanks for taking the question. I wanted to go back into the Blackwell product cycle. One) Tj
+T*
+( of the questions that we tend to get asked is how you see the rack scale system mix dynamic ) Tj
+T*
+(as you think about leveraging NVLink, you think about GB NVL72 and how that go-to-market ) Tj
+T*
+(dynamic looks as far as the Blackwell product cycle.) Tj
+T*
+() Tj
+T*
+(I guess to put it simply, how do you see that mix of rack scale systems as we start to think ) Tj
+T*
+(about the Blackwell cycle playing out?) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah. Aaron, thanks. The Blackwell rack system, it's designed and architected as a rack but ) Tj
+T*
+(it's sold in disaggregated system components. We don't sell the whole rack.) Tj
+T*
+() Tj
+T*
+(And the reason for that is because everybody's rack's a little different surprisingly. Some of) Tj
+T*
+( them are OCP standards, some of them are not. Some of them are enterprise. And the power ) Tj
+T*
+(limits for everybody could be a little different.) Tj
+T*
+() Tj
+T*
+(Choice of CDUs, the choice of power bus bars, the configuration and integration into people's ) Tj
+T*
+(data centers, all different. And so, the way we designed it, we architected the whole rack. ) Tj
+T*
+(The software is going to work perfectly across the whole rack. And then we provide the system ) Tj
+T*
+(components.) Tj
+T*
+() Tj
+T*
+(Like for example, the CPU and GPU compute board is then integrated into an MGX. It's a modular) Tj
+T*
+( system architecture. MGX is completely ingenious. And we have MGX ODMs and integrators and ) Tj
+T*
+(OEMs all over the plant.) Tj
+T*
+() Tj
+T*
+(And so, just about any configuration you would like, where you would like that 3,000-pound ) Tj
+T*
+(rack to be delivered, it's got to be close to. It has to be integrated and assembled close to ) Tj
+T*
+(the data center because it's fairly heavy. And so everything from the supply chain from the ) Tj
+T*
+(moment that we ship the GPU, CPUs, the switches, the NICs, from that point forward, the ) Tj
+T*
+(integration is done quite close to the location of the CSPs and the locations of the data ) Tj
+T*
+(centers. And so, you can imagine how many data centers in the world there are and how many ) Tj
+T*
+(logistics hubs we've scaled out to with our ODM partners.) Tj
+T*
+() Tj
+T*
+(And so, I think because we show it as one rack and because it's always rendered that way and ) Tj
+T*
+(shown that way, we might have left the impression that we're doing the integration. Our ) Tj
+T*
+(customers hate that we do integration. The supply chain hates us doing integration. They want ) Tj
+T*
+(to do the integration.) Tj
+T*
+() Tj
+T*
+(That's their value-add. There's a final design-in, if you will. It's not quite as simple as ) Tj
+T*
+(shimmy into a data center but the design fit-in is really complicated. And so, the design fit-) Tj
+T*
+(in, the installation, the bring-up, the repair and replace, that entire cycle is done all over) Tj
+T*
+( the world.) Tj
+T*
+() Tj
+T*
+(And we have a sprawling network of ODM and OEM partners that does this incredibly well. So, ) Tj
+T*
+(integration is not the reason why we're doing racks. It's the anti-reason of doing it. The way) Tj
+T*
+( we don't want to be an integrator, we want to be a technology provider.) Tj
+T*
+ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 30 0 R >>
+endobj
+32 0 obj
+<< /Length 4032 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(And I will now turn the call back over to Jensen Huang for closing remarks.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Thank you. Let me make a couple more -- make a couple of comments that I made earlier again. ) Tj
+T*
+(The data center worldwide are in full steam to modernize the entire computing stack with ) Tj
+T*
+(accelerated computing and generative AI. Hopper demand remains strong and the anticipation for) Tj
+T*
+( Blackwell is incredible.) Tj
+T*
+() Tj
+T*
+(Let me highlight the top five things, the top five things of our company. Accelerated ) Tj
+T*
+(computing has reached the tipping point. CPU scaling slows. Developers must accelerate ) Tj
+T*
+(everything possible.) Tj
+T*
+() Tj
+T*
+(Accelerated computing starts with CUDA-X libraries. New libraries open new markets for NVIDIA.) Tj
+T*
+( We released many new libraries, including CUDA-X Accelerated Polars, Pandas, and Spark, the ) Tj
+T*
+(leading data science and data processing libraries, CUVI-S for vector databases. This is ) Tj
+T*
+(incredibly hot right now.) Tj
+T*
+() Tj
+T*
+(Ariel and for 5G wireless base station, a whole suite of a whole world of data centers that we) Tj
+T*
+( can go into now. Parabricks for gene sequencing and AlphaFold2 for protein structure ) Tj
+T*
+(prediction is now CUDA accelerated. We are at the beginning of our journey to modernize $1 ) Tj
+T*
+(trillion worth of data centers from general-purpose computing to accelerated computing. That's) Tj
+T*
+( number one.) Tj
+T*
+() Tj
+T*
+(Number two, Blackwall is a step-function leap over Hopper. Blackwell is an AI infrastructure ) Tj
+T*
+(platform, not just the GPU. Also happens to be the name of our GPU but it's an AI ) Tj
+T*
+(infrastructure platform. As we reveal more of Blackwell and sample systems to our partners and) Tj
+T*
+( customers, the extent of Blackwell's lead becomes clear.) Tj
+T*
+() Tj
+T*
+(The Blackwell vision took nearly five years and seven one-of-a-kind chips to realize, the Gray) Tj
+T*
+( CPU, the Blackwell dual GPU, and a colos package, ConnectX DPU for East-West traffic, ) Tj
+T*
+(BlueField DPU for North-South and storage traffic, NVLink switch for all-to-all GPU ) Tj
+T*
+(communications, and Quantum and Spectrum-X for both InfiniBand and Ethernet can support the ) Tj
+T*
+(massive traffic of AI. Blackwell AI factories are building-size computers. NVIDIA designed and) Tj
+T*
+( optimized the Blackwell platform, full stack end to end, from chips, systems, networking, ) Tj
+T*
+(even structured cables, power and cooling, and mounds of software to make it fast for ) Tj
+T*
+(customers to build AI factories. These are very capital-intensive infrastructures.) Tj
+T*
+() Tj
+T*
+(Customers want to deploy it as soon as they get their hands on the equipment and deliver the ) Tj
+T*
+(best performance and TCO. Blackwell provides three to five times more AI throughput in a ) Tj
+T*
+(power-limited data center than Hopper. The third is NVLink. This is a very big deal with its ) Tj
+T*
+(all-to-all GPU switch is game-changing.) Tj
+T*
+() Tj
+T*
+(The Blackwell system lets us connect 144 GPUs in 72 GB200 packages into one NVLink domain, ) Tj
+T*
+(with an aggregate NVLink bandwidth of 259 terabytes per second in one rack. Just to put that ) Tj
+T*
+(in perspective, that's about 10x higher than Hopper. 259 terabytes per second kind of makes ) Tj
+T*
+(sense because you need to boost the training of multitrillion-parameter models on trillions of) Tj
+T*
+( tokens. And so, that natural amount of data needs to be moved around from GPU to GPU.) Tj
+T*
+() Tj
+T*
+(For inference, NVLink is vital for low-latency, high-throughput large language model token ) Tj
+T*
+(generation. We now have three networking platforms, NVLink for GPU scale-up, Quantum ) Tj
+T*
+(InfiniBand for supercomputing and dedicated AI factories, and Spectrum-X for AI on Ethernet. ) Tj
+T*
+(NVIDIA's networking footprint is much bigger than before. Generative AI momentum is ) Tj
+T*
+(accelerating.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 32 0 R >>
+endobj
+34 0 obj
+<< /Length 2584 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(Generative AI frontier model makers are racing to scale to the next AI plateau to increase ) Tj
+T*
+(model safety and IQ. We're also scaling to understand more modalities from text, images, and ) Tj
+T*
+(video to 3D physics, chemistry, and biology. Chatbots, coding AIs, and image generators are ) Tj
+T*
+(growing fast but it's just the tip of the iceberg. Internet services are deploying generative ) Tj
+T*
+(AI for large-scale recommenders, ad targeting, and search systems.) Tj
+T*
+() Tj
+T*
+(AI start-ups are consuming tens of billions of dollars yearly of CSP's cloud capacity, and ) Tj
+T*
+(countries are recognizing the importance of AI and investing in sovereign AI infrastructure. ) Tj
+T*
+(And NVIDIA AI, NVIDIA Omniverse is opening up the next era of AI, general robotics. And now ) Tj
+T*
+(the enterprise AI wave has started, and we're poised to help companies transform their ) Tj
+T*
+(businesses. The NVIDIA AI Enterprise platform consists of Nemo, NIMs, NIM Agent Blueprints, ) Tj
+T*
+(and AI Foundry that our ecosystem partners, the world-leading IT companies used to help ) Tj
+T*
+(companies customize AI models and build bespoke AI applications.) Tj
+T*
+() Tj
+T*
+(Enterprises can then deploy on NVIDIA AI Enterprise run time, and at $4,500 per GPU per year, ) Tj
+T*
+(NVIDIA AI Enterprise is an exceptional value for deploying AI anywhere. And for NVIDIA ) Tj
+T*
+(software, TAM can be significant as the CUDA-compatible GPU installed base grows from millions) Tj
+T*
+( to tens of millions. And as Colette mentioned, NVIDIA software will exit the year at a $2 ) Tj
+T*
+(billion run rate. Thank you all for joining us today.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+([Operator signoff]) Tj
+T*
+() Tj
+T*
+(Duration: 0 minutes) Tj
+T*
+() Tj
+T*
+(Call participants:) Tj
+T*
+() Tj
+T*
+(Stewart Stecker -- Senior Director, Investor Relations) Tj
+T*
+() Tj
+T*
+(Colette M. Kress -- Chief Financial Officer, Executive Vice President) Tj
+T*
+() Tj
+T*
+(Vivek Arya -- Analyst) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Toshiya Hari -- Analyst) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Chief Financial Officer, Executive Vice President) Tj
+T*
+() Tj
+T*
+(Joe Moore -- Analyst) Tj
+T*
+() Tj
+T*
+(Matt Ramsay -- Analyst) Tj
+T*
+() Tj
+T*
+(Timothy Arcuri -- Analyst) Tj
+T*
+() Tj
+T*
+(Stacy Rasgon -- Analyst) Tj
+T*
+() Tj
+T*
+(Ben Reitzes -- Melius Research -- Analyst) Tj
+T*
+() Tj
+T*
+(C.J. Muse -- Analyst) Tj
+T*
+() Tj
+T*
+(Aaron Rakers -- Analyst) Tj
+T*
+() Tj
+T*
+(More NVDA analysis) Tj
+T*
+() Tj
+T*
+(All earnings call transcripts) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+35 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 34 0 R >>
+endobj
+36 0 obj
+<< /Length 1868 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(This article is a transcript of this conference call produced for The Motley Fool. While we ) Tj
+T*
+(strive for our Foolish Best, there may be errors, omissions, or inaccuracies in this ) Tj
+T*
+(transcript. As with all our articles, The Motley Fool does not assume any responsibility for ) Tj
+T*
+(your use of this content, and we strongly encourage you to do your own research, including ) Tj
+T*
+(listening to the call yourself and reading the company's SEC filings. Please see our Terms and) Tj
+T*
+( Conditions for additional details, including our Obligatory Capitalized Disclaimers of ) Tj
+T*
+(Liability.) Tj
+T*
+() Tj
+T*
+(The Motley Fool has positions in and recommends Nvidia. The Motley Fool has a disclosure ) Tj
+T*
+(policy .) Tj
+T*
+() Tj
+T*
+(The views and opinions expressed herein are the views and opinions of the author and do not ) Tj
+T*
+(necessarily reflect those of Nasdaq, Inc.) Tj
+T*
+() Tj
+T*
+(Tags) Tj
+T*
+() Tj
+T*
+(Markets) Tj
+T*
+() Tj
+T*
+(The Motley Fool) Tj
+T*
+() Tj
+T*
+(Founded in 1993 in Alexandria, VA., by brothers David and Tom Gardner, The Motley Fool is a ) Tj
+T*
+(multimedia financial-services company dedicated to building the world's greatest investment ) Tj
+T*
+(community. Reaching millions of people each month through its website, books, newspaper ) Tj
+T*
+(column, radio show, television appearances, and subscription newsletter services, The Motley ) Tj
+T*
+(Fool champions shareholder values and advocates tirelessly for the individual investor. The ) Tj
+T*
+(company's name was taken from Shakespeare, whose wise fools both instructed and amused, and ) Tj
+T*
+(could speak the truth to the king -- without getting their heads lopped off.) Tj
+T*
+() Tj
+T*
+(Visit Fool.com for more market news ->) Tj
+T*
+() Tj
+T*
+(More articles by this source ->) Tj
+T*
+() Tj
+T*
+(Stocks mentioned) Tj
+T*
+() Tj
+T*
+(NVDA) Tj
+T*
+ET
+endstream
+endobj
+37 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 36 0 R >>
+endobj
+xref
+0 38
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000232 00000 n 
+0000000300 00000 n 
+0000003178 00000 n 
+0000003304 00000 n 
+0000007697 00000 n 
+0000007823 00000 n 
+0000012617 00000 n 
+0000012743 00000 n 
+0000017562 00000 n 
+0000017690 00000 n 
+0000021797 00000 n 
+0000021925 00000 n 
+0000025928 00000 n 
+0000026056 00000 n 
+0000030878 00000 n 
+0000031006 00000 n 
+0000034734 00000 n 
+0000034862 00000 n 
+0000038922 00000 n 
+0000039050 00000 n 
+0000043220 00000 n 
+0000043348 00000 n 
+0000047485 00000 n 
+0000047613 00000 n 
+0000051593 00000 n 
+0000051721 00000 n 
+0000055785 00000 n 
+0000055913 00000 n 
+0000059576 00000 n 
+0000059704 00000 n 
+0000063789 00000 n 
+0000063917 00000 n 
+0000066554 00000 n 
+0000066682 00000 n 
+0000068603 00000 n 
+trailer
+<< /Size 38 /Root 1 0 R >>
+startxref
+68731
+%%EOF

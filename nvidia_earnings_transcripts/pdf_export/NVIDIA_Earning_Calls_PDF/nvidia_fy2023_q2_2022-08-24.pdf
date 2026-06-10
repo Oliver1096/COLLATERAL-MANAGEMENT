@@ -1,0 +1,2074 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R] /Count 16 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Length 2821 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(NVIDIA FY2023 Q2 earnings call transcript) Tj
+T*
+(Call date: 2022-08-24) Tj
+T*
+(Source: Nasdaq/The Motley Fool) Tj
+T*
+(URL: https://www.nasdaq.com/articles/nvidia-nvda-q2-2023-earnings-call-transcript) Tj
+T*
+() Tj
+T*
+(Image source: The Motley Fool.) Tj
+T*
+() Tj
+T*
+(Nvidia \(NASDAQ: NVDA\)) Tj
+T*
+(Q2 2023 Earnings Call) Tj
+T*
+(Aug 24, 2022 , 5:00 p.m. ET) Tj
+T*
+() Tj
+T*
+(Contents:) Tj
+T*
+() Tj
+T*
+(Prepared Remarks) Tj
+T*
+() Tj
+T*
+(Questions and Answers) Tj
+T*
+() Tj
+T*
+(Call Participants) Tj
+T*
+() Tj
+T*
+(Prepared Remarks:) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Good afternoon. My name is Regina, and I will be your conference operator today. At this time,) Tj
+T*
+( I would like to welcome everyone to NVIDIA's second quarter earnings call [Operator ) Tj
+T*
+(instructions]) Tj
+T*
+() Tj
+T*
+(Simona Jankowski -- Vice President of Investor Relations) Tj
+T*
+() Tj
+T*
+(Operator, it's 6:00. Can we get started? Regina, can you hear me? Conference call for the ) Tj
+T*
+(second quarter of fiscal 2023. With me today from NVIDIA are Jensen Huang, president and chief) Tj
+T*
+( executive officer; and Colette Kress, executive vice president and chief financial officer. I) Tj
+T*
+( would like to remind you that our call is being webcast live on NVIDIA's Investor Relations ) Tj
+T*
+(website.) Tj
+T*
+() Tj
+T*
+(The webcast will be available for replay until the conference call to discuss our financial ) Tj
+T*
+(results for the third quarter of fiscal 2023. The content of today's call is NVIDIA's ) Tj
+T*
+(property. It can't be reproduced or transcribed without our prior written consent. During this) Tj
+T*
+( call, we may make forward-looking statements based on current expectations.) Tj
+T*
+() Tj
+T*
+(10 stocks we like better than Nvidia) Tj
+T*
+(When o ur award-winning analyst team has a stock tip, it can pay to listen. After all, the ) Tj
+T*
+(newsletter they have run for over a decade, Motley Fool Stock Advisor , has tripled the ) Tj
+T*
+(market.*) Tj
+T*
+() Tj
+T*
+(They just revealed what they believe are the ten best stocks for investors to buy right now...) Tj
+T*
+( and Nvidia wasn't one of them! That's right -- they think these 10 stocks are even better ) Tj
+T*
+(buys.) Tj
+T*
+() Tj
+T*
+(See the 10 stocks) Tj
+T*
+() Tj
+T*
+(*Stock Advisor returns as of August 17, 2022) Tj
+T*
+() Tj
+T*
+(These are subject to a number of significant risks and uncertainties, and our actual results ) Tj
+T*
+(may differ materially. For a discussion of factors that could affect our future financial ) Tj
+T*
+(results and business, please refer to the disclosure in today's earnings release, our most ) Tj
+T*
+(recent forms 10-K and 10-Q and the reports that we may file on Form 8-K with the Securities ) Tj
+T*
+(and Exchange Commission. All our statements are made as of today, August 24, 2022, based on ) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 4537 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(the information currently available to us. Except as required by law, we assume no obligation ) Tj
+T*
+(to update any such statements.) Tj
+T*
+() Tj
+T*
+(During this call, we will discuss non-GAAP financial measures. You can find the reconciliation) Tj
+T*
+( of these non-GAAP financial measures to GAAP financial measures in our CFO commentary, which ) Tj
+T*
+(is posted on our website. With that, let me turn the call over to Colette.) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Thanks, Simona. This was a challenging quarter. Total revenue of $6.7 billion was down 19% ) Tj
+T*
+(sequentially and up 3% year on year, below the $8.1 billion outlook we provided on our last ) Tj
+T*
+(earnings call As we had indicated in our pre-announcement press release on August 8, we ) Tj
+T*
+(experienced a shortfall to our expectations driven primarily by weaker Gaming revenue.) Tj
+T*
+() Tj
+T*
+(Today, we will share with you more details on our Q2 results and Q3 outlook. Starting with ) Tj
+T*
+(Gaming. Revenue of $2.04 billion was down 44% sequentially and down 33% year on year, ) Tj
+T*
+(reflecting challenging market conditions. As discussed in May, we expected a sequential ) Tj
+T*
+(decline in Gaming revenue due to softness in Europe related to the war in Ukraine and COVID ) Tj
+T*
+(lockdowns in China.) Tj
+T*
+() Tj
+T*
+(The decline in Gaming GPU revenue was sharper than anticipated driven by both lower units and ) Tj
+T*
+(lower ASPs. Macroeconomic headwinds across the world drove a sudden slowdown in consumer ) Tj
+T*
+(demand. We implemented programs with our Gaming channel partners to adjust pricing in the ) Tj
+T*
+(channel and to price-position current high-end desktop GPUs as we prepare for a new ) Tj
+T*
+(architecture launch. As noted last quarter, we had expected cryptocurrency money to make a ) Tj
+T*
+(diminishing contribution to Gaming demand.) Tj
+T*
+() Tj
+T*
+(We are unable to accurately quantify the extent to which reduced crypto money contributed to ) Tj
+T*
+(the decline in Gaming demand. While Gaming navigates significant short-term macroeconomic ) Tj
+T*
+(challenges, we believe the long-term fundamentals in Gaming remain strong. NVIDIA RTX has ) Tj
+T*
+(redefined computer graphics and is now supported by almost 300 games and applications. ) Tj
+T*
+(NVIDIA's GeForce GPUs are the most coveted brand by gamers, representing 15 of the top 15 most) Tj
+T*
+( popular GPUs on Steam.) Tj
+T*
+() Tj
+T*
+(Gaming has emerged from the pandemic an even more popular form of entertainment and social ) Tj
+T*
+(connectivity. Estimated GeForce sell-through is up over 70% since before the pandemic, and ) Tj
+T*
+(peak concurrent users on Steam are also up more than 70% over the same time period. GeForce ) Tj
+T*
+(now registered members now exceed 20 million. This quarter, we added 80 more titles, including) Tj
+T*
+( the hugely popular Genshin Impact, bringing our total to over 1,350.) Tj
+T*
+() Tj
+T*
+(Moving to Professional Visualization. Revenue of $496 million was down 20% sequentially and ) Tj
+T*
+(down 4% from a year ago. A sequential increase in mobile revenue was more than offset by lower) Tj
+T*
+( desktop revenue, particularly at the high end. As macroeconomic headwinds intensified, ) Tj
+T*
+(enterprise demand slowed and OEMs worked to reduce inventory.) Tj
+T*
+() Tj
+T*
+(We expect these trends to persist in Q3. While ProViz is undergoing a near-term adjustment ) Tj
+T*
+(after doubling last year, we believe we have expanded the market opportunity over the last ) Tj
+T*
+(couple of years with AI and Omniverse workloads. We believe hybrid work is here to stay, and ) Tj
+T*
+(with it, the need for collaborative 3D design enabled by professional graphic workstations, ) Tj
+T*
+(both at home and in the office, as well as in the cloud. In June, we announced a partnership ) Tj
+T*
+(with Siemens to enable the industrial levers and AI-powered digital twins, connecting Siemens') Tj
+T*
+( Xcelerator platform to NVIDIA Omniverse.) Tj
+T*
+() Tj
+T*
+(This connection opens Siemens to the vast ecosystem of NVIDIA Omniverse and NVIDIA to Siemens') Tj
+T*
+( ecosystem of the world's largest industries. Earlier this month at SIGGRAPH, the Premier ) Tj
+T*
+(Computer Graphics Conference, we announced advancements to several foundational technologies ) Tj
+T*
+(of the metaverse, defined as the 3D version of the Internet. First, NVIDIA Omniverse Avatar ) Tj
+T*
+(Cloud Engine will enable businesses to create and deploy assistants and avatars, transforming ) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 4720 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(interactions across a range of industries. We also unveiled 11 new Omniverse connectors, ) Tj
+T*
+(bringing the total number of connectors to the Omniverse USD ecosystem to 112.) Tj
+T*
+() Tj
+T*
+(And finally, we released SDKs for the new field of neural graphics, which intertwines AI and ) Tj
+T*
+(graphics to help automate the creation of virtual worlds. Moving to Automotive. Revenue of ) Tj
+T*
+($220 million increased 59% sequentially and 45% from the year ago quarter. Strong growth was ) Tj
+T*
+(driven by auto AI solutions, which include AI cockpit and self-driving revenue, with ) Tj
+T*
+(particular strength in self-driving as new energy vehicle design wins ramp into volume.) Tj
+T*
+() Tj
+T*
+(We believe Q2 was an inflection point for our Automotive revenue as NVIDIA Orin has great ) Tj
+T*
+(momentum. During the quarter, we announced rollout plans of new vehicles from OEM partners, ) Tj
+T*
+(NIO, Li Auto, JIDU and Human Horizons, as well as Pony.ai's line of self-driving trucks and ) Tj
+T*
+(robotaxis, all built on NVIDIA DRIVE. Looking forward, we expect our $11 billion Automotive ) Tj
+T*
+(design win pipeline to translate to continued growth. Moving to Data Center.) Tj
+T*
+() Tj
+T*
+(Revenue of $3.81 billion grew 1% sequentially and 61% year on year. Although a record, this ) Tj
+T*
+(was somewhat short of our expectations as we were impacted by supply chain disruptions. ) Tj
+T*
+(Revenue from hyperscale customers nearly doubled year on year. Sequentially, sales to North ) Tj
+T*
+(America hyperscale and cloud computing customers increased but were more than offset by lower ) Tj
+T*
+(sales to China hyperscale customers affected by domestic economic conditions.) Tj
+T*
+() Tj
+T*
+(Vertical industries grew both sequentially and year on year. Key workloads driving growth ) Tj
+T*
+(include natural language processing, recommender systems, autonomous vehicle fleet data ) Tj
+T*
+(processing and training and cloud graphics. Let me share a couple of customer examples. ) Tj
+T*
+(Pinterest transitioned to 100x larger recommender models by moving its inference from CPUs to ) Tj
+T*
+(NVIDIA GPUs.) Tj
+T*
+() Tj
+T*
+(Its ability to deploy a higher-quality model at high throughput and low latency resulted in a ) Tj
+T*
+(16% increase in engagement, a critical metric for the company, which has over 400 million ) Tj
+T*
+(users and 300 billion images. And Tesla recently upgraded its supercomputer to use over 7,000 ) Tj
+T*
+(A100 GPUs for autopilot training. From a product perspective, networking led growth this ) Tj
+T*
+(quarter with strong demand from our high-speed Ethernet adapters and design win momentum ) Tj
+T*
+(toward next-generation adapters, including the ConnectX-6 and ConnectX-7. We also see growing ) Tj
+T*
+(interest from cloud service providers for our new Spectrum-4 400-gigabit per second Ethernet ) Tj
+T*
+(networking platform.) Tj
+T*
+() Tj
+T*
+(Additionally, we are ramping into the upcoming launches of our next-generation platforms. The ) Tj
+T*
+(Hopper architecture flagship H100 data center GPU is in production. Grace is our first CPU. ) Tj
+T*
+(Top computer makers, including Dell, HPE, Inspur, Lenovo and Supermicro are adopting the new ) Tj
+T*
+(NVIDIA Grace CPU Superchip and Grace Hopper Superchip to build the next generation of supers.) Tj
+T*
+() Tj
+T*
+(72% of the systems on the latest top 500 list of the world's fastest supercomputers are ) Tj
+T*
+(powered by NVIDIA, including 31 of 39 new systems. NVIDIA's own Selene supercomputer ranks at ) Tj
+T*
+(No. 8 in the top 500 and is the world's fastest enterprise supercomputer. Moreover, 22 of the ) Tj
+T*
+(top 30 systems on the Green500 list of the most energy-efficient supercomputers are powered by) Tj
+T*
+( NVIDIA.) Tj
+T*
+() Tj
+T*
+(Significant advances in software technologies are key to our platform performance. In the past) Tj
+T*
+( two years, our A100-based platform has delivered 6x more performance as measured by the ) Tj
+T*
+(MLPerf industry benchmark, largely through new software technologies and optimizations. Last ) Tj
+T*
+(month, we announced an update to the NeMo Megatron framework that can speed up the training of) Tj
+T*
+( large language models by up to 30%. Improving a multi-hundred million-dollar AI ) Tj
+T*
+(infrastructure by 30% translates to significant value for customers.) Tj
+T*
+() Tj
+T*
+(LLMs are one of the most important neural networks today, ranging in size, from tens of ) Tj
+T*
+(billions, to over 1 trillion parameters. Learning from text, they can be used for real-time ) Tj
+T*
+(content generation, tech summarization, customer service chat box and question-answering for ) Tj
+T*
+(conversational AI interfaces. Currently, these capabilities are available to early access ) Tj
+T*
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 4184 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(customers to run on NVIDIA GTX SUPER products and NVIDIA DGX Foundry, as well as in Microsoft ) Tj
+T*
+(Azure cloud, with other product platforms available soon. We are working with the industry ) Tj
+T*
+(leaders in large language models, a very active and exciting space of AI.) Tj
+T*
+() Tj
+T*
+(Moving to the rest of the P&L. GAAP gross margin was 43.5%, and non-GAAP gross margin was ) Tj
+T*
+(45.9%. Gross margin includes $1.22 billion in charges for inventory and related reserves based) Tj
+T*
+( on revised expectations of future demand and $122 million for warranty reserves. These ) Tj
+T*
+(charges incurred in the quarter reflect purchase commitments that we made during a time of ) Tj
+T*
+(severe component shortages and our current expectation of ongoing macro uncertainty.) Tj
+T*
+() Tj
+T*
+(We believe our long-term gross margin profile is intact. GAAP operating expenses were up 36% ) Tj
+T*
+(from a year ago and down 32% sequentially as Q1 included a $1.35 billion acquisition ) Tj
+T*
+(termination charge related to the Arm transaction. Non-GAAP operating expenses were up 38% ) Tj
+T*
+(from a year ago and up 9% sequentially. These increases were driven primarily by employee ) Tj
+T*
+(growth costs, as well as increases in salaries to support our employees during this high ) Tj
+T*
+(inflationary environment and engineering development of new products coming to market.) Tj
+T*
+() Tj
+T*
+(We have slowed operating expense growth, balancing investments for long-term revenue growth, ) Tj
+T*
+(while managing near-term profitability. Our full year non-GAAP opex is expected to grow over ) Tj
+T*
+(30%. During the first half of fiscal 2023, we returned $5.5 billion to shareholders in the ) Tj
+T*
+(form of share repurchases and cash dividends. We plan to continue share repurchases.) Tj
+T*
+() Tj
+T*
+(We have nearly $12 billion remaining under our authorization through December of 2023. Let me ) Tj
+T*
+(turn to the outlook for the third quarter of fiscal '23. We expect Gaming and ProViz revenue ) Tj
+T*
+(to decline sequentially as OEMs and channel partners reduce inventory levels to align with ) Tj
+T*
+(current levels of demand and prepare for our new product generation. We expect that decline to) Tj
+T*
+( be partially offset by sequential growth in Data Center and Automotive.) Tj
+T*
+() Tj
+T*
+(Revenue is expected to be $5.9 billion, plus or minus 2%. GAAP and non-GAAP gross margins are ) Tj
+T*
+(expected to be 62.4% and 65%, respectively, plus or minus 50 basis points. GAAP operating ) Tj
+T*
+(expenses are expected to be approximately $2.59 billion. Non-GAAP operating expenses are ) Tj
+T*
+(expected to be approximately $1.82 billion.) Tj
+T*
+() Tj
+T*
+(GAAP and non-GAAP other income and expenses are expected to be an expense of approximately $10) Tj
+T*
+( million, excluding gains and losses on nonaffiliated investments. GAAP and non-GAAP tax rates) Tj
+T*
+( are expected to be 9.5%, plus or minus 1%, excluding any discrete items. Capital expenditures) Tj
+T*
+( are expected to be approximately $550 million to $600 million. Further financial details are ) Tj
+T*
+(included in the CFO commentary and other information available on our IR website.) Tj
+T*
+() Tj
+T*
+(In closing, let me highlight upcoming events for the financial community. We will be attending) Tj
+T*
+( the Jefferies conference in Chicago on August 30 and the Goldman Sachs conference in San ) Tj
+T*
+(Francisco on September 12. And we will be holding a financial analyst Q&A with management, ) Tj
+T*
+(following Jensen's GTC keynote, on September 20. Our earnings call to discuss the results of ) Tj
+T*
+(our third quarter of fiscal 2023 is scheduled for Wednesday, November 16.) Tj
+T*
+() Tj
+T*
+(We will now open the call for questions. Operator, can you assist? Would you please poll for ) Tj
+T*
+(questions?) Tj
+T*
+() Tj
+T*
+(Questions & Answers:) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+([Operator instructions] Your first question comes from the line of C.J. Muse with Evercore ) Tj
+T*
+(ISI. Your line is open.) Tj
+T*
+() Tj
+T*
+(C.J. Muse -- Evercore ISI -- Analyst) Tj
+T*
+() Tj
+T*
+(Yeah, good afternoon. Thank you for taking the question. I think the question we all have is ) Tj
+T*
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 4334 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(what is normalized revenues for Gaming for you guys. Obviously, this is a challenge for you as) Tj
+T*
+( well.) Tj
+T*
+() Tj
+T*
+(But curious how you're thinking about it today. Is the fiscal '20 recovery post the first half) Tj
+T*
+( '19 correction an appropriate framework? Or was that inflated by crypto as well? And I guess,) Tj
+T*
+( as part of that, how do we think about the cascading in of the new product cycle? And is ) Tj
+T*
+(there potential for future reserves needed to be taken if Gaming does not meet your new ) Tj
+T*
+(updated outlook? Thanks so much.) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Well, let me start first there and see if I can assist in terms of how to think about after we) Tj
+T*
+( get through our completion just now of Q2 and what we have provided here for guidance for Q3.) Tj
+T*
+( Across those two quarters, the Q2 of '23, the Q3 of '23, we have likely undershipped Gaming ) Tj
+T*
+(to our end demand significantly. We expect that sell-through or essentially our end demand for) Tj
+T*
+( those combined two quarters of Q2 and Q3 to be approximately $5 billion. Now on top of this, ) Tj
+T*
+(keep in mind that we do have Gaming growth drivers to consider for the future.) Tj
+T*
+() Tj
+T*
+(These can include our new Gaming product introductions that are around the corner, as well as ) Tj
+T*
+(new segments of the market that we plan to reach with our Gaming technology, to just name a ) Tj
+T*
+(couple. I'll turn it over to Jensen to talk a little bit more about that. Now regarding any ) Tj
+T*
+(further types of write-downs on this perspective, we did a thorough assessment with this ) Tj
+T*
+(quarter, not only just looking at what we needed for this quarter, but what we needed for the ) Tj
+T*
+(long term. Keep in mind, our inventory provisions and write-downs that we took into account ) Tj
+T*
+(had to reflect some of the purchasing that we did a supply back more than a year ago, when we ) Tj
+T*
+(were still in extreme supply shortages in almost all of our products.) Tj
+T*
+() Tj
+T*
+(And so this was an opportunity for us to resize given the macroeconomic conditions, what we ) Tj
+T*
+(needed in terms of supply. So our expectations were higher, and we took this opportunity to ) Tj
+T*
+(write them down to what our current expectations are. I'll turn it over to Jensen to see if he) Tj
+T*
+( wants to add more.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah. Thanks, Colette. C.J., our sell-through is off the highs in the beginning of the year, ) Tj
+T*
+(but it's still very solid. In fact, sell-through is -- has increased 70% since pre-COVID, pre-) Tj
+T*
+(pandemic.) Tj
+T*
+() Tj
+T*
+(And so it's very clear that gaming is -- the fundamentals of gaming are strong, and this ) Tj
+T*
+(medium is really doing well. Not to mention, the gaming platforms are being used -- our Gaming) Tj
+T*
+( PCs are being used for influencers, people sharing content, creating content, vloggers, ) Tj
+T*
+(VTubers, there's all kinds of new ways of engaging and spending time with video games. And our) Tj
+T*
+( strategy is to reduce the sell-in, reduce the sell-in this quarter or next quarter, to let ) Tj
+T*
+(channel inventory correct. Obviously, we're off the highs, and the macro condition turned ) Tj
+T*
+(sharply worse.) Tj
+T*
+() Tj
+T*
+(And so our first strategy is to reduce sell-in in the next couple of quarters to correct ) Tj
+T*
+(channel inventory. We've also instituted programs to price-position our current products to ) Tj
+T*
+(prepare for next-generation products. Ampere is the most popular GPU we've ever created. It is) Tj
+T*
+( in the top 15 most popular gaming GPUs on Steam.) Tj
+T*
+() Tj
+T*
+(And it remains the best GPUs in the world, and it will be very successful for some time. ) Tj
+T*
+(However, we do have exciting new next-generation coming and it's going to be layered on top of) Tj
+T*
+( that. And so we've taken two -- we've done two things. We've reduced sell-in to let channel ) Tj
+T*
+(inventory correct, and we've implemented programs with our partners to price-position the ) Tj
+T*
+(products in the channel in preparation for our next generation.) Tj
+T*
+() Tj
+T*
+(All of this, we anticipate, were working toward a path to being in a good shape going into ) Tj
+T*
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 4242 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(next year, OK? So that's what our game plan is.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question will come from the line of Vivek Arya with Bank of America Securities. Your) Tj
+T*
+( line is open.) Tj
+T*
+() Tj
+T*
+(Vivek Arya -- Bank of America Merrill Lynch -- Analyst) Tj
+T*
+() Tj
+T*
+(Thanks for taking my question. Actually, I just wanted to clarify, Jensen, so should we assume) Tj
+T*
+( that a Gaming sell-in will kind of stay at these levels into your Q1 or Q2, or depending on ) Tj
+T*
+(new product launch, it might recover? So I just wanted to make sure our baseline assumption is) Tj
+T*
+( set there. And then my question is actually similar, on the Data Center. Sales are pretty ) Tj
+T*
+(strong right now, but there is a concern that Data Center capex could be the next shoe to drop) Tj
+T*
+( in this rolling correction in semiconductors.) Tj
+T*
+() Tj
+T*
+(I'm curious, what's your sense of utilization of your Data Center shipments? And what is the ) Tj
+T*
+(risk that there could be a correction in the Data Center given some of the macro caution ) Tj
+T*
+(expressed by some of the hyperscaler and enterprise customers?) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Yeah. Thanks, Vivek. The sell-through, the sell-through as I mentioned earlier, of GeForce is ) Tj
+T*
+(solid. The end-market gaming demand is solid.) Tj
+T*
+() Tj
+T*
+(It's off the highs, which was really high recently in the beginning of the year. And so we ) Tj
+T*
+(have -- and because we were building for such a vibrant market, we found ourselves with excess) Tj
+T*
+( inventory. And so our strategy is to sell well below -- well -- sell-in well below the ) Tj
+T*
+(current sell-through levels in the marketplace to give the channel an opportunity to correct. ) Tj
+T*
+(We'll do that for a couple of quarters or so.) Tj
+T*
+() Tj
+T*
+(We believe that by the end of the year, we'll be in a good shape going into next year. And so ) Tj
+T*
+(I hope that answers your question, but the important thing is our sell-in rate is far below ) Tj
+T*
+(what is happening in the market for sell-throughs. The sell-through is solid, has increased ) Tj
+T*
+(70% since pre-COVID. And so the gaming market is really quite vibrant.) Tj
+T*
+() Tj
+T*
+(On the second question, on data center end markets, we hear fairly broadly that GPU supply is ) Tj
+T*
+(in shortage in the cloud. We hear quite broadly that demand for GPU rentals far exceeds ) Tj
+T*
+(current supply. And it's fairly sensible to us, partly because the number of use cases for ) Tj
+T*
+(GPUs in the cloud has grown quite a bit. If you look at one particular segment in just ) Tj
+T*
+(managing -- collecting data and managing the data of the AV fleet and using that data to train) Tj
+T*
+( AI models, using that data to reconstruct HD maps, the usage of GPUs in the cloud for just ) Tj
+T*
+(that one application has grown a lot.) Tj
+T*
+() Tj
+T*
+(And furthermore, there's -- the deep learning-based recommender systems has demonstrated such ) Tj
+T*
+(significant effectiveness, and it helps Internet service providers to enhance engagement, ) Tj
+T*
+(enhance click-through rate. And so that -- so this particular form of recommender systems is ) Tj
+T*
+(going to really drive a fair amount of data processing and machine learning in the cloud. And ) Tj
+T*
+(then, of course, over the last several years, a very important model has emerged, called ) Tj
+T*
+(Transformers. You and I have spoken about this model several times in the past.) Tj
+T*
+() Tj
+T*
+(And it's been found that this Transformer model, this large language -- this language model, ) Tj
+T*
+(which when scaled up in size, exhibits really spectacular and effective capabilities for -- to) Tj
+T*
+( be used to learn skills with either few shots or almost no shot, meaning it could learn ) Tj
+T*
+(skills, it could perform skills that it has never learned because the knowledge was somehow ) Tj
+T*
+(encoded from the large amount of data that it had learned from. And so this large language ) Tj
+T*
+(model area of innovation is used and of course, conversational, chat, Q&A, summarization, text) Tj
+T*
+( generation, image generation. But very importantly, it's being used in life sciences for ) Tj
+T*
+ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Length 4154 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(understanding chemistry. We've done some very important work in this area ourselves, called ) Tj
+T*
+(MegaMolBART, understanding proteins, understanding DNA, to learn the language of these large ) Tj
+T*
+(-- very, very large spatially, as well as temporally or sequentially types of data.) Tj
+T*
+() Tj
+T*
+(And so the impact of this area is really quite worth staying close to. It's called large ) Tj
+T*
+(language models. I think Stanford did a paper that called it foundation models, that could be ) Tj
+T*
+(used for training all kinds of other types of AIs. And so we're seeing a great deal of demand ) Tj
+T*
+(for GPUs in the cloud.) Tj
+T*
+() Tj
+T*
+(We were challenged this quarter with a fair amount of supply chain challenges because as you ) Tj
+T*
+(know, we don't just sell the GPU chip, but these systems are really complex, with a large ) Tj
+T*
+(number of chips in the system components that we offer, like HGX. And so kidding -- all of the) Tj
+T*
+( components have to come together for us to be able to deliver the final component. And then ) Tj
+T*
+(furthermore, these data centers sit idle until the last piece comes together. And the last ) Tj
+T*
+(piece includes very complicated switches and very complicated NICs and networkings and cables.) Tj
+T*
+() Tj
+T*
+(And so these -- building these high-performance computing data centers at very large scale for) Tj
+T*
+( the world's clouds is not particularly easy. And so the supply chain challenges have been ) Tj
+T*
+(somewhat disruptive. But the demand is there. And on top of that, we're ramping into Hopper, ) Tj
+T*
+(which is really a fantastic generation.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question will come from the line of Matt Ramsay with Cowen. Your line is open.) Tj
+T*
+() Tj
+T*
+(Matt Ramsay -- Cowen and Company -- Analyst) Tj
+T*
+() Tj
+T*
+(Thank you very much. Good afternoon. I wanted to follow up on the Data Center question that ) Tj
+T*
+(Vivek just asked from a couple of angles. I guess, Colette, the first angle being, in the ) Tj
+T*
+(release, you guys talked about pulling, I don't know, high-$200 millions of revenue into the ) Tj
+T*
+(July quarter from October, but also with supply chain challenges, maybe some deliveries that ) Tj
+T*
+(were meant for July got pushed back into October.) Tj
+T*
+() Tj
+T*
+(So if you could talk a little bit more about those dynamics and just clarify for us that the ) Tj
+T*
+(October sequentially up Data Center guidance is actually clean of any pull-ins. And Jensen, ) Tj
+T*
+(the second part, the moving pieces, networking stronger in Data Center, U.S. hyperscale ) Tj
+T*
+(stronger, China hyperscale weaker. If you could kind of walk us through the trends that you're) Tj
+T*
+( seeing into the October and January quarters and in those sort of those breakouts and when --) Tj
+T*
+( clarify for us when you think H100 will really start to drive revenue.) Tj
+T*
+() Tj
+T*
+(Thanks.) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Great. Thanks for the question. And it's kind of a little bit of an add-on to some of the ) Tj
+T*
+(statements that Jensen was discussing regarding our supply chain and what we're seeing today. ) Tj
+T*
+(Our supply chain during the quarter really was quite difficult, was quite challenging to work ) Tj
+T*
+(through.) Tj
+T*
+() Tj
+T*
+(Our platforms, including HDX, networking chips, cables, switches, were very important to the ) Tj
+T*
+(customers. It's not just about us selling the GPUs. So even though customers order those ) Tj
+T*
+(components themselves, they're looking from us for what we may refer to as kits, kits that go ) Tj
+T*
+(with those GPUs for them to stand up their data centers. We also experienced supply ) Tj
+T*
+(disruptions internally with our logistics and our component availability.) Tj
+T*
+() Tj
+T*
+(Some of our supply arrived very late in the quarter. We had very little time, from a logistics) Tj
+T*
+( and availability, to get those things out. Customers were impacted as well by availability of) Tj
+T*
+( key third-party other components that we weren't offering, which were slowing down some of ) Tj
+T*
+ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Length 3936 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(their deployments. So what we did in our Q2 orders that couldn't be delivered in Q3, given ) Tj
+T*
+(that some of these supply constraints existed, and we had Q3 demand where we did have supply ) Tj
+T*
+(in Q2, so we worked with customers to optimize that supply and demand.) Tj
+T*
+() Tj
+T*
+(And that's what we've disclosed to you.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Let me answer the questions about the North American and the China hyperscalers. The Chinese ) Tj
+T*
+(hyperscalers and the Chinese Internet companies really, really slowed down infrastructure ) Tj
+T*
+(investment this year, particularly starting in -- they've been rather slow in building out and) Tj
+T*
+( really accelerate -- well, really slowed down in Q2. This slowdown can't last forever. And ) Tj
+T*
+(the number of new technologies in software, the number of people who are using clouds and the ) Tj
+T*
+(number of cloud services is continuing to grow.) Tj
+T*
+() Tj
+T*
+(And so I fully expect investment to return. They're a very important market for us, a very ) Tj
+T*
+(large market for us. And the fact that North American hyperscalers doubled year over year, our) Tj
+T*
+( revenues at North American hyperscalers, and that was offset by declines in China, says ) Tj
+T*
+(something about the slowdown in China. And so I don't think that's going to last forever.) Tj
+T*
+() Tj
+T*
+(I think it's going to return. With respect to Hopper, we're in full production now. And we're ) Tj
+T*
+(racing to get Hopper to all of the CSPs who are dying to get them. And it goes with our HGXs, ) Tj
+T*
+(which is multiple Hoppers on a system tray.) Tj
+T*
+() Tj
+T*
+(It's really a supercomputer in a motherboard, if you will. And it goes along with it ) Tj
+T*
+(networking gear and switch gear. And so there's the enormous amounts of resources applied from) Tj
+T*
+( all of the CSPs around the world and ourselves to get Hopper to them. We expect to ship ) Tj
+T*
+(substantial Hoppers in Q4.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question will come from the line of Toshiya Hari with Goldman Sachs. Your line is ) Tj
+T*
+(open.) Tj
+T*
+() Tj
+T*
+(Toshi Hari -- Goldman Sachs -- Analyst) Tj
+T*
+() Tj
+T*
+(Hi. Good afternoon. Thanks so much for taking the question. I had a question regarding the ) Tj
+T*
+($1.22 billion inventory charge, maybe for Colette, on this one specifically.) Tj
+T*
+() Tj
+T*
+(In the CFO commentary, I think you state that the inventory charge is related to weaker demand) Tj
+T*
+( in both Data Center and Gaming. I think the Gaming side is pretty clear based on your ) Tj
+T*
+(comments so far. Curious what's changed on the Data Center side? Is it mostly the Chinese ) Tj
+T*
+(hyperscalers that Jensen just spoke to? Or is there something else going on in terms of how ) Tj
+T*
+(you're thinking about demand in Data Center over the next couple of quarters? And related to ) Tj
+T*
+(this, curious if the delay in Sapphire Rapids at Intel is having an impact on your business in) Tj
+T*
+( the near to medium term. Thank you.) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Thanks for the question. So our inventory charges, as we commented, we're taking a thorough ) Tj
+T*
+(look of not only this last quarter, as well as the quarter that we're guiding, but looking ) Tj
+T*
+(over the long term of what we need for demand and then what we had in terms of supply. ) Tj
+T*
+(Remember, we had purchased this very early on in the year as we needed to, to drive the ) Tj
+T*
+(commitment of the supply that we already have. And so what is happening here for the Data ) Tj
+T*
+(Center, we had great, high expectations.) Tj
+T*
+() Tj
+T*
+(We still have very strong, solid growth projection for Data Center as well. But we're going to) Tj
+T*
+( take this opportunity for some of the prior architecture pieces, to write down those, given ) Tj
+T*
+ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 18 0 R >>
+endobj
+20 0 obj
+<< /Length 3859 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(what we see as just a change in terms of our expectations going forward. So you are correct. ) Tj
+T*
+(There are also pieces in there for Gaming.) Tj
+T*
+() Tj
+T*
+(We have written down some silicon and chips as the macroeconomic conditions and we get ready ) Tj
+T*
+(for our future product launches, taken into account, but there's also components, services and) Tj
+T*
+( capacity and some of the other drivers that are incorporated in those write-downs.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(OK. Our Hopper supports previous-generation CPUs. But I guess, next-generation GPUs -- CPUs, ) Tj
+T*
+(Sapphire Rapids and Genoa after that, as well as Graviton. And so we certify and test across ) Tj
+T*
+(all of the CPUs because the cloud service providers demand it.) Tj
+T*
+() Tj
+T*
+(And they intend to deploy NVIDIA accelerators, NVIDIA Hoppers, across a large number of CPUs. ) Tj
+T*
+(There is no question that the delay is disruptive and a lot of engineers have to scramble. It ) Tj
+T*
+(would have been a lot easier if next-generation CPUs were to have executed more perfectly. ) Tj
+T*
+(However, Hopper goes into an environment with CSPs where they connect our PCI Express ) Tj
+T*
+(connectors to old-generation, current-generation CPUs as well.) Tj
+T*
+() Tj
+T*
+(And so nobody likes the delay. The next-generation CPUs will trigger a refresh of ) Tj
+T*
+(infrastructure and new servers. And so I'm super excited about them. However, we're going to ) Tj
+T*
+(be able to go to market plenty fine with Hopper supporting existing infrastructure.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question will come from the line of Aaron Rakers with Wells Fargo. Your line is ) Tj
+T*
+(open.) Tj
+T*
+() Tj
+T*
+(Aaron Rakers -- Wells Fargo Securities -- Analyst) Tj
+T*
+() Tj
+T*
+(Yeah. Thanks for taking the question, and a lot of it's kind of been talked a little bit ) Tj
+T*
+(about, but I just -- Colette, I want to think about the numbers a little bit more. I guess ) Tj
+T*
+(based on the guidance commentary, where I've come up thinking about would be as like a 30-plus) Tj
+T*
+( percent sequential decline in Gaming and Professional Visualization and maybe kind of low- to) Tj
+T*
+( mid-single-digit growth in Data Center and Auto. So I guess, is that the right context? And ) Tj
+T*
+(with that, and with Hopper coming down the pipeline, we're going to have a lot of questions ) Tj
+T*
+(around kind of the deceleration of year-over-year growth in Data Center, I believe.) Tj
+T*
+() Tj
+T*
+(Do you think that Hopper, as that comes fully available, it sounds like in fiscal 4Q, that you) Tj
+T*
+( actually see Data Center growth reaccelerate as that product cycle materializes?) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Yeah. Thanks for the question. And that's a pretty good understanding of our guidance. And we ) Tj
+T*
+(do expect, yes, Gaming to decrease, not in the dollar amount that it decreased between Q1 and ) Tj
+T*
+(Q2.) Tj
+T*
+() Tj
+T*
+(So that may be, of our two areas of the decline, our Gaming and ProViz, that may be about ) Tj
+T*
+(three-quarters of it associated with that Gaming, and then Professional Visualization would ) Tj
+T*
+(probably be about one quarter of the two areas that will decline. Our Data Center, yes, we do ) Tj
+T*
+(expect it to grow. It may grow about what we just saw between Q1 and Q2. We'll continue to ) Tj
+T*
+(look at it.) Tj
+T*
+() Tj
+T*
+(There may be some more opportunity there. And Automotive, very similar to our thoughts at the ) Tj
+T*
+(very beginning of the quarter. We are expecting continued growth through each of the quarters ) Tj
+T*
+(of this fiscal year. We felt that Q2 was an inflection point, so we'll continue to grow into ) Tj
+T*
+(Q3 and hopefully Q4 going forward.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 20 0 R >>
+endobj
+22 0 obj
+<< /Length 3694 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(I'll turn it over to Jensen to see his thoughts in terms of Hopper, what Hopper brings to us ) Tj
+T*
+(in Q4, and the expectations.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(The first thing I would say, Aaron, is that we are selling in or we're selling far below the ) Tj
+T*
+(market demand, far -- excuse me, far below the market sell-through. And the reason for that is) Tj
+T*
+( to allow the inventory, the channel inventory and the OEM inventories to correct. And this ) Tj
+T*
+(allows us to prepare for our next generation. And our next generation has Hopper for compute, ) Tj
+T*
+(but we also have the next generation for computer graphics that will be coming to market.) Tj
+T*
+() Tj
+T*
+(Hopper is a giant new generation because it is designed to perform this new type of AI model ) Tj
+T*
+(called Transformers. It has an engine inside it called Transformer engine, with numerical ) Tj
+T*
+(formats and pipelines that allows us to do a spectacular job on Transformer-type of models, ) Tj
+T*
+(which includes large language models, but it also includes computer vision models that are now) Tj
+T*
+( able to be processed with this new type of AI model called Transformers. And so I fully ) Tj
+T*
+(expect Hopper to be the next springboard for future growth. And the importance of this new ) Tj
+T*
+(model, Transformers, can't possibly be understated and can't be overstated.) Tj
+T*
+() Tj
+T*
+(This is the impact of this model across robotics, computer vision, languages, biology, ) Tj
+T*
+(chemistry, drug design, is just really quite spectacular. And I'm sure that you've been ) Tj
+T*
+(hearing about this new breakthrough in AI, and Hopper was designed for this.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question will come from the line of Atif Malik with Citi. Your line is open.) Tj
+T*
+() Tj
+T*
+(Atif Malik -- Citi -- Analyst) Tj
+T*
+() Tj
+T*
+(Hi. Thank you for taking my question. Colette, can you talk about networking versus compute? ) Tj
+T*
+(Were they both supply constrained in the July quarter? And are they both sequentially growing ) Tj
+T*
+(in the October quarter?) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(So within our Q2 results, we have been continuing to improve our supply for networking. We ) Tj
+T*
+(have a lot of important products that the CSP needs, many of our customers need, and we have ) Tj
+T*
+(been working to really improve that supply. And we were able to set very strong growth in ) Tj
+T*
+(terms of networking, both sequentially and year over year. And as we move into the next ) Tj
+T*
+(quarter, we're going to have to see which is going to be growth larger.) Tj
+T*
+() Tj
+T*
+(We're just going to have to take a look once we finish that quarter. But our supply for ) Tj
+T*
+(compute is here. But as we have discussed, sometimes, it's important that they have many of ) Tj
+T*
+(our other components that we provide in networking at the same time that we are providing the ) Tj
+T*
+(GPUs. So sometimes, those are very important for us to deliver together.) Tj
+T*
+() Tj
+T*
+(So we always have to keep that in mind. So it's not always supply constrained, but there are ) Tj
+T*
+(certain parts of it that are.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question will come from the line of Joseph Moore with Morgan Stanley. Your line is ) Tj
+T*
+(open.) Tj
+T*
+() Tj
+T*
+(Joe Moore -- Morgan Stanley -- Analyst) Tj
+T*
+() Tj
+T*
+(Great. Thank you. I wanted to ask, why did the supply constraints hit you guys so hard this ) Tj
+T*
+(quarter. I mean you've done such a great job in the last couple of years, outgrowing really ) Tj
+T*
+ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 22 0 R >>
+endobj
+24 0 obj
+<< /Length 3704 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(everybody in a very challenging supply chain environment.) Tj
+T*
+() Tj
+T*
+(It hasn't tripped you up at all. And it seems like now it's kind of hitting you fairly hard at) Tj
+T*
+( a time when, in other cases, it's kind of easing. So I'm just kind of curious, what is it ) Tj
+T*
+(about the timing and how long does it sort of take for -- is that a Hopper issue? Is it ) Tj
+T*
+(related to other components? As you talked about, how long does it take to clear those issues ) Tj
+T*
+(up? Thank you.) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Let me start and see if Jensen wants to add on to it. Our execution has absolutely been ) Tj
+T*
+(phenomenal, when we think about the challenges of we're almost putting together a full data ) Tj
+T*
+(center for our customers and getting it shipped out. So we're no different. In the same way ) Tj
+T*
+(that the CSPs are challenging, we're setting up their data centers as we're such an integral ) Tj
+T*
+(part of that.) Tj
+T*
+() Tj
+T*
+(And so networking has been short of supply. These are the same supply issues that some of our ) Tj
+T*
+(CSPs are having. So our supply arrived a little bit late in the quarter for some of our key ) Tj
+T*
+(products that we needed to get out. And putting that together caused some disruption in our ) Tj
+T*
+(logistics and distribution.) Tj
+T*
+() Tj
+T*
+(We were pleased in terms of reaching the levels of networking that we did, but we did have ) Tj
+T*
+(some challenges this quarter.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question will come from the line of Stacy Rasgon with Bernstein. Your line is open.) Tj
+T*
+() Tj
+T*
+(Stacy Rasgon -- AllianceBernstein -- Analyst) Tj
+T*
+() Tj
+T*
+(Hi, guys. Thanks for taking my question. I wanted to go back to that Data Center inventory ) Tj
+T*
+(charge. You listed Data Center first when you talked -- primarily related to Data Center and ) Tj
+T*
+(Gaming.) Tj
+T*
+() Tj
+T*
+(Can you give us a feeling for how much of that charge was Data Center versus Gaming? And then ) Tj
+T*
+(the follow-up on that, it did sound like, to me, that it was mostly Ampere and not Hopper ) Tj
+T*
+(change in expectations. Can you verify that or clarify it? And just talk about what's happened) Tj
+T*
+( with your expectations for Hopper? Have they gone up or down? Or has there been any change at) Tj
+T*
+( all relevant to that inventory charge?) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Yeah, Stacy. Regarding our inventory charges that we had, when you think about what we have in) Tj
+T*
+( supply, whether it be chips, components, whether it be memory, remember, a lot of these ) Tj
+T*
+(things can be used interchangeably across the two. Additionally, the value of our inventory ) Tj
+T*
+(for Data Center is much different than the value of what we have for Gaming from an overall ) Tj
+T*
+(cost perspective. So we're creating capacity opportunities, putting together all of those ) Tj
+T*
+(systems in terms of Data Center.) Tj
+T*
+() Tj
+T*
+(It is prior architectures. Absolutely, this is not a question regarding anything of our future) Tj
+T*
+( products coming to market. Nothing on the inventory provision has to do with that. So we took) Tj
+T*
+( this as looking at the macroeconomic conditions, as we've discussed.) Tj
+T*
+() Tj
+T*
+(Our expectations, our plans, were higher. They're still quite solid, that we see in demand ) Tj
+T*
+(both for Gaming, as well as solid for Data Center. And that will continue. But we did have to ) Tj
+T*
+(just take a rightsizing of that inventory.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 24 0 R >>
+endobj
+26 0 obj
+<< /Length 3690 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+() Tj
+T*
+(Hopper was designed for Transformers. The new Transformers was going to be important. Nobody ) Tj
+T*
+(could have predicted the profound importance of large language models. Large language models, ) Tj
+T*
+(excitement, innovation, ideas, companies, start-ups, industries, all exceeding everyone's ) Tj
+T*
+(expectations.) Tj
+T*
+() Tj
+T*
+(I don't think anybody could have predicted the impact of Transformers as it scaled up to these) Tj
+T*
+( giant sizes. There's a fair amount of literature now written about language models that were ) Tj
+T*
+(smallish in the old days, in the beginning, several years ago, three years ago. And the ones ) Tj
+T*
+(that are in the hundreds of billions and moving toward probably several trillion parameters, ) Tj
+T*
+(the effectiveness of the AI is really quite spectacular. And to have AI that was never trained) Tj
+T*
+( on a particular skill and yet within one shot or one shot of trying or even no shots, are ) Tj
+T*
+(able to perform that skill, is beyond anybody's expectations, I would think.) Tj
+T*
+() Tj
+T*
+(And so I think the -- if the success of Hopper is -- reflects the amount of work and pent-up ) Tj
+T*
+(demand for large training systems that Hopper is going to go into, that's an indicator, I ) Tj
+T*
+(think, Hopper is going to be a spectacular success.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question will come from the line of Srini Pajjuri with SMBC Nikko. Your line is ) Tj
+T*
+(open.) Tj
+T*
+() Tj
+T*
+(Srini Pajjuri -- SMBC Nikko Securities -- Analyst) Tj
+T*
+() Tj
+T*
+(Thank you. I have a question on gross margins, Colette. The 65% non-GAAP number you're guiding) Tj
+T*
+( to, does that include or assume any additional write-offs on the inventory front? And then ) Tj
+T*
+(just to expand on that, your mix is probably a tailwind to gross margins given that Gaming is ) Tj
+T*
+(down significantly and that Data Center is up a little bit. And I'm just wondering, are there ) Tj
+T*
+(any other offsets because I would have thought gross margins could actually be better than ) Tj
+T*
+(your longer-term model because of the mix tailwinds.) Tj
+T*
+() Tj
+T*
+(Thank you.) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(Yeah. Thanks for the question. So our gross margins outside of the inventory charges in Q2, as) Tj
+T*
+( well as going into Q3 is really about our sales mix that we have and probably also to ) Tj
+T*
+(understand that our sales mix in the next quarter for GPUs is not in the high end. And so that) Tj
+T*
+( has impacted our gross margin as we move into Q3.) Tj
+T*
+() Tj
+T*
+(You are correct. We do expect that Data Center will assist in our gross margins, but we also ) Tj
+T*
+(have growth plans in Auto. Auto is below our company average, and so that will tend to offset ) Tj
+T*
+(some of those upper-bound things that we will see in terms of Data Center. From time to time, ) Tj
+T*
+(there's always a small amount of scraps that we will have in our gross margin estimates.) Tj
+T*
+() Tj
+T*
+(So nothing material is planned, but there is small scraps that may occur from quarter to ) Tj
+T*
+(quarter that are included in our gross margins.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question will come from the line of Timothy Arcuri with UBS. Your line is open.) Tj
+T*
+() Tj
+T*
+(Tim Arcuri -- UBS -- Analyst) Tj
+T*
+() Tj
+T*
+(Thanks a lot. Colette, I had a clarification and then a question. So my clarification is ) Tj
+T*
+(whether October gross margins are benefiting at all from the sale of previously written down ) Tj
+T*
+(inventory. And then my question is whether you can give us the enterprise cloud split in Data ) Tj
+T*
+ET
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 26 0 R >>
+endobj
+28 0 obj
+<< /Length 3845 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(Center because it sounds like the mix shifted more toward enterprise in July.) Tj
+T*
+() Tj
+T*
+(And I think investors might want to see that as risky in the face of enterprise clearly ) Tj
+T*
+(slowing. So I'm wondering if you can give us that. Thanks.) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(OK. No. No, there is nothing in our Q3 regarding those inventory provisions that we took in ) Tj
+T*
+(terms of earning that back, in terms of our Q3. Regarding our split between our hyperscalers ) Tj
+T*
+(and data centers and what we refer to as our vertical industries, they always tend to be about) Tj
+T*
+( the same, 50% for one, 50% for the others.) Tj
+T*
+() Tj
+T*
+(They're still in about that range. We had discussed that our China hyperscalers did not drive ) Tj
+T*
+(growth in terms of sequentially here. And so that did influence in terms of the hyperscalers, ) Tj
+T*
+(but still we are approximately in that 50%, 50%.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your next question will come from the line of Harlan Sur with J.P. Morgan. Your line is open.) Tj
+T*
+() Tj
+T*
+(Harlan Sur -- JPMorgan Chase and Company -- Analyst) Tj
+T*
+() Tj
+T*
+(Good afternoon. Thanks for taking my question. On the weakness in ProViz, this is an ) Tj
+T*
+(enterprise-focused business, right? Granted, it's a somewhat narrow vertical market, but it ) Tj
+T*
+(does sort of play into the market concerns that consumer is weak now, enterprise is the next ) Tj
+T*
+(shoe to drop. So is the decline in ProViz attributed to enterprise spending weakness? Or is ) Tj
+T*
+(there some other dynamic? And why or why not is this not a leading indicator for your ) Tj
+T*
+(enterprise and vertical industry segments within your Data Center business?) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(So our Pro Visualization business, just in such a short time, they were in short supply and ) Tj
+T*
+(really trying to feed so much of the industry's desire to both refresh and attracted to the ) Tj
+T*
+(new RTX workstations that were there. We were fueling both mobile, as well as desktop for that) Tj
+T*
+( market and growing quite nicely. Remember, all of last year doubled the size of ProViz in one) Tj
+T*
+( year. So right now, the OEMs are concentrating on their levels of inventory.) Tj
+T*
+() Tj
+T*
+(We want to make sure that they can get through that inventory. But it -- keep in mind, very ) Tj
+T*
+(similar to our discussion on Gaming, there is still solid demand. There is still solid demand.) Tj
+T*
+( We just have to correct some of the inventory, but we still see both the opportunities that ) Tj
+T*
+(we've created for the market for these to be long-standing.) Tj
+T*
+() Tj
+T*
+(OK? And your second question, remind me again.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Whether the broader enterprise market is going to be -- the verticals are going to be affected) Tj
+T*
+( by that. I would say, first of all, we don't know. Second of all, unlike our Workstation ) Tj
+T*
+(business, our ProViz business, there's no installed base. Most of the ProViz sales tend to be ) Tj
+T*
+(upgrades or replacements from something that has our installed base of three or four or five ) Tj
+T*
+(years, that people -- whatever upgrade cycle they happen to have.) Tj
+T*
+() Tj
+T*
+(And so in the case of ProViz, the companies that are buying ProViz, our ProViz systems, likely) Tj
+T*
+( already have systems that they've been using. And so if they were to tighten up ProViz, for ) Tj
+T*
+(whatever reason, the people could continue to use what they have. In the case of our AI ) Tj
+T*
+(business, there's no real installed base. These are all brand-new things that people are ) Tj
+T*
+(growing into.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 28 0 R >>
+endobj
+30 0 obj
+<< /Length 3755 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(And the productivity benefits or the cost savings benefits of using autonomous systems is ) Tj
+T*
+(fairly profound. And it's not so much that the demand isn't out there. Everybody would like to) Tj
+T*
+( be more productive. Everybody would like to save more money.) Tj
+T*
+() Tj
+T*
+(Everybody would like to move faster. It's just that AI's understanding and AI's use is still ) Tj
+T*
+(spreading. And so we're delighted by the rate of growth and the rate of adoption of ) Tj
+T*
+(enterprise. My sense is that our AI business and our Viz business have very different ) Tj
+T*
+(characteristics for that reason.) Tj
+T*
+() Tj
+T*
+(But what Colette said earlier is, about our ProViz businesses last quarter, is absolutely ) Tj
+T*
+(true, which is OEMs realizing that the end market is slowing and taking the opportunity to ) Tj
+T*
+(correct their inventory.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+(Your final question will come from the line of Ross Seymore with Deutsche Bank. Your line is ) Tj
+T*
+(open.) Tj
+T*
+() Tj
+T*
+(Ross Seymore -- Deutsche Bank -- Analyst) Tj
+T*
+() Tj
+T*
+(Hey, guys. Thanks for letting me ask a question. I just had a longer-term question about once ) Tj
+T*
+(your Gaming business normalizes, with the absence of crypto in a general sense and with the ) Tj
+T*
+(merge coming, etc., how do you view the pricing environment? I know you guys really weren't ) Tj
+T*
+(raising prices like we saw in the MSRP premiums in the aftermarket. But generally, your mix ) Tj
+T*
+(was quite rich over the last year or two.) Tj
+T*
+() Tj
+T*
+(You're going to have Lovelace coming in that will obviously help the mix sequentially versus ) Tj
+T*
+(the last couple of quarters. But how do you think about it normalizing? If that $2.5 billion ) Tj
+T*
+(per quarter sell-through rate comes, is the ASP mix across your stack about the same, or does ) Tj
+T*
+(it go down because of the absence of that crypto-tightening dynamic?) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(I would say that without crypto dynamic, the mix would go down. However, the overall trend ) Tj
+T*
+(long-term, the ASP is drifting up. And the way to think about that is a game console, when -- ) Tj
+T*
+(my first game console was $99. Lately, game consoles are selling for about $599.) Tj
+T*
+() Tj
+T*
+(And the reason for that is because it's more useful than ever. You use your game console for ) Tj
+T*
+(your greatest form of entertainment, and you use it for a very, very long time. And GeForce ) Tj
+T*
+(essentially is a game console inside your PC. And we've always believed that the ASP of ) Tj
+T*
+(GeForce should drift toward the average selling price of a game console.) Tj
+T*
+() Tj
+T*
+(And so it should be something along the lines of $500 or so roughly at this time. We also have) Tj
+T*
+( GeForce in the cloud. And because GeForce in the cloud is hosting many gamers simultaneously,) Tj
+T*
+( it tends to want to be a much more powerful GeForce. And so our cloud-gaming GeForce tends to) Tj
+T*
+( be -- our cloud-gaming graphics tends to be a much higher-end.) Tj
+T*
+() Tj
+T*
+(And so -- and then, of course, there's the design aspect of it. Most designers and most ) Tj
+T*
+(creators are able to use GeForce these days. And they use their PC to create content. And much) Tj
+T*
+( of that content goes into video games and/or they're using video games to create their ) Tj
+T*
+(artistic content.) Tj
+T*
+() Tj
+T*
+(And so the GeForce is not just for gaming for them, the GeForce is essentially their creative ) Tj
+T*
+(workstation as well. And so there are several dynamics that are causing the ASP of GeForce to ) Tj
+T*
+(go up, and we've been seeing this trend for several years now.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 30 0 R >>
+endobj
+32 0 obj
+<< /Length 3265 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+(Thank you. I will now turn the call back over to Jensen for closing remarks.) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Thanks, everyone. We're navigating our supply chain transitions in a challenging macro ) Tj
+T*
+(environment. In Gaming, our partners and ecosystem are responding to a sudden slowdown in ) Tj
+T*
+(consumer demand and correcting channel inventory. Still, the fundamentals of gaming are ) Tj
+T*
+(strong.) Tj
+T*
+() Tj
+T*
+(We'll get through this over the next few months and go into next year with our new ) Tj
+T*
+(architecture. I look forward to telling you more about it at GTC next month. In Data Center, ) Tj
+T*
+(AI, where computers are helping us write software that was impossible before, is driving a ) Tj
+T*
+(computing revolution and transforming every industry. NVIDIA's leadership in full-stack data ) Tj
+T*
+(center scale accelerated computing has made us the ideal partner for companies racing to ) Tj
+T*
+(leverage the power of AI.) Tj
+T*
+() Tj
+T*
+(Even with the current macroeconomic headwinds, demand for our Data Center products have never ) Tj
+T*
+(been stronger. The next wave of computing is coming. With AI and 3D graphics advances, ) Tj
+T*
+(developers will extend the Internet with virtual world overlays that connect to the physical ) Tj
+T*
+(world. This next evolution of the Internet is called metaverse.) Tj
+T*
+() Tj
+T*
+(We created Omniverse to connect the digital and physical world and be an open platform for ) Tj
+T*
+(creating and operating metaverse applications. The immediate applications for Omniverse span ) Tj
+T*
+(product design, manufacturing and operations. Omniverse is off to a great start. Our ) Tj
+T*
+(Automotive revenue is inflecting, and we expect it to be our next billion-dollar business.) Tj
+T*
+() Tj
+T*
+(Autonomous driving is one of the biggest challenges AI can solve, and computing opportunity ) Tj
+T*
+(for us spans the data center to the car. Autonomous driving will transform the auto industry ) Tj
+T*
+(into a tech industry. Automotive is one of the first to transform into a software-defined tech) Tj
+T*
+( industry. But all industries will be.) Tj
+T*
+() Tj
+T*
+(We're building NVIDIA AI and NVIDIA Omniverse to be the engines for the world's enterprise to ) Tj
+T*
+(become software-defined, AI-powered technology companies. I look forward to next month's GTC ) Tj
+T*
+(conference, where we will share new advances of RTX reinventing 3D graphics in gaming, AI's ) Tj
+T*
+(continuing breakthroughs and building the metaverse, the next evolution of the Internet. So ) Tj
+T*
+(join us. We look forward to updating you on our progress next quarter.) Tj
+T*
+() Tj
+T*
+(Thank you.) Tj
+T*
+() Tj
+T*
+(Operator) Tj
+T*
+() Tj
+T*
+([Operator signoff]) Tj
+T*
+() Tj
+T*
+(Duration: 0 minutes) Tj
+T*
+() Tj
+T*
+(Call participants:) Tj
+T*
+() Tj
+T*
+(Simona Jankowski -- Vice President of Investor Relations) Tj
+T*
+() Tj
+T*
+(Colette Kress -- Executive Vice President and Chief Financial Officer) Tj
+T*
+() Tj
+T*
+(C.J. Muse -- Evercore ISI -- Analyst) Tj
+T*
+() Tj
+T*
+(Jensen Huang -- President and Chief Executive Officer) Tj
+T*
+() Tj
+T*
+(Vivek Arya -- Bank of America Merrill Lynch -- Analyst) Tj
+T*
+() Tj
+T*
+(Matt Ramsay -- Cowen and Company -- Analyst) Tj
+T*
+ET
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 32 0 R >>
+endobj
+34 0 obj
+<< /Length 1550 >>
+stream
+BT
+/F1 9 Tf
+46 746 Td
+12 TL
+() Tj
+T*
+(Toshi Hari -- Goldman Sachs -- Analyst) Tj
+T*
+() Tj
+T*
+(Aaron Rakers -- Wells Fargo Securities -- Analyst) Tj
+T*
+() Tj
+T*
+(Atif Malik -- Citi -- Analyst) Tj
+T*
+() Tj
+T*
+(Joe Moore -- Morgan Stanley -- Analyst) Tj
+T*
+() Tj
+T*
+(Stacy Rasgon -- AllianceBernstein -- Analyst) Tj
+T*
+() Tj
+T*
+(Srini Pajjuri -- SMBC Nikko Securities -- Analyst) Tj
+T*
+() Tj
+T*
+(Tim Arcuri -- UBS -- Analyst) Tj
+T*
+() Tj
+T*
+(Harlan Sur -- JPMorgan Chase and Company -- Analyst) Tj
+T*
+() Tj
+T*
+(Ross Seymore -- Deutsche Bank -- Analyst) Tj
+T*
+() Tj
+T*
+(More NVDA analysis) Tj
+T*
+() Tj
+T*
+(All earnings call transcripts) Tj
+T*
+() Tj
+T*
+(This article is a transcript of this conference call produced for The Motley Fool. While we ) Tj
+T*
+(strive for our Foolish Best, there may be errors, omissions, or inaccuracies in this ) Tj
+T*
+(transcript. As with all our articles, The Motley Fool does not assume any responsibility for ) Tj
+T*
+(your use of this content, and we strongly encourage you to do your own research, including ) Tj
+T*
+(listening to the call yourself and reading the company's SEC filings. Please see our Terms and) Tj
+T*
+( Conditions for additional details, including our Obligatory Capitalized Disclaimers of ) Tj
+T*
+(Liability.) Tj
+T*
+() Tj
+T*
+(The Motley Fool has positions in and recommends Nvidia. The Motley Fool has a disclosure ) Tj
+T*
+(policy .) Tj
+T*
+() Tj
+T*
+(The views and opinions expressed herein are the views and opinions of the author and do not ) Tj
+T*
+(necessarily reflect those of Nasdaq, Inc.) Tj
+T*
+ET
+endstream
+endobj
+35 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 34 0 R >>
+endobj
+xref
+0 36
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000225 00000 n 
+0000000293 00000 n 
+0000003166 00000 n 
+0000003292 00000 n 
+0000007881 00000 n 
+0000008007 00000 n 
+0000012779 00000 n 
+0000012905 00000 n 
+0000017142 00000 n 
+0000017270 00000 n 
+0000021657 00000 n 
+0000021785 00000 n 
+0000026080 00000 n 
+0000026208 00000 n 
+0000030415 00000 n 
+0000030543 00000 n 
+0000034532 00000 n 
+0000034660 00000 n 
+0000038572 00000 n 
+0000038700 00000 n 
+0000042447 00000 n 
+0000042575 00000 n 
+0000046332 00000 n 
+0000046460 00000 n 
+0000050203 00000 n 
+0000050331 00000 n 
+0000054229 00000 n 
+0000054357 00000 n 
+0000058165 00000 n 
+0000058293 00000 n 
+0000061611 00000 n 
+0000061739 00000 n 
+0000063342 00000 n 
+trailer
+<< /Size 36 /Root 1 0 R >>
+startxref
+63470
+%%EOF
